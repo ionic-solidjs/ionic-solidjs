@@ -271,12 +271,6 @@
       "default": "./components/ion-segment-button.js",
       "types": "./components/ion-segment-button.d.ts"
     },
-    "./components/ion-route-redirect": {
-      "import": "./components/ion-route-redirect.mjs",
-      "require": "./components/ion-route-redirect.js",
-      "default": "./components/ion-route-redirect.js",
-      "types": "./components/ion-route-redirect.d.ts"
-    },
     "./components/ion-split-pane": {
       "import": "./components/ion-split-pane.mjs",
       "require": "./components/ion-split-pane.js",
@@ -318,6 +312,12 @@
       "require": "./components/ion-fab.js",
       "default": "./components/ion-fab.js",
       "types": "./components/ion-fab.d.ts"
+    },
+    "./components/ion-router-outlet": {
+      "import": "./components/ion-router-outlet.mjs",
+      "require": "./components/ion-router-outlet.js",
+      "default": "./components/ion-router-outlet.js",
+      "types": "./components/ion-router-outlet.d.ts"
     },
     "./components/ion-thumbnail": {
       "import": "./components/ion-thumbnail.mjs",
