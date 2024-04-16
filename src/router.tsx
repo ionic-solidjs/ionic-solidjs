@@ -34,7 +34,7 @@ customElement(
   "solid-ion-route-acceptor",
   {
     url: "/404",
-    component: () => <>404</>,
+    component: () => <p>404</p>,
     routeProps: {},
     router: null as any,
   },
@@ -56,30 +56,28 @@ export function Router<R extends RouteParameters<any>[]>(props: RouterParameters
   let [router, setRouter] = createSignal<HTMLIonRouterElement>();
 
   return (
-    <>
-      <ion-router
-        class="hydrated"
-        use-hash={true}
-        ref={setRouter}
-        root={props.root}
-        on:ionRouteDidChange={props.onIonRouteDidChange}
-        on:ionRouteWillChange={props.onIonRouteWillChange}
-      >
-        <For each={props.routes}>
-          {(route) => (
-            <ion-route
-              attr:url={route.url}
-              component="solid-ion-route-acceptor"
-              component-props={{
-                url: route.url,
-                routeProps: route.routeProps,
-                component: route.component,
-                router: router(),
-              }}
-            ></ion-route>
-          )}
-        </For>
-      </ion-router>
-    </>
+    <ion-router
+      class="hydrated"
+      use-hash={true}
+      ref={setRouter}
+      root={props.root}
+      on:ionRouteDidChange={props.onIonRouteDidChange}
+      on:ionRouteWillChange={props.onIonRouteWillChange}
+    >
+      <For each={props.routes}>
+        {(route) => (
+          <ion-route
+            attr:url={route.url}
+            component="solid-ion-route-acceptor"
+            component-props={{
+              url: route.url,
+              routeProps: route.routeProps,
+              component: route.component,
+              router: router(),
+            }}
+          ></ion-route>
+        )}
+      </For>
+    </ion-router>
   );
 }
