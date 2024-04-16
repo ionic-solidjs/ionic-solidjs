@@ -2,9 +2,8 @@ import { defineConfig } from "tsup";
 // import { componentList } from "./scripts/component-list";
 // import { iconList } from "./scripts/icon-list";
 
-import eps from "esbuild-plugin-solid";
-
-let solidPlugin = eps.solidPlugin;
+// import eps from "esbuild-plugin-solid";
+// let solidPlugin = eps.solidPlugin;
 
 export default defineConfig({
   // entry: ["src/index.ts", "src/icons/index.ts"]
@@ -16,12 +15,12 @@ export default defineConfig({
   splitting: false,
   bundle: false,
   sourcemap: true,
-  format: ["esm", "cjs"],
+  format: ["cjs", "esm"],
   clean: true,
-  esbuildPlugins: [solidPlugin()],
-  esbuildOptions: (opts) => {
-    opts.jsx = "preserve";
-  },
+  // esbuildPlugins: [solidPlugin()],
+  // esbuildOptions: (opts) => {
+  //   opts.jsx = "preserve";
+  // },
   dts: {
     resolve: false,
   },

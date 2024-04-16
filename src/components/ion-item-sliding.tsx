@@ -7,13 +7,23 @@ import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
 import { FixIonProps } from '../lib'
 
+import { template as _$template } from "solid-js/web";
+import { getOwner as _$getOwner } from "solid-js/web";
+import { spread as _$spread } from "solid-js/web";
+
 initialize()
 defineCustomElement()
 
 export type IonItemSlidingProps = FixIonProps<IonicJSX.IonItemSliding> &
   JSXBase.HTMLAttributes<HTMLIonItemSlidingElement>
 
+
+let _tmpl$ = /* @__PURE__ */ _$template(`<ion-item-sliding>`, true, false);
+
 export function IonItemSliding(props: IonItemSlidingProps) {
-  //@ts-ignore
-  return <ion-item-sliding {...props} />
+  let _el$ = _tmpl$();
+  _$spread(_el$, props, false, false);
+  (_el$ as any)._$owner = _$getOwner();
+  return _el$;
 }
+

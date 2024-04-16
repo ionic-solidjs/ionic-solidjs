@@ -56,7 +56,15 @@ interface IonIcon {
 
 export type IonIconProps = FixIonProps<IonIcon> & JSXBase.HTMLAttributes<HTMLIonIconElement>;
 
+import { template as _$template } from "solid-js/web";
+import { getOwner as _$getOwner } from "solid-js/web";
+import { spread as _$spread } from "solid-js/web";
+
+let _tmpl$ = /* @__PURE__ */ _$template(`<ion-icon>`, true, false);
+
 export function IonIcon(props: IonIconProps) {
-  //@ts-ignore
-  return <ion-icon {...props} />;
+  let _el$ = _tmpl$();
+  _$spread(_el$, props, false, false);
+  (_el$ as any)._$owner = _$getOwner();
+  return _el$;
 }
