@@ -46,7 +46,7 @@ import '../lib-icons'
 
 addIcons({ ${iconCamelCase} });
 
-export default ${iconCamelCase};
+export let icon${iconPascalCase} = ${iconCamelCase};
 `;
 };
 
@@ -54,42 +54,54 @@ componentList.forEach((component) => {
   fs.writeFileSync(`src/components/${component}.tsx`, baseTemplate(component));
 });
 
+fs.writeFileSync(
+  "src/components/index.ts",
+  componentList.map((component) => `export * from "./${component}";`).join("\n")
+);
+
 iconList.forEach((icon) => {
   fs.writeFileSync(`src/icons/${icon}.tsx`, iconTemplate(icon));
 });
 
+fs.writeFileSync(
+  "src/icons/index.ts",
+  iconList.map((icon) => `export * from "./${icon}";`).join("\n")
+);
+
 // Update exports for each component in package.json
 
-let packageJson = JSON.parse(fs.readFileSync("package.json", "utf8"));
+function updatePackageJsonExports() {
+  let packageJson = JSON.parse(fs.readFileSync("package.json", "utf8"));
 
-packageJson.exports = {
-  "./router": {
-    import: "./router.mjs",
-    require: "./router.js",
-    default: "./router.js",
-    types: "./router.d.ts",
-  },
-};
-
-for (let component of componentList) {
-  // CommonJS will be generated in lib/components/name.js
-  // ES6 will be generated in lib/components/name.mjs
-  // Types will be available at lib/components/name.d.ts
-  packageJson.exports["./components/" + component] = {
-    import: "./components/" + component + ".mjs",
-    require: "./components/" + component + ".js",
-    default: "./components/" + component + ".js",
-    types: "./components/" + component + ".d.ts",
+  packageJson.exports = {
+    "./router": {
+      import: "./router.mjs",
+      require: "./router.js",
+      default: "./router.js",
+      types: "./router.d.ts",
+    },
   };
-}
 
-for (let icon of iconList) {
-  packageJson.exports["./icons/" + icon] = {
-    import: "./icons/" + icon + ".mjs",
-    require: "./icons/" + icon + ".js",
-    default: "./icons/" + icon + ".js",
-    types: "./icons/" + icon + ".d.ts",
-  };
-}
+  for (let component of componentList) {
+    // CommonJS will be generated in lib/components/name.js
+    // ES6 will be generated in lib/components/name.mjs
+    // Types will be available at lib/components/name.d.ts
+    packageJson.exports["./components/" + component] = {
+      import: "./components/" + component + ".mjs",
+      require: "./components/" + component + ".js",
+      default: "./components/" + component + ".js",
+      types: "./components/" + component + ".d.ts",
+    };
+  }
 
-fs.writeFileSync("package.json", JSON.stringify(packageJson, null, 2));
+  for (let icon of iconList) {
+    packageJson.exports["./icons/" + icon] = {
+      import: "./icons/" + icon + ".mjs",
+      require: "./icons/" + icon + ".js",
+      default: "./icons/" + icon + ".js",
+      types: "./icons/" + icon + ".d.ts",
+    };
+  }
+
+  fs.writeFileSync("package.json", JSON.stringify(packageJson, null, 2));
+}

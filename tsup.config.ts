@@ -3,9 +3,9 @@ import { componentList } from "./scripts/component-list";
 import { iconList } from "./scripts/icon-list";
 
 export default defineConfig({
-  entry: ["src/router.tsx"]
-    .concat(componentList.map((component) => `src/components/${component}.tsx`))
-    .concat(iconList.map((icon) => `src/icons/${icon}.tsx`)),
+  entry: ["src/router.tsx", "src/components/index.ts", "src/icons/index.ts"],
+  // .concat(componentList.map((component) => `src/components/${component}.tsx`))
+  // .concat(iconList.map((icon) => `src/icons/${icon}.tsx`)),
   outDir: "lib",
   splitting: false,
   sourcemap: true,
