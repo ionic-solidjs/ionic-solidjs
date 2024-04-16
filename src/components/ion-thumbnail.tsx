@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-thumbnail'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonThumbnailProps = FixIonEventCasing<IonicJSX.IonThumbnail> &
+export type IonThumbnailProps = FixIonProps<IonicJSX.IonThumbnail> &
   JSXBase.HTMLAttributes<HTMLIonThumbnailElement>
 
 export function IonThumbnail(props: IonThumbnailProps) {

@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-breadcrumb'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonBreadcrumbProps = FixIonEventCasing<IonicJSX.IonBreadcrumb> &
+export type IonBreadcrumbProps = FixIonProps<IonicJSX.IonBreadcrumb> &
   JSXBase.HTMLAttributes<HTMLIonBreadcrumbElement>
 
 export function IonBreadcrumb(props: IonBreadcrumbProps) {

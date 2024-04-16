@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-toggle'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonToggleProps = FixIonEventCasing<IonicJSX.IonToggle> &
+export type IonToggleProps = FixIonProps<IonicJSX.IonToggle> &
   JSXBase.HTMLAttributes<HTMLIonToggleElement>
 
 export function IonToggle(props: IonToggleProps) {

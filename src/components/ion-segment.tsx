@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-segment'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonSegmentProps = FixIonEventCasing<IonicJSX.IonSegment> &
+export type IonSegmentProps = FixIonProps<IonicJSX.IonSegment> &
   JSXBase.HTMLAttributes<HTMLIonSegmentElement>
 
 export function IonSegment(props: IonSegmentProps) {

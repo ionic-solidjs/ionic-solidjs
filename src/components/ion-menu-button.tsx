@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-menu-button'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonMenuButtonProps = FixIonEventCasing<IonicJSX.IonMenuButton> &
+export type IonMenuButtonProps = FixIonProps<IonicJSX.IonMenuButton> &
   JSXBase.HTMLAttributes<HTMLIonMenuButtonElement>
 
 export function IonMenuButton(props: IonMenuButtonProps) {

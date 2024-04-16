@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-tab-bar'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonTabBarProps = FixIonEventCasing<IonicJSX.IonTabBar> &
+export type IonTabBarProps = FixIonProps<IonicJSX.IonTabBar> &
   JSXBase.HTMLAttributes<HTMLIonTabBarElement>
 
 export function IonTabBar(props: IonTabBarProps) {

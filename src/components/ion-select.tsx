@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-select'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonSelectProps = FixIonEventCasing<IonicJSX.IonSelect> &
+export type IonSelectProps = FixIonProps<IonicJSX.IonSelect> &
   JSXBase.HTMLAttributes<HTMLIonSelectElement>
 
 export function IonSelect(props: IonSelectProps) {

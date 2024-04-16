@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-col'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonColProps = FixIonEventCasing<IonicJSX.IonCol> &
+export type IonColProps = FixIonProps<IonicJSX.IonCol> &
   JSXBase.HTMLAttributes<HTMLIonColElement>
 
 export function IonCol(props: IonColProps) {

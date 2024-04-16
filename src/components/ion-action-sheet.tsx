@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-action-sheet'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonActionSheetProps = FixIonEventCasing<IonicJSX.IonActionSheet> &
+export type IonActionSheetProps = FixIonProps<IonicJSX.IonActionSheet> &
   JSXBase.HTMLAttributes<HTMLIonActionSheetElement>
 
 export function IonActionSheet(props: IonActionSheetProps) {

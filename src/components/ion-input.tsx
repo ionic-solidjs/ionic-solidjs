@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-input'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonInputProps = FixIonEventCasing<IonicJSX.IonInput> &
+export type IonInputProps = FixIonProps<IonicJSX.IonInput> &
   JSXBase.HTMLAttributes<HTMLIonInputElement>
 
 export function IonInput(props: IonInputProps) {

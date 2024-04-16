@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-radio-group'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonRadioGroupProps = FixIonEventCasing<IonicJSX.IonRadioGroup> &
+export type IonRadioGroupProps = FixIonProps<IonicJSX.IonRadioGroup> &
   JSXBase.HTMLAttributes<HTMLIonRadioGroupElement>
 
 export function IonRadioGroup(props: IonRadioGroupProps) {

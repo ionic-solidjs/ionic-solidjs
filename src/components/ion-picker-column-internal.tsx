@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-picker-column-in
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonPickerColumnInternalProps = FixIonEventCasing<IonicJSX.IonPickerColumnInternal> &
+export type IonPickerColumnInternalProps = FixIonProps<IonicJSX.IonPickerColumnInternal> &
   JSXBase.HTMLAttributes<HTMLIonPickerColumnInternalElement>
 
 export function IonPickerColumnInternal(props: IonPickerColumnInternalProps) {

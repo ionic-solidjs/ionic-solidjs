@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-nav-link'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonNavLinkProps = FixIonEventCasing<IonicJSX.IonNavLink> &
+export type IonNavLinkProps = FixIonProps<IonicJSX.IonNavLink> &
   JSXBase.HTMLAttributes<HTMLIonNavLinkElement>
 
 export function IonNavLink(props: IonNavLinkProps) {

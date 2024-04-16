@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-item-options'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonItemOptionsProps = FixIonEventCasing<IonicJSX.IonItemOptions> &
+export type IonItemOptionsProps = FixIonProps<IonicJSX.IonItemOptions> &
   JSXBase.HTMLAttributes<HTMLIonItemOptionsElement>
 
 export function IonItemOptions(props: IonItemOptionsProps) {

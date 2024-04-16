@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-spinner'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonSpinnerProps = FixIonEventCasing<IonicJSX.IonSpinner> &
+export type IonSpinnerProps = FixIonProps<IonicJSX.IonSpinner> &
   JSXBase.HTMLAttributes<HTMLIonSpinnerElement>
 
 export function IonSpinner(props: IonSpinnerProps) {

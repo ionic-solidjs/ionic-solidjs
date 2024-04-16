@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-picker'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonPickerProps = FixIonEventCasing<IonicJSX.IonPicker> &
+export type IonPickerProps = FixIonProps<IonicJSX.IonPicker> &
   JSXBase.HTMLAttributes<HTMLIonPickerElement>
 
 export function IonPicker(props: IonPickerProps) {

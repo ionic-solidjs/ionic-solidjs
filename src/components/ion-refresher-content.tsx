@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-refresher-conten
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonRefresherContentProps = FixIonEventCasing<IonicJSX.IonRefresherContent> &
+export type IonRefresherContentProps = FixIonProps<IonicJSX.IonRefresherContent> &
   JSXBase.HTMLAttributes<HTMLIonRefresherContentElement>
 
 export function IonRefresherContent(props: IonRefresherContentProps) {

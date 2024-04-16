@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-textarea'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonTextareaProps = FixIonEventCasing<IonicJSX.IonTextarea> &
+export type IonTextareaProps = FixIonProps<IonicJSX.IonTextarea> &
   JSXBase.HTMLAttributes<HTMLIonTextareaElement>
 
 export function IonTextarea(props: IonTextareaProps) {

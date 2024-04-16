@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-card-content'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonCardContentProps = FixIonEventCasing<IonicJSX.IonCardContent> &
+export type IonCardContentProps = FixIonProps<IonicJSX.IonCardContent> &
   JSXBase.HTMLAttributes<HTMLIonCardContentElement>
 
 export function IonCardContent(props: IonCardContentProps) {

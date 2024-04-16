@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-header'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonHeaderProps = FixIonEventCasing<IonicJSX.IonHeader> &
+export type IonHeaderProps = FixIonProps<IonicJSX.IonHeader> &
   JSXBase.HTMLAttributes<HTMLIonHeaderElement>
 
 export function IonHeader(props: IonHeaderProps) {

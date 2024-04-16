@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-title'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonTitleProps = FixIonEventCasing<IonicJSX.IonTitle> &
+export type IonTitleProps = FixIonProps<IonicJSX.IonTitle> &
   JSXBase.HTMLAttributes<HTMLIonTitleElement>
 
 export function IonTitle(props: IonTitleProps) {

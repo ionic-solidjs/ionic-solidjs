@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-modal'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonModalProps = FixIonEventCasing<IonicJSX.IonModal> &
+export type IonModalProps = FixIonProps<IonicJSX.IonModal> &
   JSXBase.HTMLAttributes<HTMLIonModalElement>
 
 export function IonModal(props: IonModalProps) {

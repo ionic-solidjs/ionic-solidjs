@@ -8,7 +8,7 @@ type CamelToKebab<S extends string> = S extends `${infer T}${infer U}`
     : `${Uncapitalize<T>}-${CamelToKebab<U>}`
   : "";
 
-export type FixIonEventCasing<IonComponent> = {
+export type FixIonProps<IonComponent> = {
   [Field in keyof IonComponent as FixKey<Field & string>]: IonComponent[Field];
 } & {
   [Field in keyof IonComponent as `attr:${Field & string}`]?: IonComponent[Field];

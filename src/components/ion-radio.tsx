@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-radio'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonRadioProps = FixIonEventCasing<IonicJSX.IonRadio> &
+export type IonRadioProps = FixIonProps<IonicJSX.IonRadio> &
   JSXBase.HTMLAttributes<HTMLIonRadioElement>
 
 export function IonRadio(props: IonRadioProps) {

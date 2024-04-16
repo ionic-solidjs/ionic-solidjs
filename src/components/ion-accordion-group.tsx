@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-accordion-group'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonAccordionGroupProps = FixIonEventCasing<IonicJSX.IonAccordionGroup> &
+export type IonAccordionGroupProps = FixIonProps<IonicJSX.IonAccordionGroup> &
   JSXBase.HTMLAttributes<HTMLIonAccordionGroupElement>
 
 export function IonAccordionGroup(props: IonAccordionGroupProps) {

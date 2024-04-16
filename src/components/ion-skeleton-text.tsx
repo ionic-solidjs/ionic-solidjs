@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-skeleton-text'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonSkeletonTextProps = FixIonEventCasing<IonicJSX.IonSkeletonText> &
+export type IonSkeletonTextProps = FixIonProps<IonicJSX.IonSkeletonText> &
   JSXBase.HTMLAttributes<HTMLIonSkeletonTextElement>
 
 export function IonSkeletonText(props: IonSkeletonTextProps) {

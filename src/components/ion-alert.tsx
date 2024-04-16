@@ -5,12 +5,12 @@ import { defineCustomElement } from '@ionic/core/components/ion-alert'
 import { initialize } from '@ionic/core/components'
 import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
-import { FixIonEventCasing } from '../lib'
+import { FixIonProps } from '../lib'
 
 initialize()
 defineCustomElement()
 
-export type IonAlertProps = FixIonEventCasing<IonicJSX.IonAlert> &
+export type IonAlertProps = FixIonProps<IonicJSX.IonAlert> &
   JSXBase.HTMLAttributes<HTMLIonAlertElement>
 
 export function IonAlert(props: IonAlertProps) {
