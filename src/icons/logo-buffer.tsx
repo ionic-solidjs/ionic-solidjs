@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoBuffer } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoBuffer });
 

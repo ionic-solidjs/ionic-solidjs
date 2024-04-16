@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { paperPlaneOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ paperPlaneOutline });
 

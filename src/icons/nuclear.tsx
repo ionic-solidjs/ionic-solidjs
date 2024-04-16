@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { nuclear } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ nuclear });
 

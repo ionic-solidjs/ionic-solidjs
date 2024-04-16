@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoCss3 } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoCss3 });
 

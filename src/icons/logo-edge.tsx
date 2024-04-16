@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoEdge } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoEdge });
 

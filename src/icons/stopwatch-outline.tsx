@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { stopwatchOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ stopwatchOutline });
 

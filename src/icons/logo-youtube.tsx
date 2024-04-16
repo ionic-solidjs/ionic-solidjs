@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoYoutube } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoYoutube });
 

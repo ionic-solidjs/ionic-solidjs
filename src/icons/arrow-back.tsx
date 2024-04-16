@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { arrowBack } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ arrowBack });
 

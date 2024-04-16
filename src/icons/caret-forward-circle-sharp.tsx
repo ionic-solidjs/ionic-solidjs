@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { caretForwardCircleSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ caretForwardCircleSharp });
 

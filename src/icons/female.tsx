@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { female } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ female });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { rocketSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ rocketSharp });
 

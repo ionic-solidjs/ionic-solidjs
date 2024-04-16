@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { shieldHalfSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ shieldHalfSharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { musicalNotesOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ musicalNotesOutline });
 

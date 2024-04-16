@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { pieChartSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ pieChartSharp });
 

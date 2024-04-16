@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { bandageOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ bandageOutline });
 

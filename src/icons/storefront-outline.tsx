@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { storefrontOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ storefrontOutline });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoDeviantart } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoDeviantart });
 

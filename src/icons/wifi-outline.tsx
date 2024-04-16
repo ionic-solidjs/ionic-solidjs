@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { wifiOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ wifiOutline });
 

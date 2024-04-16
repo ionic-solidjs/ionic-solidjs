@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { folderOpenSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ folderOpenSharp });
 

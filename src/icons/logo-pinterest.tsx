@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoPinterest } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoPinterest });
 

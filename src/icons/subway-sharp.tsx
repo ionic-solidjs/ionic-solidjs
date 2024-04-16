@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { subwaySharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ subwaySharp });
 

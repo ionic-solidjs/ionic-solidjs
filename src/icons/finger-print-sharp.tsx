@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { fingerPrintSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ fingerPrintSharp });
 

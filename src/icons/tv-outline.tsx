@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { tvOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ tvOutline });
 

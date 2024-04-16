@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { fileTrayFull } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ fileTrayFull });
 

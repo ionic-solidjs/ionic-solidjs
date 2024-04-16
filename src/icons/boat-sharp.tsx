@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { boatSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ boatSharp });
 

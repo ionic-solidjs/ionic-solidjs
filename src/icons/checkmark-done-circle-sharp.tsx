@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { checkmarkDoneCircleSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ checkmarkDoneCircleSharp });
 

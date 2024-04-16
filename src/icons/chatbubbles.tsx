@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { chatbubbles } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ chatbubbles });
 

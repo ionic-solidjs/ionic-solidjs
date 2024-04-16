@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { snowSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ snowSharp });
 

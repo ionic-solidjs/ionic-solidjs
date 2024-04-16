@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoEuro } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoEuro });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { waterOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ waterOutline });
 

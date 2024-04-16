@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { umbrellaSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ umbrellaSharp });
 

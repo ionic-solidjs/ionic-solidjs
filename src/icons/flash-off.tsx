@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { flashOff } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ flashOff });
 

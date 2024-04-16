@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { gameController } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ gameController });
 

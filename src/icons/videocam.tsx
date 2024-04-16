@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { videocam } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ videocam });
 

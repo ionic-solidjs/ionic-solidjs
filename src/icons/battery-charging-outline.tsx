@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { batteryChargingOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ batteryChargingOutline });
 

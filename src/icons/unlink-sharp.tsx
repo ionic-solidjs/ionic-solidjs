@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { unlinkSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ unlinkSharp });
 

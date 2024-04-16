@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { micOffCircleSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ micOffCircleSharp });
 

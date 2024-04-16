@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { helpBuoyOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ helpBuoyOutline });
 

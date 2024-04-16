@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { heartDislike } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ heartDislike });
 

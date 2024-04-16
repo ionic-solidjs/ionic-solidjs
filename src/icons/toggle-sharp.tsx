@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { toggleSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ toggleSharp });
 

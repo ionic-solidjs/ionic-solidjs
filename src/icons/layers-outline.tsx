@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { layersOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ layersOutline });
 

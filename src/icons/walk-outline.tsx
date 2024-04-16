@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { walkOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ walkOutline });
 

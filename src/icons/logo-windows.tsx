@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoWindows } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoWindows });
 

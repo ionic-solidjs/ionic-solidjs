@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoPython } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoPython });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { trophyOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ trophyOutline });
 

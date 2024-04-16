@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { refreshCircle } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ refreshCircle });
 

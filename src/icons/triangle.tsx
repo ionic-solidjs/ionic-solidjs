@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { triangle } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ triangle });
 

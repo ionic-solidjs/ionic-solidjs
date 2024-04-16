@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { gitMerge } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ gitMerge });
 

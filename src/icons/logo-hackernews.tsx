@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoHackernews } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoHackernews });
 

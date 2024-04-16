@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { notificationsOffCircleSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ notificationsOffCircleSharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { speedometerSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ speedometerSharp });
 

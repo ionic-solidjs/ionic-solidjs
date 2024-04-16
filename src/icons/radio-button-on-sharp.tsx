@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { radioButtonOnSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ radioButtonOnSharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { chevronBack } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ chevronBack });
 

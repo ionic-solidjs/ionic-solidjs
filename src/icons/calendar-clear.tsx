@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { calendarClear } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ calendarClear });
 

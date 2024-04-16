@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoPlaystation } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoPlaystation });
 

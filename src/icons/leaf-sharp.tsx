@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { leafSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ leafSharp });
 

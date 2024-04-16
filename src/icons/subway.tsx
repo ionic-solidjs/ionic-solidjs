@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { subway } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ subway });
 

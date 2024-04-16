@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { hardwareChipOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ hardwareChipOutline });
 

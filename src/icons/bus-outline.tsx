@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { busOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ busOutline });
 

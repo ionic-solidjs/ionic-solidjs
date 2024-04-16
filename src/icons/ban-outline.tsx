@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { banOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ banOutline });
 

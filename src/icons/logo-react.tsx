@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoReact } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoReact });
 

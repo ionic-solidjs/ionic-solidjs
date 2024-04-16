@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { bonfire } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ bonfire });
 

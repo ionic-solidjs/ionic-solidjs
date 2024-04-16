@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { bagHandleSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ bagHandleSharp });
 

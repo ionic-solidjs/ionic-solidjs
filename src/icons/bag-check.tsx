@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { bagCheck } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ bagCheck });
 

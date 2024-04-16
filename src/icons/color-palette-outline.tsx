@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { colorPaletteOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ colorPaletteOutline });
 

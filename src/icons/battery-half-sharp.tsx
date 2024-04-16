@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { batteryHalfSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ batteryHalfSharp });
 

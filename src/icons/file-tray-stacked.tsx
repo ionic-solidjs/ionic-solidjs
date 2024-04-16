@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { fileTrayStacked } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ fileTrayStacked });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { aperture } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ aperture });
 

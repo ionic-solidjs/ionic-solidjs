@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { phoneLandscape } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ phoneLandscape });
 

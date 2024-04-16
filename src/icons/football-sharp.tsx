@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { footballSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ footballSharp });
 

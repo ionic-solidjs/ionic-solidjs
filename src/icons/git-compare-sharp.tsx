@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { gitCompareSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ gitCompareSharp });
 

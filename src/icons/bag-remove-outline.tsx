@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { bagRemoveOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ bagRemoveOutline });
 

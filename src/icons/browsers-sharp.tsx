@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { browsersSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ browsersSharp });
 

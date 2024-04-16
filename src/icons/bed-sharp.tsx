@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { bedSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ bedSharp });
 

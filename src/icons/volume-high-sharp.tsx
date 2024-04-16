@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { volumeHighSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ volumeHighSharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { ticketOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ ticketOutline });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoDribbble } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoDribbble });
 

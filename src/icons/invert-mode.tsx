@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { invertMode } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ invertMode });
 

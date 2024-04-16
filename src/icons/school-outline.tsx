@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { schoolOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ schoolOutline });
 

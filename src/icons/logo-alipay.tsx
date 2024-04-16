@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoAlipay } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoAlipay });
 

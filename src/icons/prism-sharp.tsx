@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { prismSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ prismSharp });
 

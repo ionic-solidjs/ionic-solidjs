@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { water } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ water });
 

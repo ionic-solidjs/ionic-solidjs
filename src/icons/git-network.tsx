@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { gitNetwork } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ gitNetwork });
 

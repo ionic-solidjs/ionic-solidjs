@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { thumbsDownSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ thumbsDownSharp });
 

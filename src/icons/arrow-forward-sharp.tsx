@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { arrowForwardSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ arrowForwardSharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { trainOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ trainOutline });
 

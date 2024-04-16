@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { thumbsDownOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ thumbsDownOutline });
 

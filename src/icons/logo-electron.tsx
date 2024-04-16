@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoElectron } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoElectron });
 

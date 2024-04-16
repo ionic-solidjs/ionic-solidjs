@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { videocamOffSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ videocamOffSharp });
 

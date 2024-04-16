@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logOutOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logOutOutline });
 

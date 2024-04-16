@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { documentAttach } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ documentAttach });
 

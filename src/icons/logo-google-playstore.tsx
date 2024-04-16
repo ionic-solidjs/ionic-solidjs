@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoGooglePlaystore } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoGooglePlaystore });
 

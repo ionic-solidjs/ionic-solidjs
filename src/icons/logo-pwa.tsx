@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoPwa } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoPwa });
 

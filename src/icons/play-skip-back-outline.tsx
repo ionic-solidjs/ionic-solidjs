@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { playSkipBackOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ playSkipBackOutline });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { colorPaletteSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ colorPaletteSharp });
 

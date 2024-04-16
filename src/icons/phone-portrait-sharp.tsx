@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { phonePortraitSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ phonePortraitSharp });
 

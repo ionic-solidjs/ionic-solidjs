@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { reorderFourSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ reorderFourSharp });
 

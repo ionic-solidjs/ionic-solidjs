@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { bicycleSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ bicycleSharp });
 

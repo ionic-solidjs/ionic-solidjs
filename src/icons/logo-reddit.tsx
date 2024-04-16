@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoReddit } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoReddit });
 

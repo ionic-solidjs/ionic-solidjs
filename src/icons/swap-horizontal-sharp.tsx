@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { swapHorizontalSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ swapHorizontalSharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { eyedropSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ eyedropSharp });
 

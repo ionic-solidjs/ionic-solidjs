@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { mailUnreadOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ mailUnreadOutline });
 

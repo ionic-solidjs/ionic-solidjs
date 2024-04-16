@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { cogSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ cogSharp });
 

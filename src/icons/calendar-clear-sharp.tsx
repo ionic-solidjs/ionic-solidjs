@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { calendarClearSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ calendarClearSharp });
 

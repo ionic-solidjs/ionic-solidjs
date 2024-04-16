@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { removeCircle } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ removeCircle });
 

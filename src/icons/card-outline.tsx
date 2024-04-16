@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { cardOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ cardOutline });
 

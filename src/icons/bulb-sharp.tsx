@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { bulbSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ bulbSharp });
 

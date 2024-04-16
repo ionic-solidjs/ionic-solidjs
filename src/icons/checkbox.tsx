@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { checkbox } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ checkbox });
 

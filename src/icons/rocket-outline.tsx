@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { rocketOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ rocketOutline });
 

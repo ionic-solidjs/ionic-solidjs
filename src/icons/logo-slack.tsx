@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoSlack } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoSlack });
 

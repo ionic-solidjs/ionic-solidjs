@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { discOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ discOutline });
 

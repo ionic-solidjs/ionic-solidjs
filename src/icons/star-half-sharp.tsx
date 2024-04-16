@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { starHalfSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ starHalfSharp });
 

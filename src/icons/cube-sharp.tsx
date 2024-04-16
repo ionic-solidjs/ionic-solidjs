@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { cubeSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ cubeSharp });
 

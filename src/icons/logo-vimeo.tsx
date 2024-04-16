@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoVimeo } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoVimeo });
 

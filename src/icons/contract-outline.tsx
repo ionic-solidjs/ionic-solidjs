@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { contractOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ contractOutline });
 

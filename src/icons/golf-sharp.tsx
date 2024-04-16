@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { golfSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ golfSharp });
 

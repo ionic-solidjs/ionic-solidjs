@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { headsetOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ headsetOutline });
 

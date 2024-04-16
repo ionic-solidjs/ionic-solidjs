@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { maleFemaleOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ maleFemaleOutline });
 

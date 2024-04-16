@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { shuffleOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ shuffleOutline });
 

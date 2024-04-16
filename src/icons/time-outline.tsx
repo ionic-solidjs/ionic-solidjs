@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { timeOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ timeOutline });
 

@@ -42,7 +42,6 @@ let iconTemplate = function (iconName: string) {
 
 import { addIcons } from "ionicons";
 import { ${iconCamelCase} } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ ${iconCamelCase} });
 

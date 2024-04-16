@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { planet } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ planet });
 

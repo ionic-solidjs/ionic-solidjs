@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { magnet } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ magnet });
 

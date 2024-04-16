@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { walletSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ walletSharp });
 

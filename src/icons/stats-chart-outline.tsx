@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { statsChartOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ statsChartOutline });
 

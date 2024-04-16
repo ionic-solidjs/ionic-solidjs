@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { happySharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ happySharp });
 

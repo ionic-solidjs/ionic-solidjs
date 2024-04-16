@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoPaypal } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoPaypal });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { copySharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ copySharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { discSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ discSharp });
 

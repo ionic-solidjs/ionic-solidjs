@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoMedium } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoMedium });
 

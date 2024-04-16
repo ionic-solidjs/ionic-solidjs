@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { batteryFullOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ batteryFullOutline });
 

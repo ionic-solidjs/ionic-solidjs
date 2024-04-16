@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoDocker } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoDocker });
 

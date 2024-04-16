@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { scaleOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ scaleOutline });
 

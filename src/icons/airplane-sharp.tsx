@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { airplaneSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ airplaneSharp });
 

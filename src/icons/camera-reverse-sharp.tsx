@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { cameraReverseSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ cameraReverseSharp });
 

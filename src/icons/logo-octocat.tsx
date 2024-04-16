@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoOctocat } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoOctocat });
 

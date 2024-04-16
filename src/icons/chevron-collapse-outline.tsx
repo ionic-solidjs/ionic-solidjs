@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { chevronCollapseOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ chevronCollapseOutline });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { lockOpen } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ lockOpen });
 

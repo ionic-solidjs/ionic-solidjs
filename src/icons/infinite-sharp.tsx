@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { infiniteSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ infiniteSharp });
 

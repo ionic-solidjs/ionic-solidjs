@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { airplaneOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ airplaneOutline });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { megaphoneSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ megaphoneSharp });
 

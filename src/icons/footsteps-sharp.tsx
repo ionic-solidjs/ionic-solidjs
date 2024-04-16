@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { footstepsSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ footstepsSharp });
 

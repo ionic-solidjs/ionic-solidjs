@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { fitnessSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ fitnessSharp });
 

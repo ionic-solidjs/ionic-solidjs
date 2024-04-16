@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { calculatorSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ calculatorSharp });
 

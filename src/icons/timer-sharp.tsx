@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { timerSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ timerSharp });
 

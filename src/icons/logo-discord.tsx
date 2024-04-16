@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoDiscord } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoDiscord });
 

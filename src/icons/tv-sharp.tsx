@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { tvSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ tvSharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { hammerOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ hammerOutline });
 

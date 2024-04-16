@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { trendingUpOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ trendingUpOutline });
 

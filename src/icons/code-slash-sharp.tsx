@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { codeSlashSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ codeSlashSharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoAmplify } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoAmplify });
 

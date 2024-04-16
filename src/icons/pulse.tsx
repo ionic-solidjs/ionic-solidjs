@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { pulse } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ pulse });
 

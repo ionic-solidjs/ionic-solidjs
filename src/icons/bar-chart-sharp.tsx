@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { barChartSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ barChartSharp });
 

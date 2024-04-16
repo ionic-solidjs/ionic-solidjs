@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { playSkipForwardCircle } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ playSkipForwardCircle });
 

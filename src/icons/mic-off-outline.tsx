@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { micOffOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ micOffOutline });
 

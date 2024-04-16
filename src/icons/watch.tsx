@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { watch } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ watch });
 

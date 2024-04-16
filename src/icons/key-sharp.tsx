@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { keySharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ keySharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { businessOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ businessOutline });
 

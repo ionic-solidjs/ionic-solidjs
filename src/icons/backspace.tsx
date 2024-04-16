@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { backspace } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ backspace });
 

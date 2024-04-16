@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoVk } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoVk });
 

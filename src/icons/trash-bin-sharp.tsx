@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { trashBinSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ trashBinSharp });
 

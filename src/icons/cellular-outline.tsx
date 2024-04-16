@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { cellularOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ cellularOutline });
 

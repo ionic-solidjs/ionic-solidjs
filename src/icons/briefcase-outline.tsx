@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { briefcaseOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ briefcaseOutline });
 

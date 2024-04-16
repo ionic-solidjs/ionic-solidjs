@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { nutrition } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ nutrition });
 

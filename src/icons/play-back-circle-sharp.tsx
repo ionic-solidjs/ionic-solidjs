@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { playBackCircleSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ playBackCircleSharp });
 

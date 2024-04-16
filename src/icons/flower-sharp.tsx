@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { flowerSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ flowerSharp });
 

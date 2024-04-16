@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { mailOpen } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ mailOpen });
 

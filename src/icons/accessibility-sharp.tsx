@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { accessibilitySharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ accessibilitySharp });
 

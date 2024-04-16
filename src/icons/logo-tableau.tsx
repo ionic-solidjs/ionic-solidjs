@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoTableau } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoTableau });
 

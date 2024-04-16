@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { starHalfOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ starHalfOutline });
 

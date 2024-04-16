@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { earthSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ earthSharp });
 

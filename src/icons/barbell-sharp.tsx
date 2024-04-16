@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { barbellSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ barbellSharp });
 

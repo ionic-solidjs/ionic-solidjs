@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { caretBackCircle } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ caretBackCircle });
 

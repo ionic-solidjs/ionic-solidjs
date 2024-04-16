@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { caretForwardCircleOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ caretForwardCircleOutline });
 

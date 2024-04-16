@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { tabletPortrait } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ tabletPortrait });
 

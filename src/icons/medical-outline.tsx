@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { medicalOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ medicalOutline });
 

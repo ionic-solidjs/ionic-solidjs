@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { powerOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ powerOutline });
 

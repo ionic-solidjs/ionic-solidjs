@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoXbox } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoXbox });
 

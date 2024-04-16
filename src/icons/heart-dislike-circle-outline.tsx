@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { heartDislikeCircleOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ heartDislikeCircleOutline });
 

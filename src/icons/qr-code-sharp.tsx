@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { qrCodeSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ qrCodeSharp });
 

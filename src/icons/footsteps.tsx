@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { footsteps } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ footsteps });
 

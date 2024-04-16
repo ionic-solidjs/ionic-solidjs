@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoVercel } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoVercel });
 

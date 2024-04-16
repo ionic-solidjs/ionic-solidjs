@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { keypadOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ keypadOutline });
 

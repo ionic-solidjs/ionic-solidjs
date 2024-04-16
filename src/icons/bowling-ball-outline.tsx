@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { bowlingBallOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ bowlingBallOutline });
 

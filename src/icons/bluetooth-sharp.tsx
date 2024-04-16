@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { bluetoothSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ bluetoothSharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { arrowUpLeftBoxOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ arrowUpLeftBoxOutline });
 

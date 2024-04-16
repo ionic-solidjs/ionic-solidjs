@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { globeSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ globeSharp });
 

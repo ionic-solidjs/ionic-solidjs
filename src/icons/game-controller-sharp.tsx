@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { gameControllerSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ gameControllerSharp });
 

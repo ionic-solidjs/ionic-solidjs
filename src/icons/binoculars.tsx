@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { binoculars } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ binoculars });
 

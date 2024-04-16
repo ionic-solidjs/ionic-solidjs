@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { contractSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ contractSharp });
 

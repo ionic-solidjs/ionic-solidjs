@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { newspaperSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ newspaperSharp });
 

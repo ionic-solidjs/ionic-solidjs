@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { caretDownSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ caretDownSharp });
 

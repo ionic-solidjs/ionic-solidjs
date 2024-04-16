@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { arrowRedo } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ arrowRedo });
 

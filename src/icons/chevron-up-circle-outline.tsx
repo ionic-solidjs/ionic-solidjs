@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { chevronUpCircleOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ chevronUpCircleOutline });
 

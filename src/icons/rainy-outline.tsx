@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { rainyOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ rainyOutline });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { shareSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ shareSharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { ellipseOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ ellipseOutline });
 

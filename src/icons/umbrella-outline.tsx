@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { umbrellaOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ umbrellaOutline });
 

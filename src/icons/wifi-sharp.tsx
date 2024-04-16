@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { wifiSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ wifiSharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { femaleSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ femaleSharp });
 

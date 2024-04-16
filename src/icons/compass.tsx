@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { compass } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ compass });
 

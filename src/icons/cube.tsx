@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { cube } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ cube });
 

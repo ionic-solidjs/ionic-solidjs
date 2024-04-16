@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { barcodeOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ barcodeOutline });
 

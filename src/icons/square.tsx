@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { square } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ square });
 

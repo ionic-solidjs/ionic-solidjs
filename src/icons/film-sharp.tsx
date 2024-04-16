@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { filmSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ filmSharp });
 

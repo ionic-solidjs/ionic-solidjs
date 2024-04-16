@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { alarm } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ alarm });
 

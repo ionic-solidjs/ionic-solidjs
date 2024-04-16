@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { contrast } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ contrast });
 

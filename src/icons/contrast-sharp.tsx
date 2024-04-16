@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { contrastSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ contrastSharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { stopwatchSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ stopwatchSharp });
 

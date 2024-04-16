@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { pintSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ pintSharp });
 

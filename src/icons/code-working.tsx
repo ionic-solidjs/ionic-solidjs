@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { codeWorking } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ codeWorking });
 

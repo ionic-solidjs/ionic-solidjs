@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoDropbox } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoDropbox });
 

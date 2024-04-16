@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoFlickr } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoFlickr });
 

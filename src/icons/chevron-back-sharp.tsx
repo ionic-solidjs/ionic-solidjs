@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { chevronBackSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ chevronBackSharp });
 

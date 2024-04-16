@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { qrCodeOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ qrCodeOutline });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoMicrosoft } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoMicrosoft });
 

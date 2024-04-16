@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { filmOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ filmOutline });
 

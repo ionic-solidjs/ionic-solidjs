@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoVenmo } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoVenmo });
 

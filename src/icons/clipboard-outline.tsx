@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { clipboardOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ clipboardOutline });
 

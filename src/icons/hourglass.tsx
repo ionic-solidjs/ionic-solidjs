@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { hourglass } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ hourglass });
 

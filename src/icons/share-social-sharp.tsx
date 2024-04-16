@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { shareSocialSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ shareSocialSharp });
 

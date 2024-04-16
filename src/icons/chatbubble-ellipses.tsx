@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { chatbubbleEllipses } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ chatbubbleEllipses });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { cellularSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ cellularSharp });
 

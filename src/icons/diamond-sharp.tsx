@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { diamondSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ diamondSharp });
 

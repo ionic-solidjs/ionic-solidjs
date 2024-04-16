@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { snowOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ snowOutline });
 

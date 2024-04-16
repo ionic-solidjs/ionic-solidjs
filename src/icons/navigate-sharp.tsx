@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { navigateSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ navigateSharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { remove } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ remove });
 

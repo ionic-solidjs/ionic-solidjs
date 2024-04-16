@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { prismOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ prismOutline });
 

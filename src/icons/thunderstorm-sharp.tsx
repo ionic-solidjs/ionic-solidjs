@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { thunderstormSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ thunderstormSharp });
 

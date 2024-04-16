@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { tabletLandscapeSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ tabletLandscapeSharp });
 

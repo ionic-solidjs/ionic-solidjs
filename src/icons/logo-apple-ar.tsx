@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoAppleAr } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoAppleAr });
 

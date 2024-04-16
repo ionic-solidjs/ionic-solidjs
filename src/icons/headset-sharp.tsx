@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { headsetSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ headsetSharp });
 

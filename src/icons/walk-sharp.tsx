@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { walkSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ walkSharp });
 

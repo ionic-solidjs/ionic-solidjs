@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { flask } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ flask });
 

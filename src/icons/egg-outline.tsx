@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { eggOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ eggOutline });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { basketballOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ basketballOutline });
 

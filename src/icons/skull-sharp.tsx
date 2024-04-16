@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { skullSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ skullSharp });
 

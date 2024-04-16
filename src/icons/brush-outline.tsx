@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { brushOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ brushOutline });
 

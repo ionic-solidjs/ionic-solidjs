@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { handLeftSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ handLeftSharp });
 

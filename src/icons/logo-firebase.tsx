@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoFirebase } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoFirebase });
 

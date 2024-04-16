@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { checkboxOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ checkboxOutline });
 

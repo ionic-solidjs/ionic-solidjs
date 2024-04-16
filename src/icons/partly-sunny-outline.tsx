@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { partlySunnyOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ partlySunnyOutline });
 

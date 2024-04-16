@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { pulseOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ pulseOutline });
 

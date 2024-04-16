@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoHtml5 } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoHtml5 });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoFirefox } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoFirefox });
 

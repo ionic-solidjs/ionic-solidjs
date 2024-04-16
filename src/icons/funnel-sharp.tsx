@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { funnelSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ funnelSharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { bulbOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ bulbOutline });
 

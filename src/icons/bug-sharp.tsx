@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { bugSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ bugSharp });
 

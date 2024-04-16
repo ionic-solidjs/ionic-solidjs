@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoWordpress } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoWordpress });
 

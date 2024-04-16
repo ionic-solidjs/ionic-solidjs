@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { cafeSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ cafeSharp });
 

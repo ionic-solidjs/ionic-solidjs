@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoTwitter } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoTwitter });
 

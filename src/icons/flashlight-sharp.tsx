@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { flashlightSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ flashlightSharp });
 

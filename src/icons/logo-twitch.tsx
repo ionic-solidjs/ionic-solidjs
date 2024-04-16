@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoTwitch } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoTwitch });
 

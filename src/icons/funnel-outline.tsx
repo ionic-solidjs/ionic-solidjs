@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { funnelOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ funnelOutline });
 

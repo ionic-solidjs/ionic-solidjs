@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { caretForward } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ caretForward });
 

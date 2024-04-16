@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { fishOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ fishOutline });
 

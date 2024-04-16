@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { caretDownOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ caretDownOutline });
 

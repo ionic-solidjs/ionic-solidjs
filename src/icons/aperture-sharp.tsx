@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { apertureSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ apertureSharp });
 

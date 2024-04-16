@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoAppflow } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoAppflow });
 

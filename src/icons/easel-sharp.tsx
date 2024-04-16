@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { easelSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ easelSharp });
 

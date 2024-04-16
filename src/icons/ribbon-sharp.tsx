@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { ribbonSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ ribbonSharp });
 

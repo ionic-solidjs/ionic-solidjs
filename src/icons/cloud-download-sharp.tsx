@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { cloudDownloadSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ cloudDownloadSharp });
 

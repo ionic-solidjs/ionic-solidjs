@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { transgenderOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ transgenderOutline });
 

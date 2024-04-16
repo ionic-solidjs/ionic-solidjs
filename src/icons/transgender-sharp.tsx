@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { transgenderSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ transgenderSharp });
 

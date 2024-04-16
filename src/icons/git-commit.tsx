@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { gitCommit } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ gitCommit });
 

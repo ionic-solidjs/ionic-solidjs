@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { handRightOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ handRightOutline });
 

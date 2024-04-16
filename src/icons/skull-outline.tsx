@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { skullOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ skullOutline });
 

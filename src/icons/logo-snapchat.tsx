@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoSnapchat } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoSnapchat });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { camera } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ camera });
 

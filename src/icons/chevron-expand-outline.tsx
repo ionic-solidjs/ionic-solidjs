@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { chevronExpandOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ chevronExpandOutline });
 

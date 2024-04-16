@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { bagCheckOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ bagCheckOutline });
 

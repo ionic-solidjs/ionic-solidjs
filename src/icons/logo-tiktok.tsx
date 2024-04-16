@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoTiktok } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoTiktok });
 

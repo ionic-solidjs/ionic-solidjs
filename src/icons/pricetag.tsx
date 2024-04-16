@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { pricetag } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ pricetag });
 

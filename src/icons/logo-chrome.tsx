@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoChrome } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoChrome });
 

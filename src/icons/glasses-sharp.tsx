@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { glassesSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ glassesSharp });
 

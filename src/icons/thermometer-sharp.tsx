@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { thermometerSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ thermometerSharp });
 

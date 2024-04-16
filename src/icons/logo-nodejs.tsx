@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoNodejs } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoNodejs });
 

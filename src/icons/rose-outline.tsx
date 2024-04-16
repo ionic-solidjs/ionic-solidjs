@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { roseOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ roseOutline });
 

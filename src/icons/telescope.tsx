@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { telescope } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ telescope });
 

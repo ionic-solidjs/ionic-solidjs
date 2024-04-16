@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { medical } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ medical });
 

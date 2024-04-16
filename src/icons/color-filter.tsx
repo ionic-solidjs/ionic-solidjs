@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { colorFilter } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ colorFilter });
 

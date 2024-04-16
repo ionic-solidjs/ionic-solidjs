@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { sparklesSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ sparklesSharp });
 

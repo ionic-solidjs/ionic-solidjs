@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { beakerSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ beakerSharp });
 

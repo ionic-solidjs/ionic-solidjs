@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoMastodon } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoMastodon });
 

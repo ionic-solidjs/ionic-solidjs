@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { trashBin } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ trashBin });
 

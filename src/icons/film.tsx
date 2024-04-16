@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { film } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ film });
 

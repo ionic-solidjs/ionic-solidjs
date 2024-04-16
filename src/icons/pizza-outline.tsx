@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { pizzaOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ pizzaOutline });
 

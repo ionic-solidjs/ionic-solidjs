@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { videocamOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ videocamOutline });
 

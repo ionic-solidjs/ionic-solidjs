@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { earthOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ earthOutline });
 

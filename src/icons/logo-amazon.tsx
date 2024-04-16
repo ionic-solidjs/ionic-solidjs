@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoAmazon } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoAmazon });
 

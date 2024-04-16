@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { eggSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ eggSharp });
 

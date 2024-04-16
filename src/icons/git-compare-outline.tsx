@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { gitCompareOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ gitCompareOutline });
 

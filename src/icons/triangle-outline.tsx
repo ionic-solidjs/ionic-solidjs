@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { triangleOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ triangleOutline });
 

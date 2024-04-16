@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { archiveOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ archiveOutline });
 

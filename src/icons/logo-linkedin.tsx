@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoLinkedin } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoLinkedin });
 

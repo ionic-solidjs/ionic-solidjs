@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { shuffle } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ shuffle });
 

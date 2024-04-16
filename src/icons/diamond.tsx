@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { diamond } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ diamond });
 

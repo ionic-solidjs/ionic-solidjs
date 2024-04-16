@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { bluetoothOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ bluetoothOutline });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { reorderTwo } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ reorderTwo });
 

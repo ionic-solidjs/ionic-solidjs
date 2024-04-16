@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { podium } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ podium });
 

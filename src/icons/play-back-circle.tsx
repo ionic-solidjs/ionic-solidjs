@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { playBackCircle } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ playBackCircle });
 

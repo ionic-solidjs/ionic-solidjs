@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { ellipsisVerticalOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ ellipsisVerticalOutline });
 

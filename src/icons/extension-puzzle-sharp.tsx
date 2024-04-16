@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { extensionPuzzleSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ extensionPuzzleSharp });
 

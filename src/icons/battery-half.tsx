@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { batteryHalf } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ batteryHalf });
 

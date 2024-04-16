@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { banSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ banSharp });
 

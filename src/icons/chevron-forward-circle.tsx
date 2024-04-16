@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { chevronForwardCircle } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ chevronForwardCircle });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { nuclearOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ nuclearOutline });
 

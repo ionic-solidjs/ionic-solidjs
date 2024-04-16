@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { gridSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ gridSharp });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { fastFood } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ fastFood });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { flameSharp } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ flameSharp });
 

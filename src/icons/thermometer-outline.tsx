@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { thermometerOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ thermometerOutline });
 

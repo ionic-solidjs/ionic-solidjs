@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { logoWechat } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ logoWechat });
 

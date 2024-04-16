@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { cloudyNight } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ cloudyNight });
 

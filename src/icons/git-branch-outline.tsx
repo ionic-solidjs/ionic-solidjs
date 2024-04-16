@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { gitBranchOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ gitBranchOutline });
 

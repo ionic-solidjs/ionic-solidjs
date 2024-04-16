@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { thunderstormOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ thunderstormOutline });
 

@@ -3,7 +3,6 @@
 
 import { addIcons } from "ionicons";
 import { documentLockOutline } from "ionicons/icons";
-import '../lib-icons'
 
 addIcons({ documentLockOutline });
 
