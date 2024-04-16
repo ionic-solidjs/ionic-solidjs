@@ -16,7 +16,7 @@ export default defineConfig({
   esbuildOptions: (opts) => {
     opts.plugins = (opts.plugins || []).concat([eps.solidPugin]);
     opts.jsxImportSource = "solid-js";
-    opts.jsx = "automatic";
+    opts.jsx = "preserve";
   },
   dts: {
     resolve: false,
