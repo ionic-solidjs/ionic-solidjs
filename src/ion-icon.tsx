@@ -1,5 +1,4 @@
 import { initialize } from "@ionic/core/components";
-import { type JSX as IonicJSX } from "@ionic/core";
 import { defineCustomElement } from "ionicons/components/ion-icon";
 initialize();
 defineCustomElement();
@@ -55,8 +54,7 @@ interface IonIcon {
   src?: string;
 }
 
-export type IonIconProps = FixIonProps<IonicJSX.IonToolbar> &
-  JSXBase.HTMLAttributes<HTMLIonToolbarElement>;
+export type IonIconProps = FixIonProps<IonIcon> & JSXBase.HTMLAttributes<HTMLIonToolbarElement>;
 
 export function IonIcon(props: IonIconProps) {
   //@ts-ignore
