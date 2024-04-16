@@ -6,4 +6,4 @@ import { brush } from "ionicons/icons";
 
 addIcons({ brush });
 
-export let iconBrush = brush;
+export let iconBrush = "brush";

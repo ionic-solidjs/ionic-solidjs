@@ -6,4 +6,4 @@ import { flagSharp } from "ionicons/icons";
 
 addIcons({ flagSharp });
 
-export let iconFlagSharp = flagSharp;
+export let iconFlagSharp = "flagSharp";

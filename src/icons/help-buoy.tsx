@@ -6,4 +6,4 @@ import { helpBuoy } from "ionicons/icons";
 
 addIcons({ helpBuoy });
 
-export let iconHelpBuoy = helpBuoy;
+export let iconHelpBuoy = "helpBuoy";

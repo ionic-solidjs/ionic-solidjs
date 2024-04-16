@@ -6,4 +6,4 @@ import { syncOutline } from "ionicons/icons";
 
 addIcons({ syncOutline });
 
-export let iconSyncOutline = syncOutline;
+export let iconSyncOutline = "syncOutline";

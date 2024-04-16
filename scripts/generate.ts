@@ -45,7 +45,7 @@ import { ${iconCamelCase} } from "ionicons/icons";
 
 addIcons({ ${iconCamelCase} });
 
-export let icon${iconPascalCase} = ${iconCamelCase};
+export let icon${iconPascalCase} = "${iconCamelCase}";
 `;
 };
 

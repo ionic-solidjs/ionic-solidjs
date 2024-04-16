@@ -6,4 +6,4 @@ import { storefrontSharp } from "ionicons/icons";
 
 addIcons({ storefrontSharp });
 
-export let iconStorefrontSharp = storefrontSharp;
+export let iconStorefrontSharp = "storefrontSharp";

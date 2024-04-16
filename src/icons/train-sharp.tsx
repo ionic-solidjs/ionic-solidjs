@@ -6,4 +6,4 @@ import { trainSharp } from "ionicons/icons";
 
 addIcons({ trainSharp });
 
-export let iconTrainSharp = trainSharp;
+export let iconTrainSharp = "trainSharp";

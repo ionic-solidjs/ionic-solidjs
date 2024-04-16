@@ -6,4 +6,4 @@ import { logoTiktok } from "ionicons/icons";
 
 addIcons({ logoTiktok });
 
-export let iconLogoTiktok = logoTiktok;
+export let iconLogoTiktok = "logoTiktok";

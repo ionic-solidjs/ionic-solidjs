@@ -6,4 +6,4 @@ import { logoAndroid } from "ionicons/icons";
 
 addIcons({ logoAndroid });
 
-export let iconLogoAndroid = logoAndroid;
+export let iconLogoAndroid = "logoAndroid";

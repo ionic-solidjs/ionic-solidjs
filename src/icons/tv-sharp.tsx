@@ -6,4 +6,4 @@ import { tvSharp } from "ionicons/icons";
 
 addIcons({ tvSharp });
 
-export let iconTvSharp = tvSharp;
+export let iconTvSharp = "tvSharp";

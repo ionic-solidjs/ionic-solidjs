@@ -6,4 +6,4 @@ import { expandSharp } from "ionicons/icons";
 
 addIcons({ expandSharp });
 
-export let iconExpandSharp = expandSharp;
+export let iconExpandSharp = "expandSharp";

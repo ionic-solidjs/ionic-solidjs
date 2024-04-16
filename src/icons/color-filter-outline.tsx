@@ -6,4 +6,4 @@ import { colorFilterOutline } from "ionicons/icons";
 
 addIcons({ colorFilterOutline });
 
-export let iconColorFilterOutline = colorFilterOutline;
+export let iconColorFilterOutline = "colorFilterOutline";

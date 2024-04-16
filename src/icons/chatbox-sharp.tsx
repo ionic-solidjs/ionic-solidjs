@@ -6,4 +6,4 @@ import { chatboxSharp } from "ionicons/icons";
 
 addIcons({ chatboxSharp });
 
-export let iconChatboxSharp = chatboxSharp;
+export let iconChatboxSharp = "chatboxSharp";

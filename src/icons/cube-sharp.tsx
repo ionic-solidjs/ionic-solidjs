@@ -6,4 +6,4 @@ import { cubeSharp } from "ionicons/icons";
 
 addIcons({ cubeSharp });
 
-export let iconCubeSharp = cubeSharp;
+export let iconCubeSharp = "cubeSharp";

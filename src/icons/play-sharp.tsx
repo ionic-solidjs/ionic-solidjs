@@ -6,4 +6,4 @@ import { playSharp } from "ionicons/icons";
 
 addIcons({ playSharp });
 
-export let iconPlaySharp = playSharp;
+export let iconPlaySharp = "playSharp";

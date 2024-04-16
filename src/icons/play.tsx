@@ -6,4 +6,4 @@ import { play } from "ionicons/icons";
 
 addIcons({ play });
 
-export let iconPlay = play;
+export let iconPlay = "play";

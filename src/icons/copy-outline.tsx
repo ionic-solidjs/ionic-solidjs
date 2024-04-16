@@ -6,4 +6,4 @@ import { copyOutline } from "ionicons/icons";
 
 addIcons({ copyOutline });
 
-export let iconCopyOutline = copyOutline;
+export let iconCopyOutline = "copyOutline";

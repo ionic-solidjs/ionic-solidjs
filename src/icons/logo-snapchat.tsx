@@ -6,4 +6,4 @@ import { logoSnapchat } from "ionicons/icons";
 
 addIcons({ logoSnapchat });
 
-export let iconLogoSnapchat = logoSnapchat;
+export let iconLogoSnapchat = "logoSnapchat";

@@ -6,4 +6,4 @@ import { flashlightSharp } from "ionicons/icons";
 
 addIcons({ flashlightSharp });
 
-export let iconFlashlightSharp = flashlightSharp;
+export let iconFlashlightSharp = "flashlightSharp";

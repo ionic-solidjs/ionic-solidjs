@@ -6,4 +6,4 @@ import { bowlingBallSharp } from "ionicons/icons";
 
 addIcons({ bowlingBallSharp });
 
-export let iconBowlingBallSharp = bowlingBallSharp;
+export let iconBowlingBallSharp = "bowlingBallSharp";

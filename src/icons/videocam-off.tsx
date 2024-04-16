@@ -6,4 +6,4 @@ import { videocamOff } from "ionicons/icons";
 
 addIcons({ videocamOff });
 
-export let iconVideocamOff = videocamOff;
+export let iconVideocamOff = "videocamOff";

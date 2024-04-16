@@ -6,4 +6,4 @@ import { calendarClear } from "ionicons/icons";
 
 addIcons({ calendarClear });
 
-export let iconCalendarClear = calendarClear;
+export let iconCalendarClear = "calendarClear";

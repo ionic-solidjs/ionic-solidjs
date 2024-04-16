@@ -6,4 +6,4 @@ import { mailUnread } from "ionicons/icons";
 
 addIcons({ mailUnread });
 
-export let iconMailUnread = mailUnread;
+export let iconMailUnread = "mailUnread";

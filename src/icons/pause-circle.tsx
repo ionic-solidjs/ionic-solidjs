@@ -6,4 +6,4 @@ import { pauseCircle } from "ionicons/icons";
 
 addIcons({ pauseCircle });
 
-export let iconPauseCircle = pauseCircle;
+export let iconPauseCircle = "pauseCircle";

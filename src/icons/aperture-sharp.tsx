@@ -6,4 +6,4 @@ import { apertureSharp } from "ionicons/icons";
 
 addIcons({ apertureSharp });
 
-export let iconApertureSharp = apertureSharp;
+export let iconApertureSharp = "apertureSharp";

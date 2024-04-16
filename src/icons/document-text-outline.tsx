@@ -6,4 +6,4 @@ import { documentTextOutline } from "ionicons/icons";
 
 addIcons({ documentTextOutline });
 
-export let iconDocumentTextOutline = documentTextOutline;
+export let iconDocumentTextOutline = "documentTextOutline";

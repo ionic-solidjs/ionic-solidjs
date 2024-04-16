@@ -6,4 +6,4 @@ import { bluetooth } from "ionicons/icons";
 
 addIcons({ bluetooth });
 
-export let iconBluetooth = bluetooth;
+export let iconBluetooth = "bluetooth";

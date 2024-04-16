@@ -6,4 +6,4 @@ import { layers } from "ionicons/icons";
 
 addIcons({ layers });
 
-export let iconLayers = layers;
+export let iconLayers = "layers";

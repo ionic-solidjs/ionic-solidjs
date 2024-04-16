@@ -6,4 +6,4 @@ import { alert } from "ionicons/icons";
 
 addIcons({ alert });
 
-export let iconAlert = alert;
+export let iconAlert = "alert";

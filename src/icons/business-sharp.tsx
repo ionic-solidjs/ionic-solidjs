@@ -6,4 +6,4 @@ import { businessSharp } from "ionicons/icons";
 
 addIcons({ businessSharp });
 
-export let iconBusinessSharp = businessSharp;
+export let iconBusinessSharp = "businessSharp";

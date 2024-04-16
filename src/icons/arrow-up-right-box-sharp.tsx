@@ -6,4 +6,4 @@ import { arrowUpRightBoxSharp } from "ionicons/icons";
 
 addIcons({ arrowUpRightBoxSharp });
 
-export let iconArrowUpRightBoxSharp = arrowUpRightBoxSharp;
+export let iconArrowUpRightBoxSharp = "arrowUpRightBoxSharp";

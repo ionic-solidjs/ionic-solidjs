@@ -6,4 +6,4 @@ import { speedometer } from "ionicons/icons";
 
 addIcons({ speedometer });
 
-export let iconSpeedometer = speedometer;
+export let iconSpeedometer = "speedometer";

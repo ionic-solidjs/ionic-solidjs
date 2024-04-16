@@ -6,4 +6,4 @@ import { pauseSharp } from "ionicons/icons";
 
 addIcons({ pauseSharp });
 
-export let iconPauseSharp = pauseSharp;
+export let iconPauseSharp = "pauseSharp";

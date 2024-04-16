@@ -6,4 +6,4 @@ import { send } from "ionicons/icons";
 
 addIcons({ send });
 
-export let iconSend = send;
+export let iconSend = "send";

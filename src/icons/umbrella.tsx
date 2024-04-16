@@ -6,4 +6,4 @@ import { umbrella } from "ionicons/icons";
 
 addIcons({ umbrella });
 
-export let iconUmbrella = umbrella;
+export let iconUmbrella = "umbrella";

@@ -6,4 +6,4 @@ import { filmOutline } from "ionicons/icons";
 
 addIcons({ filmOutline });
 
-export let iconFilmOutline = filmOutline;
+export let iconFilmOutline = "filmOutline";

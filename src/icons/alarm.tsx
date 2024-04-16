@@ -6,4 +6,4 @@ import { alarm } from "ionicons/icons";
 
 addIcons({ alarm });
 
-export let iconAlarm = alarm;
+export let iconAlarm = "alarm";

@@ -6,4 +6,4 @@ import { earOutline } from "ionicons/icons";
 
 addIcons({ earOutline });
 
-export let iconEarOutline = earOutline;
+export let iconEarOutline = "earOutline";

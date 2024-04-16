@@ -6,4 +6,4 @@ import { pieChart } from "ionicons/icons";
 
 addIcons({ pieChart });
 
-export let iconPieChart = pieChart;
+export let iconPieChart = "pieChart";

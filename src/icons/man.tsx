@@ -6,4 +6,4 @@ import { man } from "ionicons/icons";
 
 addIcons({ man });
 
-export let iconMan = man;
+export let iconMan = "man";

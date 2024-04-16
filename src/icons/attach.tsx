@@ -6,4 +6,4 @@ import { attach } from "ionicons/icons";
 
 addIcons({ attach });
 
-export let iconAttach = attach;
+export let iconAttach = "attach";

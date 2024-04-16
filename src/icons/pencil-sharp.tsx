@@ -6,4 +6,4 @@ import { pencilSharp } from "ionicons/icons";
 
 addIcons({ pencilSharp });
 
-export let iconPencilSharp = pencilSharp;
+export let iconPencilSharp = "pencilSharp";

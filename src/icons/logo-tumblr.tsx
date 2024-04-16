@@ -6,4 +6,4 @@ import { logoTumblr } from "ionicons/icons";
 
 addIcons({ logoTumblr });
 
-export let iconLogoTumblr = logoTumblr;
+export let iconLogoTumblr = "logoTumblr";

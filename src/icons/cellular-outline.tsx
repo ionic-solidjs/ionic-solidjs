@@ -6,4 +6,4 @@ import { cellularOutline } from "ionicons/icons";
 
 addIcons({ cellularOutline });
 
-export let iconCellularOutline = cellularOutline;
+export let iconCellularOutline = "cellularOutline";

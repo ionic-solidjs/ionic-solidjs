@@ -6,4 +6,4 @@ import { squareSharp } from "ionicons/icons";
 
 addIcons({ squareSharp });
 
-export let iconSquareSharp = squareSharp;
+export let iconSquareSharp = "squareSharp";

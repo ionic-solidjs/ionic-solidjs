@@ -6,4 +6,4 @@ import { logoWechat } from "ionicons/icons";
 
 addIcons({ logoWechat });
 
-export let iconLogoWechat = logoWechat;
+export let iconLogoWechat = "logoWechat";

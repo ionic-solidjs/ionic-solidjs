@@ -6,4 +6,4 @@ import { chevronExpandOutline } from "ionicons/icons";
 
 addIcons({ chevronExpandOutline });
 
-export let iconChevronExpandOutline = chevronExpandOutline;
+export let iconChevronExpandOutline = "chevronExpandOutline";

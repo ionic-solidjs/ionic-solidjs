@@ -6,4 +6,4 @@ import { scan } from "ionicons/icons";
 
 addIcons({ scan });
 
-export let iconScan = scan;
+export let iconScan = "scan";

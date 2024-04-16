@@ -6,4 +6,4 @@ import { power } from "ionicons/icons";
 
 addIcons({ power });
 
-export let iconPower = power;
+export let iconPower = "power";

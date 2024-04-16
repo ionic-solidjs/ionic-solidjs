@@ -6,4 +6,4 @@ import { caretUpCircle } from "ionicons/icons";
 
 addIcons({ caretUpCircle });
 
-export let iconCaretUpCircle = caretUpCircle;
+export let iconCaretUpCircle = "caretUpCircle";

@@ -6,4 +6,4 @@ import { warningOutline } from "ionicons/icons";
 
 addIcons({ warningOutline });
 
-export let iconWarningOutline = warningOutline;
+export let iconWarningOutline = "warningOutline";

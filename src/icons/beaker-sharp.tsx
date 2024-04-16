@@ -6,4 +6,4 @@ import { beakerSharp } from "ionicons/icons";
 
 addIcons({ beakerSharp });
 
-export let iconBeakerSharp = beakerSharp;
+export let iconBeakerSharp = "beakerSharp";

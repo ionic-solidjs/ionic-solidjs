@@ -6,4 +6,4 @@ import { arrowRedoOutline } from "ionicons/icons";
 
 addIcons({ arrowRedoOutline });
 
-export let iconArrowRedoOutline = arrowRedoOutline;
+export let iconArrowRedoOutline = "arrowRedoOutline";

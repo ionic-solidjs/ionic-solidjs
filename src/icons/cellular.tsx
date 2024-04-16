@@ -6,4 +6,4 @@ import { cellular } from "ionicons/icons";
 
 addIcons({ cellular });
 
-export let iconCellular = cellular;
+export let iconCellular = "cellular";

@@ -6,4 +6,4 @@ import { bicycleSharp } from "ionicons/icons";
 
 addIcons({ bicycleSharp });
 
-export let iconBicycleSharp = bicycleSharp;
+export let iconBicycleSharp = "bicycleSharp";

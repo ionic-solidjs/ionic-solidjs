@@ -6,4 +6,4 @@ import { caretUp } from "ionicons/icons";
 
 addIcons({ caretUp });
 
-export let iconCaretUp = caretUp;
+export let iconCaretUp = "caretUp";

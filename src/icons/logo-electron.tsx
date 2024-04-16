@@ -6,4 +6,4 @@ import { logoElectron } from "ionicons/icons";
 
 addIcons({ logoElectron });
 
-export let iconLogoElectron = logoElectron;
+export let iconLogoElectron = "logoElectron";

@@ -6,4 +6,4 @@ import { calculator } from "ionicons/icons";
 
 addIcons({ calculator });
 
-export let iconCalculator = calculator;
+export let iconCalculator = "calculator";

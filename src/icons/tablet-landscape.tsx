@@ -6,4 +6,4 @@ import { tabletLandscape } from "ionicons/icons";
 
 addIcons({ tabletLandscape });
 
-export let iconTabletLandscape = tabletLandscape;
+export let iconTabletLandscape = "tabletLandscape";

@@ -6,4 +6,4 @@ import { medkit } from "ionicons/icons";
 
 addIcons({ medkit });
 
-export let iconMedkit = medkit;
+export let iconMedkit = "medkit";

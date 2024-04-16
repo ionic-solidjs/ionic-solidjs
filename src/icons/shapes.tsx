@@ -6,4 +6,4 @@ import { shapes } from "ionicons/icons";
 
 addIcons({ shapes });
 
-export let iconShapes = shapes;
+export let iconShapes = "shapes";

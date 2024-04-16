@@ -6,4 +6,4 @@ import { bug } from "ionicons/icons";
 
 addIcons({ bug });
 
-export let iconBug = bug;
+export let iconBug = "bug";

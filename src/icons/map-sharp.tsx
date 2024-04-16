@@ -6,4 +6,4 @@ import { mapSharp } from "ionicons/icons";
 
 addIcons({ mapSharp });
 
-export let iconMapSharp = mapSharp;
+export let iconMapSharp = "mapSharp";

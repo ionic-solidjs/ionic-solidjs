@@ -6,4 +6,4 @@ import { funnel } from "ionicons/icons";
 
 addIcons({ funnel });
 
-export let iconFunnel = funnel;
+export let iconFunnel = "funnel";

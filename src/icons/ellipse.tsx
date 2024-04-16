@@ -6,4 +6,4 @@ import { ellipse } from "ionicons/icons";
 
 addIcons({ ellipse });
 
-export let iconEllipse = ellipse;
+export let iconEllipse = "ellipse";

@@ -6,4 +6,4 @@ import { barcodeOutline } from "ionicons/icons";
 
 addIcons({ barcodeOutline });
 
-export let iconBarcodeOutline = barcodeOutline;
+export let iconBarcodeOutline = "barcodeOutline";

@@ -6,4 +6,4 @@ import { podiumSharp } from "ionicons/icons";
 
 addIcons({ podiumSharp });
 
-export let iconPodiumSharp = podiumSharp;
+export let iconPodiumSharp = "podiumSharp";

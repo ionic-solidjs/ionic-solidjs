@@ -6,4 +6,4 @@ import { logoVenmo } from "ionicons/icons";
 
 addIcons({ logoVenmo });
 
-export let iconLogoVenmo = logoVenmo;
+export let iconLogoVenmo = "logoVenmo";

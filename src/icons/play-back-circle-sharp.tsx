@@ -6,4 +6,4 @@ import { playBackCircleSharp } from "ionicons/icons";
 
 addIcons({ playBackCircleSharp });
 
-export let iconPlayBackCircleSharp = playBackCircleSharp;
+export let iconPlayBackCircleSharp = "playBackCircleSharp";

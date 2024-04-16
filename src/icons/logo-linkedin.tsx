@@ -6,4 +6,4 @@ import { logoLinkedin } from "ionicons/icons";
 
 addIcons({ logoLinkedin });
 
-export let iconLogoLinkedin = logoLinkedin;
+export let iconLogoLinkedin = "logoLinkedin";

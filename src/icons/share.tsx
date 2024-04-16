@@ -6,4 +6,4 @@ import { share } from "ionicons/icons";
 
 addIcons({ share });
 
-export let iconShare = share;
+export let iconShare = "share";

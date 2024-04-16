@@ -6,4 +6,4 @@ import { balloonSharp } from "ionicons/icons";
 
 addIcons({ balloonSharp });
 
-export let iconBalloonSharp = balloonSharp;
+export let iconBalloonSharp = "balloonSharp";

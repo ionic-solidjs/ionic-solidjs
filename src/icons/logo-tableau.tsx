@@ -6,4 +6,4 @@ import { logoTableau } from "ionicons/icons";
 
 addIcons({ logoTableau });
 
-export let iconLogoTableau = logoTableau;
+export let iconLogoTableau = "logoTableau";

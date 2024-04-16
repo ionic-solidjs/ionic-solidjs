@@ -6,4 +6,4 @@ import { informationSharp } from "ionicons/icons";
 
 addIcons({ informationSharp });
 
-export let iconInformationSharp = informationSharp;
+export let iconInformationSharp = "informationSharp";

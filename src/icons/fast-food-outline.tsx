@@ -6,4 +6,4 @@ import { fastFoodOutline } from "ionicons/icons";
 
 addIcons({ fastFoodOutline });
 
-export let iconFastFoodOutline = fastFoodOutline;
+export let iconFastFoodOutline = "fastFoodOutline";

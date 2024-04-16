@@ -6,4 +6,4 @@ import { closeSharp } from "ionicons/icons";
 
 addIcons({ closeSharp });
 
-export let iconCloseSharp = closeSharp;
+export let iconCloseSharp = "closeSharp";

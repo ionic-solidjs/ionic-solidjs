@@ -6,4 +6,4 @@ import { backspace } from "ionicons/icons";
 
 addIcons({ backspace });
 
-export let iconBackspace = backspace;
+export let iconBackspace = "backspace";

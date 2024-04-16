@@ -6,4 +6,4 @@ import { chevronForwardCircleOutline } from "ionicons/icons";
 
 addIcons({ chevronForwardCircleOutline });
 
-export let iconChevronForwardCircleOutline = chevronForwardCircleOutline;
+export let iconChevronForwardCircleOutline = "chevronForwardCircleOutline";

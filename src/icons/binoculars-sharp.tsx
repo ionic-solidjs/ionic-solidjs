@@ -6,4 +6,4 @@ import { binocularsSharp } from "ionicons/icons";
 
 addIcons({ binocularsSharp });
 
-export let iconBinocularsSharp = binocularsSharp;
+export let iconBinocularsSharp = "binocularsSharp";

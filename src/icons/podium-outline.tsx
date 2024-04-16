@@ -6,4 +6,4 @@ import { podiumOutline } from "ionicons/icons";
 
 addIcons({ podiumOutline });
 
-export let iconPodiumOutline = podiumOutline;
+export let iconPodiumOutline = "podiumOutline";

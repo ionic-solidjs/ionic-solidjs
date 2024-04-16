@@ -6,4 +6,4 @@ import { mapOutline } from "ionicons/icons";
 
 addIcons({ mapOutline });
 
-export let iconMapOutline = mapOutline;
+export let iconMapOutline = "mapOutline";

@@ -6,4 +6,4 @@ import { statsChart } from "ionicons/icons";
 
 addIcons({ statsChart });
 
-export let iconStatsChart = statsChart;
+export let iconStatsChart = "statsChart";

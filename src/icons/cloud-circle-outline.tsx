@@ -6,4 +6,4 @@ import { cloudCircleOutline } from "ionicons/icons";
 
 addIcons({ cloudCircleOutline });
 
-export let iconCloudCircleOutline = cloudCircleOutline;
+export let iconCloudCircleOutline = "cloudCircleOutline";

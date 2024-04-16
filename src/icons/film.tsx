@@ -6,4 +6,4 @@ import { film } from "ionicons/icons";
 
 addIcons({ film });
 
-export let iconFilm = film;
+export let iconFilm = "film";

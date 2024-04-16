@@ -6,4 +6,4 @@ import { apps } from "ionicons/icons";
 
 addIcons({ apps });
 
-export let iconApps = apps;
+export let iconApps = "apps";

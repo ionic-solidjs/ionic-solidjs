@@ -6,4 +6,4 @@ import { ribbonSharp } from "ionicons/icons";
 
 addIcons({ ribbonSharp });
 
-export let iconRibbonSharp = ribbonSharp;
+export let iconRibbonSharp = "ribbonSharp";

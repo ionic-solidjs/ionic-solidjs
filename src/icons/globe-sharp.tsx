@@ -6,4 +6,4 @@ import { globeSharp } from "ionicons/icons";
 
 addIcons({ globeSharp });
 
-export let iconGlobeSharp = globeSharp;
+export let iconGlobeSharp = "globeSharp";

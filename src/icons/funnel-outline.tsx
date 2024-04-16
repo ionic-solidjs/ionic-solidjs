@@ -6,4 +6,4 @@ import { funnelOutline } from "ionicons/icons";
 
 addIcons({ funnelOutline });
 
-export let iconFunnelOutline = funnelOutline;
+export let iconFunnelOutline = "funnelOutline";

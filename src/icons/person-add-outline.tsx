@@ -6,4 +6,4 @@ import { personAddOutline } from "ionicons/icons";
 
 addIcons({ personAddOutline });
 
-export let iconPersonAddOutline = personAddOutline;
+export let iconPersonAddOutline = "personAddOutline";

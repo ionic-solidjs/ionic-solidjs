@@ -6,4 +6,4 @@ import { cash } from "ionicons/icons";
 
 addIcons({ cash });
 
-export let iconCash = cash;
+export let iconCash = "cash";

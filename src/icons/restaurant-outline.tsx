@@ -6,4 +6,4 @@ import { restaurantOutline } from "ionicons/icons";
 
 addIcons({ restaurantOutline });
 
-export let iconRestaurantOutline = restaurantOutline;
+export let iconRestaurantOutline = "restaurantOutline";

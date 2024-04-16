@@ -6,4 +6,4 @@ import { thumbsUpOutline } from "ionicons/icons";
 
 addIcons({ thumbsUpOutline });
 
-export let iconThumbsUpOutline = thumbsUpOutline;
+export let iconThumbsUpOutline = "thumbsUpOutline";

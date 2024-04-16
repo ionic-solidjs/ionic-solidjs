@@ -6,4 +6,4 @@ import { map } from "ionicons/icons";
 
 addIcons({ map });
 
-export let iconMap = map;
+export let iconMap = "map";

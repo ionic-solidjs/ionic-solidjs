@@ -6,4 +6,4 @@ import { logIn } from "ionicons/icons";
 
 addIcons({ logIn });
 
-export let iconLogIn = logIn;
+export let iconLogIn = "logIn";

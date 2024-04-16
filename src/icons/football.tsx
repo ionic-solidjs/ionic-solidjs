@@ -6,4 +6,4 @@ import { football } from "ionicons/icons";
 
 addIcons({ football });
 
-export let iconFootball = football;
+export let iconFootball = "football";

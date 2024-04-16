@@ -6,4 +6,4 @@ import { archiveOutline } from "ionicons/icons";
 
 addIcons({ archiveOutline });
 
-export let iconArchiveOutline = archiveOutline;
+export let iconArchiveOutline = "archiveOutline";

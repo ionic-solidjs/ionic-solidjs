@@ -6,4 +6,4 @@ import { navigateCircleSharp } from "ionicons/icons";
 
 addIcons({ navigateCircleSharp });
 
-export let iconNavigateCircleSharp = navigateCircleSharp;
+export let iconNavigateCircleSharp = "navigateCircleSharp";

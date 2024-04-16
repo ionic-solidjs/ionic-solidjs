@@ -6,4 +6,4 @@ import { logoMarkdown } from "ionicons/icons";
 
 addIcons({ logoMarkdown });
 
-export let iconLogoMarkdown = logoMarkdown;
+export let iconLogoMarkdown = "logoMarkdown";

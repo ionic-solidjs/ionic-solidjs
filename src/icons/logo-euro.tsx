@@ -6,4 +6,4 @@ import { logoEuro } from "ionicons/icons";
 
 addIcons({ logoEuro });
 
-export let iconLogoEuro = logoEuro;
+export let iconLogoEuro = "logoEuro";

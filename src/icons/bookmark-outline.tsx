@@ -6,4 +6,4 @@ import { bookmarkOutline } from "ionicons/icons";
 
 addIcons({ bookmarkOutline });
 
-export let iconBookmarkOutline = bookmarkOutline;
+export let iconBookmarkOutline = "bookmarkOutline";

@@ -6,4 +6,4 @@ import { flowerOutline } from "ionicons/icons";
 
 addIcons({ flowerOutline });
 
-export let iconFlowerOutline = flowerOutline;
+export let iconFlowerOutline = "flowerOutline";

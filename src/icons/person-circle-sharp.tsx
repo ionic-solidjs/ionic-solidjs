@@ -6,4 +6,4 @@ import { personCircleSharp } from "ionicons/icons";
 
 addIcons({ personCircleSharp });
 
-export let iconPersonCircleSharp = personCircleSharp;
+export let iconPersonCircleSharp = "personCircleSharp";

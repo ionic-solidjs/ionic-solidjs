@@ -6,4 +6,4 @@ import { cut } from "ionicons/icons";
 
 addIcons({ cut });
 
-export let iconCut = cut;
+export let iconCut = "cut";

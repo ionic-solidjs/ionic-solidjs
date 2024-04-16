@@ -6,4 +6,4 @@ import { school } from "ionicons/icons";
 
 addIcons({ school });
 
-export let iconSchool = school;
+export let iconSchool = "school";

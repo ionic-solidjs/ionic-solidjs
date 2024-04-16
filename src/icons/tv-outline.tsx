@@ -6,4 +6,4 @@ import { tvOutline } from "ionicons/icons";
 
 addIcons({ tvOutline });
 
-export let iconTvOutline = tvOutline;
+export let iconTvOutline = "tvOutline";

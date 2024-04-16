@@ -6,4 +6,4 @@ import { layersOutline } from "ionicons/icons";
 
 addIcons({ layersOutline });
 
-export let iconLayersOutline = layersOutline;
+export let iconLayersOutline = "layersOutline";

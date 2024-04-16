@@ -6,4 +6,4 @@ import { magnet } from "ionicons/icons";
 
 addIcons({ magnet });
 
-export let iconMagnet = magnet;
+export let iconMagnet = "magnet";

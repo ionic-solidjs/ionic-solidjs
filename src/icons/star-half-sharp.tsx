@@ -6,4 +6,4 @@ import { starHalfSharp } from "ionicons/icons";
 
 addIcons({ starHalfSharp });
 
-export let iconStarHalfSharp = starHalfSharp;
+export let iconStarHalfSharp = "starHalfSharp";

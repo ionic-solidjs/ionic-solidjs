@@ -6,4 +6,4 @@ import { saveOutline } from "ionicons/icons";
 
 addIcons({ saveOutline });
 
-export let iconSaveOutline = saveOutline;
+export let iconSaveOutline = "saveOutline";

@@ -6,4 +6,4 @@ import { shieldHalfOutline } from "ionicons/icons";
 
 addIcons({ shieldHalfOutline });
 
-export let iconShieldHalfOutline = shieldHalfOutline;
+export let iconShieldHalfOutline = "shieldHalfOutline";

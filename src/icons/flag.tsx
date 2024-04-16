@@ -6,4 +6,4 @@ import { flag } from "ionicons/icons";
 
 addIcons({ flag });
 
-export let iconFlag = flag;
+export let iconFlag = "flag";

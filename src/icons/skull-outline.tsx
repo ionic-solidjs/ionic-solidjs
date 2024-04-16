@@ -6,4 +6,4 @@ import { skullOutline } from "ionicons/icons";
 
 addIcons({ skullOutline });
 
-export let iconSkullOutline = skullOutline;
+export let iconSkullOutline = "skullOutline";

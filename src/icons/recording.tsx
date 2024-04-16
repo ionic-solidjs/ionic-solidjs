@@ -6,4 +6,4 @@ import { recording } from "ionicons/icons";
 
 addIcons({ recording });
 
-export let iconRecording = recording;
+export let iconRecording = "recording";

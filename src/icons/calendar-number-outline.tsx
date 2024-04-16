@@ -6,4 +6,4 @@ import { calendarNumberOutline } from "ionicons/icons";
 
 addIcons({ calendarNumberOutline });
 
-export let iconCalendarNumberOutline = calendarNumberOutline;
+export let iconCalendarNumberOutline = "calendarNumberOutline";

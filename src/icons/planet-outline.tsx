@@ -6,4 +6,4 @@ import { planetOutline } from "ionicons/icons";
 
 addIcons({ planetOutline });
 
-export let iconPlanetOutline = planetOutline;
+export let iconPlanetOutline = "planetOutline";

@@ -6,4 +6,4 @@ import { arrowDownCircleOutline } from "ionicons/icons";
 
 addIcons({ arrowDownCircleOutline });
 
-export let iconArrowDownCircleOutline = arrowDownCircleOutline;
+export let iconArrowDownCircleOutline = "arrowDownCircleOutline";

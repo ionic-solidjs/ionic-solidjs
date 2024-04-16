@@ -6,4 +6,4 @@ import { contrastOutline } from "ionicons/icons";
 
 addIcons({ contrastOutline });
 
-export let iconContrastOutline = contrastOutline;
+export let iconContrastOutline = "contrastOutline";

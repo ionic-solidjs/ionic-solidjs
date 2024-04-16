@@ -6,4 +6,4 @@ import { earSharp } from "ionicons/icons";
 
 addIcons({ earSharp });
 
-export let iconEarSharp = earSharp;
+export let iconEarSharp = "earSharp";

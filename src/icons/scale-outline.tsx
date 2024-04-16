@@ -6,4 +6,4 @@ import { scaleOutline } from "ionicons/icons";
 
 addIcons({ scaleOutline });
 
-export let iconScaleOutline = scaleOutline;
+export let iconScaleOutline = "scaleOutline";

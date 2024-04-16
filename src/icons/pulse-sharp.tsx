@@ -6,4 +6,4 @@ import { pulseSharp } from "ionicons/icons";
 
 addIcons({ pulseSharp });
 
-export let iconPulseSharp = pulseSharp;
+export let iconPulseSharp = "pulseSharp";

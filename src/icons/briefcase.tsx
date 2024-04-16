@@ -6,4 +6,4 @@ import { briefcase } from "ionicons/icons";
 
 addIcons({ briefcase });
 
-export let iconBriefcase = briefcase;
+export let iconBriefcase = "briefcase";

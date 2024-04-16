@@ -6,4 +6,4 @@ import { starHalfOutline } from "ionicons/icons";
 
 addIcons({ starHalfOutline });
 
-export let iconStarHalfOutline = starHalfOutline;
+export let iconStarHalfOutline = "starHalfOutline";

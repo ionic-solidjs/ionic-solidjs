@@ -6,4 +6,4 @@ import { stopOutline } from "ionicons/icons";
 
 addIcons({ stopOutline });
 
-export let iconStopOutline = stopOutline;
+export let iconStopOutline = "stopOutline";

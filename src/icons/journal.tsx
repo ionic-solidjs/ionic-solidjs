@@ -6,4 +6,4 @@ import { journal } from "ionicons/icons";
 
 addIcons({ journal });
 
-export let iconJournal = journal;
+export let iconJournal = "journal";

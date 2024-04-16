@@ -6,4 +6,4 @@ import { pulseOutline } from "ionicons/icons";
 
 addIcons({ pulseOutline });
 
-export let iconPulseOutline = pulseOutline;
+export let iconPulseOutline = "pulseOutline";

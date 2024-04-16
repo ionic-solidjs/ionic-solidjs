@@ -6,4 +6,4 @@ import { logoAlipay } from "ionicons/icons";
 
 addIcons({ logoAlipay });
 
-export let iconLogoAlipay = logoAlipay;
+export let iconLogoAlipay = "logoAlipay";

@@ -6,4 +6,4 @@ import { logoBitcoin } from "ionicons/icons";
 
 addIcons({ logoBitcoin });
 
-export let iconLogoBitcoin = logoBitcoin;
+export let iconLogoBitcoin = "logoBitcoin";

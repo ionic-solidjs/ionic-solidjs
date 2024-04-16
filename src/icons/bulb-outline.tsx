@@ -6,4 +6,4 @@ import { bulbOutline } from "ionicons/icons";
 
 addIcons({ bulbOutline });
 
-export let iconBulbOutline = bulbOutline;
+export let iconBulbOutline = "bulbOutline";

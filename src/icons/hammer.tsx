@@ -6,4 +6,4 @@ import { hammer } from "ionicons/icons";
 
 addIcons({ hammer });
 
-export let iconHammer = hammer;
+export let iconHammer = "hammer";

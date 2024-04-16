@@ -6,4 +6,4 @@ import { grid } from "ionicons/icons";
 
 addIcons({ grid });
 
-export let iconGrid = grid;
+export let iconGrid = "grid";

@@ -6,4 +6,4 @@ import { bonfireOutline } from "ionicons/icons";
 
 addIcons({ bonfireOutline });
 
-export let iconBonfireOutline = bonfireOutline;
+export let iconBonfireOutline = "bonfireOutline";

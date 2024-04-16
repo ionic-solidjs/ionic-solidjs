@@ -6,4 +6,4 @@ import { contract } from "ionicons/icons";
 
 addIcons({ contract });
 
-export let iconContract = contract;
+export let iconContract = "contract";

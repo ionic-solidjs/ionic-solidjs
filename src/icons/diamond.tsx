@@ -6,4 +6,4 @@ import { diamond } from "ionicons/icons";
 
 addIcons({ diamond });
 
-export let iconDiamond = diamond;
+export let iconDiamond = "diamond";

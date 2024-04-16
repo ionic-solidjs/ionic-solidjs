@@ -6,4 +6,4 @@ import { radioButtonOnOutline } from "ionicons/icons";
 
 addIcons({ radioButtonOnOutline });
 
-export let iconRadioButtonOnOutline = radioButtonOnOutline;
+export let iconRadioButtonOnOutline = "radioButtonOnOutline";

@@ -6,4 +6,4 @@ import { waterOutline } from "ionicons/icons";
 
 addIcons({ waterOutline });
 
-export let iconWaterOutline = waterOutline;
+export let iconWaterOutline = "waterOutline";

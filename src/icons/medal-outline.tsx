@@ -6,4 +6,4 @@ import { medalOutline } from "ionicons/icons";
 
 addIcons({ medalOutline });
 
-export let iconMedalOutline = medalOutline;
+export let iconMedalOutline = "medalOutline";

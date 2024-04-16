@@ -6,4 +6,4 @@ import { basketSharp } from "ionicons/icons";
 
 addIcons({ basketSharp });
 
-export let iconBasketSharp = basketSharp;
+export let iconBasketSharp = "basketSharp";

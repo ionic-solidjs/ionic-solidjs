@@ -6,4 +6,4 @@ import { flask } from "ionicons/icons";
 
 addIcons({ flask });
 
-export let iconFlask = flask;
+export let iconFlask = "flask";

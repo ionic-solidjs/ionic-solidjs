@@ -6,4 +6,4 @@ import { logoVimeo } from "ionicons/icons";
 
 addIcons({ logoVimeo });
 
-export let iconLogoVimeo = logoVimeo;
+export let iconLogoVimeo = "logoVimeo";

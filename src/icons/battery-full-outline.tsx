@@ -6,4 +6,4 @@ import { batteryFullOutline } from "ionicons/icons";
 
 addIcons({ batteryFullOutline });
 
-export let iconBatteryFullOutline = batteryFullOutline;
+export let iconBatteryFullOutline = "batteryFullOutline";

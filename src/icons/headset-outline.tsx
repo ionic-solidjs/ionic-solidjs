@@ -6,4 +6,4 @@ import { headsetOutline } from "ionicons/icons";
 
 addIcons({ headsetOutline });
 
-export let iconHeadsetOutline = headsetOutline;
+export let iconHeadsetOutline = "headsetOutline";

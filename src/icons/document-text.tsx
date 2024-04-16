@@ -6,4 +6,4 @@ import { documentText } from "ionicons/icons";
 
 addIcons({ documentText });
 
-export let iconDocumentText = documentText;
+export let iconDocumentText = "documentText";

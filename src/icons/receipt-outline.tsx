@@ -6,4 +6,4 @@ import { receiptOutline } from "ionicons/icons";
 
 addIcons({ receiptOutline });
 
-export let iconReceiptOutline = receiptOutline;
+export let iconReceiptOutline = "receiptOutline";

@@ -6,4 +6,4 @@ import { iceCream } from "ionicons/icons";
 
 addIcons({ iceCream });
 
-export let iconIceCream = iceCream;
+export let iconIceCream = "iceCream";

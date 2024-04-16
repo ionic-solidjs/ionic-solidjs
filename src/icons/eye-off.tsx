@@ -6,4 +6,4 @@ import { eyeOff } from "ionicons/icons";
 
 addIcons({ eyeOff });
 
-export let iconEyeOff = eyeOff;
+export let iconEyeOff = "eyeOff";

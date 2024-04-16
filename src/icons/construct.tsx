@@ -6,4 +6,4 @@ import { construct } from "ionicons/icons";
 
 addIcons({ construct });
 
-export let iconConstruct = construct;
+export let iconConstruct = "construct";

@@ -6,4 +6,4 @@ import { eggOutline } from "ionicons/icons";
 
 addIcons({ eggOutline });
 
-export let iconEggOutline = eggOutline;
+export let iconEggOutline = "eggOutline";

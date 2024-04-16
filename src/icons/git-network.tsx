@@ -6,4 +6,4 @@ import { gitNetwork } from "ionicons/icons";
 
 addIcons({ gitNetwork });
 
-export let iconGitNetwork = gitNetwork;
+export let iconGitNetwork = "gitNetwork";

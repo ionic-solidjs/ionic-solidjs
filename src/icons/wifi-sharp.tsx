@@ -6,4 +6,4 @@ import { wifiSharp } from "ionicons/icons";
 
 addIcons({ wifiSharp });
 
-export let iconWifiSharp = wifiSharp;
+export let iconWifiSharp = "wifiSharp";

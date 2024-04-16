@@ -6,4 +6,4 @@ import { bedOutline } from "ionicons/icons";
 
 addIcons({ bedOutline });
 
-export let iconBedOutline = bedOutline;
+export let iconBedOutline = "bedOutline";

@@ -6,4 +6,4 @@ import { train } from "ionicons/icons";
 
 addIcons({ train });
 
-export let iconTrain = train;
+export let iconTrain = "train";

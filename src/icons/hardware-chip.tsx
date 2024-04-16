@@ -6,4 +6,4 @@ import { hardwareChip } from "ionicons/icons";
 
 addIcons({ hardwareChip });
 
-export let iconHardwareChip = hardwareChip;
+export let iconHardwareChip = "hardwareChip";

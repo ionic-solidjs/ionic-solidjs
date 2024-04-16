@@ -6,4 +6,4 @@ import { leafOutline } from "ionicons/icons";
 
 addIcons({ leafOutline });
 
-export let iconLeafOutline = leafOutline;
+export let iconLeafOutline = "leafOutline";

@@ -6,4 +6,4 @@ import { cloudDownload } from "ionicons/icons";
 
 addIcons({ cloudDownload });
 
-export let iconCloudDownload = cloudDownload;
+export let iconCloudDownload = "cloudDownload";

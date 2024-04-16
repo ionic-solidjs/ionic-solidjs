@@ -6,4 +6,4 @@ import { save } from "ionicons/icons";
 
 addIcons({ save });
 
-export let iconSave = save;
+export let iconSave = "save";

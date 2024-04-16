@@ -6,4 +6,4 @@ import { trophySharp } from "ionicons/icons";
 
 addIcons({ trophySharp });
 
-export let iconTrophySharp = trophySharp;
+export let iconTrophySharp = "trophySharp";

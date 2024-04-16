@@ -6,4 +6,4 @@ import { flowerSharp } from "ionicons/icons";
 
 addIcons({ flowerSharp });
 
-export let iconFlowerSharp = flowerSharp;
+export let iconFlowerSharp = "flowerSharp";

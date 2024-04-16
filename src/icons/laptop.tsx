@@ -6,4 +6,4 @@ import { laptop } from "ionicons/icons";
 
 addIcons({ laptop });
 
-export let iconLaptop = laptop;
+export let iconLaptop = "laptop";

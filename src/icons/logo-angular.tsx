@@ -6,4 +6,4 @@ import { logoAngular } from "ionicons/icons";
 
 addIcons({ logoAngular });
 
-export let iconLogoAngular = logoAngular;
+export let iconLogoAngular = "logoAngular";

@@ -6,4 +6,4 @@ import { wineSharp } from "ionicons/icons";
 
 addIcons({ wineSharp });
 
-export let iconWineSharp = wineSharp;
+export let iconWineSharp = "wineSharp";

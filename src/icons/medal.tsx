@@ -6,4 +6,4 @@ import { medal } from "ionicons/icons";
 
 addIcons({ medal });
 
-export let iconMedal = medal;
+export let iconMedal = "medal";

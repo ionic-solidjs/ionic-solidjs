@@ -6,4 +6,4 @@ import { readerOutline } from "ionicons/icons";
 
 addIcons({ readerOutline });
 
-export let iconReaderOutline = readerOutline;
+export let iconReaderOutline = "readerOutline";

@@ -6,4 +6,4 @@ import { logoTwitter } from "ionicons/icons";
 
 addIcons({ logoTwitter });
 
-export let iconLogoTwitter = logoTwitter;
+export let iconLogoTwitter = "logoTwitter";

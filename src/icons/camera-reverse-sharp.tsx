@@ -6,4 +6,4 @@ import { cameraReverseSharp } from "ionicons/icons";
 
 addIcons({ cameraReverseSharp });
 
-export let iconCameraReverseSharp = cameraReverseSharp;
+export let iconCameraReverseSharp = "cameraReverseSharp";

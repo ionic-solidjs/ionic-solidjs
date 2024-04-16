@@ -6,4 +6,4 @@ import { cameraOutline } from "ionicons/icons";
 
 addIcons({ cameraOutline });
 
-export let iconCameraOutline = cameraOutline;
+export let iconCameraOutline = "cameraOutline";

@@ -6,4 +6,4 @@ import { swapHorizontal } from "ionicons/icons";
 
 addIcons({ swapHorizontal });
 
-export let iconSwapHorizontal = swapHorizontal;
+export let iconSwapHorizontal = "swapHorizontal";

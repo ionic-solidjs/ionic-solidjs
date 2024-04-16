@@ -6,4 +6,4 @@ import { shareSocial } from "ionicons/icons";
 
 addIcons({ shareSocial });
 
-export let iconShareSocial = shareSocial;
+export let iconShareSocial = "shareSocial";

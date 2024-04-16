@@ -6,4 +6,4 @@ import { terminalOutline } from "ionicons/icons";
 
 addIcons({ terminalOutline });
 
-export let iconTerminalOutline = terminalOutline;
+export let iconTerminalOutline = "terminalOutline";

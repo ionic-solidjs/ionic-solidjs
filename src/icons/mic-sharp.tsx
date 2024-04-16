@@ -6,4 +6,4 @@ import { micSharp } from "ionicons/icons";
 
 addIcons({ micSharp });
 
-export let iconMicSharp = micSharp;
+export let iconMicSharp = "micSharp";

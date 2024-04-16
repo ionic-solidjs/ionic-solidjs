@@ -6,4 +6,4 @@ import { subwaySharp } from "ionicons/icons";
 
 addIcons({ subwaySharp });
 
-export let iconSubwaySharp = subwaySharp;
+export let iconSubwaySharp = "subwaySharp";

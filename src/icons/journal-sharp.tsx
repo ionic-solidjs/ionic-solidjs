@@ -6,4 +6,4 @@ import { journalSharp } from "ionicons/icons";
 
 addIcons({ journalSharp });
 
-export let iconJournalSharp = journalSharp;
+export let iconJournalSharp = "journalSharp";

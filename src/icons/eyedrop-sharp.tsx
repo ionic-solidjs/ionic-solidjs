@@ -6,4 +6,4 @@ import { eyedropSharp } from "ionicons/icons";
 
 addIcons({ eyedropSharp });
 
-export let iconEyedropSharp = eyedropSharp;
+export let iconEyedropSharp = "eyedropSharp";

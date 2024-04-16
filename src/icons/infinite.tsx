@@ -6,4 +6,4 @@ import { infinite } from "ionicons/icons";
 
 addIcons({ infinite });
 
-export let iconInfinite = infinite;
+export let iconInfinite = "infinite";

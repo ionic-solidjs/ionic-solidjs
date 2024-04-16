@@ -6,4 +6,4 @@ import { desktop } from "ionicons/icons";
 
 addIcons({ desktop });
 
-export let iconDesktop = desktop;
+export let iconDesktop = "desktop";

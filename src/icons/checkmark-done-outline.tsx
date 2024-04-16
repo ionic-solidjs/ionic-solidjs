@@ -6,4 +6,4 @@ import { checkmarkDoneOutline } from "ionicons/icons";
 
 addIcons({ checkmarkDoneOutline });
 
-export let iconCheckmarkDoneOutline = checkmarkDoneOutline;
+export let iconCheckmarkDoneOutline = "checkmarkDoneOutline";

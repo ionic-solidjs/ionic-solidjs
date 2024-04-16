@@ -6,4 +6,4 @@ import { checkboxSharp } from "ionicons/icons";
 
 addIcons({ checkboxSharp });
 
-export let iconCheckboxSharp = checkboxSharp;
+export let iconCheckboxSharp = "checkboxSharp";

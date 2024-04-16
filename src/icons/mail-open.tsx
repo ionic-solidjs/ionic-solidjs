@@ -6,4 +6,4 @@ import { mailOpen } from "ionicons/icons";
 
 addIcons({ mailOpen });
 
-export let iconMailOpen = mailOpen;
+export let iconMailOpen = "mailOpen";

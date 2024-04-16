@@ -6,4 +6,4 @@ import { colorFill } from "ionicons/icons";
 
 addIcons({ colorFill });
 
-export let iconColorFill = colorFill;
+export let iconColorFill = "colorFill";

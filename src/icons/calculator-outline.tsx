@@ -6,4 +6,4 @@ import { calculatorOutline } from "ionicons/icons";
 
 addIcons({ calculatorOutline });
 
-export let iconCalculatorOutline = calculatorOutline;
+export let iconCalculatorOutline = "calculatorOutline";

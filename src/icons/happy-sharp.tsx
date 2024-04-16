@@ -6,4 +6,4 @@ import { happySharp } from "ionicons/icons";
 
 addIcons({ happySharp });
 
-export let iconHappySharp = happySharp;
+export let iconHappySharp = "happySharp";

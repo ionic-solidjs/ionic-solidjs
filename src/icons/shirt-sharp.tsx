@@ -6,4 +6,4 @@ import { shirtSharp } from "ionicons/icons";
 
 addIcons({ shirtSharp });
 
-export let iconShirtSharp = shirtSharp;
+export let iconShirtSharp = "shirtSharp";

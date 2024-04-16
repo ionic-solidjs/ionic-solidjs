@@ -6,4 +6,4 @@ import { subwayOutline } from "ionicons/icons";
 
 addIcons({ subwayOutline });
 
-export let iconSubwayOutline = subwayOutline;
+export let iconSubwayOutline = "subwayOutline";

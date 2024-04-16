@@ -6,4 +6,4 @@ import { shareOutline } from "ionicons/icons";
 
 addIcons({ shareOutline });
 
-export let iconShareOutline = shareOutline;
+export let iconShareOutline = "shareOutline";

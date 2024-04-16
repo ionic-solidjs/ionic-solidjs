@@ -6,4 +6,4 @@ import { logoPaypal } from "ionicons/icons";
 
 addIcons({ logoPaypal });
 
-export let iconLogoPaypal = logoPaypal;
+export let iconLogoPaypal = "logoPaypal";

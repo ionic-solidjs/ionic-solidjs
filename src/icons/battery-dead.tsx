@@ -6,4 +6,4 @@ import { batteryDead } from "ionicons/icons";
 
 addIcons({ batteryDead });
 
-export let iconBatteryDead = batteryDead;
+export let iconBatteryDead = "batteryDead";

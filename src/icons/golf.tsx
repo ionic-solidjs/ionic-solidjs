@@ -6,4 +6,4 @@ import { golf } from "ionicons/icons";
 
 addIcons({ golf });
 
-export let iconGolf = golf;
+export let iconGolf = "golf";

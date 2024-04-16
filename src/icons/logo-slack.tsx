@@ -6,4 +6,4 @@ import { logoSlack } from "ionicons/icons";
 
 addIcons({ logoSlack });
 
-export let iconLogoSlack = logoSlack;
+export let iconLogoSlack = "logoSlack";

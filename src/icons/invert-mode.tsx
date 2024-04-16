@@ -6,4 +6,4 @@ import { invertMode } from "ionicons/icons";
 
 addIcons({ invertMode });
 
-export let iconInvertMode = invertMode;
+export let iconInvertMode = "invertMode";

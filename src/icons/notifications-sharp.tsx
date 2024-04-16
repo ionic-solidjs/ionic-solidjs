@@ -6,4 +6,4 @@ import { notificationsSharp } from "ionicons/icons";
 
 addIcons({ notificationsSharp });
 
-export let iconNotificationsSharp = notificationsSharp;
+export let iconNotificationsSharp = "notificationsSharp";

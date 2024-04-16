@@ -6,4 +6,4 @@ import { gitMergeOutline } from "ionicons/icons";
 
 addIcons({ gitMergeOutline });
 
-export let iconGitMergeOutline = gitMergeOutline;
+export let iconGitMergeOutline = "gitMergeOutline";

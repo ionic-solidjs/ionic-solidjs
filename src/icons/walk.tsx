@@ -6,4 +6,4 @@ import { walk } from "ionicons/icons";
 
 addIcons({ walk });
 
-export let iconWalk = walk;
+export let iconWalk = "walk";

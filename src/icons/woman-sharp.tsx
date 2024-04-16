@@ -6,4 +6,4 @@ import { womanSharp } from "ionicons/icons";
 
 addIcons({ womanSharp });
 
-export let iconWomanSharp = womanSharp;
+export let iconWomanSharp = "womanSharp";

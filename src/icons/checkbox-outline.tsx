@@ -6,4 +6,4 @@ import { checkboxOutline } from "ionicons/icons";
 
 addIcons({ checkboxOutline });
 
-export let iconCheckboxOutline = checkboxOutline;
+export let iconCheckboxOutline = "checkboxOutline";

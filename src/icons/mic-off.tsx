@@ -6,4 +6,4 @@ import { micOff } from "ionicons/icons";
 
 addIcons({ micOff });
 
-export let iconMicOff = micOff;
+export let iconMicOff = "micOff";

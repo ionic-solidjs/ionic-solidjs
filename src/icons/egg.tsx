@@ -6,4 +6,4 @@ import { egg } from "ionicons/icons";
 
 addIcons({ egg });
 
-export let iconEgg = egg;
+export let iconEgg = "egg";

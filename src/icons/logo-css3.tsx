@@ -6,4 +6,4 @@ import { logoCss3 } from "ionicons/icons";
 
 addIcons({ logoCss3 });
 
-export let iconLogoCss3 = logoCss3;
+export let iconLogoCss3 = "logoCss3";

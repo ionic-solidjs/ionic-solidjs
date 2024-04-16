@@ -6,4 +6,4 @@ import { downloadOutline } from "ionicons/icons";
 
 addIcons({ downloadOutline });
 
-export let iconDownloadOutline = downloadOutline;
+export let iconDownloadOutline = "downloadOutline";

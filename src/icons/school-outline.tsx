@@ -6,4 +6,4 @@ import { schoolOutline } from "ionicons/icons";
 
 addIcons({ schoolOutline });
 
-export let iconSchoolOutline = schoolOutline;
+export let iconSchoolOutline = "schoolOutline";

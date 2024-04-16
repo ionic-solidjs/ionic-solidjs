@@ -6,4 +6,4 @@ import { desktopSharp } from "ionicons/icons";
 
 addIcons({ desktopSharp });
 
-export let iconDesktopSharp = desktopSharp;
+export let iconDesktopSharp = "desktopSharp";

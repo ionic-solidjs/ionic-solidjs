@@ -6,4 +6,4 @@ import { micOffCircleSharp } from "ionicons/icons";
 
 addIcons({ micOffCircleSharp });
 
-export let iconMicOffCircleSharp = micOffCircleSharp;
+export let iconMicOffCircleSharp = "micOffCircleSharp";

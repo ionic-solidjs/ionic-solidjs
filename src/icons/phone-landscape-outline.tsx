@@ -6,4 +6,4 @@ import { phoneLandscapeOutline } from "ionicons/icons";
 
 addIcons({ phoneLandscapeOutline });
 
-export let iconPhoneLandscapeOutline = phoneLandscapeOutline;
+export let iconPhoneLandscapeOutline = "phoneLandscapeOutline";

@@ -6,4 +6,4 @@ import { settings } from "ionicons/icons";
 
 addIcons({ settings });
 
-export let iconSettings = settings;
+export let iconSettings = "settings";

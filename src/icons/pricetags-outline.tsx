@@ -6,4 +6,4 @@ import { pricetagsOutline } from "ionicons/icons";
 
 addIcons({ pricetagsOutline });
 
-export let iconPricetagsOutline = pricetagsOutline;
+export let iconPricetagsOutline = "pricetagsOutline";

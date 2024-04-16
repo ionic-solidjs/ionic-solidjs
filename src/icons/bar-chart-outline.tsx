@@ -6,4 +6,4 @@ import { barChartOutline } from "ionicons/icons";
 
 addIcons({ barChartOutline });
 
-export let iconBarChartOutline = barChartOutline;
+export let iconBarChartOutline = "barChartOutline";

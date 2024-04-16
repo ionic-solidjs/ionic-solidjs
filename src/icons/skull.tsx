@@ -6,4 +6,4 @@ import { skull } from "ionicons/icons";
 
 addIcons({ skull });
 
-export let iconSkull = skull;
+export let iconSkull = "skull";

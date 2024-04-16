@@ -6,4 +6,4 @@ import { cloudUploadSharp } from "ionicons/icons";
 
 addIcons({ cloudUploadSharp });
 
-export let iconCloudUploadSharp = cloudUploadSharp;
+export let iconCloudUploadSharp = "cloudUploadSharp";

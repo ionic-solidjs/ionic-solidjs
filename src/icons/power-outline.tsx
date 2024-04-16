@@ -6,4 +6,4 @@ import { powerOutline } from "ionicons/icons";
 
 addIcons({ powerOutline });
 
-export let iconPowerOutline = powerOutline;
+export let iconPowerOutline = "powerOutline";

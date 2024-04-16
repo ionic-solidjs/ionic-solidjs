@@ -6,4 +6,4 @@ import { diamondOutline } from "ionicons/icons";
 
 addIcons({ diamondOutline });
 
-export let iconDiamondOutline = diamondOutline;
+export let iconDiamondOutline = "diamondOutline";

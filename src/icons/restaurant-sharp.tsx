@@ -6,4 +6,4 @@ import { restaurantSharp } from "ionicons/icons";
 
 addIcons({ restaurantSharp });
 
-export let iconRestaurantSharp = restaurantSharp;
+export let iconRestaurantSharp = "restaurantSharp";

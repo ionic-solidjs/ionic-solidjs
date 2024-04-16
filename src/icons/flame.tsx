@@ -6,4 +6,4 @@ import { flame } from "ionicons/icons";
 
 addIcons({ flame });
 
-export let iconFlame = flame;
+export let iconFlame = "flame";

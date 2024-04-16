@@ -6,4 +6,4 @@ import { searchSharp } from "ionicons/icons";
 
 addIcons({ searchSharp });
 
-export let iconSearchSharp = searchSharp;
+export let iconSearchSharp = "searchSharp";

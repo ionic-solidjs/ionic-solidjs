@@ -6,4 +6,4 @@ import { pushSharp } from "ionicons/icons";
 
 addIcons({ pushSharp });
 
-export let iconPushSharp = pushSharp;
+export let iconPushSharp = "pushSharp";

@@ -6,4 +6,4 @@ import { logoFlickr } from "ionicons/icons";
 
 addIcons({ logoFlickr });
 
-export let iconLogoFlickr = logoFlickr;
+export let iconLogoFlickr = "logoFlickr";

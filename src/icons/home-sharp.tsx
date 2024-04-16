@@ -6,4 +6,4 @@ import { homeSharp } from "ionicons/icons";
 
 addIcons({ homeSharp });
 
-export let iconHomeSharp = homeSharp;
+export let iconHomeSharp = "homeSharp";

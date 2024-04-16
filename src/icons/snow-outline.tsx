@@ -6,4 +6,4 @@ import { snowOutline } from "ionicons/icons";
 
 addIcons({ snowOutline });
 
-export let iconSnowOutline = snowOutline;
+export let iconSnowOutline = "snowOutline";

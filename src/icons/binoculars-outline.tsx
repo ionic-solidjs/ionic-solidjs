@@ -6,4 +6,4 @@ import { binocularsOutline } from "ionicons/icons";
 
 addIcons({ binocularsOutline });
 
-export let iconBinocularsOutline = binocularsOutline;
+export let iconBinocularsOutline = "binocularsOutline";

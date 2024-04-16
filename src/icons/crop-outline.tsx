@@ -6,4 +6,4 @@ import { cropOutline } from "ionicons/icons";
 
 addIcons({ cropOutline });
 
-export let iconCropOutline = cropOutline;
+export let iconCropOutline = "cropOutline";

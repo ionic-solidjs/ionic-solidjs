@@ -6,4 +6,4 @@ import { moonOutline } from "ionicons/icons";
 
 addIcons({ moonOutline });
 
-export let iconMoonOutline = moonOutline;
+export let iconMoonOutline = "moonOutline";

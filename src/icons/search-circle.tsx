@@ -6,4 +6,4 @@ import { searchCircle } from "ionicons/icons";
 
 addIcons({ searchCircle });
 
-export let iconSearchCircle = searchCircle;
+export let iconSearchCircle = "searchCircle";

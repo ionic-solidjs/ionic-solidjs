@@ -6,4 +6,4 @@ import { logoStackoverflow } from "ionicons/icons";
 
 addIcons({ logoStackoverflow });
 
-export let iconLogoStackoverflow = logoStackoverflow;
+export let iconLogoStackoverflow = "logoStackoverflow";

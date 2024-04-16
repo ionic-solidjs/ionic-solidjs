@@ -6,4 +6,4 @@ import { returnUpBackSharp } from "ionicons/icons";
 
 addIcons({ returnUpBackSharp });
 
-export let iconReturnUpBackSharp = returnUpBackSharp;
+export let iconReturnUpBackSharp = "returnUpBackSharp";

@@ -6,4 +6,4 @@ import { mailSharp } from "ionicons/icons";
 
 addIcons({ mailSharp });
 
-export let iconMailSharp = mailSharp;
+export let iconMailSharp = "mailSharp";

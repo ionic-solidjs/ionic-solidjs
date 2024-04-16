@@ -6,4 +6,4 @@ import { sunnyOutline } from "ionicons/icons";
 
 addIcons({ sunnyOutline });
 
-export let iconSunnyOutline = sunnyOutline;
+export let iconSunnyOutline = "sunnyOutline";

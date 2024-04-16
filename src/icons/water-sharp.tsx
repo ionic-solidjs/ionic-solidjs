@@ -6,4 +6,4 @@ import { waterSharp } from "ionicons/icons";
 
 addIcons({ waterSharp });
 
-export let iconWaterSharp = waterSharp;
+export let iconWaterSharp = "waterSharp";

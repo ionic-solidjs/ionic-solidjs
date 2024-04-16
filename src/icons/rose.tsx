@@ -6,4 +6,4 @@ import { rose } from "ionicons/icons";
 
 addIcons({ rose });
 
-export let iconRose = rose;
+export let iconRose = "rose";

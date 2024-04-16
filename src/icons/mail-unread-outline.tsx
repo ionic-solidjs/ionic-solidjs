@@ -6,4 +6,4 @@ import { mailUnreadOutline } from "ionicons/icons";
 
 addIcons({ mailUnreadOutline });
 
-export let iconMailUnreadOutline = mailUnreadOutline;
+export let iconMailUnreadOutline = "mailUnreadOutline";

@@ -6,4 +6,4 @@ import { notifications } from "ionicons/icons";
 
 addIcons({ notifications });
 
-export let iconNotifications = notifications;
+export let iconNotifications = "notifications";

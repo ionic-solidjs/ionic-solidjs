@@ -6,4 +6,4 @@ import { listCircle } from "ionicons/icons";
 
 addIcons({ listCircle });
 
-export let iconListCircle = listCircle;
+export let iconListCircle = "listCircle";

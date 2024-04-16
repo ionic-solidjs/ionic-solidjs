@@ -6,4 +6,4 @@ import { codeSlashSharp } from "ionicons/icons";
 
 addIcons({ codeSlashSharp });
 
-export let iconCodeSlashSharp = codeSlashSharp;
+export let iconCodeSlashSharp = "codeSlashSharp";

@@ -6,4 +6,4 @@ import { logoGooglePlaystore } from "ionicons/icons";
 
 addIcons({ logoGooglePlaystore });
 
-export let iconLogoGooglePlaystore = logoGooglePlaystore;
+export let iconLogoGooglePlaystore = "logoGooglePlaystore";

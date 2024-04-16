@@ -6,4 +6,4 @@ import { homeOutline } from "ionicons/icons";
 
 addIcons({ homeOutline });
 
-export let iconHomeOutline = homeOutline;
+export let iconHomeOutline = "homeOutline";

@@ -6,4 +6,4 @@ import { scanSharp } from "ionicons/icons";
 
 addIcons({ scanSharp });
 
-export let iconScanSharp = scanSharp;
+export let iconScanSharp = "scanSharp";

@@ -6,4 +6,4 @@ import { diceSharp } from "ionicons/icons";
 
 addIcons({ diceSharp });
 
-export let iconDiceSharp = diceSharp;
+export let iconDiceSharp = "diceSharp";

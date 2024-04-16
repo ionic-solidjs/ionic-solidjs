@@ -6,4 +6,4 @@ import { logoRss } from "ionicons/icons";
 
 addIcons({ logoRss });
 
-export let iconLogoRss = logoRss;
+export let iconLogoRss = "logoRss";

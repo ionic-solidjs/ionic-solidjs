@@ -6,4 +6,4 @@ import { logoDribbble } from "ionicons/icons";
 
 addIcons({ logoDribbble });
 
-export let iconLogoDribbble = logoDribbble;
+export let iconLogoDribbble = "logoDribbble";

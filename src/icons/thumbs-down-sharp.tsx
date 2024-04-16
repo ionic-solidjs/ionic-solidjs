@@ -6,4 +6,4 @@ import { thumbsDownSharp } from "ionicons/icons";
 
 addIcons({ thumbsDownSharp });
 
-export let iconThumbsDownSharp = thumbsDownSharp;
+export let iconThumbsDownSharp = "thumbsDownSharp";

@@ -6,4 +6,4 @@ import { chevronBackSharp } from "ionicons/icons";
 
 addIcons({ chevronBackSharp });
 
-export let iconChevronBackSharp = chevronBackSharp;
+export let iconChevronBackSharp = "chevronBackSharp";

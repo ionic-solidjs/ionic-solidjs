@@ -6,4 +6,4 @@ import { carSportOutline } from "ionicons/icons";
 
 addIcons({ carSportOutline });
 
-export let iconCarSportOutline = carSportOutline;
+export let iconCarSportOutline = "carSportOutline";

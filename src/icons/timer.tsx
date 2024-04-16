@@ -6,4 +6,4 @@ import { timer } from "ionicons/icons";
 
 addIcons({ timer });
 
-export let iconTimer = timer;
+export let iconTimer = "timer";

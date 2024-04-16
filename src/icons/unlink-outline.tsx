@@ -6,4 +6,4 @@ import { unlinkOutline } from "ionicons/icons";
 
 addIcons({ unlinkOutline });
 
-export let iconUnlinkOutline = unlinkOutline;
+export let iconUnlinkOutline = "unlinkOutline";

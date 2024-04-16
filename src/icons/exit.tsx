@@ -6,4 +6,4 @@ import { exit } from "ionicons/icons";
 
 addIcons({ exit });
 
-export let iconExit = exit;
+export let iconExit = "exit";

@@ -6,4 +6,4 @@ import { imageSharp } from "ionicons/icons";
 
 addIcons({ imageSharp });
 
-export let iconImageSharp = imageSharp;
+export let iconImageSharp = "imageSharp";

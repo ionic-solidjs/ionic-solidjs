@@ -6,4 +6,4 @@ import { airplaneSharp } from "ionicons/icons";
 
 addIcons({ airplaneSharp });
 
-export let iconAirplaneSharp = airplaneSharp;
+export let iconAirplaneSharp = "airplaneSharp";

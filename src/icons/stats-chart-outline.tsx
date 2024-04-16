@@ -6,4 +6,4 @@ import { statsChartOutline } from "ionicons/icons";
 
 addIcons({ statsChartOutline });
 
-export let iconStatsChartOutline = statsChartOutline;
+export let iconStatsChartOutline = "statsChartOutline";

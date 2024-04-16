@@ -6,4 +6,4 @@ import { terminalSharp } from "ionicons/icons";
 
 addIcons({ terminalSharp });
 
-export let iconTerminalSharp = terminalSharp;
+export let iconTerminalSharp = "terminalSharp";

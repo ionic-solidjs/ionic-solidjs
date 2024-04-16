@@ -6,4 +6,4 @@ import { moonSharp } from "ionicons/icons";
 
 addIcons({ moonSharp });
 
-export let iconMoonSharp = moonSharp;
+export let iconMoonSharp = "moonSharp";

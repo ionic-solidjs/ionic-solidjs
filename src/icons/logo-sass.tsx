@@ -6,4 +6,4 @@ import { logoSass } from "ionicons/icons";
 
 addIcons({ logoSass });
 
-export let iconLogoSass = logoSass;
+export let iconLogoSass = "logoSass";

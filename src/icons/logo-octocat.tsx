@@ -6,4 +6,4 @@ import { logoOctocat } from "ionicons/icons";
 
 addIcons({ logoOctocat });
 
-export let iconLogoOctocat = logoOctocat;
+export let iconLogoOctocat = "logoOctocat";

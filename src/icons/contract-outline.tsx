@@ -6,4 +6,4 @@ import { contractOutline } from "ionicons/icons";
 
 addIcons({ contractOutline });
 
-export let iconContractOutline = contractOutline;
+export let iconContractOutline = "contractOutline";

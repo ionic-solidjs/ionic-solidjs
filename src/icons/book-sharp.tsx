@@ -6,4 +6,4 @@ import { bookSharp } from "ionicons/icons";
 
 addIcons({ bookSharp });
 
-export let iconBookSharp = bookSharp;
+export let iconBookSharp = "bookSharp";

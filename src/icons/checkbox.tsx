@@ -6,4 +6,4 @@ import { checkbox } from "ionicons/icons";
 
 addIcons({ checkbox });
 
-export let iconCheckbox = checkbox;
+export let iconCheckbox = "checkbox";

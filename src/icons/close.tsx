@@ -6,4 +6,4 @@ import { close } from "ionicons/icons";
 
 addIcons({ close });
 
-export let iconClose = close;
+export let iconClose = "close";

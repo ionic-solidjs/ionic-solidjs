@@ -6,4 +6,4 @@ import { documentAttach } from "ionicons/icons";
 
 addIcons({ documentAttach });
 
-export let iconDocumentAttach = documentAttach;
+export let iconDocumentAttach = "documentAttach";

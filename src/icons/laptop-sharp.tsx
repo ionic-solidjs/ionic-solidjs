@@ -6,4 +6,4 @@ import { laptopSharp } from "ionicons/icons";
 
 addIcons({ laptopSharp });
 
-export let iconLaptopSharp = laptopSharp;
+export let iconLaptopSharp = "laptopSharp";

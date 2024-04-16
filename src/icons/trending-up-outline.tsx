@@ -6,4 +6,4 @@ import { trendingUpOutline } from "ionicons/icons";
 
 addIcons({ trendingUpOutline });
 
-export let iconTrendingUpOutline = trendingUpOutline;
+export let iconTrendingUpOutline = "trendingUpOutline";

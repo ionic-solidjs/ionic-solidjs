@@ -6,4 +6,4 @@ import { lockClosed } from "ionicons/icons";
 
 addIcons({ lockClosed });
 
-export let iconLockClosed = lockClosed;
+export let iconLockClosed = "lockClosed";

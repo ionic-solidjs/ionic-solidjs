@@ -6,4 +6,4 @@ import { logoLaravel } from "ionicons/icons";
 
 addIcons({ logoLaravel });
 
-export let iconLogoLaravel = logoLaravel;
+export let iconLogoLaravel = "logoLaravel";

@@ -6,4 +6,4 @@ import { logoAppflow } from "ionicons/icons";
 
 addIcons({ logoAppflow });
 
-export let iconLogoAppflow = logoAppflow;
+export let iconLogoAppflow = "logoAppflow";

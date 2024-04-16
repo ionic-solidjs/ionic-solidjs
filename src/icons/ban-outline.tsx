@@ -6,4 +6,4 @@ import { banOutline } from "ionicons/icons";
 
 addIcons({ banOutline });
 
-export let iconBanOutline = banOutline;
+export let iconBanOutline = "banOutline";

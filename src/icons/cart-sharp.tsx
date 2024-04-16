@@ -6,4 +6,4 @@ import { cartSharp } from "ionicons/icons";
 
 addIcons({ cartSharp });
 
-export let iconCartSharp = cartSharp;
+export let iconCartSharp = "cartSharp";

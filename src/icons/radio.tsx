@@ -6,4 +6,4 @@ import { radio } from "ionicons/icons";
 
 addIcons({ radio });
 
-export let iconRadio = radio;
+export let iconRadio = "radio";

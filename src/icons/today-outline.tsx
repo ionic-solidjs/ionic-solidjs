@@ -6,4 +6,4 @@ import { todayOutline } from "ionicons/icons";
 
 addIcons({ todayOutline });
 
-export let iconTodayOutline = todayOutline;
+export let iconTodayOutline = "todayOutline";

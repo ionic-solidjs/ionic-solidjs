@@ -6,4 +6,4 @@ import { nuclearSharp } from "ionicons/icons";
 
 addIcons({ nuclearSharp });
 
-export let iconNuclearSharp = nuclearSharp;
+export let iconNuclearSharp = "nuclearSharp";

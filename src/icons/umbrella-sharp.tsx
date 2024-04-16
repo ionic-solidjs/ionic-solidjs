@@ -6,4 +6,4 @@ import { umbrellaSharp } from "ionicons/icons";
 
 addIcons({ umbrellaSharp });
 
-export let iconUmbrellaSharp = umbrellaSharp;
+export let iconUmbrellaSharp = "umbrellaSharp";

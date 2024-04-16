@@ -6,4 +6,4 @@ import { repeatOutline } from "ionicons/icons";
 
 addIcons({ repeatOutline });
 
-export let iconRepeatOutline = repeatOutline;
+export let iconRepeatOutline = "repeatOutline";

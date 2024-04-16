@@ -6,4 +6,4 @@ import { navigate } from "ionicons/icons";
 
 addIcons({ navigate });
 
-export let iconNavigate = navigate;
+export let iconNavigate = "navigate";

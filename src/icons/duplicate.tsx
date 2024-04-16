@@ -6,4 +6,4 @@ import { duplicate } from "ionicons/icons";
 
 addIcons({ duplicate });
 
-export let iconDuplicate = duplicate;
+export let iconDuplicate = "duplicate";

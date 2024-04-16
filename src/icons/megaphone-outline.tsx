@@ -6,4 +6,4 @@ import { megaphoneOutline } from "ionicons/icons";
 
 addIcons({ megaphoneOutline });
 
-export let iconMegaphoneOutline = megaphoneOutline;
+export let iconMegaphoneOutline = "megaphoneOutline";

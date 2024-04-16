@@ -6,4 +6,4 @@ import { alertCircleOutline } from "ionicons/icons";
 
 addIcons({ alertCircleOutline });
 
-export let iconAlertCircleOutline = alertCircleOutline;
+export let iconAlertCircleOutline = "alertCircleOutline";

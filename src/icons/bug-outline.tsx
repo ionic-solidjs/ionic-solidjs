@@ -6,4 +6,4 @@ import { bugOutline } from "ionicons/icons";
 
 addIcons({ bugOutline });
 
-export let iconBugOutline = bugOutline;
+export let iconBugOutline = "bugOutline";

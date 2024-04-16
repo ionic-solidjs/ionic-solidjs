@@ -6,4 +6,4 @@ import { pencil } from "ionicons/icons";
 
 addIcons({ pencil });
 
-export let iconPencil = pencil;
+export let iconPencil = "pencil";

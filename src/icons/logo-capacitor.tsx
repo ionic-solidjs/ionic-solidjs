@@ -6,4 +6,4 @@ import { logoCapacitor } from "ionicons/icons";
 
 addIcons({ logoCapacitor });
 
-export let iconLogoCapacitor = logoCapacitor;
+export let iconLogoCapacitor = "logoCapacitor";

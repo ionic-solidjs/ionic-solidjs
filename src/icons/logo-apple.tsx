@@ -6,4 +6,4 @@ import { logoApple } from "ionicons/icons";
 
 addIcons({ logoApple });
 
-export let iconLogoApple = logoApple;
+export let iconLogoApple = "logoApple";

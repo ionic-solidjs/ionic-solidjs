@@ -6,4 +6,4 @@ import { sadSharp } from "ionicons/icons";
 
 addIcons({ sadSharp });
 
-export let iconSadSharp = sadSharp;
+export let iconSadSharp = "sadSharp";

@@ -6,4 +6,4 @@ import { planet } from "ionicons/icons";
 
 addIcons({ planet });
 
-export let iconPlanet = planet;
+export let iconPlanet = "planet";

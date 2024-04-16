@@ -6,4 +6,4 @@ import { caretForwardSharp } from "ionicons/icons";
 
 addIcons({ caretForwardSharp });
 
-export let iconCaretForwardSharp = caretForwardSharp;
+export let iconCaretForwardSharp = "caretForwardSharp";

@@ -6,4 +6,4 @@ import { wifi } from "ionicons/icons";
 
 addIcons({ wifi });
 
-export let iconWifi = wifi;
+export let iconWifi = "wifi";

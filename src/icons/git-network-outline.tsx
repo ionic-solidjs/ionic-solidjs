@@ -6,4 +6,4 @@ import { gitNetworkOutline } from "ionicons/icons";
 
 addIcons({ gitNetworkOutline });
 
-export let iconGitNetworkOutline = gitNetworkOutline;
+export let iconGitNetworkOutline = "gitNetworkOutline";

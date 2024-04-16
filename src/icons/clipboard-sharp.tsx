@@ -6,4 +6,4 @@ import { clipboardSharp } from "ionicons/icons";
 
 addIcons({ clipboardSharp });
 
-export let iconClipboardSharp = clipboardSharp;
+export let iconClipboardSharp = "clipboardSharp";

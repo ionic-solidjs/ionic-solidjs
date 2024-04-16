@@ -6,4 +6,4 @@ import { diceOutline } from "ionicons/icons";
 
 addIcons({ diceOutline });
 
-export let iconDiceOutline = diceOutline;
+export let iconDiceOutline = "diceOutline";

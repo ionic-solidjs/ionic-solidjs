@@ -6,4 +6,4 @@ import { arrowBack } from "ionicons/icons";
 
 addIcons({ arrowBack });
 
-export let iconArrowBack = arrowBack;
+export let iconArrowBack = "arrowBack";

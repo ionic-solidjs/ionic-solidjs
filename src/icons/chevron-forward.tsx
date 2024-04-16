@@ -6,4 +6,4 @@ import { chevronForward } from "ionicons/icons";
 
 addIcons({ chevronForward });
 
-export let iconChevronForward = chevronForward;
+export let iconChevronForward = "chevronForward";

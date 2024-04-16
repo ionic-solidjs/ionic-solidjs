@@ -6,4 +6,4 @@ import { bagAdd } from "ionicons/icons";
 
 addIcons({ bagAdd });
 
-export let iconBagAdd = bagAdd;
+export let iconBagAdd = "bagAdd";

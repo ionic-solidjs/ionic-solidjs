@@ -6,4 +6,4 @@ import { hourglassOutline } from "ionicons/icons";
 
 addIcons({ hourglassOutline });
 
-export let iconHourglassOutline = hourglassOutline;
+export let iconHourglassOutline = "hourglassOutline";

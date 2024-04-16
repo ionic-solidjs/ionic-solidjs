@@ -6,4 +6,4 @@ import { exitSharp } from "ionicons/icons";
 
 addIcons({ exitSharp });
 
-export let iconExitSharp = exitSharp;
+export let iconExitSharp = "exitSharp";

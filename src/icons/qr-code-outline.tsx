@@ -6,4 +6,4 @@ import { qrCodeOutline } from "ionicons/icons";
 
 addIcons({ qrCodeOutline });
 
-export let iconQrCodeOutline = qrCodeOutline;
+export let iconQrCodeOutline = "qrCodeOutline";

@@ -6,4 +6,4 @@ import { today } from "ionicons/icons";
 
 addIcons({ today });
 
-export let iconToday = today;
+export let iconToday = "today";

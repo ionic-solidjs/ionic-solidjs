@@ -6,4 +6,4 @@ import { browsersSharp } from "ionicons/icons";
 
 addIcons({ browsersSharp });
 
-export let iconBrowsersSharp = browsersSharp;
+export let iconBrowsersSharp = "browsersSharp";

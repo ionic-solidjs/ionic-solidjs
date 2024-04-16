@@ -6,4 +6,4 @@ import { analytics } from "ionicons/icons";
 
 addIcons({ analytics });
 
-export let iconAnalytics = analytics;
+export let iconAnalytics = "analytics";

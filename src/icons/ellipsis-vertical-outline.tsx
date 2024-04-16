@@ -6,4 +6,4 @@ import { ellipsisVerticalOutline } from "ionicons/icons";
 
 addIcons({ ellipsisVerticalOutline });
 
-export let iconEllipsisVerticalOutline = ellipsisVerticalOutline;
+export let iconEllipsisVerticalOutline = "ellipsisVerticalOutline";

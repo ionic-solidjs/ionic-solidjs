@@ -6,4 +6,4 @@ import { browsers } from "ionicons/icons";
 
 addIcons({ browsers });
 
-export let iconBrowsers = browsers;
+export let iconBrowsers = "browsers";

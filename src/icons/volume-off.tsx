@@ -6,4 +6,4 @@ import { volumeOff } from "ionicons/icons";
 
 addIcons({ volumeOff });
 
-export let iconVolumeOff = volumeOff;
+export let iconVolumeOff = "volumeOff";

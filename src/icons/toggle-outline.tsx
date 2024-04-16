@@ -6,4 +6,4 @@ import { toggleOutline } from "ionicons/icons";
 
 addIcons({ toggleOutline });
 
-export let iconToggleOutline = toggleOutline;
+export let iconToggleOutline = "toggleOutline";

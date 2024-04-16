@@ -6,4 +6,4 @@ import { volumeMuteSharp } from "ionicons/icons";
 
 addIcons({ volumeMuteSharp });
 
-export let iconVolumeMuteSharp = volumeMuteSharp;
+export let iconVolumeMuteSharp = "volumeMuteSharp";

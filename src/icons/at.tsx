@@ -6,4 +6,4 @@ import { at } from "ionicons/icons";
 
 addIcons({ at });
 
-export let iconAt = at;
+export let iconAt = "at";

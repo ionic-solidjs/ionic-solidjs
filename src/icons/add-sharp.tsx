@@ -6,4 +6,4 @@ import { addSharp } from "ionicons/icons";
 
 addIcons({ addSharp });
 
-export let iconAddSharp = addSharp;
+export let iconAddSharp = "addSharp";

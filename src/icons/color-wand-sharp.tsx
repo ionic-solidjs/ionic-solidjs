@@ -6,4 +6,4 @@ import { colorWandSharp } from "ionicons/icons";
 
 addIcons({ colorWandSharp });
 
-export let iconColorWandSharp = colorWandSharp;
+export let iconColorWandSharp = "colorWandSharp";

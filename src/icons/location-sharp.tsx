@@ -6,4 +6,4 @@ import { locationSharp } from "ionicons/icons";
 
 addIcons({ locationSharp });
 
-export let iconLocationSharp = locationSharp;
+export let iconLocationSharp = "locationSharp";

@@ -6,4 +6,4 @@ import { walkOutline } from "ionicons/icons";
 
 addIcons({ walkOutline });
 
-export let iconWalkOutline = walkOutline;
+export let iconWalkOutline = "walkOutline";

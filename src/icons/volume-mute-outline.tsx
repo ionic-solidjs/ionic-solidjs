@@ -6,4 +6,4 @@ import { volumeMuteOutline } from "ionicons/icons";
 
 addIcons({ volumeMuteOutline });
 
-export let iconVolumeMuteOutline = volumeMuteOutline;
+export let iconVolumeMuteOutline = "volumeMuteOutline";

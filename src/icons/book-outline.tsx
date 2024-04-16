@@ -6,4 +6,4 @@ import { bookOutline } from "ionicons/icons";
 
 addIcons({ bookOutline });
 
-export let iconBookOutline = bookOutline;
+export let iconBookOutline = "bookOutline";

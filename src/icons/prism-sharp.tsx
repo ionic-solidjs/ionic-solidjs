@@ -6,4 +6,4 @@ import { prismSharp } from "ionicons/icons";
 
 addIcons({ prismSharp });
 
-export let iconPrismSharp = prismSharp;
+export let iconPrismSharp = "prismSharp";

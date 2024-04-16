@@ -6,4 +6,4 @@ import { basket } from "ionicons/icons";
 
 addIcons({ basket });
 
-export let iconBasket = basket;
+export let iconBasket = "basket";

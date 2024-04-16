@@ -6,4 +6,4 @@ import { dice } from "ionicons/icons";
 
 addIcons({ dice });
 
-export let iconDice = dice;
+export let iconDice = "dice";

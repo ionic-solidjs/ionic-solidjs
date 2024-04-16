@@ -6,4 +6,4 @@ import { scale } from "ionicons/icons";
 
 addIcons({ scale });
 
-export let iconScale = scale;
+export let iconScale = "scale";

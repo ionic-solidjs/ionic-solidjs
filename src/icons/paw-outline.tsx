@@ -6,4 +6,4 @@ import { pawOutline } from "ionicons/icons";
 
 addIcons({ pawOutline });
 
-export let iconPawOutline = pawOutline;
+export let iconPawOutline = "pawOutline";

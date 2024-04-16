@@ -6,4 +6,4 @@ import { recordingOutline } from "ionicons/icons";
 
 addIcons({ recordingOutline });
 
-export let iconRecordingOutline = recordingOutline;
+export let iconRecordingOutline = "recordingOutline";

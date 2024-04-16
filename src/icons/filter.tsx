@@ -6,4 +6,4 @@ import { filter } from "ionicons/icons";
 
 addIcons({ filter });
 
-export let iconFilter = filter;
+export let iconFilter = "filter";

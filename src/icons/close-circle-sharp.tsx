@@ -6,4 +6,4 @@ import { closeCircleSharp } from "ionicons/icons";
 
 addIcons({ closeCircleSharp });
 
-export let iconCloseCircleSharp = closeCircleSharp;
+export let iconCloseCircleSharp = "closeCircleSharp";

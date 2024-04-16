@@ -6,4 +6,4 @@ import { logoClosedCaptioning } from "ionicons/icons";
 
 addIcons({ logoClosedCaptioning });
 
-export let iconLogoClosedCaptioning = logoClosedCaptioning;
+export let iconLogoClosedCaptioning = "logoClosedCaptioning";

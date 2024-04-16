@@ -6,4 +6,4 @@ import { closeOutline } from "ionicons/icons";
 
 addIcons({ closeOutline });
 
-export let iconCloseOutline = closeOutline;
+export let iconCloseOutline = "closeOutline";

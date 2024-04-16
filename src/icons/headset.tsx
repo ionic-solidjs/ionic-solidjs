@@ -6,4 +6,4 @@ import { headset } from "ionicons/icons";
 
 addIcons({ headset });
 
-export let iconHeadset = headset;
+export let iconHeadset = "headset";

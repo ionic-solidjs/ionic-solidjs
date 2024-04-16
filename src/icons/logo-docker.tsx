@@ -6,4 +6,4 @@ import { logoDocker } from "ionicons/icons";
 
 addIcons({ logoDocker });
 
-export let iconLogoDocker = logoDocker;
+export let iconLogoDocker = "logoDocker";

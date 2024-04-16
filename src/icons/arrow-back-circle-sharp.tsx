@@ -6,4 +6,4 @@ import { arrowBackCircleSharp } from "ionicons/icons";
 
 addIcons({ arrowBackCircleSharp });
 
-export let iconArrowBackCircleSharp = arrowBackCircleSharp;
+export let iconArrowBackCircleSharp = "arrowBackCircleSharp";

@@ -6,4 +6,4 @@ import { flashlightOutline } from "ionicons/icons";
 
 addIcons({ flashlightOutline });
 
-export let iconFlashlightOutline = flashlightOutline;
+export let iconFlashlightOutline = "flashlightOutline";

@@ -6,4 +6,4 @@ import { beakerOutline } from "ionicons/icons";
 
 addIcons({ beakerOutline });
 
-export let iconBeakerOutline = beakerOutline;
+export let iconBeakerOutline = "beakerOutline";

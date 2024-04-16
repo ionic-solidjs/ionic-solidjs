@@ -6,4 +6,4 @@ import { nuclearOutline } from "ionicons/icons";
 
 addIcons({ nuclearOutline });
 
-export let iconNuclearOutline = nuclearOutline;
+export let iconNuclearOutline = "nuclearOutline";

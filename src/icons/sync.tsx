@@ -6,4 +6,4 @@ import { sync } from "ionicons/icons";
 
 addIcons({ sync });
 
-export let iconSync = sync;
+export let iconSync = "sync";

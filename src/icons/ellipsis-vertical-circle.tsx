@@ -6,4 +6,4 @@ import { ellipsisVerticalCircle } from "ionicons/icons";
 
 addIcons({ ellipsisVerticalCircle });
 
-export let iconEllipsisVerticalCircle = ellipsisVerticalCircle;
+export let iconEllipsisVerticalCircle = "ellipsisVerticalCircle";

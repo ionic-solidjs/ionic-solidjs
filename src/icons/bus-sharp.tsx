@@ -6,4 +6,4 @@ import { busSharp } from "ionicons/icons";
 
 addIcons({ busSharp });
 
-export let iconBusSharp = busSharp;
+export let iconBusSharp = "busSharp";

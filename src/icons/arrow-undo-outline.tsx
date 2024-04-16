@@ -6,4 +6,4 @@ import { arrowUndoOutline } from "ionicons/icons";
 
 addIcons({ arrowUndoOutline });
 
-export let iconArrowUndoOutline = arrowUndoOutline;
+export let iconArrowUndoOutline = "arrowUndoOutline";

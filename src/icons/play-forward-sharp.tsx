@@ -6,4 +6,4 @@ import { playForwardSharp } from "ionicons/icons";
 
 addIcons({ playForwardSharp });
 
-export let iconPlayForwardSharp = playForwardSharp;
+export let iconPlayForwardSharp = "playForwardSharp";

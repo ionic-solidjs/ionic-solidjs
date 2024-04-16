@@ -6,4 +6,4 @@ import { handLeft } from "ionicons/icons";
 
 addIcons({ handLeft });
 
-export let iconHandLeft = handLeft;
+export let iconHandLeft = "handLeft";

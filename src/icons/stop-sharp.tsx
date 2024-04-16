@@ -6,4 +6,4 @@ import { stopSharp } from "ionicons/icons";
 
 addIcons({ stopSharp });
 
-export let iconStopSharp = stopSharp;
+export let iconStopSharp = "stopSharp";

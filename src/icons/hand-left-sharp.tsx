@@ -6,4 +6,4 @@ import { handLeftSharp } from "ionicons/icons";
 
 addIcons({ handLeftSharp });
 
-export let iconHandLeftSharp = handLeftSharp;
+export let iconHandLeftSharp = "handLeftSharp";

@@ -6,4 +6,4 @@ import { sparkles } from "ionicons/icons";
 
 addIcons({ sparkles });
 
-export let iconSparkles = sparkles;
+export let iconSparkles = "sparkles";

@@ -6,4 +6,4 @@ import { phonePortraitOutline } from "ionicons/icons";
 
 addIcons({ phonePortraitOutline });
 
-export let iconPhonePortraitOutline = phonePortraitOutline;
+export let iconPhonePortraitOutline = "phonePortraitOutline";

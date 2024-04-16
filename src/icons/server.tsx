@@ -6,4 +6,4 @@ import { server } from "ionicons/icons";
 
 addIcons({ server });
 
-export let iconServer = server;
+export let iconServer = "server";

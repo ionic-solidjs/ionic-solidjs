@@ -6,4 +6,4 @@ import { camera } from "ionicons/icons";
 
 addIcons({ camera });
 
-export let iconCamera = camera;
+export let iconCamera = "camera";

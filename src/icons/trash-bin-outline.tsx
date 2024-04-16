@@ -6,4 +6,4 @@ import { trashBinOutline } from "ionicons/icons";
 
 addIcons({ trashBinOutline });
 
-export let iconTrashBinOutline = trashBinOutline;
+export let iconTrashBinOutline = "trashBinOutline";

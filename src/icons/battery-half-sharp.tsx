@@ -6,4 +6,4 @@ import { batteryHalfSharp } from "ionicons/icons";
 
 addIcons({ batteryHalfSharp });
 
-export let iconBatteryHalfSharp = batteryHalfSharp;
+export let iconBatteryHalfSharp = "batteryHalfSharp";

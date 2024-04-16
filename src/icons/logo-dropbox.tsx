@@ -6,4 +6,4 @@ import { logoDropbox } from "ionicons/icons";
 
 addIcons({ logoDropbox });
 
-export let iconLogoDropbox = logoDropbox;
+export let iconLogoDropbox = "logoDropbox";

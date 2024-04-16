@@ -6,4 +6,4 @@ import { archiveSharp } from "ionicons/icons";
 
 addIcons({ archiveSharp });
 
-export let iconArchiveSharp = archiveSharp;
+export let iconArchiveSharp = "archiveSharp";

@@ -6,4 +6,4 @@ import { reloadCircleOutline } from "ionicons/icons";
 
 addIcons({ reloadCircleOutline });
 
-export let iconReloadCircleOutline = reloadCircleOutline;
+export let iconReloadCircleOutline = "reloadCircleOutline";

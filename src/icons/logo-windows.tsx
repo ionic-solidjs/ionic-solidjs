@@ -6,4 +6,4 @@ import { logoWindows } from "ionicons/icons";
 
 addIcons({ logoWindows });
 
-export let iconLogoWindows = logoWindows;
+export let iconLogoWindows = "logoWindows";

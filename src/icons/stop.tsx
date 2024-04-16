@@ -6,4 +6,4 @@ import { stop } from "ionicons/icons";
 
 addIcons({ stop });
 
-export let iconStop = stop;
+export let iconStop = "stop";

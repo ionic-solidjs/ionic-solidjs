@@ -6,4 +6,4 @@ import { logoTux } from "ionicons/icons";
 
 addIcons({ logoTux });
 
-export let iconLogoTux = logoTux;
+export let iconLogoTux = "logoTux";

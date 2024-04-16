@@ -6,4 +6,4 @@ import { disc } from "ionicons/icons";
 
 addIcons({ disc });
 
-export let iconDisc = disc;
+export let iconDisc = "disc";

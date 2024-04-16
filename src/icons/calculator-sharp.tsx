@@ -6,4 +6,4 @@ import { calculatorSharp } from "ionicons/icons";
 
 addIcons({ calculatorSharp });
 
-export let iconCalculatorSharp = calculatorSharp;
+export let iconCalculatorSharp = "calculatorSharp";

@@ -6,4 +6,4 @@ import { beerOutline } from "ionicons/icons";
 
 addIcons({ beerOutline });
 
-export let iconBeerOutline = beerOutline;
+export let iconBeerOutline = "beerOutline";

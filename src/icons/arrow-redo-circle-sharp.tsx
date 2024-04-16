@@ -6,4 +6,4 @@ import { arrowRedoCircleSharp } from "ionicons/icons";
 
 addIcons({ arrowRedoCircleSharp });
 
-export let iconArrowRedoCircleSharp = arrowRedoCircleSharp;
+export let iconArrowRedoCircleSharp = "arrowRedoCircleSharp";

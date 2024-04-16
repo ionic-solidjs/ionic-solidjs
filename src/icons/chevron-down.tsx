@@ -6,4 +6,4 @@ import { chevronDown } from "ionicons/icons";
 
 addIcons({ chevronDown });
 
-export let iconChevronDown = chevronDown;
+export let iconChevronDown = "chevronDown";

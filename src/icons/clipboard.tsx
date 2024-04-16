@@ -6,4 +6,4 @@ import { clipboard } from "ionicons/icons";
 
 addIcons({ clipboard });
 
-export let iconClipboard = clipboard;
+export let iconClipboard = "clipboard";

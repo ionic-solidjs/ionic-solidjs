@@ -6,4 +6,4 @@ import { reloadCircle } from "ionicons/icons";
 
 addIcons({ reloadCircle });
 
-export let iconReloadCircle = reloadCircle;
+export let iconReloadCircle = "reloadCircle";

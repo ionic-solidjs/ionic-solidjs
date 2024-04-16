@@ -6,4 +6,4 @@ import { logoWebComponent } from "ionicons/icons";
 
 addIcons({ logoWebComponent });
 
-export let iconLogoWebComponent = logoWebComponent;
+export let iconLogoWebComponent = "logoWebComponent";

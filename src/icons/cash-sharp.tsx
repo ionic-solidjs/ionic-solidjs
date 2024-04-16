@@ -6,4 +6,4 @@ import { cashSharp } from "ionicons/icons";
 
 addIcons({ cashSharp });
 
-export let iconCashSharp = cashSharp;
+export let iconCashSharp = "cashSharp";

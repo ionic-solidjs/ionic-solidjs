@@ -6,4 +6,4 @@ import { openSharp } from "ionicons/icons";
 
 addIcons({ openSharp });
 
-export let iconOpenSharp = openSharp;
+export let iconOpenSharp = "openSharp";

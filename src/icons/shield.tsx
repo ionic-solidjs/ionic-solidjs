@@ -6,4 +6,4 @@ import { shield } from "ionicons/icons";
 
 addIcons({ shield });
 
-export let iconShield = shield;
+export let iconShield = "shield";

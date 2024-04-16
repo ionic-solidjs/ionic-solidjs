@@ -6,4 +6,4 @@ import { balloonOutline } from "ionicons/icons";
 
 addIcons({ balloonOutline });
 
-export let iconBalloonOutline = balloonOutline;
+export let iconBalloonOutline = "balloonOutline";

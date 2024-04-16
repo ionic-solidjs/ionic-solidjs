@@ -6,4 +6,4 @@ import { basketOutline } from "ionicons/icons";
 
 addIcons({ basketOutline });
 
-export let iconBasketOutline = basketOutline;
+export let iconBasketOutline = "basketOutline";

@@ -6,4 +6,4 @@ import { constructSharp } from "ionicons/icons";
 
 addIcons({ constructSharp });
 
-export let iconConstructSharp = constructSharp;
+export let iconConstructSharp = "constructSharp";

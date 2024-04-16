@@ -6,4 +6,4 @@ import { fileTraySharp } from "ionicons/icons";
 
 addIcons({ fileTraySharp });
 
-export let iconFileTraySharp = fileTraySharp;
+export let iconFileTraySharp = "fileTraySharp";

@@ -6,4 +6,4 @@ import { paperPlaneOutline } from "ionicons/icons";
 
 addIcons({ paperPlaneOutline });
 
-export let iconPaperPlaneOutline = paperPlaneOutline;
+export let iconPaperPlaneOutline = "paperPlaneOutline";

@@ -6,4 +6,4 @@ import { reader } from "ionicons/icons";
 
 addIcons({ reader });
 
-export let iconReader = reader;
+export let iconReader = "reader";

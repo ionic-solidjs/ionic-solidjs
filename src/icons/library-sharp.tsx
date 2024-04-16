@@ -6,4 +6,4 @@ import { librarySharp } from "ionicons/icons";
 
 addIcons({ librarySharp });
 
-export let iconLibrarySharp = librarySharp;
+export let iconLibrarySharp = "librarySharp";

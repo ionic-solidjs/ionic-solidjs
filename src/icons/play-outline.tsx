@@ -6,4 +6,4 @@ import { playOutline } from "ionicons/icons";
 
 addIcons({ playOutline });
 
-export let iconPlayOutline = playOutline;
+export let iconPlayOutline = "playOutline";

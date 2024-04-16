@@ -6,4 +6,4 @@ import { carSharp } from "ionicons/icons";
 
 addIcons({ carSharp });
 
-export let iconCarSharp = carSharp;
+export let iconCarSharp = "carSharp";

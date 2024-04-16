@@ -6,4 +6,4 @@ import { shuffleOutline } from "ionicons/icons";
 
 addIcons({ shuffleOutline });
 
-export let iconShuffleOutline = shuffleOutline;
+export let iconShuffleOutline = "shuffleOutline";

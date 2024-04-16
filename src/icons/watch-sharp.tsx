@@ -6,4 +6,4 @@ import { watchSharp } from "ionicons/icons";
 
 addIcons({ watchSharp });
 
-export let iconWatchSharp = watchSharp;
+export let iconWatchSharp = "watchSharp";

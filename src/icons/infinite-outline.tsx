@@ -6,4 +6,4 @@ import { infiniteOutline } from "ionicons/icons";
 
 addIcons({ infiniteOutline });
 
-export let iconInfiniteOutline = infiniteOutline;
+export let iconInfiniteOutline = "infiniteOutline";

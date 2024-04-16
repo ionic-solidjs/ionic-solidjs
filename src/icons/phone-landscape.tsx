@@ -6,4 +6,4 @@ import { phoneLandscape } from "ionicons/icons";
 
 addIcons({ phoneLandscape });
 
-export let iconPhoneLandscape = phoneLandscape;
+export let iconPhoneLandscape = "phoneLandscape";

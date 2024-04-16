@@ -6,4 +6,4 @@ import { invertModeSharp } from "ionicons/icons";
 
 addIcons({ invertModeSharp });
 
-export let iconInvertModeSharp = invertModeSharp;
+export let iconInvertModeSharp = "invertModeSharp";

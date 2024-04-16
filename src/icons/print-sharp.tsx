@@ -6,4 +6,4 @@ import { printSharp } from "ionicons/icons";
 
 addIcons({ printSharp });
 
-export let iconPrintSharp = printSharp;
+export let iconPrintSharp = "printSharp";

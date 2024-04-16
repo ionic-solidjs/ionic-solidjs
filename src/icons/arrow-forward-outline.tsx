@@ -6,4 +6,4 @@ import { arrowForwardOutline } from "ionicons/icons";
 
 addIcons({ arrowForwardOutline });
 
-export let iconArrowForwardOutline = arrowForwardOutline;
+export let iconArrowForwardOutline = "arrowForwardOutline";

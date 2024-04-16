@@ -6,4 +6,4 @@ import { call } from "ionicons/icons";
 
 addIcons({ call });
 
-export let iconCall = call;
+export let iconCall = "call";

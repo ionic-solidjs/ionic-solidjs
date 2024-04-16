@@ -6,4 +6,4 @@ import { push } from "ionicons/icons";
 
 addIcons({ push });
 
-export let iconPush = push;
+export let iconPush = "push";

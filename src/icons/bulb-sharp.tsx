@@ -6,4 +6,4 @@ import { bulbSharp } from "ionicons/icons";
 
 addIcons({ bulbSharp });
 
-export let iconBulbSharp = bulbSharp;
+export let iconBulbSharp = "bulbSharp";

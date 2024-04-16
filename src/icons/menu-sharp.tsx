@@ -6,4 +6,4 @@ import { menuSharp } from "ionicons/icons";
 
 addIcons({ menuSharp });
 
-export let iconMenuSharp = menuSharp;
+export let iconMenuSharp = "menuSharp";

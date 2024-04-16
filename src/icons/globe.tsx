@@ -6,4 +6,4 @@ import { globe } from "ionicons/icons";
 
 addIcons({ globe });
 
-export let iconGlobe = globe;
+export let iconGlobe = "globe";

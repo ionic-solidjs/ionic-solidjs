@@ -6,4 +6,4 @@ import { logoPlaystation } from "ionicons/icons";
 
 addIcons({ logoPlaystation });
 
-export let iconLogoPlaystation = logoPlaystation;
+export let iconLogoPlaystation = "logoPlaystation";

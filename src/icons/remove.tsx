@@ -6,4 +6,4 @@ import { remove } from "ionicons/icons";
 
 addIcons({ remove });
 
-export let iconRemove = remove;
+export let iconRemove = "remove";

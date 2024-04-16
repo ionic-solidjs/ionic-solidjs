@@ -6,4 +6,4 @@ import { atCircleSharp } from "ionicons/icons";
 
 addIcons({ atCircleSharp });
 
-export let iconAtCircleSharp = atCircleSharp;
+export let iconAtCircleSharp = "atCircleSharp";

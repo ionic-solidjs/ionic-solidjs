@@ -6,4 +6,4 @@ import { logoYahoo } from "ionicons/icons";
 
 addIcons({ logoYahoo });
 
-export let iconLogoYahoo = logoYahoo;
+export let iconLogoYahoo = "logoYahoo";

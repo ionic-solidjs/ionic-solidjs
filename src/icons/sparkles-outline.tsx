@@ -6,4 +6,4 @@ import { sparklesOutline } from "ionicons/icons";
 
 addIcons({ sparklesOutline });
 
-export let iconSparklesOutline = sparklesOutline;
+export let iconSparklesOutline = "sparklesOutline";

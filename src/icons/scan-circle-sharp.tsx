@@ -6,4 +6,4 @@ import { scanCircleSharp } from "ionicons/icons";
 
 addIcons({ scanCircleSharp });
 
-export let iconScanCircleSharp = scanCircleSharp;
+export let iconScanCircleSharp = "scanCircleSharp";

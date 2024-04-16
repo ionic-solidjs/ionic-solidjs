@@ -6,4 +6,4 @@ import { ellipsisHorizontal } from "ionicons/icons";
 
 addIcons({ ellipsisHorizontal });
 
-export let iconEllipsisHorizontal = ellipsisHorizontal;
+export let iconEllipsisHorizontal = "ellipsisHorizontal";

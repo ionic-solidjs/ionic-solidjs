@@ -6,4 +6,4 @@ import { documentsSharp } from "ionicons/icons";
 
 addIcons({ documentsSharp });
 
-export let iconDocumentsSharp = documentsSharp;
+export let iconDocumentsSharp = "documentsSharp";

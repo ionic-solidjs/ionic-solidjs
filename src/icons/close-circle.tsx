@@ -6,4 +6,4 @@ import { closeCircle } from "ionicons/icons";
 
 addIcons({ closeCircle });
 
-export let iconCloseCircle = closeCircle;
+export let iconCloseCircle = "closeCircle";

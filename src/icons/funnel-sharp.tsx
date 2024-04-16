@@ -6,4 +6,4 @@ import { funnelSharp } from "ionicons/icons";
 
 addIcons({ funnelSharp });
 
-export let iconFunnelSharp = funnelSharp;
+export let iconFunnelSharp = "funnelSharp";

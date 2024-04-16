@@ -6,4 +6,4 @@ import { batteryFullSharp } from "ionicons/icons";
 
 addIcons({ batteryFullSharp });
 
-export let iconBatteryFullSharp = batteryFullSharp;
+export let iconBatteryFullSharp = "batteryFullSharp";

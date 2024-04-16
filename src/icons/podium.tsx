@@ -6,4 +6,4 @@ import { podium } from "ionicons/icons";
 
 addIcons({ podium });
 
-export let iconPodium = podium;
+export let iconPodium = "podium";

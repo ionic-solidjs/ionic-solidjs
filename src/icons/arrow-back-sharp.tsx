@@ -6,4 +6,4 @@ import { arrowBackSharp } from "ionicons/icons";
 
 addIcons({ arrowBackSharp });
 
-export let iconArrowBackSharp = arrowBackSharp;
+export let iconArrowBackSharp = "arrowBackSharp";

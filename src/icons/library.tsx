@@ -6,4 +6,4 @@ import { library } from "ionicons/icons";
 
 addIcons({ library });
 
-export let iconLibrary = library;
+export let iconLibrary = "library";

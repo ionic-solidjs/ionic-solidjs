@@ -6,4 +6,4 @@ import { schoolSharp } from "ionicons/icons";
 
 addIcons({ schoolSharp });
 
-export let iconSchoolSharp = schoolSharp;
+export let iconSchoolSharp = "schoolSharp";

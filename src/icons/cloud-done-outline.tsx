@@ -6,4 +6,4 @@ import { cloudDoneOutline } from "ionicons/icons";
 
 addIcons({ cloudDoneOutline });
 
-export let iconCloudDoneOutline = cloudDoneOutline;
+export let iconCloudDoneOutline = "cloudDoneOutline";

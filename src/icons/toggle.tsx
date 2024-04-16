@@ -6,4 +6,4 @@ import { toggle } from "ionicons/icons";
 
 addIcons({ toggle });
 
-export let iconToggle = toggle;
+export let iconToggle = "toggle";

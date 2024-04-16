@@ -6,4 +6,4 @@ import { folderOpenSharp } from "ionicons/icons";
 
 addIcons({ folderOpenSharp });
 
-export let iconFolderOpenSharp = folderOpenSharp;
+export let iconFolderOpenSharp = "folderOpenSharp";

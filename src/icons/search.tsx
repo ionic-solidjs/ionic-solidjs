@@ -6,4 +6,4 @@ import { search } from "ionicons/icons";
 
 addIcons({ search });
 
-export let iconSearch = search;
+export let iconSearch = "search";

@@ -6,4 +6,4 @@ import { readerSharp } from "ionicons/icons";
 
 addIcons({ readerSharp });
 
-export let iconReaderSharp = readerSharp;
+export let iconReaderSharp = "readerSharp";

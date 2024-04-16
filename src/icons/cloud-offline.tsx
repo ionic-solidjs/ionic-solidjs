@@ -6,4 +6,4 @@ import { cloudOffline } from "ionicons/icons";
 
 addIcons({ cloudOffline });
 
-export let iconCloudOffline = cloudOffline;
+export let iconCloudOffline = "cloudOffline";

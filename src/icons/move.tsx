@@ -6,4 +6,4 @@ import { move } from "ionicons/icons";
 
 addIcons({ move });
 
-export let iconMove = move;
+export let iconMove = "move";

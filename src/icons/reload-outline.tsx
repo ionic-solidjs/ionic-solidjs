@@ -6,4 +6,4 @@ import { reloadOutline } from "ionicons/icons";
 
 addIcons({ reloadOutline });
 
-export let iconReloadOutline = reloadOutline;
+export let iconReloadOutline = "reloadOutline";

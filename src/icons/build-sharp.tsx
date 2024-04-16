@@ -6,4 +6,4 @@ import { buildSharp } from "ionicons/icons";
 
 addIcons({ buildSharp });
 
-export let iconBuildSharp = buildSharp;
+export let iconBuildSharp = "buildSharp";

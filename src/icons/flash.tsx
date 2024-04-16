@@ -6,4 +6,4 @@ import { flash } from "ionicons/icons";
 
 addIcons({ flash });
 
-export let iconFlash = flash;
+export let iconFlash = "flash";

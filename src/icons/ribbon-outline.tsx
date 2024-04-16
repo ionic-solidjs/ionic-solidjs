@@ -6,4 +6,4 @@ import { ribbonOutline } from "ionicons/icons";
 
 addIcons({ ribbonOutline });
 
-export let iconRibbonOutline = ribbonOutline;
+export let iconRibbonOutline = "ribbonOutline";

@@ -6,4 +6,4 @@ import { handRightOutline } from "ionicons/icons";
 
 addIcons({ handRightOutline });
 
-export let iconHandRightOutline = handRightOutline;
+export let iconHandRightOutline = "handRightOutline";

@@ -6,4 +6,4 @@ import { menu } from "ionicons/icons";
 
 addIcons({ menu });
 
-export let iconMenu = menu;
+export let iconMenu = "menu";

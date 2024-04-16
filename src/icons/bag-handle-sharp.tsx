@@ -6,4 +6,4 @@ import { bagHandleSharp } from "ionicons/icons";
 
 addIcons({ bagHandleSharp });
 
-export let iconBagHandleSharp = bagHandleSharp;
+export let iconBagHandleSharp = "bagHandleSharp";

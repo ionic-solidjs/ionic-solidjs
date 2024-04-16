@@ -6,4 +6,4 @@ import { flagOutline } from "ionicons/icons";
 
 addIcons({ flagOutline });
 
-export let iconFlagOutline = flagOutline;
+export let iconFlagOutline = "flagOutline";

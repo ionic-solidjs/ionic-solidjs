@@ -6,4 +6,4 @@ import { roseSharp } from "ionicons/icons";
 
 addIcons({ roseSharp });
 
-export let iconRoseSharp = roseSharp;
+export let iconRoseSharp = "roseSharp";

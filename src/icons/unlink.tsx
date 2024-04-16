@@ -6,4 +6,4 @@ import { unlink } from "ionicons/icons";
 
 addIcons({ unlink });
 
-export let iconUnlink = unlink;
+export let iconUnlink = "unlink";

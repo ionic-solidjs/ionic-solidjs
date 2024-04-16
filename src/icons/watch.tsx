@@ -6,4 +6,4 @@ import { watch } from "ionicons/icons";
 
 addIcons({ watch });
 
-export let iconWatch = watch;
+export let iconWatch = "watch";

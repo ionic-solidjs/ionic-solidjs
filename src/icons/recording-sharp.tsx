@@ -6,4 +6,4 @@ import { recordingSharp } from "ionicons/icons";
 
 addIcons({ recordingSharp });
 
-export let iconRecordingSharp = recordingSharp;
+export let iconRecordingSharp = "recordingSharp";

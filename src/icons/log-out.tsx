@@ -6,4 +6,4 @@ import { logOut } from "ionicons/icons";
 
 addIcons({ logOut });
 
-export let iconLogOut = logOut;
+export let iconLogOut = "logOut";

@@ -6,4 +6,4 @@ import { shuffleSharp } from "ionicons/icons";
 
 addIcons({ shuffleSharp });
 
-export let iconShuffleSharp = shuffleSharp;
+export let iconShuffleSharp = "shuffleSharp";

@@ -6,4 +6,4 @@ import { medkitOutline } from "ionicons/icons";
 
 addIcons({ medkitOutline });
 
-export let iconMedkitOutline = medkitOutline;
+export let iconMedkitOutline = "medkitOutline";

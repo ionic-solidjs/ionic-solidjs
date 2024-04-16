@@ -6,4 +6,4 @@ import { snowSharp } from "ionicons/icons";
 
 addIcons({ snowSharp });
 
-export let iconSnowSharp = snowSharp;
+export let iconSnowSharp = "snowSharp";

@@ -6,4 +6,4 @@ import { heartOutline } from "ionicons/icons";
 
 addIcons({ heartOutline });
 
-export let iconHeartOutline = heartOutline;
+export let iconHeartOutline = "heartOutline";

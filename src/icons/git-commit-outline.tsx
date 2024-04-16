@@ -6,4 +6,4 @@ import { gitCommitOutline } from "ionicons/icons";
 
 addIcons({ gitCommitOutline });
 
-export let iconGitCommitOutline = gitCommitOutline;
+export let iconGitCommitOutline = "gitCommitOutline";

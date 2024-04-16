@@ -6,4 +6,4 @@ import { footsteps } from "ionicons/icons";
 
 addIcons({ footsteps });
 
-export let iconFootsteps = footsteps;
+export let iconFootsteps = "footsteps";

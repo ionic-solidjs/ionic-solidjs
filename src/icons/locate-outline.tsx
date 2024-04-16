@@ -6,4 +6,4 @@ import { locateOutline } from "ionicons/icons";
 
 addIcons({ locateOutline });
 
-export let iconLocateOutline = locateOutline;
+export let iconLocateOutline = "locateOutline";

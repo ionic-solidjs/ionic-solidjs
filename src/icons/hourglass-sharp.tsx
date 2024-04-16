@@ -6,4 +6,4 @@ import { hourglassSharp } from "ionicons/icons";
 
 addIcons({ hourglassSharp });
 
-export let iconHourglassSharp = hourglassSharp;
+export let iconHourglassSharp = "hourglassSharp";

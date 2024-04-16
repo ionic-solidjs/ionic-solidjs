@@ -6,4 +6,4 @@ import { logoInstagram } from "ionicons/icons";
 
 addIcons({ logoInstagram });
 
-export let iconLogoInstagram = logoInstagram;
+export let iconLogoInstagram = "logoInstagram";

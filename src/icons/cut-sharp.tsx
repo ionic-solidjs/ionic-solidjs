@@ -6,4 +6,4 @@ import { cutSharp } from "ionicons/icons";
 
 addIcons({ cutSharp });
 
-export let iconCutSharp = cutSharp;
+export let iconCutSharp = "cutSharp";

@@ -6,4 +6,4 @@ import { tabletPortraitOutline } from "ionicons/icons";
 
 addIcons({ tabletPortraitOutline });
 
-export let iconTabletPortraitOutline = tabletPortraitOutline;
+export let iconTabletPortraitOutline = "tabletPortraitOutline";

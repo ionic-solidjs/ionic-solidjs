@@ -6,4 +6,4 @@ import { boatOutline } from "ionicons/icons";
 
 addIcons({ boatOutline });
 
-export let iconBoatOutline = boatOutline;
+export let iconBoatOutline = "boatOutline";

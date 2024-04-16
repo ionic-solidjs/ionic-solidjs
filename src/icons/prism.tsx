@@ -6,4 +6,4 @@ import { prism } from "ionicons/icons";
 
 addIcons({ prism });
 
-export let iconPrism = prism;
+export let iconPrism = "prism";

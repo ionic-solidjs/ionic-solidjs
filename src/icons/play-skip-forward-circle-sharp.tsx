@@ -6,4 +6,4 @@ import { playSkipForwardCircleSharp } from "ionicons/icons";
 
 addIcons({ playSkipForwardCircleSharp });
 
-export let iconPlaySkipForwardCircleSharp = playSkipForwardCircleSharp;
+export let iconPlaySkipForwardCircleSharp = "playSkipForwardCircleSharp";

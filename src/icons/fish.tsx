@@ -6,4 +6,4 @@ import { fish } from "ionicons/icons";
 
 addIcons({ fish });
 
-export let iconFish = fish;
+export let iconFish = "fish";

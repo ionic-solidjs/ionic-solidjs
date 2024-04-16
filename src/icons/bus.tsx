@@ -6,4 +6,4 @@ import { bus } from "ionicons/icons";
 
 addIcons({ bus });
 
-export let iconBus = bus;
+export let iconBus = "bus";

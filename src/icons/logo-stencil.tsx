@@ -6,4 +6,4 @@ import { logoStencil } from "ionicons/icons";
 
 addIcons({ logoStencil });
 
-export let iconLogoStencil = logoStencil;
+export let iconLogoStencil = "logoStencil";

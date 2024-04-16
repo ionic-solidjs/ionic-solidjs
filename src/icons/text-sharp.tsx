@@ -6,4 +6,4 @@ import { textSharp } from "ionicons/icons";
 
 addIcons({ textSharp });
 
-export let iconTextSharp = textSharp;
+export let iconTextSharp = "textSharp";

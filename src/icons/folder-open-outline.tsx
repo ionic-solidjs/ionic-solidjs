@@ -6,4 +6,4 @@ import { folderOpenOutline } from "ionicons/icons";
 
 addIcons({ folderOpenOutline });
 
-export let iconFolderOpenOutline = folderOpenOutline;
+export let iconFolderOpenOutline = "folderOpenOutline";

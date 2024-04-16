@@ -6,4 +6,4 @@ import { bicycle } from "ionicons/icons";
 
 addIcons({ bicycle });
 
-export let iconBicycle = bicycle;
+export let iconBicycle = "bicycle";

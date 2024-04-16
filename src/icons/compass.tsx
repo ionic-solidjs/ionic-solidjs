@@ -6,4 +6,4 @@ import { compass } from "ionicons/icons";
 
 addIcons({ compass });
 
-export let iconCompass = compass;
+export let iconCompass = "compass";

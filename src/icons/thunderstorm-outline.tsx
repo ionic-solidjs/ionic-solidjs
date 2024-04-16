@@ -6,4 +6,4 @@ import { thunderstormOutline } from "ionicons/icons";
 
 addIcons({ thunderstormOutline });
 
-export let iconThunderstormOutline = thunderstormOutline;
+export let iconThunderstormOutline = "thunderstormOutline";

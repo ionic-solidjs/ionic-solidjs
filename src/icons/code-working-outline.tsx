@@ -6,4 +6,4 @@ import { codeWorkingOutline } from "ionicons/icons";
 
 addIcons({ codeWorkingOutline });
 
-export let iconCodeWorkingOutline = codeWorkingOutline;
+export let iconCodeWorkingOutline = "codeWorkingOutline";

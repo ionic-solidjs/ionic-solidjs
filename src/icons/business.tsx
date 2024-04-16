@@ -6,4 +6,4 @@ import { business } from "ionicons/icons";
 
 addIcons({ business });
 
-export let iconBusiness = business;
+export let iconBusiness = "business";

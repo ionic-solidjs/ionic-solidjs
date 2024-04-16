@@ -6,4 +6,4 @@ import { logoCodepen } from "ionicons/icons";
 
 addIcons({ logoCodepen });
 
-export let iconLogoCodepen = logoCodepen;
+export let iconLogoCodepen = "logoCodepen";

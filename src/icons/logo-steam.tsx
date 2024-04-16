@@ -6,4 +6,4 @@ import { logoSteam } from "ionicons/icons";
 
 addIcons({ logoSteam });
 
-export let iconLogoSteam = logoSteam;
+export let iconLogoSteam = "logoSteam";

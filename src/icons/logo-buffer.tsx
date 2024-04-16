@@ -6,4 +6,4 @@ import { logoBuffer } from "ionicons/icons";
 
 addIcons({ logoBuffer });
 
-export let iconLogoBuffer = logoBuffer;
+export let iconLogoBuffer = "logoBuffer";

@@ -6,4 +6,4 @@ import { star } from "ionicons/icons";
 
 addIcons({ star });
 
-export let iconStar = star;
+export let iconStar = "star";

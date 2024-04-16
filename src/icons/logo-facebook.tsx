@@ -6,4 +6,4 @@ import { logoFacebook } from "ionicons/icons";
 
 addIcons({ logoFacebook });
 
-export let iconLogoFacebook = logoFacebook;
+export let iconLogoFacebook = "logoFacebook";

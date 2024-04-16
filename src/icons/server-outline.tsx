@@ -6,4 +6,4 @@ import { serverOutline } from "ionicons/icons";
 
 addIcons({ serverOutline });
 
-export let iconServerOutline = serverOutline;
+export let iconServerOutline = "serverOutline";

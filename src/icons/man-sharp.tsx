@@ -6,4 +6,4 @@ import { manSharp } from "ionicons/icons";
 
 addIcons({ manSharp });
 
-export let iconManSharp = manSharp;
+export let iconManSharp = "manSharp";

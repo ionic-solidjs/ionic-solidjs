@@ -6,4 +6,4 @@ import { radioButtonOnSharp } from "ionicons/icons";
 
 addIcons({ radioButtonOnSharp });
 
-export let iconRadioButtonOnSharp = radioButtonOnSharp;
+export let iconRadioButtonOnSharp = "radioButtonOnSharp";

@@ -6,4 +6,4 @@ import { filterSharp } from "ionicons/icons";
 
 addIcons({ filterSharp });
 
-export let iconFilterSharp = filterSharp;
+export let iconFilterSharp = "filterSharp";

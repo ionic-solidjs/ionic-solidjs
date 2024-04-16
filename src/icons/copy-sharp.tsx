@@ -6,4 +6,4 @@ import { copySharp } from "ionicons/icons";
 
 addIcons({ copySharp });
 
-export let iconCopySharp = copySharp;
+export let iconCopySharp = "copySharp";

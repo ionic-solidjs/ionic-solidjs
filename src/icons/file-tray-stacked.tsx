@@ -6,4 +6,4 @@ import { fileTrayStacked } from "ionicons/icons";
 
 addIcons({ fileTrayStacked });
 
-export let iconFileTrayStacked = fileTrayStacked;
+export let iconFileTrayStacked = "fileTrayStacked";

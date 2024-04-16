@@ -6,4 +6,4 @@ import { medicalSharp } from "ionicons/icons";
 
 addIcons({ medicalSharp });
 
-export let iconMedicalSharp = medicalSharp;
+export let iconMedicalSharp = "medicalSharp";

@@ -6,4 +6,4 @@ import { telescopeOutline } from "ionicons/icons";
 
 addIcons({ telescopeOutline });
 
-export let iconTelescopeOutline = telescopeOutline;
+export let iconTelescopeOutline = "telescopeOutline";

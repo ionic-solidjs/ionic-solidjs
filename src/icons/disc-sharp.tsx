@@ -6,4 +6,4 @@ import { discSharp } from "ionicons/icons";
 
 addIcons({ discSharp });
 
-export let iconDiscSharp = discSharp;
+export let iconDiscSharp = "discSharp";

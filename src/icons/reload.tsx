@@ -6,4 +6,4 @@ import { reload } from "ionicons/icons";
 
 addIcons({ reload });
 
-export let iconReload = reload;
+export let iconReload = "reload";

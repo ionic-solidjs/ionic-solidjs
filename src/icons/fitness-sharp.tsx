@@ -6,4 +6,4 @@ import { fitnessSharp } from "ionicons/icons";
 
 addIcons({ fitnessSharp });
 
-export let iconFitnessSharp = fitnessSharp;
+export let iconFitnessSharp = "fitnessSharp";

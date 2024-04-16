@@ -6,4 +6,4 @@ import { playForwardCircleSharp } from "ionicons/icons";
 
 addIcons({ playForwardCircleSharp });
 
-export let iconPlayForwardCircleSharp = playForwardCircleSharp;
+export let iconPlayForwardCircleSharp = "playForwardCircleSharp";

@@ -6,4 +6,4 @@ import { infiniteSharp } from "ionicons/icons";
 
 addIcons({ infiniteSharp });
 
-export let iconInfiniteSharp = infiniteSharp;
+export let iconInfiniteSharp = "infiniteSharp";

@@ -6,4 +6,4 @@ import { pulse } from "ionicons/icons";
 
 addIcons({ pulse });
 
-export let iconPulse = pulse;
+export let iconPulse = "pulse";

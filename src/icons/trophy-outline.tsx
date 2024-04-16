@@ -6,4 +6,4 @@ import { trophyOutline } from "ionicons/icons";
 
 addIcons({ trophyOutline });
 
-export let iconTrophyOutline = trophyOutline;
+export let iconTrophyOutline = "trophyOutline";

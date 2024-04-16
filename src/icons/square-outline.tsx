@@ -6,4 +6,4 @@ import { squareOutline } from "ionicons/icons";
 
 addIcons({ squareOutline });
 
-export let iconSquareOutline = squareOutline;
+export let iconSquareOutline = "squareOutline";

@@ -6,4 +6,4 @@ import { playSkipForwardOutline } from "ionicons/icons";
 
 addIcons({ playSkipForwardOutline });
 
-export let iconPlaySkipForwardOutline = playSkipForwardOutline;
+export let iconPlaySkipForwardOutline = "playSkipForwardOutline";

@@ -6,4 +6,4 @@ import { enter } from "ionicons/icons";
 
 addIcons({ enter });
 
-export let iconEnter = enter;
+export let iconEnter = "enter";

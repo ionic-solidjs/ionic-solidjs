@@ -6,4 +6,4 @@ import { logoPwa } from "ionicons/icons";
 
 addIcons({ logoPwa });
 
-export let iconLogoPwa = logoPwa;
+export let iconLogoPwa = "logoPwa";

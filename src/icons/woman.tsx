@@ -6,4 +6,4 @@ import { woman } from "ionicons/icons";
 
 addIcons({ woman });
 
-export let iconWoman = woman;
+export let iconWoman = "woman";

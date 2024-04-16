@@ -6,4 +6,4 @@ import { pricetags } from "ionicons/icons";
 
 addIcons({ pricetags });
 
-export let iconPricetags = pricetags;
+export let iconPricetags = "pricetags";

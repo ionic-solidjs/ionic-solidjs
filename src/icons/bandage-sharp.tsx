@@ -6,4 +6,4 @@ import { bandageSharp } from "ionicons/icons";
 
 addIcons({ bandageSharp });
 
-export let iconBandageSharp = bandageSharp;
+export let iconBandageSharp = "bandageSharp";

@@ -6,4 +6,4 @@ import { volumeMediumSharp } from "ionicons/icons";
 
 addIcons({ volumeMediumSharp });
 
-export let iconVolumeMediumSharp = volumeMediumSharp;
+export let iconVolumeMediumSharp = "volumeMediumSharp";

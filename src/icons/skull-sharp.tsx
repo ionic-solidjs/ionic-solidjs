@@ -6,4 +6,4 @@ import { skullSharp } from "ionicons/icons";
 
 addIcons({ skullSharp });
 
-export let iconSkullSharp = skullSharp;
+export let iconSkullSharp = "skullSharp";

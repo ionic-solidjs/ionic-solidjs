@@ -6,4 +6,4 @@ import { newspaperSharp } from "ionicons/icons";
 
 addIcons({ newspaperSharp });
 
-export let iconNewspaperSharp = newspaperSharp;
+export let iconNewspaperSharp = "newspaperSharp";

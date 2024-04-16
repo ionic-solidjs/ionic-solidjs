@@ -6,4 +6,4 @@ import { keypad } from "ionicons/icons";
 
 addIcons({ keypad });
 
-export let iconKeypad = keypad;
+export let iconKeypad = "keypad";

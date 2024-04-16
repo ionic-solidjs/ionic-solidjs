@@ -6,4 +6,4 @@ import { pinOutline } from "ionicons/icons";
 
 addIcons({ pinOutline });
 
-export let iconPinOutline = pinOutline;
+export let iconPinOutline = "pinOutline";

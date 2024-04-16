@@ -6,4 +6,4 @@ import { link } from "ionicons/icons";
 
 addIcons({ link });
 
-export let iconLink = link;
+export let iconLink = "link";

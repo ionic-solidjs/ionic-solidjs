@@ -6,4 +6,4 @@ import { shareSharp } from "ionicons/icons";
 
 addIcons({ shareSharp });
 
-export let iconShareSharp = shareSharp;
+export let iconShareSharp = "shareSharp";

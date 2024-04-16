@@ -6,4 +6,4 @@ import { rocketOutline } from "ionicons/icons";
 
 addIcons({ rocketOutline });
 
-export let iconRocketOutline = rocketOutline;
+export let iconRocketOutline = "rocketOutline";

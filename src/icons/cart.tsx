@@ -6,4 +6,4 @@ import { cart } from "ionicons/icons";
 
 addIcons({ cart });
 
-export let iconCart = cart;
+export let iconCart = "cart";

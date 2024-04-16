@@ -6,4 +6,4 @@ import { giftOutline } from "ionicons/icons";
 
 addIcons({ giftOutline });
 
-export let iconGiftOutline = giftOutline;
+export let iconGiftOutline = "giftOutline";

@@ -6,4 +6,4 @@ import { nutritionSharp } from "ionicons/icons";
 
 addIcons({ nutritionSharp });
 
-export let iconNutritionSharp = nutritionSharp;
+export let iconNutritionSharp = "nutritionSharp";

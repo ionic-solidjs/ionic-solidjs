@@ -6,4 +6,4 @@ import { bookmarkSharp } from "ionicons/icons";
 
 addIcons({ bookmarkSharp });
 
-export let iconBookmarkSharp = bookmarkSharp;
+export let iconBookmarkSharp = "bookmarkSharp";

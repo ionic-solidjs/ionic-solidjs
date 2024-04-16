@@ -6,4 +6,4 @@ import { bonfireSharp } from "ionicons/icons";
 
 addIcons({ bonfireSharp });
 
-export let iconBonfireSharp = bonfireSharp;
+export let iconBonfireSharp = "bonfireSharp";

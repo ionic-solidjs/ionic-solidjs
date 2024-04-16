@@ -6,4 +6,4 @@ import { musicalNotesSharp } from "ionicons/icons";
 
 addIcons({ musicalNotesSharp });
 
-export let iconMusicalNotesSharp = musicalNotesSharp;
+export let iconMusicalNotesSharp = "musicalNotesSharp";

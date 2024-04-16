@@ -6,4 +6,4 @@ import { chatbubbleSharp } from "ionicons/icons";
 
 addIcons({ chatbubbleSharp });
 
-export let iconChatbubbleSharp = chatbubbleSharp;
+export let iconChatbubbleSharp = "chatbubbleSharp";

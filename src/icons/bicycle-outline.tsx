@@ -6,4 +6,4 @@ import { bicycleOutline } from "ionicons/icons";
 
 addIcons({ bicycleOutline });
 
-export let iconBicycleOutline = bicycleOutline;
+export let iconBicycleOutline = "bicycleOutline";

@@ -6,4 +6,4 @@ import { bugSharp } from "ionicons/icons";
 
 addIcons({ bugSharp });
 
-export let iconBugSharp = bugSharp;
+export let iconBugSharp = "bugSharp";

@@ -6,4 +6,4 @@ import { repeat } from "ionicons/icons";
 
 addIcons({ repeat });
 
-export let iconRepeat = repeat;
+export let iconRepeat = "repeat";

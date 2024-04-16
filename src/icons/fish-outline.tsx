@@ -6,4 +6,4 @@ import { fishOutline } from "ionicons/icons";
 
 addIcons({ fishOutline });
 
-export let iconFishOutline = fishOutline;
+export let iconFishOutline = "fishOutline";

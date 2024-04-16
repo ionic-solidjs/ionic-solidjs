@@ -6,4 +6,4 @@ import { stopwatchSharp } from "ionicons/icons";
 
 addIcons({ stopwatchSharp });
 
-export let iconStopwatchSharp = stopwatchSharp;
+export let iconStopwatchSharp = "stopwatchSharp";

@@ -6,4 +6,4 @@ import { thunderstormSharp } from "ionicons/icons";
 
 addIcons({ thunderstormSharp });
 
-export let iconThunderstormSharp = thunderstormSharp;
+export let iconThunderstormSharp = "thunderstormSharp";

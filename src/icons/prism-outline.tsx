@@ -6,4 +6,4 @@ import { prismOutline } from "ionicons/icons";
 
 addIcons({ prismOutline });
 
-export let iconPrismOutline = prismOutline;
+export let iconPrismOutline = "prismOutline";

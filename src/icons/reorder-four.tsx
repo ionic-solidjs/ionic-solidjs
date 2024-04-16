@@ -6,4 +6,4 @@ import { reorderFour } from "ionicons/icons";
 
 addIcons({ reorderFour });
 
-export let iconReorderFour = reorderFour;
+export let iconReorderFour = "reorderFour";

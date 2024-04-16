@@ -6,4 +6,4 @@ import { playForward } from "ionicons/icons";
 
 addIcons({ playForward });
 
-export let iconPlayForward = playForward;
+export let iconPlayForward = "playForward";

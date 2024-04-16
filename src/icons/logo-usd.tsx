@@ -6,4 +6,4 @@ import { logoUsd } from "ionicons/icons";
 
 addIcons({ logoUsd });
 
-export let iconLogoUsd = logoUsd;
+export let iconLogoUsd = "logoUsd";

@@ -6,4 +6,4 @@ import { caretBackOutline } from "ionicons/icons";
 
 addIcons({ caretBackOutline });
 
-export let iconCaretBackOutline = caretBackOutline;
+export let iconCaretBackOutline = "caretBackOutline";

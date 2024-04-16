@@ -6,4 +6,4 @@ import { cellularSharp } from "ionicons/icons";
 
 addIcons({ cellularSharp });
 
-export let iconCellularSharp = cellularSharp;
+export let iconCellularSharp = "cellularSharp";

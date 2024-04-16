@@ -6,4 +6,4 @@ import { calendarClearSharp } from "ionicons/icons";
 
 addIcons({ calendarClearSharp });
 
-export let iconCalendarClearSharp = calendarClearSharp;
+export let iconCalendarClearSharp = "calendarClearSharp";

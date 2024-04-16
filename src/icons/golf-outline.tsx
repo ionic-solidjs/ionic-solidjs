@@ -6,4 +6,4 @@ import { golfOutline } from "ionicons/icons";
 
 addIcons({ golfOutline });
 
-export let iconGolfOutline = golfOutline;
+export let iconGolfOutline = "golfOutline";

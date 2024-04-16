@@ -6,4 +6,4 @@ import { heartDislikeSharp } from "ionicons/icons";
 
 addIcons({ heartDislikeSharp });
 
-export let iconHeartDislikeSharp = heartDislikeSharp;
+export let iconHeartDislikeSharp = "heartDislikeSharp";

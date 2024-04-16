@@ -6,4 +6,4 @@ import { bookmark } from "ionicons/icons";
 
 addIcons({ bookmark });
 
-export let iconBookmark = bookmark;
+export let iconBookmark = "bookmark";

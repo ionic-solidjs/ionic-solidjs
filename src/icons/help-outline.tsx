@@ -6,4 +6,4 @@ import { helpOutline } from "ionicons/icons";
 
 addIcons({ helpOutline });
 
-export let iconHelpOutline = helpOutline;
+export let iconHelpOutline = "helpOutline";

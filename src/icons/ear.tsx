@@ -6,4 +6,4 @@ import { ear } from "ionicons/icons";
 
 addIcons({ ear });
 
-export let iconEar = ear;
+export let iconEar = "ear";

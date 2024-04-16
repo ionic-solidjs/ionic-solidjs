@@ -6,4 +6,4 @@ import { logoTrapeze } from "ionicons/icons";
 
 addIcons({ logoTrapeze });
 
-export let iconLogoTrapeze = logoTrapeze;
+export let iconLogoTrapeze = "logoTrapeze";

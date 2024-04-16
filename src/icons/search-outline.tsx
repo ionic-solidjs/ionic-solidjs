@@ -6,4 +6,4 @@ import { searchOutline } from "ionicons/icons";
 
 addIcons({ searchOutline });
 
-export let iconSearchOutline = searchOutline;
+export let iconSearchOutline = "searchOutline";

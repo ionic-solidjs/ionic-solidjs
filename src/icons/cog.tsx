@@ -6,4 +6,4 @@ import { cog } from "ionicons/icons";
 
 addIcons({ cog });
 
-export let iconCog = cog;
+export let iconCog = "cog";

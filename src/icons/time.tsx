@@ -6,4 +6,4 @@ import { time } from "ionicons/icons";
 
 addIcons({ time });
 
-export let iconTime = time;
+export let iconTime = "time";

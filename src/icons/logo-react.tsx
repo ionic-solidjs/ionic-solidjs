@@ -6,4 +6,4 @@ import { logoReact } from "ionicons/icons";
 
 addIcons({ logoReact });
 
-export let iconLogoReact = logoReact;
+export let iconLogoReact = "logoReact";

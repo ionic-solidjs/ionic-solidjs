@@ -6,4 +6,4 @@ import { warningSharp } from "ionicons/icons";
 
 addIcons({ warningSharp });
 
-export let iconWarningSharp = warningSharp;
+export let iconWarningSharp = "warningSharp";

@@ -6,4 +6,4 @@ import { helpBuoySharp } from "ionicons/icons";
 
 addIcons({ helpBuoySharp });
 
-export let iconHelpBuoySharp = helpBuoySharp;
+export let iconHelpBuoySharp = "helpBuoySharp";

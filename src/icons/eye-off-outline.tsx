@@ -6,4 +6,4 @@ import { eyeOffOutline } from "ionicons/icons";
 
 addIcons({ eyeOffOutline });
 
-export let iconEyeOffOutline = eyeOffOutline;
+export let iconEyeOffOutline = "eyeOffOutline";
