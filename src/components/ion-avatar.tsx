@@ -7,23 +7,13 @@ import { type JSX as IonicJSX } from '@ionic/core'
 import { JSX as JSXBase } from 'solid-js'
 import { FixIonProps } from '../lib'
 
-import { template as _$template } from "solid-js/web";
-import { getOwner as _$getOwner } from "solid-js/web";
-import { spread as _$spread } from "solid-js/web";
-
 initialize()
 defineCustomElement()
 
 export type IonAvatarProps = FixIonProps<IonicJSX.IonAvatar> &
   JSXBase.HTMLAttributes<HTMLIonAvatarElement>
 
-
-let _tmpl$ = /* @__PURE__ */ _$template(`<ion-avatar>`, true, false);
-
 export function IonAvatar(props: IonAvatarProps) {
-  let _el$ = _tmpl$();
-  _$spread(_el$, props, false, false);
-  (_el$ as any)._$owner = _$getOwner();
-  return _el$;
+  //@ts-ignore
+  return <ion-avatar {...props} />
 }
-

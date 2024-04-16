@@ -3,6 +3,13 @@ import { customElement, noShadowDOM } from "solid-element";
 import { JSX as IonicJSX } from "@ionic/core";
 import { JSX as SolidJSX } from "solid-js";
 
+import { defineCustomElement as ionRouterDefine } from "@ionic/core/components/ion-router";
+ionRouterDefine();
+
+import { defineCustomElement as ionRouteDefine } from "@ionic/core/components/ion-route";
+
+ionRouteDefine();
+
 export interface RouterParameters<P extends RouteParameters<any>[]> {
   root?: string;
   useHash?: boolean;
@@ -15,9 +22,6 @@ export interface RouteParameters<T> {
   component: (props: T) => SolidJSX.Element;
   routeProps: T;
 }
-
-export let RouterContext = createContext<HTMLIonRouterElement>();
-export let RouterDataContext = createContext<RouterParameters<any>>();
 
 function SolidIonRouteAcceptor<P>(props: RouteParameters<P> & { router: HTMLIonRouterElement }) {
   // A shadow root prevents ion-modal from finding its trigger elements.
@@ -34,7 +38,7 @@ customElement(
   "solid-ion-route-acceptor",
   {
     url: "/404",
-    component: () => <p>404</p>,
+    component: () => <>404</>,
     routeProps: {},
     router: null as any,
   },
@@ -51,6 +55,8 @@ declare module "solid-js" {
     }
   }
 }
+
+export let RouterContext = createContext<HTMLIonRouterElement>();
 
 export function Router<R extends RouteParameters<any>[]>(props: RouterParameters<R>) {
   let [router, setRouter] = createSignal<HTMLIonRouterElement>();
