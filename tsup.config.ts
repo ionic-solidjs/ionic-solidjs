@@ -4,18 +4,22 @@ import { defineConfig } from "tsup";
 
 import eps from "esbuild-plugin-solid";
 
+let solidPlugin = eps.solidPlugin;
+
 export default defineConfig({
-  entry: ["src/index.ts", "src/icons/index.ts"],
+  // entry: ["src/index.ts", "src/icons/index.ts"]
   // .concat(componentList.map((component) => `src/components/${component}.tsx`))
   // .concat(iconList.map((icon) => `src/icons/${icon}.tsx`)),
+  entry: ["src/**/*.ts", "src/**/*.tsx"],
   outDir: "lib",
+  // legacyOutput: true,
   splitting: false,
+  bundle: false,
   sourcemap: true,
-  format: ["cjs", "esm"],
+  format: ["esm", "cjs"],
   clean: true,
+  esbuildPlugins: [solidPlugin()],
   esbuildOptions: (opts) => {
-    opts.plugins = (opts.plugins || []).concat([eps.solidPugin]);
-    opts.jsxImportSource = "solid-js";
     opts.jsx = "preserve";
   },
   dts: {
