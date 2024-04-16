@@ -26,7 +26,7 @@ interface IonIcon {
   /**
    * If enabled, ion-icon will be loaded lazily when it's visible in the viewport. Default, `false`.
    */
-  lazy: boolean;
+  lazy?: boolean;
   /**
    * Specifies which icon to use on `md` mode.
    */
@@ -34,7 +34,7 @@ interface IonIcon {
   /**
    * The mode determines which platform styles to use.
    */
-  mode: string;
+  mode?: string;
   /**
    * Specifies which icon to use from the built-in set of icons.
    */
@@ -43,7 +43,7 @@ interface IonIcon {
    * When set to `false`, SVG content that is HTTP fetched will not be checked if the response SVG content has any `<script>` elements, or any attributes that start with `on`, such as `onclick`.
    * @default true
    */
-  sanitize: boolean;
+  sanitize?: boolean;
   /**
    * The size of the icon. Available options are: `"small"` and `"large"`.
    */
@@ -54,7 +54,7 @@ interface IonIcon {
   src?: string;
 }
 
-export type IonIconProps = FixIonProps<IonIcon> & JSXBase.HTMLAttributes<HTMLIonToolbarElement>;
+export type IonIconProps = FixIonProps<IonIcon> & JSXBase.HTMLAttributes<HTMLIonIconElement>;
 
 export function IonIcon(props: IonIconProps) {
   //@ts-ignore
