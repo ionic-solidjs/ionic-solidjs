@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ basket });
 
-export default basket;
+export let iconBasket = basket;

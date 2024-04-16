@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ recording });
 
-export default recording;
+export let iconRecording = recording;

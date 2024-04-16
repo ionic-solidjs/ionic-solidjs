@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ schoolOutline });
 
-export default schoolOutline;
+export let iconSchoolOutline = schoolOutline;

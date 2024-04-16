@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ shieldCheckmarkOutline });
 
-export default shieldCheckmarkOutline;
+export let iconShieldCheckmarkOutline = shieldCheckmarkOutline;

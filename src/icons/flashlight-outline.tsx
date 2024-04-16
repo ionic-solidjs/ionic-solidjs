@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ flashlightOutline });
 
-export default flashlightOutline;
+export let iconFlashlightOutline = flashlightOutline;

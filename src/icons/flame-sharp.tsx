@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ flameSharp });
 
-export default flameSharp;
+export let iconFlameSharp = flameSharp;

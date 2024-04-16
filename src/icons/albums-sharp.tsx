@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ albumsSharp });
 
-export default albumsSharp;
+export let iconAlbumsSharp = albumsSharp;

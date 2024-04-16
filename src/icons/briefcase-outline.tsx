@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ briefcaseOutline });
 
-export default briefcaseOutline;
+export let iconBriefcaseOutline = briefcaseOutline;

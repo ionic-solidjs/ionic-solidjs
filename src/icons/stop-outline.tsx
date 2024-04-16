@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ stopOutline });
 
-export default stopOutline;
+export let iconStopOutline = stopOutline;

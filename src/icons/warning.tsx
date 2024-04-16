@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ warning });
 
-export default warning;
+export let iconWarning = warning;

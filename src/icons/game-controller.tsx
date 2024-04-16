@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gameController });
 
-export default gameController;
+export let iconGameController = gameController;

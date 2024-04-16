@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ earSharp });
 
-export default earSharp;
+export let iconEarSharp = earSharp;

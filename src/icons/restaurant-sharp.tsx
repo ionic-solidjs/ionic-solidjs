@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ restaurantSharp });
 
-export default restaurantSharp;
+export let iconRestaurantSharp = restaurantSharp;

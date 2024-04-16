@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gitMerge });
 
-export default gitMerge;
+export let iconGitMerge = gitMerge;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cellularOutline });
 
-export default cellularOutline;
+export let iconCellularOutline = cellularOutline;

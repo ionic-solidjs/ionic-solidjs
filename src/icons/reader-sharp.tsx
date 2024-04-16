@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ readerSharp });
 
-export default readerSharp;
+export let iconReaderSharp = readerSharp;

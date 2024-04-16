@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cellular });
 
-export default cellular;
+export let iconCellular = cellular;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoReddit });
 
-export default logoReddit;
+export let iconLogoReddit = logoReddit;

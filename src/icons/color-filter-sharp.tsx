@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ colorFilterSharp });
 
-export default colorFilterSharp;
+export let iconColorFilterSharp = colorFilterSharp;

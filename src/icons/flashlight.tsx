@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ flashlight });
 
-export default flashlight;
+export let iconFlashlight = flashlight;

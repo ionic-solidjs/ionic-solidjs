@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ journalOutline });
 
-export default journalOutline;
+export let iconJournalOutline = journalOutline;

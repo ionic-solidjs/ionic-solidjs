@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoUsd });
 
-export default logoUsd;
+export let iconLogoUsd = logoUsd;

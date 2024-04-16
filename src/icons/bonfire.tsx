@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bonfire });
 
-export default bonfire;
+export let iconBonfire = bonfire;

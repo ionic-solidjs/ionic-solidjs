@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gift });
 
-export default gift;
+export let iconGift = gift;

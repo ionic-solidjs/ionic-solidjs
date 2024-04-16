@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ analyticsOutline });
 
-export default analyticsOutline;
+export let iconAnalyticsOutline = analyticsOutline;

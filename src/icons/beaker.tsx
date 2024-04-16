@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ beaker });
 
-export default beaker;
+export let iconBeaker = beaker;

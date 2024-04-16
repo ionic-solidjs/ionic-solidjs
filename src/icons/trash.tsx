@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ trash });
 
-export default trash;
+export let iconTrash = trash;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoSass });
 
-export default logoSass;
+export let iconLogoSass = logoSass;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ duplicateSharp });
 
-export default duplicateSharp;
+export let iconDuplicateSharp = duplicateSharp;

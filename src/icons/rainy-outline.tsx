@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ rainyOutline });
 
-export default rainyOutline;
+export let iconRainyOutline = rainyOutline;

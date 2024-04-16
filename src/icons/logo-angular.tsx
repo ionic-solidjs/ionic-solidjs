@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoAngular });
 
-export default logoAngular;
+export let iconLogoAngular = logoAngular;

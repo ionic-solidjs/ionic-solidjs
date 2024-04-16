@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ qrCodeSharp });
 
-export default qrCodeSharp;
+export let iconQrCodeSharp = qrCodeSharp;

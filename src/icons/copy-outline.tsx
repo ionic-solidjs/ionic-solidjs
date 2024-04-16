@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ copyOutline });
 
-export default copyOutline;
+export let iconCopyOutline = copyOutline;

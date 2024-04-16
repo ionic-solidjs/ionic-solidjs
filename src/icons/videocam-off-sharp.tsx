@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ videocamOffSharp });
 
-export default videocamOffSharp;
+export let iconVideocamOffSharp = videocamOffSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ browsersSharp });
 
-export default browsersSharp;
+export let iconBrowsersSharp = browsersSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoPlaystation });
 
-export default logoPlaystation;
+export let iconLogoPlaystation = logoPlaystation;

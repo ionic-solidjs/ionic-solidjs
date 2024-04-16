@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ batteryChargingSharp });
 
-export default batteryChargingSharp;
+export let iconBatteryChargingSharp = batteryChargingSharp;

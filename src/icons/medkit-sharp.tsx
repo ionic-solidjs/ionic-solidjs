@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ medkitSharp });
 
-export default medkitSharp;
+export let iconMedkitSharp = medkitSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ medkit });
 
-export default medkit;
+export let iconMedkit = medkit;

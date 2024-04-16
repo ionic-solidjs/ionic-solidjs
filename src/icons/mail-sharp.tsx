@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ mailSharp });
 
-export default mailSharp;
+export let iconMailSharp = mailSharp;

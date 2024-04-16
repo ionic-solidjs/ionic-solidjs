@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ starHalfSharp });
 
-export default starHalfSharp;
+export let iconStarHalfSharp = starHalfSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ diceSharp });
 
-export default diceSharp;
+export let iconDiceSharp = diceSharp;

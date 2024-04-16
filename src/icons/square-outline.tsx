@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ squareOutline });
 
-export default squareOutline;
+export let iconSquareOutline = squareOutline;

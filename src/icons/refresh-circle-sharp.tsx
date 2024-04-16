@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ refreshCircleSharp });
 
-export default refreshCircleSharp;
+export let iconRefreshCircleSharp = refreshCircleSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ watchSharp });
 
-export default watchSharp;
+export let iconWatchSharp = watchSharp;

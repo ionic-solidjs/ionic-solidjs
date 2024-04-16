@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoVimeo });
 
-export default logoVimeo;
+export let iconLogoVimeo = logoVimeo;

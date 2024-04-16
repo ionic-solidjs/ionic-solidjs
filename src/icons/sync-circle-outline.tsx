@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ syncCircleOutline });
 
-export default syncCircleOutline;
+export let iconSyncCircleOutline = syncCircleOutline;

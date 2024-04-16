@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ subway });
 
-export default subway;
+export let iconSubway = subway;

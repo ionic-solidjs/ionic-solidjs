@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ toggle });
 
-export default toggle;
+export let iconToggle = toggle;

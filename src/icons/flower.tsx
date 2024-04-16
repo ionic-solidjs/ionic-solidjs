@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ flower });
 
-export default flower;
+export let iconFlower = flower;

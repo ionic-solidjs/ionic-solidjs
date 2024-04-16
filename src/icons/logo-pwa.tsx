@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoPwa });
 
-export default logoPwa;
+export let iconLogoPwa = logoPwa;

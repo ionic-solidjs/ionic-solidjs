@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ infiniteSharp });
 
-export default infiniteSharp;
+export let iconInfiniteSharp = infiniteSharp;

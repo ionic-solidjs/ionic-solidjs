@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ expandSharp });
 
-export default expandSharp;
+export let iconExpandSharp = expandSharp;

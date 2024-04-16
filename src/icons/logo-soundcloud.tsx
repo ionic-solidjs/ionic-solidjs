@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoSoundcloud });
 
-export default logoSoundcloud;
+export let iconLogoSoundcloud = logoSoundcloud;

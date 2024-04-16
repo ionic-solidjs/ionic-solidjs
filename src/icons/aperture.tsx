@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ aperture });
 
-export default aperture;
+export let iconAperture = aperture;

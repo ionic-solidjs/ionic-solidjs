@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ codeSlash });
 
-export default codeSlash;
+export let iconCodeSlash = codeSlash;

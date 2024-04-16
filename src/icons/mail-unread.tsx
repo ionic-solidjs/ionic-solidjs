@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ mailUnread });
 
-export default mailUnread;
+export let iconMailUnread = mailUnread;

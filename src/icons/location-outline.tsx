@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ locationOutline });
 
-export default locationOutline;
+export let iconLocationOutline = locationOutline;

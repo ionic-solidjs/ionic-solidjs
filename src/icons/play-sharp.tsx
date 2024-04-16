@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ playSharp });
 
-export default playSharp;
+export let iconPlaySharp = playSharp;

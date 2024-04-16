@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ personSharp });
 
-export default personSharp;
+export let iconPersonSharp = personSharp;

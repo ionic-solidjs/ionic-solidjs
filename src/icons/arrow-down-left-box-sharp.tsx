@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ arrowDownLeftBoxSharp });
 
-export default arrowDownLeftBoxSharp;
+export let iconArrowDownLeftBoxSharp = arrowDownLeftBoxSharp;

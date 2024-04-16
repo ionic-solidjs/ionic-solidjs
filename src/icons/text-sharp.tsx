@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ textSharp });
 
-export default textSharp;
+export let iconTextSharp = textSharp;

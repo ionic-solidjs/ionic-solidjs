@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ tabletLandscapeOutline });
 
-export default tabletLandscapeOutline;
+export let iconTabletLandscapeOutline = tabletLandscapeOutline;

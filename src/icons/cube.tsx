@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cube });
 
-export default cube;
+export let iconCube = cube;

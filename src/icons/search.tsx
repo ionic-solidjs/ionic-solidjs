@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ search });
 
-export default search;
+export let iconSearch = search;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ playBackOutline });
 
-export default playBackOutline;
+export let iconPlayBackOutline = playBackOutline;

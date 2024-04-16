@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ documentLockOutline });
 
-export default documentLockOutline;
+export let iconDocumentLockOutline = documentLockOutline;

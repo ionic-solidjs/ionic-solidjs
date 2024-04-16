@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoVk });
 
-export default logoVk;
+export let iconLogoVk = logoVk;

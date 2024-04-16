@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoOctocat });
 
-export default logoOctocat;
+export let iconLogoOctocat = logoOctocat;

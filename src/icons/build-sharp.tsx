@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ buildSharp });
 
-export default buildSharp;
+export let iconBuildSharp = buildSharp;

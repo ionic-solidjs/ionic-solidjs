@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bonfireOutline });
 
-export default bonfireOutline;
+export let iconBonfireOutline = bonfireOutline;

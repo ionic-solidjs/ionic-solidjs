@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoVercel });
 
-export default logoVercel;
+export let iconLogoVercel = logoVercel;

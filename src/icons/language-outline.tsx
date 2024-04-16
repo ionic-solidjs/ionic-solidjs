@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ languageOutline });
 
-export default languageOutline;
+export let iconLanguageOutline = languageOutline;

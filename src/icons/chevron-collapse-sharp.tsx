@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ chevronCollapseSharp });
 
-export default chevronCollapseSharp;
+export let iconChevronCollapseSharp = chevronCollapseSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ navigate });
 
-export default navigate;
+export let iconNavigate = navigate;

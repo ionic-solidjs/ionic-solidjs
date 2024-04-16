@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ journal });
 
-export default journal;
+export let iconJournal = journal;

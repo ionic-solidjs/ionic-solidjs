@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ radioButtonOnSharp });
 
-export default radioButtonOnSharp;
+export let iconRadioButtonOnSharp = radioButtonOnSharp;

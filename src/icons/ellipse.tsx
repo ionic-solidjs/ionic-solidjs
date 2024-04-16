@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ ellipse });
 
-export default ellipse;
+export let iconEllipse = ellipse;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ notifications });
 
-export default notifications;
+export let iconNotifications = notifications;

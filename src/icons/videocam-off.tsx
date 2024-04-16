@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ videocamOff });
 
-export default videocamOff;
+export let iconVideocamOff = videocamOff;

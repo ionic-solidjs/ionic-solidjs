@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ triangleSharp });
 
-export default triangleSharp;
+export let iconTriangleSharp = triangleSharp;

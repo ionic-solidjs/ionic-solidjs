@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ tabletPortrait });
 
-export default tabletPortrait;
+export let iconTabletPortrait = tabletPortrait;

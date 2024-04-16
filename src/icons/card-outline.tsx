@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cardOutline });
 
-export default cardOutline;
+export let iconCardOutline = cardOutline;

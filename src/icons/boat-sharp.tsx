@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ boatSharp });
 
-export default boatSharp;
+export let iconBoatSharp = boatSharp;

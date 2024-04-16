@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ fileTray });
 
-export default fileTray;
+export let iconFileTray = fileTray;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cloudCircle });
 
-export default cloudCircle;
+export let iconCloudCircle = cloudCircle;

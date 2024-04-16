@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ balloonSharp });
 
-export default balloonSharp;
+export let iconBalloonSharp = balloonSharp;

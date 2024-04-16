@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ heartHalfOutline });
 
-export default heartHalfOutline;
+export let iconHeartHalfOutline = heartHalfOutline;

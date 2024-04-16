@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ fingerPrintSharp });
 
-export default fingerPrintSharp;
+export let iconFingerPrintSharp = fingerPrintSharp;

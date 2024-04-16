@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ flame });
 
-export default flame;
+export let iconFlame = flame;

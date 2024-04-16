@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ playCircleSharp });
 
-export default playCircleSharp;
+export let iconPlayCircleSharp = playCircleSharp;

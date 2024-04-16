@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ filmSharp });
 
-export default filmSharp;
+export let iconFilmSharp = filmSharp;

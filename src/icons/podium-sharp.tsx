@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ podiumSharp });
 
-export default podiumSharp;
+export let iconPodiumSharp = podiumSharp;

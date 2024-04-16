@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ laptopOutline });
 
-export default laptopOutline;
+export let iconLaptopOutline = laptopOutline;

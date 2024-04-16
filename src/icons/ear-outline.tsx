@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ earOutline });
 
-export default earOutline;
+export let iconEarOutline = earOutline;

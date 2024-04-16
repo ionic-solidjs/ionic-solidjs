@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ barbellSharp });
 
-export default barbellSharp;
+export let iconBarbellSharp = barbellSharp;

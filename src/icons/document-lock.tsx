@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ documentLock });
 
-export default documentLock;
+export let iconDocumentLock = documentLock;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ discSharp });
 
-export default discSharp;
+export let iconDiscSharp = discSharp;

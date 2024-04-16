@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ expand });
 
-export default expand;
+export let iconExpand = expand;

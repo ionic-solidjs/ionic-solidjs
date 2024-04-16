@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ syncCircle });
 
-export default syncCircle;
+export let iconSyncCircle = syncCircle;

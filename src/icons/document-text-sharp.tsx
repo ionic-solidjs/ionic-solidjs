@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ documentTextSharp });
 
-export default documentTextSharp;
+export let iconDocumentTextSharp = documentTextSharp;

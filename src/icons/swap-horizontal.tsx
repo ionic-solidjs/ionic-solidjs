@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ swapHorizontal });
 
-export default swapHorizontal;
+export let iconSwapHorizontal = swapHorizontal;

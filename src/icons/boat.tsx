@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ boat });
 
-export default boat;
+export let iconBoat = boat;

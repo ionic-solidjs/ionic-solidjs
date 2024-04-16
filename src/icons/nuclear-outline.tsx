@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ nuclearOutline });
 
-export default nuclearOutline;
+export let iconNuclearOutline = nuclearOutline;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoStencil });
 
-export default logoStencil;
+export let iconLogoStencil = logoStencil;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ play });
 
-export default play;
+export let iconPlay = play;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gridSharp });
 
-export default gridSharp;
+export let iconGridSharp = gridSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ walkOutline });
 
-export default walkOutline;
+export let iconWalkOutline = walkOutline;

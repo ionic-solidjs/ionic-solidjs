@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bandageSharp });
 
-export default bandageSharp;
+export let iconBandageSharp = bandageSharp;

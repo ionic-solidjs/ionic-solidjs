@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ storefront });
 
-export default storefront;
+export let iconStorefront = storefront;

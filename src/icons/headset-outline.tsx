@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ headsetOutline });
 
-export default headsetOutline;
+export let iconHeadsetOutline = headsetOutline;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bed });
 
-export default bed;
+export let iconBed = bed;

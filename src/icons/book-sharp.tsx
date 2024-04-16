@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bookSharp });
 
-export default bookSharp;
+export let iconBookSharp = bookSharp;

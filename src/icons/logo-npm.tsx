@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoNpm });
 
-export default logoNpm;
+export let iconLogoNpm = logoNpm;

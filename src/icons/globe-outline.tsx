@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ globeOutline });
 
-export default globeOutline;
+export let iconGlobeOutline = globeOutline;

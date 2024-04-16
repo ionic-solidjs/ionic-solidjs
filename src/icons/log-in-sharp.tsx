@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logInSharp });
 
-export default logInSharp;
+export let iconLogInSharp = logInSharp;

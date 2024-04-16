@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ handRightOutline });
 
-export default handRightOutline;
+export let iconHandRightOutline = handRightOutline;

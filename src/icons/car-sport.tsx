@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ carSport });
 
-export default carSport;
+export let iconCarSport = carSport;

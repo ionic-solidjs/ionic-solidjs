@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ calendarClearOutline });
 
-export default calendarClearOutline;
+export let iconCalendarClearOutline = calendarClearOutline;

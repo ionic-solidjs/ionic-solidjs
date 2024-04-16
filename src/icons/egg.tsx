@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ egg });
 
-export default egg;
+export let iconEgg = egg;

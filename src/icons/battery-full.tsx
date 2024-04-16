@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ batteryFull });
 
-export default batteryFull;
+export let iconBatteryFull = batteryFull;

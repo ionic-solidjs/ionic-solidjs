@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ iceCreamSharp });
 
-export default iceCreamSharp;
+export let iconIceCreamSharp = iceCreamSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ informationSharp });
 
-export default informationSharp;
+export let iconInformationSharp = informationSharp;

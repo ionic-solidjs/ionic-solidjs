@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ footstepsSharp });
 
-export default footstepsSharp;
+export let iconFootstepsSharp = footstepsSharp;

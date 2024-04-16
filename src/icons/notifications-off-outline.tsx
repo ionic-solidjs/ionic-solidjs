@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ notificationsOffOutline });
 
-export default notificationsOffOutline;
+export let iconNotificationsOffOutline = notificationsOffOutline;

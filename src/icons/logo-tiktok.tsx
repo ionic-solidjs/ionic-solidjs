@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoTiktok });
 
-export default logoTiktok;
+export let iconLogoTiktok = logoTiktok;

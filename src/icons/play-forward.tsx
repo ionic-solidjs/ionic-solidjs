@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ playForward });
 
-export default playForward;
+export let iconPlayForward = playForward;

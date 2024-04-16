@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ megaphone });
 
-export default megaphone;
+export let iconMegaphone = megaphone;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ desktop });
 
-export default desktop;
+export let iconDesktop = desktop;

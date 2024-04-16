@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bookmarksSharp });
 
-export default bookmarksSharp;
+export let iconBookmarksSharp = bookmarksSharp;

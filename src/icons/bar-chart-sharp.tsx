@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ barChartSharp });
 
-export default barChartSharp;
+export let iconBarChartSharp = barChartSharp;

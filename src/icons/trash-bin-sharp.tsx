@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ trashBinSharp });
 
-export default trashBinSharp;
+export let iconTrashBinSharp = trashBinSharp;

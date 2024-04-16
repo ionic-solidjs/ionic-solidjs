@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ idCard });
 
-export default idCard;
+export let iconIdCard = idCard;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bookOutline });
 
-export default bookOutline;
+export let iconBookOutline = bookOutline;

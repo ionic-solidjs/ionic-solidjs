@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ eyedropSharp });
 
-export default eyedropSharp;
+export let iconEyedropSharp = eyedropSharp;

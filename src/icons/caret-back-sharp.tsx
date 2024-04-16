@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ caretBackSharp });
 
-export default caretBackSharp;
+export let iconCaretBackSharp = caretBackSharp;

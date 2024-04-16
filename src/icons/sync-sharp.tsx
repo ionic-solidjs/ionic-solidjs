@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ syncSharp });
 
-export default syncSharp;
+export let iconSyncSharp = syncSharp;

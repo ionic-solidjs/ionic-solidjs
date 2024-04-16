@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ flagSharp });
 
-export default flagSharp;
+export let iconFlagSharp = flagSharp;

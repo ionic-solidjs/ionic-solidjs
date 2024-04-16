@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ reorderFourSharp });
 
-export default reorderFourSharp;
+export let iconReorderFourSharp = reorderFourSharp;

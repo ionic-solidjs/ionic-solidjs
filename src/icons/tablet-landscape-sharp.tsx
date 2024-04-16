@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ tabletLandscapeSharp });
 
-export default tabletLandscapeSharp;
+export let iconTabletLandscapeSharp = tabletLandscapeSharp;

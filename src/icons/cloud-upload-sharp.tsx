@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cloudUploadSharp });
 
-export default cloudUploadSharp;
+export let iconCloudUploadSharp = cloudUploadSharp;

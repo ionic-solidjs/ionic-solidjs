@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ locateSharp });
 
-export default locateSharp;
+export let iconLocateSharp = locateSharp;

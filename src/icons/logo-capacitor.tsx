@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoCapacitor });
 
-export default logoCapacitor;
+export let iconLogoCapacitor = logoCapacitor;

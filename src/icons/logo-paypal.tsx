@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoPaypal });
 
-export default logoPaypal;
+export let iconLogoPaypal = logoPaypal;

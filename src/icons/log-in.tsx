@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logIn });
 
-export default logIn;
+export let iconLogIn = logIn;

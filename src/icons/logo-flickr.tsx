@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoFlickr });
 
-export default logoFlickr;
+export let iconLogoFlickr = logoFlickr;

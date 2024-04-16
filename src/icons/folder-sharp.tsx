@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ folderSharp });
 
-export default folderSharp;
+export let iconFolderSharp = folderSharp;

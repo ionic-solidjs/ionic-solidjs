@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ football });
 
-export default football;
+export let iconFootball = football;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ infinite });
 
-export default infinite;
+export let iconInfinite = infinite;

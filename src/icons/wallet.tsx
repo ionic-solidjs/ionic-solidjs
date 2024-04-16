@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ wallet });
 
-export default wallet;
+export let iconWallet = wallet;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ musicalNotes });
 
-export default musicalNotes;
+export let iconMusicalNotes = musicalNotes;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cellularSharp });
 
-export default cellularSharp;
+export let iconCellularSharp = cellularSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ lockClosedSharp });
 
-export default lockClosedSharp;
+export let iconLockClosedSharp = lockClosedSharp;

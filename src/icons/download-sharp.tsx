@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ downloadSharp });
 
-export default downloadSharp;
+export let iconDownloadSharp = downloadSharp;

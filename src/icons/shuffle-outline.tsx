@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ shuffleOutline });
 
-export default shuffleOutline;
+export let iconShuffleOutline = shuffleOutline;

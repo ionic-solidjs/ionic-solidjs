@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ closeOutline });
 
-export default closeOutline;
+export let iconCloseOutline = closeOutline;

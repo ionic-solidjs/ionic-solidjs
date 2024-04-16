@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ call });
 
-export default call;
+export let iconCall = call;

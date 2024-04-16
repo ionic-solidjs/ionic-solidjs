@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoChrome });
 
-export default logoChrome;
+export let iconLogoChrome = logoChrome;

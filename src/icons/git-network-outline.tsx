@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gitNetworkOutline });
 
-export default gitNetworkOutline;
+export let iconGitNetworkOutline = gitNetworkOutline;

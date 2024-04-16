@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ reloadCircleOutline });
 
-export default reloadCircleOutline;
+export let iconReloadCircleOutline = reloadCircleOutline;

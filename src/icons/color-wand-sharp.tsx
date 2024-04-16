@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ colorWandSharp });
 
-export default colorWandSharp;
+export let iconColorWandSharp = colorWandSharp;

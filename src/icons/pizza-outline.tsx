@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pizzaOutline });
 
-export default pizzaOutline;
+export let iconPizzaOutline = pizzaOutline;

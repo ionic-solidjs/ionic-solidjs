@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bluetoothSharp });
 
-export default bluetoothSharp;
+export let iconBluetoothSharp = bluetoothSharp;

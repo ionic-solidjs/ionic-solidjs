@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ colorWand });
 
-export default colorWand;
+export let iconColorWand = colorWand;

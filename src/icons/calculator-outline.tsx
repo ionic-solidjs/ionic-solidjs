@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ calculatorOutline });
 
-export default calculatorOutline;
+export let iconCalculatorOutline = calculatorOutline;

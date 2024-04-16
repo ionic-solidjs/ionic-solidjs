@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gitBranchOutline });
 
-export default gitBranchOutline;
+export let iconGitBranchOutline = gitBranchOutline;

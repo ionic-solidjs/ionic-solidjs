@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ snowOutline });
 
-export default snowOutline;
+export let iconSnowOutline = snowOutline;

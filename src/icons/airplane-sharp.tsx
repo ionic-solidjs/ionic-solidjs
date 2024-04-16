@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ airplaneSharp });
 
-export default airplaneSharp;
+export let iconAirplaneSharp = airplaneSharp;

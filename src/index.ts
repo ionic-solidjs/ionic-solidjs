@@ -1,3 +1,2 @@
-export function test() {
-  console.log("Hello World");
-}
+export * from "./components";
+export * from "./router";

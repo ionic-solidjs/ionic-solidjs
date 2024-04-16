@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ hammerOutline });
 
-export default hammerOutline;
+export let iconHammerOutline = hammerOutline;

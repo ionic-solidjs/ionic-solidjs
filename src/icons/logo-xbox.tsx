@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoXbox });
 
-export default logoXbox;
+export let iconLogoXbox = logoXbox;

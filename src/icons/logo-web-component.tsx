@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoWebComponent });
 
-export default logoWebComponent;
+export let iconLogoWebComponent = logoWebComponent;

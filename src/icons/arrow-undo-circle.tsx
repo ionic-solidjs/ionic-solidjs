@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ arrowUndoCircle });
 
-export default arrowUndoCircle;
+export let iconArrowUndoCircle = arrowUndoCircle;

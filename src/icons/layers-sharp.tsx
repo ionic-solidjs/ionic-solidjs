@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ layersSharp });
 
-export default layersSharp;
+export let iconLayersSharp = layersSharp;

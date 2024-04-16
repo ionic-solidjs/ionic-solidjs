@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ unlinkOutline });
 
-export default unlinkOutline;
+export let iconUnlinkOutline = unlinkOutline;

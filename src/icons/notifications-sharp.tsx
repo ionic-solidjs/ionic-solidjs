@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ notificationsSharp });
 
-export default notificationsSharp;
+export let iconNotificationsSharp = notificationsSharp;

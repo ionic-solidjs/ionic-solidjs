@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ checkmarkDoneCircle });
 
-export default checkmarkDoneCircle;
+export let iconCheckmarkDoneCircle = checkmarkDoneCircle;

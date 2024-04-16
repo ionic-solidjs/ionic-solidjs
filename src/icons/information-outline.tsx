@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ informationOutline });
 
-export default informationOutline;
+export let iconInformationOutline = informationOutline;

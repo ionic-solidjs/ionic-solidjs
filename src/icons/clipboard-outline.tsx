@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ clipboardOutline });
 
-export default clipboardOutline;
+export let iconClipboardOutline = clipboardOutline;

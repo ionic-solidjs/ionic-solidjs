@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bookmark });
 
-export default bookmark;
+export let iconBookmark = bookmark;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ library });
 
-export default library;
+export let iconLibrary = library;

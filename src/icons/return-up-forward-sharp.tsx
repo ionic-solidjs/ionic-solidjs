@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ returnUpForwardSharp });
 
-export default returnUpForwardSharp;
+export let iconReturnUpForwardSharp = returnUpForwardSharp;

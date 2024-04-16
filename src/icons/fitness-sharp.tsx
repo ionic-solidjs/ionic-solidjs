@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ fitnessSharp });
 
-export default fitnessSharp;
+export let iconFitnessSharp = fitnessSharp;

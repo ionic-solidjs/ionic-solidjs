@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ transgenderSharp });
 
-export default transgenderSharp;
+export let iconTransgenderSharp = transgenderSharp;

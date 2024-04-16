@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ easel });
 
-export default easel;
+export let iconEasel = easel;

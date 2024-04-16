@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cloudOffline });
 
-export default cloudOffline;
+export let iconCloudOffline = cloudOffline;

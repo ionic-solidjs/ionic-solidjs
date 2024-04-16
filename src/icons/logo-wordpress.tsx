@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoWordpress });
 
-export default logoWordpress;
+export let iconLogoWordpress = logoWordpress;

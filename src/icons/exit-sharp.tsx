@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ exitSharp });
 
-export default exitSharp;
+export let iconExitSharp = exitSharp;

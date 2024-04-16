@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ atCircleSharp });
 
-export default atCircleSharp;
+export let iconAtCircleSharp = atCircleSharp;

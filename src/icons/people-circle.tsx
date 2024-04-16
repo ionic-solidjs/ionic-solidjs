@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ peopleCircle });
 
-export default peopleCircle;
+export let iconPeopleCircle = peopleCircle;

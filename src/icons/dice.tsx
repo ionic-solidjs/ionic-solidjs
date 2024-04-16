@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ dice });
 
-export default dice;
+export let iconDice = dice;

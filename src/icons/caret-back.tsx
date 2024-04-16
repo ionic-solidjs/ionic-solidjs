@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ caretBack });
 
-export default caretBack;
+export let iconCaretBack = caretBack;

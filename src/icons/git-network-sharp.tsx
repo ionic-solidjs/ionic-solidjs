@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gitNetworkSharp });
 
-export default gitNetworkSharp;
+export let iconGitNetworkSharp = gitNetworkSharp;

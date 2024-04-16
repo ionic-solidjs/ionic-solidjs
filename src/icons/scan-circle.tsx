@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ scanCircle });
 
-export default scanCircle;
+export let iconScanCircle = scanCircle;

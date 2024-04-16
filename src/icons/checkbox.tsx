@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ checkbox });
 
-export default checkbox;
+export let iconCheckbox = checkbox;

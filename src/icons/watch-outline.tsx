@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ watchOutline });
 
-export default watchOutline;
+export let iconWatchOutline = watchOutline;

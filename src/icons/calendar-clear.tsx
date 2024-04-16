@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ calendarClear });
 
-export default calendarClear;
+export let iconCalendarClear = calendarClear;

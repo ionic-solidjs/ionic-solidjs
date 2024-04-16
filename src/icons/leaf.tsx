@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ leaf });
 
-export default leaf;
+export let iconLeaf = leaf;

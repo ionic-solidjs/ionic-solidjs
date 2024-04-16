@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ telescopeSharp });
 
-export default telescopeSharp;
+export let iconTelescopeSharp = telescopeSharp;

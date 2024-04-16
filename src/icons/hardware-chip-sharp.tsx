@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ hardwareChipSharp });
 
-export default hardwareChipSharp;
+export let iconHardwareChipSharp = hardwareChipSharp;

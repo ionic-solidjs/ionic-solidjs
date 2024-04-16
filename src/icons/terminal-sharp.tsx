@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ terminalSharp });
 
-export default terminalSharp;
+export let iconTerminalSharp = terminalSharp;

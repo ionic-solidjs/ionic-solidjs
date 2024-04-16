@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ ear });
 
-export default ear;
+export let iconEar = ear;

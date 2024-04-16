@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoTux });
 
-export default logoTux;
+export let iconLogoTux = logoTux;

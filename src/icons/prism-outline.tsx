@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ prismOutline });
 
-export default prismOutline;
+export let iconPrismOutline = prismOutline;

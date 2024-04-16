@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bagRemoveOutline });
 
-export default bagRemoveOutline;
+export let iconBagRemoveOutline = bagRemoveOutline;

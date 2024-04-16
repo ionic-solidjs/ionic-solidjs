@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ barcode });
 
-export default barcode;
+export let iconBarcode = barcode;

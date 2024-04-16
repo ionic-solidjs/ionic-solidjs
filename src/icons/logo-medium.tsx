@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoMedium });
 
-export default logoMedium;
+export let iconLogoMedium = logoMedium;

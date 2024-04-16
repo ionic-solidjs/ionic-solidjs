@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ push });
 
-export default push;
+export let iconPush = push;

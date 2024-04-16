@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ checkboxSharp });
 
-export default checkboxSharp;
+export let iconCheckboxSharp = checkboxSharp;

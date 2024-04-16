@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ shirtSharp });
 
-export default shirtSharp;
+export let iconShirtSharp = shirtSharp;

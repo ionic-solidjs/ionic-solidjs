@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ heartDislikeSharp });
 
-export default heartDislikeSharp;
+export let iconHeartDislikeSharp = heartDislikeSharp;

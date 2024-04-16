@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ volumeMute });
 
-export default volumeMute;
+export let iconVolumeMute = volumeMute;

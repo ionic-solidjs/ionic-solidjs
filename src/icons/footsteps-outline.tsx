@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ footstepsOutline });
 
-export default footstepsOutline;
+export let iconFootstepsOutline = footstepsOutline;

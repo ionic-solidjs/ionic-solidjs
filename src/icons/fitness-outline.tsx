@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ fitnessOutline });
 
-export default fitnessOutline;
+export let iconFitnessOutline = fitnessOutline;

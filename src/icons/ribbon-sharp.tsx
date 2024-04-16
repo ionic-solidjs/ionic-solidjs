@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ ribbonSharp });
 
-export default ribbonSharp;
+export let iconRibbonSharp = ribbonSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ layersOutline });
 
-export default layersOutline;
+export let iconLayersOutline = layersOutline;

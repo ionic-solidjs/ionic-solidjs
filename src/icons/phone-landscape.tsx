@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ phoneLandscape });
 
-export default phoneLandscape;
+export let iconPhoneLandscape = phoneLandscape;

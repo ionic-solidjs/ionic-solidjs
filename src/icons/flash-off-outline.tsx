@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ flashOffOutline });
 
-export default flashOffOutline;
+export let iconFlashOffOutline = flashOffOutline;

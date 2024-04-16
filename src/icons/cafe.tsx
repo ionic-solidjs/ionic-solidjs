@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cafe });
 
-export default cafe;
+export let iconCafe = cafe;

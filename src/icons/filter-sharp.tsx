@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ filterSharp });
 
-export default filterSharp;
+export let iconFilterSharp = filterSharp;

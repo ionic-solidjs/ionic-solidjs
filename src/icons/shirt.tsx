@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ shirt });
 
-export default shirt;
+export let iconShirt = shirt;

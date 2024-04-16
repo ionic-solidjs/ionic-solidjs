@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ moon });
 
-export default moon;
+export let iconMoon = moon;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ golfSharp });
 
-export default golfSharp;
+export let iconGolfSharp = golfSharp;

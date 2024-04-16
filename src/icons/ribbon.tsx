@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ ribbon });
 
-export default ribbon;
+export let iconRibbon = ribbon;

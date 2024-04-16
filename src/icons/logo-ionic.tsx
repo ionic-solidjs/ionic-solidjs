@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoIonic });
 
-export default logoIonic;
+export let iconLogoIonic = logoIonic;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ hammerSharp });
 
-export default hammerSharp;
+export let iconHammerSharp = hammerSharp;

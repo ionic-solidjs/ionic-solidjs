@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ shirtOutline });
 
-export default shirtOutline;
+export let iconShirtOutline = shirtOutline;

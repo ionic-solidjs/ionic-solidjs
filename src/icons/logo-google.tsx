@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoGoogle });
 
-export default logoGoogle;
+export let iconLogoGoogle = logoGoogle;

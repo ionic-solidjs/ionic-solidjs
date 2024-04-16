@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ schoolSharp });
 
-export default schoolSharp;
+export let iconSchoolSharp = schoolSharp;

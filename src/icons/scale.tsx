@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ scale });
 
-export default scale;
+export let iconScale = scale;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ easelSharp });
 
-export default easelSharp;
+export let iconEaselSharp = easelSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ colorFilter });
 
-export default colorFilter;
+export let iconColorFilter = colorFilter;

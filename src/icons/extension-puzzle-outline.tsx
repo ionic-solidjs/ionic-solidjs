@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ extensionPuzzleOutline });
 
-export default extensionPuzzleOutline;
+export let iconExtensionPuzzleOutline = extensionPuzzleOutline;

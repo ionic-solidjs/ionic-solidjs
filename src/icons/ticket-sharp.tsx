@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ ticketSharp });
 
-export default ticketSharp;
+export let iconTicketSharp = ticketSharp;

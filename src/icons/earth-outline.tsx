@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ earthOutline });
 
-export default earthOutline;
+export let iconEarthOutline = earthOutline;

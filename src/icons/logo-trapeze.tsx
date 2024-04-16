@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoTrapeze });
 
-export default logoTrapeze;
+export let iconLogoTrapeze = logoTrapeze;

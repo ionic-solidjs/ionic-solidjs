@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ notificationsOffSharp });
 
-export default notificationsOffSharp;
+export let iconNotificationsOffSharp = notificationsOffSharp;

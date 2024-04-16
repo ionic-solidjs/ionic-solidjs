@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pieChartSharp });
 
-export default pieChartSharp;
+export let iconPieChartSharp = pieChartSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ timerOutline });
 
-export default timerOutline;
+export let iconTimerOutline = timerOutline;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoXing });
 
-export default logoXing;
+export let iconLogoXing = logoXing;

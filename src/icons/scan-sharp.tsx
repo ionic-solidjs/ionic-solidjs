@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ scanSharp });
 
-export default scanSharp;
+export let iconScanSharp = scanSharp;

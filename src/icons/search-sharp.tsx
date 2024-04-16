@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ searchSharp });
 
-export default searchSharp;
+export let iconSearchSharp = searchSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ terminal });
 
-export default terminal;
+export let iconTerminal = terminal;

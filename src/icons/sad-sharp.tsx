@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ sadSharp });
 
-export default sadSharp;
+export let iconSadSharp = sadSharp;

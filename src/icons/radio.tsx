@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ radio });
 
-export default radio;
+export let iconRadio = radio;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ todaySharp });
 
-export default todaySharp;
+export let iconTodaySharp = todaySharp;

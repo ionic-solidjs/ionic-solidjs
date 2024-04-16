@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ calendarNumberSharp });
 
-export default calendarNumberSharp;
+export let iconCalendarNumberSharp = calendarNumberSharp;

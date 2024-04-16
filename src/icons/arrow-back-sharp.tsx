@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ arrowBackSharp });
 
-export default arrowBackSharp;
+export let iconArrowBackSharp = arrowBackSharp;

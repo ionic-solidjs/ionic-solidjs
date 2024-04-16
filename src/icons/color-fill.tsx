@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ colorFill });
 
-export default colorFill;
+export let iconColorFill = colorFill;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ server });
 
-export default server;
+export let iconServer = server;

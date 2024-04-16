@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cameraReverse });
 
-export default cameraReverse;
+export let iconCameraReverse = cameraReverse;

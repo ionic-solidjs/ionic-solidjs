@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ restaurantOutline });
 
-export default restaurantOutline;
+export let iconRestaurantOutline = restaurantOutline;

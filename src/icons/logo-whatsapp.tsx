@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoWhatsapp });
 
-export default logoWhatsapp;
+export let iconLogoWhatsapp = logoWhatsapp;

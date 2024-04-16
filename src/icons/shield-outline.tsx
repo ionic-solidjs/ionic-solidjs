@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ shieldOutline });
 
-export default shieldOutline;
+export let iconShieldOutline = shieldOutline;

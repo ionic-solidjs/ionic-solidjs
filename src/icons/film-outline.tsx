@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ filmOutline });
 
-export default filmOutline;
+export let iconFilmOutline = filmOutline;

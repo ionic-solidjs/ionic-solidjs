@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ disc });
 
-export default disc;
+export let iconDisc = disc;

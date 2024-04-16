@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ planetSharp });
 
-export default planetSharp;
+export let iconPlanetSharp = planetSharp;

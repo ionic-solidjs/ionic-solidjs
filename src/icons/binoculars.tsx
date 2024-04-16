@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ binoculars });
 
-export default binoculars;
+export let iconBinoculars = binoculars;

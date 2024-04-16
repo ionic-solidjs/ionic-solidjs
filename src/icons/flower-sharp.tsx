@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ flowerSharp });
 
-export default flowerSharp;
+export let iconFlowerSharp = flowerSharp;

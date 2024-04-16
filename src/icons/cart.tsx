@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cart });
 
-export default cart;
+export let iconCart = cart;

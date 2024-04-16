@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ notificationsOff });
 
-export default notificationsOff;
+export let iconNotificationsOff = notificationsOff;

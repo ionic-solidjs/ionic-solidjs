@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ tv });
 
-export default tv;
+export let iconTv = tv;

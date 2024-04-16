@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ chevronBack });
 
-export default chevronBack;
+export let iconChevronBack = chevronBack;

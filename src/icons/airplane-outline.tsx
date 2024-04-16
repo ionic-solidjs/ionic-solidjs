@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ airplaneOutline });
 
-export default airplaneOutline;
+export let iconAirplaneOutline = airplaneOutline;

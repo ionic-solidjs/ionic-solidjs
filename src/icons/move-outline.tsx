@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ moveOutline });
 
-export default moveOutline;
+export let iconMoveOutline = moveOutline;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ eyedrop });
 
-export default eyedrop;
+export let iconEyedrop = eyedrop;

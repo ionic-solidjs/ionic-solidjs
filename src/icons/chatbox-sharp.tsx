@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ chatboxSharp });
 
-export default chatboxSharp;
+export let iconChatboxSharp = chatboxSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ batteryDeadOutline });
 
-export default batteryDeadOutline;
+export let iconBatteryDeadOutline = batteryDeadOutline;

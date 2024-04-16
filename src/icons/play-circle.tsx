@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ playCircle });
 
-export default playCircle;
+export let iconPlayCircle = playCircle;

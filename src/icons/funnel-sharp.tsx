@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ funnelSharp });
 
-export default funnelSharp;
+export let iconFunnelSharp = funnelSharp;

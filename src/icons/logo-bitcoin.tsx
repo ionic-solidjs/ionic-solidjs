@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoBitcoin });
 
-export default logoBitcoin;
+export let iconLogoBitcoin = logoBitcoin;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ documentsSharp });
 
-export default documentsSharp;
+export let iconDocumentsSharp = documentsSharp;

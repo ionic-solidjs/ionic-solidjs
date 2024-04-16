@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ construct });
 
-export default construct;
+export let iconConstruct = construct;

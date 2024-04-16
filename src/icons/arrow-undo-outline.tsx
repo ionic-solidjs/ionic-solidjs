@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ arrowUndoOutline });
 
-export default arrowUndoOutline;
+export let iconArrowUndoOutline = arrowUndoOutline;

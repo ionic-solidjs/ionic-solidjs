@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ walletSharp });
 
-export default walletSharp;
+export let iconWalletSharp = walletSharp;

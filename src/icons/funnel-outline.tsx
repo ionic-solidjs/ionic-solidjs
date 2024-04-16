@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ funnelOutline });
 
-export default funnelOutline;
+export let iconFunnelOutline = funnelOutline;

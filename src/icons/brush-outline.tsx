@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ brushOutline });
 
-export default brushOutline;
+export let iconBrushOutline = brushOutline;

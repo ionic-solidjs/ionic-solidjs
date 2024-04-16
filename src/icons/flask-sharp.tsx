@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ flaskSharp });
 
-export default flaskSharp;
+export let iconFlaskSharp = flaskSharp;

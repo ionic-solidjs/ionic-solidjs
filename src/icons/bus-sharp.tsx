@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ busSharp });
 
-export default busSharp;
+export let iconBusSharp = busSharp;

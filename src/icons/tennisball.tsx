@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ tennisball });
 
-export default tennisball;
+export let iconTennisball = tennisball;

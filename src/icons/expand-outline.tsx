@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ expandOutline });
 
-export default expandOutline;
+export let iconExpandOutline = expandOutline;

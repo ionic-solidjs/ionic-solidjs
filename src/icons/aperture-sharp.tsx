@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ apertureSharp });
 
-export default apertureSharp;
+export let iconApertureSharp = apertureSharp;

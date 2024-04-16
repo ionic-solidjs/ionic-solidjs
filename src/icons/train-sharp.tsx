@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ trainSharp });
 
-export default trainSharp;
+export let iconTrainSharp = trainSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ notificationsCircle });
 
-export default notificationsCircle;
+export let iconNotificationsCircle = notificationsCircle;

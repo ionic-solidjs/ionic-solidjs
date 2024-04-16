@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ leafOutline });
 
-export default leafOutline;
+export let iconLeafOutline = leafOutline;

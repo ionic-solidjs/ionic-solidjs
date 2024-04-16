@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ chatbubble });
 
-export default chatbubble;
+export let iconChatbubble = chatbubble;

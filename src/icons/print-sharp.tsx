@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ printSharp });
 
-export default printSharp;
+export let iconPrintSharp = printSharp;

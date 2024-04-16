@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoCodepen });
 
-export default logoCodepen;
+export let iconLogoCodepen = logoCodepen;

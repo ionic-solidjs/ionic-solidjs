@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ journalSharp });
 
-export default journalSharp;
+export let iconJournalSharp = journalSharp;

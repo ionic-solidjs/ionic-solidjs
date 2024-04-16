@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ brushSharp });
 
-export default brushSharp;
+export let iconBrushSharp = brushSharp;

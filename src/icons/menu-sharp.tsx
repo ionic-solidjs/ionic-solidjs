@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ menuSharp });
 
-export default menuSharp;
+export let iconMenuSharp = menuSharp;

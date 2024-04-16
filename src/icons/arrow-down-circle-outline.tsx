@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ arrowDownCircleOutline });
 
-export default arrowDownCircleOutline;
+export let iconArrowDownCircleOutline = arrowDownCircleOutline;

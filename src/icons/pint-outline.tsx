@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pintOutline });
 
-export default pintOutline;
+export let iconPintOutline = pintOutline;

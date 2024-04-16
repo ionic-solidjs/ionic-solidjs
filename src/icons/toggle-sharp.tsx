@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ toggleSharp });
 
-export default toggleSharp;
+export let iconToggleSharp = toggleSharp;

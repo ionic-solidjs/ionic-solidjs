@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ copySharp });
 
-export default copySharp;
+export let iconCopySharp = copySharp;

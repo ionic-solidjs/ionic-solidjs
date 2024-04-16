@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ eyeOffSharp });
 
-export default eyeOffSharp;
+export let iconEyeOffSharp = eyeOffSharp;

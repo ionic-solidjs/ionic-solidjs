@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ playForwardCircleOutline });
 
-export default playForwardCircleOutline;
+export let iconPlayForwardCircleOutline = playForwardCircleOutline;

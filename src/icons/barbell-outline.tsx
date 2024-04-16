@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ barbellOutline });
 
-export default barbellOutline;
+export let iconBarbellOutline = barbellOutline;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ laptopSharp });
 
-export default laptopSharp;
+export let iconLaptopSharp = laptopSharp;

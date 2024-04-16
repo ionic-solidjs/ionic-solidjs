@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ scaleSharp });
 
-export default scaleSharp;
+export let iconScaleSharp = scaleSharp;

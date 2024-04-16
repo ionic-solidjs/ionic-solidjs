@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ mailOpenOutline });
 
-export default mailOpenOutline;
+export let iconMailOpenOutline = mailOpenOutline;

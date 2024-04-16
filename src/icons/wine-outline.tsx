@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ wineOutline });
 
-export default wineOutline;
+export let iconWineOutline = wineOutline;

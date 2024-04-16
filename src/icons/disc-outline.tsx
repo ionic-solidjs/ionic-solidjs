@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ discOutline });
 
-export default discOutline;
+export let iconDiscOutline = discOutline;

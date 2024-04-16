@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ recordingOutline });
 
-export default recordingOutline;
+export let iconRecordingOutline = recordingOutline;

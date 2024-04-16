@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ terminalOutline });
 
-export default terminalOutline;
+export let iconTerminalOutline = terminalOutline;

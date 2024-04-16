@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ key });
 
-export default key;
+export let iconKey = key;

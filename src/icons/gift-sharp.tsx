@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ giftSharp });
 
-export default giftSharp;
+export let iconGiftSharp = giftSharp;

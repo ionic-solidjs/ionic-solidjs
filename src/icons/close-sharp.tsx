@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ closeSharp });
 
-export default closeSharp;
+export let iconCloseSharp = closeSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoClosedCaptioning });
 
-export default logoClosedCaptioning;
+export let iconLogoClosedCaptioning = logoClosedCaptioning;

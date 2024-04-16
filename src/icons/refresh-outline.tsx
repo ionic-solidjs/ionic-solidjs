@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ refreshOutline });
 
-export default refreshOutline;
+export let iconRefreshOutline = refreshOutline;

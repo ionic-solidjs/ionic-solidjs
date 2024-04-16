@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ chevronForwardOutline });
 
-export default chevronForwardOutline;
+export let iconChevronForwardOutline = chevronForwardOutline;

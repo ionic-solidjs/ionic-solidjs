@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ ellipsisVerticalCircleSharp });
 
-export default ellipsisVerticalCircleSharp;
+export let iconEllipsisVerticalCircleSharp = ellipsisVerticalCircleSharp;

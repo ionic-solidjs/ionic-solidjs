@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bugSharp });
 
-export default bugSharp;
+export let iconBugSharp = bugSharp;

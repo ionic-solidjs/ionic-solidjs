@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ colorPaletteSharp });
 
-export default colorPaletteSharp;
+export let iconColorPaletteSharp = colorPaletteSharp;

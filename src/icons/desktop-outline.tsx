@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ desktopOutline });
 
-export default desktopOutline;
+export let iconDesktopOutline = desktopOutline;

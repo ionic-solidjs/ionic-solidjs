@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ calendarNumber });
 
-export default calendarNumber;
+export let iconCalendarNumber = calendarNumber;

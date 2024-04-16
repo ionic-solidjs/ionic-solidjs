@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ boatOutline });
 
-export default boatOutline;
+export let iconBoatOutline = boatOutline;

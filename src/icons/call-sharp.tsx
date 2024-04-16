@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ callSharp });
 
-export default callSharp;
+export let iconCallSharp = callSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ lockOpenOutline });
 
-export default lockOpenOutline;
+export let iconLockOpenOutline = lockOpenOutline;

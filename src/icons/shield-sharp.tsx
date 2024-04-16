@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ shieldSharp });
 
-export default shieldSharp;
+export let iconShieldSharp = shieldSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ alarm });
 
-export default alarm;
+export let iconAlarm = alarm;

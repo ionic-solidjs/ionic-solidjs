@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoWechat });
 
-export default logoWechat;
+export let iconLogoWechat = logoWechat;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ receipt });
 
-export default receipt;
+export let iconReceipt = receipt;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ refreshCircleOutline });
 
-export default refreshCircleOutline;
+export let iconRefreshCircleOutline = refreshCircleOutline;

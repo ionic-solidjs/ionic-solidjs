@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ beerSharp });
 
-export default beerSharp;
+export let iconBeerSharp = beerSharp;

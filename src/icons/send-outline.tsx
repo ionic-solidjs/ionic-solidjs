@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ sendOutline });
 
-export default sendOutline;
+export let iconSendOutline = sendOutline;

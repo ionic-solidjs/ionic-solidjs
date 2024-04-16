@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bowlingBall });
 
-export default bowlingBall;
+export let iconBowlingBall = bowlingBall;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ reader });
 
-export default reader;
+export let iconReader = reader;

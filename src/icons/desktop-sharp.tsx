@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ desktopSharp });
 
-export default desktopSharp;
+export let iconDesktopSharp = desktopSharp;

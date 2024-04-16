@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ trophyOutline });
 
-export default trophyOutline;
+export let iconTrophyOutline = trophyOutline;

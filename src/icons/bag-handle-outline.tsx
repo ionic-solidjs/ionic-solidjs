@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bagHandleOutline });
 
-export default bagHandleOutline;
+export let iconBagHandleOutline = bagHandleOutline;

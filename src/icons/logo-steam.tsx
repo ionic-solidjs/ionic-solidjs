@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoSteam });
 
-export default logoSteam;
+export let iconLogoSteam = logoSteam;

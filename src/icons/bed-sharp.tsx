@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bedSharp });
 
-export default bedSharp;
+export let iconBedSharp = bedSharp;

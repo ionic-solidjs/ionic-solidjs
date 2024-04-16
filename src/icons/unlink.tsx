@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ unlink });
 
-export default unlink;
+export let iconUnlink = unlink;

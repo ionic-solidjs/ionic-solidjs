@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoLinkedin });
 
-export default logoLinkedin;
+export let iconLogoLinkedin = logoLinkedin;

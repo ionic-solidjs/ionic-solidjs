@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ laptop });
 
-export default laptop;
+export let iconLaptop = laptop;

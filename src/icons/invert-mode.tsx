@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ invertMode });
 
-export default invertMode;
+export let iconInvertMode = invertMode;

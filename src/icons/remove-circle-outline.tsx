@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ removeCircleOutline });
 
-export default removeCircleOutline;
+export let iconRemoveCircleOutline = removeCircleOutline;

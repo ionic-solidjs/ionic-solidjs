@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoHtml5 });
 
-export default logoHtml5;
+export let iconLogoHtml5 = logoHtml5;

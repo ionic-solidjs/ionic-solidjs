@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ volumeLow });
 
-export default volumeLow;
+export let iconVolumeLow = volumeLow;

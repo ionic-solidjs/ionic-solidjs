@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ happyOutline });
 
-export default happyOutline;
+export let iconHappyOutline = happyOutline;

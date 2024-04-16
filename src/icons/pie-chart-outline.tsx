@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pieChartOutline });
 
-export default pieChartOutline;
+export let iconPieChartOutline = pieChartOutline;

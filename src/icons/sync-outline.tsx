@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ syncOutline });
 
-export default syncOutline;
+export let iconSyncOutline = syncOutline;

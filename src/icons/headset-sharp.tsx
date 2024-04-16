@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ headsetSharp });
 
-export default headsetSharp;
+export let iconHeadsetSharp = headsetSharp;

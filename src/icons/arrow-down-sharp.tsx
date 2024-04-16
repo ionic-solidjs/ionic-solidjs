@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ arrowDownSharp });
 
-export default arrowDownSharp;
+export let iconArrowDownSharp = arrowDownSharp;

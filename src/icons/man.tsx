@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ man });
 
-export default man;
+export let iconMan = man;

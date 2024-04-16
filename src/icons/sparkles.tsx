@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ sparkles });
 
-export default sparkles;
+export let iconSparkles = sparkles;

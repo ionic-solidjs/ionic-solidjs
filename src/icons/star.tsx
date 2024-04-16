@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ star });
 
-export default star;
+export let iconStar = star;

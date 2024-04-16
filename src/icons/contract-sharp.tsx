@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ contractSharp });
 
-export default contractSharp;
+export let iconContractSharp = contractSharp;

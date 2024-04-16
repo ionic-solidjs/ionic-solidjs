@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ copy });
 
-export default copy;
+export let iconCopy = copy;

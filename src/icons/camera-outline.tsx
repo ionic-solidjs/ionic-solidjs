@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cameraOutline });
 
-export default cameraOutline;
+export let iconCameraOutline = cameraOutline;

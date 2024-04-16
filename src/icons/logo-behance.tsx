@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoBehance });
 
-export default logoBehance;
+export let iconLogoBehance = logoBehance;

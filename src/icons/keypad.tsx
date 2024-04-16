@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ keypad });
 
-export default keypad;
+export let iconKeypad = keypad;

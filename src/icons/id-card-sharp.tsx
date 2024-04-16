@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ idCardSharp });
 
-export default idCardSharp;
+export let iconIdCardSharp = idCardSharp;

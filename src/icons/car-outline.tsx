@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ carOutline });
 
-export default carOutline;
+export let iconCarOutline = carOutline;

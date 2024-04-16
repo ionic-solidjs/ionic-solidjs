@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoAmplify });
 
-export default logoAmplify;
+export let iconLogoAmplify = logoAmplify;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ beakerSharp });
 
-export default beakerSharp;
+export let iconBeakerSharp = beakerSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ tabletPortraitSharp });
 
-export default tabletPortraitSharp;
+export let iconTabletPortraitSharp = tabletPortraitSharp;

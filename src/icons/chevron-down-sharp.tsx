@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ chevronDownSharp });
 
-export default chevronDownSharp;
+export let iconChevronDownSharp = chevronDownSharp;

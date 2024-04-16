@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cameraSharp });
 
-export default cameraSharp;
+export let iconCameraSharp = cameraSharp;

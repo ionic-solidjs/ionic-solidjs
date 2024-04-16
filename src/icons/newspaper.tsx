@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ newspaper });
 
-export default newspaper;
+export let iconNewspaper = newspaper;

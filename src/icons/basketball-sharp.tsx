@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ basketballSharp });
 
-export default basketballSharp;
+export let iconBasketballSharp = basketballSharp;

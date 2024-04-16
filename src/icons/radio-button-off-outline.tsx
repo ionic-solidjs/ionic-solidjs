@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ radioButtonOffOutline });
 
-export default radioButtonOffOutline;
+export let iconRadioButtonOffOutline = radioButtonOffOutline;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ enterSharp });
 
-export default enterSharp;
+export let iconEnterSharp = enterSharp;

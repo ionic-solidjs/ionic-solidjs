@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoVue });
 
-export default logoVue;
+export let iconLogoVue = logoVue;

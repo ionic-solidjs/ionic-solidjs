@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bluetooth });
 
-export default bluetooth;
+export let iconBluetooth = bluetooth;

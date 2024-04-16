@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ exit });
 
-export default exit;
+export let iconExit = exit;

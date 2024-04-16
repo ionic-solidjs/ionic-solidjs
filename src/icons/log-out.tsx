@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logOut });
 
-export default logOut;
+export let iconLogOut = logOut;

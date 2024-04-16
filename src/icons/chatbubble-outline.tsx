@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ chatbubbleOutline });
 
-export default chatbubbleOutline;
+export let iconChatbubbleOutline = chatbubbleOutline;

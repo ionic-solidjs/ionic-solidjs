@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bulbSharp });
 
-export default bulbSharp;
+export let iconBulbSharp = bulbSharp;

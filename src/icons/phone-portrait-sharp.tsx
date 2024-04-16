@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ phonePortraitSharp });
 
-export default phonePortraitSharp;
+export let iconPhonePortraitSharp = phonePortraitSharp;

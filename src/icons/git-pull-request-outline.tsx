@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gitPullRequestOutline });
 
-export default gitPullRequestOutline;
+export let iconGitPullRequestOutline = gitPullRequestOutline;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ serverSharp });
 
-export default serverSharp;
+export let iconServerSharp = serverSharp;

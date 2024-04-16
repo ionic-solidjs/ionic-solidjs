@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ rocketSharp });
 
-export default rocketSharp;
+export let iconRocketSharp = rocketSharp;

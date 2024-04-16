@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ moonSharp });
 
-export default moonSharp;
+export let iconMoonSharp = moonSharp;

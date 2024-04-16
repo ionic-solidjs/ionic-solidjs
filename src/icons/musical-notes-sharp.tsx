@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ musicalNotesSharp });
 
-export default musicalNotesSharp;
+export let iconMusicalNotesSharp = musicalNotesSharp;

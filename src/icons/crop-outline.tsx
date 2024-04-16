@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cropOutline });
 
-export default cropOutline;
+export let iconCropOutline = cropOutline;

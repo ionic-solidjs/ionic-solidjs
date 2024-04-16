@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ personRemove });
 
-export default personRemove;
+export let iconPersonRemove = personRemove;

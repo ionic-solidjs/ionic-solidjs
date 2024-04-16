@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoCss3 });
 
-export default logoCss3;
+export let iconLogoCss3 = logoCss3;

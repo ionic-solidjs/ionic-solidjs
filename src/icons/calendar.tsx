@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ calendar });
 
-export default calendar;
+export let iconCalendar = calendar;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gitBranchSharp });
 
-export default gitBranchSharp;
+export let iconGitBranchSharp = gitBranchSharp;

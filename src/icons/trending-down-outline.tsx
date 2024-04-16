@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ trendingDownOutline });
 
-export default trendingDownOutline;
+export let iconTrendingDownOutline = trendingDownOutline;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ repeatOutline });
 
-export default repeatOutline;
+export let iconRepeatOutline = repeatOutline;

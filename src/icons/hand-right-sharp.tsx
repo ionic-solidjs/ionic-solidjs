@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ handRightSharp });
 
-export default handRightSharp;
+export let iconHandRightSharp = handRightSharp;

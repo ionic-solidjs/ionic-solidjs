@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ film });
 
-export default film;
+export let iconFilm = film;

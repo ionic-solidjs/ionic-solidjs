@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gridOutline });
 
-export default gridOutline;
+export let iconGridOutline = gridOutline;

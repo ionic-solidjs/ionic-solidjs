@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoDeviantart });
 
-export default logoDeviantart;
+export let iconLogoDeviantart = logoDeviantart;

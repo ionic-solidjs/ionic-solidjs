@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pieChart });
 
-export default pieChart;
+export let iconPieChart = pieChart;

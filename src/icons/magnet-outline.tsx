@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ magnetOutline });
 
-export default magnetOutline;
+export let iconMagnetOutline = magnetOutline;

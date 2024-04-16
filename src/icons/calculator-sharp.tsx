@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ calculatorSharp });
 
-export default calculatorSharp;
+export let iconCalculatorSharp = calculatorSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ languageSharp });
 
-export default languageSharp;
+export let iconLanguageSharp = languageSharp;

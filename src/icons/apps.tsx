@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ apps });
 
-export default apps;
+export let iconApps = apps;

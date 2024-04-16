@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ heartSharp });
 
-export default heartSharp;
+export let iconHeartSharp = heartSharp;

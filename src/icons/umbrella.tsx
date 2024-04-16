@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ umbrella });
 
-export default umbrella;
+export let iconUmbrella = umbrella;

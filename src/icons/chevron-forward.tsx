@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ chevronForward });
 
-export default chevronForward;
+export let iconChevronForward = chevronForward;

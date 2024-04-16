@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ tvOutline });
 
-export default tvOutline;
+export let iconTvOutline = tvOutline;

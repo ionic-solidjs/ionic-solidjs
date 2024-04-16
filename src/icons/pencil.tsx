@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pencil });
 
-export default pencil;
+export let iconPencil = pencil;

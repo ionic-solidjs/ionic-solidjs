@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ nutritionSharp });
 
-export default nutritionSharp;
+export let iconNutritionSharp = nutritionSharp;

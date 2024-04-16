@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gitMergeSharp });
 
-export default gitMergeSharp;
+export let iconGitMergeSharp = gitMergeSharp;

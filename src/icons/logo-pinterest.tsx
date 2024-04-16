@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoPinterest });
 
-export default logoPinterest;
+export let iconLogoPinterest = logoPinterest;

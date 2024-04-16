@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ documentLockSharp });
 
-export default documentLockSharp;
+export let iconDocumentLockSharp = documentLockSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ documentAttach });
 
-export default documentAttach;
+export let iconDocumentAttach = documentAttach;

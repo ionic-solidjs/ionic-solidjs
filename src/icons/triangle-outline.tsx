@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ triangleOutline });
 
-export default triangleOutline;
+export let iconTriangleOutline = triangleOutline;

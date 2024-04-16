@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ openSharp });
 
-export default openSharp;
+export let iconOpenSharp = openSharp;

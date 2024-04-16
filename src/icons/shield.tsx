@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ shield });
 
-export default shield;
+export let iconShield = shield;

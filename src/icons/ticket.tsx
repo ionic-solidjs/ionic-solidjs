@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ ticket });
 
-export default ticket;
+export let iconTicket = ticket;

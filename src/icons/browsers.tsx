@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ browsers });
 
-export default browsers;
+export let iconBrowsers = browsers;

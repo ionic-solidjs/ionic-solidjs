@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bicycle });
 
-export default bicycle;
+export let iconBicycle = bicycle;

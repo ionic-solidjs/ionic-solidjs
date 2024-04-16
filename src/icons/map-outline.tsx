@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ mapOutline });
 
-export default mapOutline;
+export let iconMapOutline = mapOutline;

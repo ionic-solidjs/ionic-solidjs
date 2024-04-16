@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ binocularsSharp });
 
-export default binocularsSharp;
+export let iconBinocularsSharp = binocularsSharp;

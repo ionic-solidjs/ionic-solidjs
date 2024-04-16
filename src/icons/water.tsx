@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ water });
 
-export default water;
+export let iconWater = water;

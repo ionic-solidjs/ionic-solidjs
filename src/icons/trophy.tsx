@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ trophy });
 
-export default trophy;
+export let iconTrophy = trophy;

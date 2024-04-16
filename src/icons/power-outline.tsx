@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ powerOutline });
 
-export default powerOutline;
+export let iconPowerOutline = powerOutline;

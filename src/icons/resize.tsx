@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ resize });
 
-export default resize;
+export let iconResize = resize;

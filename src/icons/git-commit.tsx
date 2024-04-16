@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gitCommit });
 
-export default gitCommit;
+export let iconGitCommit = gitCommit;

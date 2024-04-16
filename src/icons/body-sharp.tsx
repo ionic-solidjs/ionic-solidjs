@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bodySharp });
 
-export default bodySharp;
+export let iconBodySharp = bodySharp;

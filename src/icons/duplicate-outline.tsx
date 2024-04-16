@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ duplicateOutline });
 
-export default duplicateOutline;
+export let iconDuplicateOutline = duplicateOutline;

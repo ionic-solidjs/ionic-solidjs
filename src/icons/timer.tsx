@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ timer });
 
-export default timer;
+export let iconTimer = timer;

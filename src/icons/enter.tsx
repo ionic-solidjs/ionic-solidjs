@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ enter });
 
-export default enter;
+export let iconEnter = enter;

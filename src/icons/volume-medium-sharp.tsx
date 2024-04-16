@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ volumeMediumSharp });
 
-export default volumeMediumSharp;
+export let iconVolumeMediumSharp = volumeMediumSharp;

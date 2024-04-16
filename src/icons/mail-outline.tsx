@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ mailOutline });
 
-export default mailOutline;
+export let iconMailOutline = mailOutline;

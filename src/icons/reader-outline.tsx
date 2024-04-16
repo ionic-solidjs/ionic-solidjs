@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ readerOutline });
 
-export default readerOutline;
+export let iconReaderOutline = readerOutline;

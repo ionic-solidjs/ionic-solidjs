@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ alertCircleOutline });
 
-export default alertCircleOutline;
+export let iconAlertCircleOutline = alertCircleOutline;

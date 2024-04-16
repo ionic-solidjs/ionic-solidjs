@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ refreshCircle });
 
-export default refreshCircle;
+export let iconRefreshCircle = refreshCircle;

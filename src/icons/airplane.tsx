@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ airplane });
 
-export default airplane;
+export let iconAirplane = airplane;

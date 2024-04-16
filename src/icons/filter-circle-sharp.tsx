@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ filterCircleSharp });
 
-export default filterCircleSharp;
+export let iconFilterCircleSharp = filterCircleSharp;

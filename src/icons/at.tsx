@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ at });
 
-export default at;
+export let iconAt = at;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ chatbubbleSharp });
 
-export default chatbubbleSharp;
+export let iconChatbubbleSharp = chatbubbleSharp;

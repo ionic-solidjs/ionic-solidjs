@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ clipboardSharp });
 
-export default clipboardSharp;
+export let iconClipboardSharp = clipboardSharp;

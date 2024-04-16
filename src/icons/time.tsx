@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ time });
 
-export default time;
+export let iconTime = time;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ phoneLandscapeOutline });
 
-export default phoneLandscapeOutline;
+export let iconPhoneLandscapeOutline = phoneLandscapeOutline;

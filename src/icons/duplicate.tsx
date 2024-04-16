@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ duplicate });
 
-export default duplicate;
+export let iconDuplicate = duplicate;

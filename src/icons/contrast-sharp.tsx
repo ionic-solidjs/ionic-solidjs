@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ contrastSharp });
 
-export default contrastSharp;
+export let iconContrastSharp = contrastSharp;

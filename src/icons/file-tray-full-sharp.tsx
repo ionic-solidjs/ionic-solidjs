@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ fileTrayFullSharp });
 
-export default fileTrayFullSharp;
+export let iconFileTrayFullSharp = fileTrayFullSharp;

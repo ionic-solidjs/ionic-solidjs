@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ link });
 
-export default link;
+export let iconLink = link;

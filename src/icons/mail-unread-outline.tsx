@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ mailUnreadOutline });
 
-export default mailUnreadOutline;
+export let iconMailUnreadOutline = mailUnreadOutline;

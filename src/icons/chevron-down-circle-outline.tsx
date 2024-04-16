@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ chevronDownCircleOutline });
 
-export default chevronDownCircleOutline;
+export let iconChevronDownCircleOutline = chevronDownCircleOutline;

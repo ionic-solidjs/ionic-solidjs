@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ ribbonOutline });
 
-export default ribbonOutline;
+export let iconRibbonOutline = ribbonOutline;

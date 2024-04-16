@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ personCircleSharp });
 
-export default personCircleSharp;
+export let iconPersonCircleSharp = personCircleSharp;

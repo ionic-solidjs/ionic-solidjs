@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoPython });
 
-export default logoPython;
+export let iconLogoPython = logoPython;

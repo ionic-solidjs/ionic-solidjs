@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cloudyOutline });
 
-export default cloudyOutline;
+export let iconCloudyOutline = cloudyOutline;

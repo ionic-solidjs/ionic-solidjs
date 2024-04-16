@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoSnapchat });
 
-export default logoSnapchat;
+export let iconLogoSnapchat = logoSnapchat;

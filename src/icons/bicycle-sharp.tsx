@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bicycleSharp });
 
-export default bicycleSharp;
+export let iconBicycleSharp = bicycleSharp;

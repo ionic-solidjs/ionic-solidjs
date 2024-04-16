@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ compassOutline });
 
-export default compassOutline;
+export let iconCompassOutline = compassOutline;

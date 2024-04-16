@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ statsChartSharp });
 
-export default statsChartSharp;
+export let iconStatsChartSharp = statsChartSharp;

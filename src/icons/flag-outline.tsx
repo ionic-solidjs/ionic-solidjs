@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ flagOutline });
 
-export default flagOutline;
+export let iconFlagOutline = flagOutline;

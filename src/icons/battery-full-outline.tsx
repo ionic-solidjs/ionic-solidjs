@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ batteryFullOutline });
 
-export default batteryFullOutline;
+export let iconBatteryFullOutline = batteryFullOutline;

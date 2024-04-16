@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ shapes });
 
-export default shapes;
+export let iconShapes = shapes;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ watch });
 
-export default watch;
+export let iconWatch = watch;

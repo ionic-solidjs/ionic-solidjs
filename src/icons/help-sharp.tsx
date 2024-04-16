@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ helpSharp });
 
-export default helpSharp;
+export let iconHelpSharp = helpSharp;

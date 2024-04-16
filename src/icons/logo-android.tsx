@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoAndroid });
 
-export default logoAndroid;
+export let iconLogoAndroid = logoAndroid;

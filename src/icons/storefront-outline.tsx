@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ storefrontOutline });
 
-export default storefrontOutline;
+export let iconStorefrontOutline = storefrontOutline;

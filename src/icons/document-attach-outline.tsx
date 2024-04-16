@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ documentAttachOutline });
 
-export default documentAttachOutline;
+export let iconDocumentAttachOutline = documentAttachOutline;

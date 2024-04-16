@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoAppflow });
 
-export default logoAppflow;
+export let iconLogoAppflow = logoAppflow;

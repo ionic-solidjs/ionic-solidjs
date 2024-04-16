@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoTableau });
 
-export default logoTableau;
+export let iconLogoTableau = logoTableau;

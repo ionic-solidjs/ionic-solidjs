@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ codeWorking });
 
-export default codeWorking;
+export let iconCodeWorking = codeWorking;

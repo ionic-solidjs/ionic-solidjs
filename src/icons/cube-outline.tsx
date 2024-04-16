@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cubeOutline });
 
-export default cubeOutline;
+export let iconCubeOutline = cubeOutline;

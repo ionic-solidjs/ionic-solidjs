@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ nuclearSharp });
 
-export default nuclearSharp;
+export let iconNuclearSharp = nuclearSharp;

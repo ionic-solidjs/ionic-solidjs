@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ speedometerSharp });
 
-export default speedometerSharp;
+export let iconSpeedometerSharp = speedometerSharp;

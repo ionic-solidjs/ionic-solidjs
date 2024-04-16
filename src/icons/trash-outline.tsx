@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ trashOutline });
 
-export default trashOutline;
+export let iconTrashOutline = trashOutline;

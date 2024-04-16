@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoBitbucket });
 
-export default logoBitbucket;
+export let iconLogoBitbucket = logoBitbucket;

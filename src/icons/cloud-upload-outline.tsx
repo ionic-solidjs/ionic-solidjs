@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cloudUploadOutline });
 
-export default cloudUploadOutline;
+export let iconCloudUploadOutline = cloudUploadOutline;

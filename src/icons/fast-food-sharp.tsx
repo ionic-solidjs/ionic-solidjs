@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ fastFoodSharp });
 
-export default fastFoodSharp;
+export let iconFastFoodSharp = fastFoodSharp;

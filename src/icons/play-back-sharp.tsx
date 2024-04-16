@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ playBackSharp });
 
-export default playBackSharp;
+export let iconPlayBackSharp = playBackSharp;

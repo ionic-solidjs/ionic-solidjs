@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ micOffCircleSharp });
 
-export default micOffCircleSharp;
+export let iconMicOffCircleSharp = micOffCircleSharp;

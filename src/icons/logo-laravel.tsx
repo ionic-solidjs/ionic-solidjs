@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoLaravel });
 
-export default logoLaravel;
+export let iconLogoLaravel = logoLaravel;

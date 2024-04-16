@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoInstagram });
 
-export default logoInstagram;
+export let iconLogoInstagram = logoInstagram;

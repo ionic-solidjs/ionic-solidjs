@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ fileTrayStacked });
 
-export default fileTrayStacked;
+export let iconFileTrayStacked = fileTrayStacked;

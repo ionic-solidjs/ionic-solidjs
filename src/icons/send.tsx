@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ send });
 
-export default send;
+export let iconSend = send;

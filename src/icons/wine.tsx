@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ wine });
 
-export default wine;
+export let iconWine = wine;

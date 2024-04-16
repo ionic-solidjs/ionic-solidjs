@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ crop });
 
-export default crop;
+export let iconCrop = crop;

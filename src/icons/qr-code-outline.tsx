@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ qrCodeOutline });
 
-export default qrCodeOutline;
+export let iconQrCodeOutline = qrCodeOutline;

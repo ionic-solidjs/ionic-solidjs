@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ batteryDeadSharp });
 
-export default batteryDeadSharp;
+export let iconBatteryDeadSharp = batteryDeadSharp;

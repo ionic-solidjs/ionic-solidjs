@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ checkmarkOutline });
 
-export default checkmarkOutline;
+export let iconCheckmarkOutline = checkmarkOutline;

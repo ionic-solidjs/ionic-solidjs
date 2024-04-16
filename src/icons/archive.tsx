@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ archive });
 
-export default archive;
+export let iconArchive = archive;

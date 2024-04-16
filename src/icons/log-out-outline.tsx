@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logOutOutline });
 
-export default logOutOutline;
+export let iconLogOutOutline = logOutOutline;

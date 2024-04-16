@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ handRight });
 
-export default handRight;
+export let iconHandRight = handRight;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoVenmo });
 
-export default logoVenmo;
+export let iconLogoVenmo = logoVenmo;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ mailUnreadSharp });
 
-export default mailUnreadSharp;
+export let iconMailUnreadSharp = mailUnreadSharp;

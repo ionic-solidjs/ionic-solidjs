@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ glasses });
 
-export default glasses;
+export let iconGlasses = glasses;

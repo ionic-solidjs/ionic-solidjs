@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ apertureOutline });
 
-export default apertureOutline;
+export let iconApertureOutline = apertureOutline;

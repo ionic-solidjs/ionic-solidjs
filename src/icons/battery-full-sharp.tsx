@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ batteryFullSharp });
 
-export default batteryFullSharp;
+export let iconBatteryFullSharp = batteryFullSharp;

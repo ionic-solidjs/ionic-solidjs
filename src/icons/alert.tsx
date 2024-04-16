@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ alert });
 
-export default alert;
+export let iconAlert = alert;

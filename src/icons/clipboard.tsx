@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ clipboard });
 
-export default clipboard;
+export let iconClipboard = clipboard;

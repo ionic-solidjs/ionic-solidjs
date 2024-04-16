@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ shieldCheckmarkSharp });
 
-export default shieldCheckmarkSharp;
+export let iconShieldCheckmarkSharp = shieldCheckmarkSharp;

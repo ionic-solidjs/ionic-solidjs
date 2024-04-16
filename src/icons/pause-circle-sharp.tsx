@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pauseCircleSharp });
 
-export default pauseCircleSharp;
+export let iconPauseCircleSharp = pauseCircleSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bookmarkOutline });
 
-export default bookmarkOutline;
+export let iconBookmarkOutline = bookmarkOutline;

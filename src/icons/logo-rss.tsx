@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoRss });
 
-export default logoRss;
+export let iconLogoRss = logoRss;

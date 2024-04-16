@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ navigateCircleSharp });
 
-export default navigateCircleSharp;
+export let iconNavigateCircleSharp = navigateCircleSharp;

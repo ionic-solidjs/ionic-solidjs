@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ refreshSharp });
 
-export default refreshSharp;
+export let iconRefreshSharp = refreshSharp;

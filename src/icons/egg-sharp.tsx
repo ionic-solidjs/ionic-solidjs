@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ eggSharp });
 
-export default eggSharp;
+export let iconEggSharp = eggSharp;

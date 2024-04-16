@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ helpOutline });
 
-export default helpOutline;
+export let iconHelpOutline = helpOutline;

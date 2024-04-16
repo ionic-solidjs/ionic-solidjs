@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ medalOutline });
 
-export default medalOutline;
+export let iconMedalOutline = medalOutline;

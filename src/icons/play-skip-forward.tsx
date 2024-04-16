@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ playSkipForward });
 
-export default playSkipForward;
+export let iconPlaySkipForward = playSkipForward;

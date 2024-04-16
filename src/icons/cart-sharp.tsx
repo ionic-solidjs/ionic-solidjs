@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cartSharp });
 
-export default cartSharp;
+export let iconCartSharp = cartSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ shareSharp });
 
-export default shareSharp;
+export let iconShareSharp = shareSharp;

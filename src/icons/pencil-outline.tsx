@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pencilOutline });
 
-export default pencilOutline;
+export let iconPencilOutline = pencilOutline;

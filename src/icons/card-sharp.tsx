@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cardSharp });
 
-export default cardSharp;
+export let iconCardSharp = cardSharp;

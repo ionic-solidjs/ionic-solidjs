@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ ellipsisHorizontalSharp });
 
-export default ellipsisHorizontalSharp;
+export let iconEllipsisHorizontalSharp = ellipsisHorizontalSharp;

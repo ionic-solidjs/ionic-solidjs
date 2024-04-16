@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ colorWandOutline });
 
-export default colorWandOutline;
+export let iconColorWandOutline = colorWandOutline;

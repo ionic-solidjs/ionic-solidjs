@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ walletOutline });
 
-export default walletOutline;
+export let iconWalletOutline = walletOutline;

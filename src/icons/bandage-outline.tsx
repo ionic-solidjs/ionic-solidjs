@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bandageOutline });
 
-export default bandageOutline;
+export let iconBandageOutline = bandageOutline;

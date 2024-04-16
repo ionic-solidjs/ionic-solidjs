@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ trendingUpSharp });
 
-export default trendingUpSharp;
+export let iconTrendingUpSharp = trendingUpSharp;

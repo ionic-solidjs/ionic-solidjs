@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ caretForwardSharp });
 
-export default caretForwardSharp;
+export let iconCaretForwardSharp = caretForwardSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pawSharp });
 
-export default pawSharp;
+export let iconPawSharp = pawSharp;

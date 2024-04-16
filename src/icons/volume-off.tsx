@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ volumeOff });
 
-export default volumeOff;
+export let iconVolumeOff = volumeOff;

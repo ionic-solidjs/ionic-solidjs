@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ open });
 
-export default open;
+export let iconOpen = open;

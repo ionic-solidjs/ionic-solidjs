@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ thunderstormSharp });
 
-export default thunderstormSharp;
+export let iconThunderstormSharp = thunderstormSharp;

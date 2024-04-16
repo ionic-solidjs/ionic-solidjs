@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ compassSharp });
 
-export default compassSharp;
+export let iconCompassSharp = compassSharp;

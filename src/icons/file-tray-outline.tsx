@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ fileTrayOutline });
 
-export default fileTrayOutline;
+export let iconFileTrayOutline = fileTrayOutline;

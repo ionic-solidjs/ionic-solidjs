@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cut });
 
-export default cut;
+export let iconCut = cut;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoFoursquare });
 
-export default logoFoursquare;
+export let iconLogoFoursquare = logoFoursquare;

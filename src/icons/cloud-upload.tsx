@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cloudUpload });
 
-export default cloudUpload;
+export let iconCloudUpload = cloudUpload;

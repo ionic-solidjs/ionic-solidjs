@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoYoutube });
 
-export default logoYoutube;
+export let iconLogoYoutube = logoYoutube;

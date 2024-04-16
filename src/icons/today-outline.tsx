@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ todayOutline });
 
-export default todayOutline;
+export let iconTodayOutline = todayOutline;

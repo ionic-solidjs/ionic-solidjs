@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ homeSharp });
 
-export default homeSharp;
+export let iconHomeSharp = homeSharp;

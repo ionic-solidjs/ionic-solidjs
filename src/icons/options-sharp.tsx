@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ optionsSharp });
 
-export default optionsSharp;
+export let iconOptionsSharp = optionsSharp;

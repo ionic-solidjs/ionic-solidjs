@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ librarySharp });
 
-export default librarySharp;
+export let iconLibrarySharp = librarySharp;

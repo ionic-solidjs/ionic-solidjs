@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pulseSharp });
 
-export default pulseSharp;
+export let iconPulseSharp = pulseSharp;

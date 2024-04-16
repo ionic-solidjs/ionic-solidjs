@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cloudyNightSharp });
 
-export default cloudyNightSharp;
+export let iconCloudyNightSharp = cloudyNightSharp;

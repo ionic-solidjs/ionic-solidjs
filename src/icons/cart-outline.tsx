@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cartOutline });
 
-export default cartOutline;
+export let iconCartOutline = cartOutline;

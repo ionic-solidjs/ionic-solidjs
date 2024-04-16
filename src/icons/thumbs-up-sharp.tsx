@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ thumbsUpSharp });
 
-export default thumbsUpSharp;
+export let iconThumbsUpSharp = thumbsUpSharp;

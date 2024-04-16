@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pauseCircleOutline });
 
-export default pauseCircleOutline;
+export let iconPauseCircleOutline = pauseCircleOutline;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ partlySunnySharp });
 
-export default partlySunnySharp;
+export let iconPartlySunnySharp = partlySunnySharp;

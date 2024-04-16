@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ stop });
 
-export default stop;
+export let iconStop = stop;

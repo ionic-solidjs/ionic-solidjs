@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ timeSharp });
 
-export default timeSharp;
+export let iconTimeSharp = timeSharp;

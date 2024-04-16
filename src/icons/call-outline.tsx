@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ callOutline });
 
-export default callOutline;
+export let iconCallOutline = callOutline;

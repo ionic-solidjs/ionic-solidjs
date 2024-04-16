@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ listCircleOutline });
 
-export default listCircleOutline;
+export let iconListCircleOutline = listCircleOutline;

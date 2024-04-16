@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ arrowForwardOutline });
 
-export default arrowForwardOutline;
+export let iconArrowForwardOutline = arrowForwardOutline;

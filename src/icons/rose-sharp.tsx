@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ roseSharp });
 
-export default roseSharp;
+export let iconRoseSharp = roseSharp;

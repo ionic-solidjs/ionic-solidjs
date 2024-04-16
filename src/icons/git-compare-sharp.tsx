@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gitCompareSharp });
 
-export default gitCompareSharp;
+export let iconGitCompareSharp = gitCompareSharp;

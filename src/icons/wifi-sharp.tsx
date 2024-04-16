@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ wifiSharp });
 
-export default wifiSharp;
+export let iconWifiSharp = wifiSharp;

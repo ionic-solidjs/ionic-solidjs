@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cash });
 
-export default cash;
+export let iconCash = cash;

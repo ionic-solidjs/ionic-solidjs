@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ backspaceSharp });
 
-export default backspaceSharp;
+export let iconBackspaceSharp = backspaceSharp;

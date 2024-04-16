@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ wineSharp });
 
-export default wineSharp;
+export let iconWineSharp = wineSharp;

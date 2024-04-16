@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ happySharp });
 
-export default happySharp;
+export let iconHappySharp = happySharp;

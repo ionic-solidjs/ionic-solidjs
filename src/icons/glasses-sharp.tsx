@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ glassesSharp });
 
-export default glassesSharp;
+export let iconGlassesSharp = glassesSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ rose });
 
-export default rose;
+export let iconRose = rose;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ documentsOutline });
 
-export default documentsOutline;
+export let iconDocumentsOutline = documentsOutline;

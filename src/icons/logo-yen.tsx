@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoYen });
 
-export default logoYen;
+export let iconLogoYen = logoYen;

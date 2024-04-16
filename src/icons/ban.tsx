@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ ban });
 
-export default ban;
+export let iconBan = ban;

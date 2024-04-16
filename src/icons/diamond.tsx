@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ diamond });
 
-export default diamond;
+export let iconDiamond = diamond;

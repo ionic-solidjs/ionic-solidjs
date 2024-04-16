@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ backspaceOutline });
 
-export default backspaceOutline;
+export let iconBackspaceOutline = backspaceOutline;

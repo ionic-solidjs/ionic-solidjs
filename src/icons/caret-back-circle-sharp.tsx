@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ caretBackCircleSharp });
 
-export default caretBackCircleSharp;
+export let iconCaretBackCircleSharp = caretBackCircleSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ thunderstorm });
 
-export default thunderstorm;
+export let iconThunderstorm = thunderstorm;

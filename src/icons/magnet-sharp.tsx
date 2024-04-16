@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ magnetSharp });
 
-export default magnetSharp;
+export let iconMagnetSharp = magnetSharp;

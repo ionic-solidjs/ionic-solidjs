@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ fish });
 
-export default fish;
+export let iconFish = fish;

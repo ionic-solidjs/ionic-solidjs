@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ prismSharp });
 
-export default prismSharp;
+export let iconPrismSharp = prismSharp;

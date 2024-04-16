@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ snowSharp });
 
-export default snowSharp;
+export let iconSnowSharp = snowSharp;

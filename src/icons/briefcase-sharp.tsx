@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ briefcaseSharp });
 
-export default briefcaseSharp;
+export let iconBriefcaseSharp = briefcaseSharp;

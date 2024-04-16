@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoDocker });
 
-export default logoDocker;
+export let iconLogoDocker = logoDocker;

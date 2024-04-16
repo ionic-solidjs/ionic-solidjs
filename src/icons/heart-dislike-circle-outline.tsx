@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ heartDislikeCircleOutline });
 
-export default heartDislikeCircleOutline;
+export let iconHeartDislikeCircleOutline = heartDislikeCircleOutline;

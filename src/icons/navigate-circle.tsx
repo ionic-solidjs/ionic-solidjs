@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ navigateCircle });
 
-export default navigateCircle;
+export let iconNavigateCircle = navigateCircle;

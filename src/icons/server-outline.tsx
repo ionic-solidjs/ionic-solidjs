@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ serverOutline });
 
-export default serverOutline;
+export let iconServerOutline = serverOutline;

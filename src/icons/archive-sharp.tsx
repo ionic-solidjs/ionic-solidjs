@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ archiveSharp });
 
-export default archiveSharp;
+export let iconArchiveSharp = archiveSharp;

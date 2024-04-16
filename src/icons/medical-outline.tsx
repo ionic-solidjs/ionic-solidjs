@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ medicalOutline });
 
-export default medicalOutline;
+export let iconMedicalOutline = medicalOutline;

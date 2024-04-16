@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoGithub });
 
-export default logoGithub;
+export let iconLogoGithub = logoGithub;

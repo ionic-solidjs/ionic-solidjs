@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ globeSharp });
 
-export default globeSharp;
+export let iconGlobeSharp = globeSharp;

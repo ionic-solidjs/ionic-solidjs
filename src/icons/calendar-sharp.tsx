@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ calendarSharp });
 
-export default calendarSharp;
+export let iconCalendarSharp = calendarSharp;

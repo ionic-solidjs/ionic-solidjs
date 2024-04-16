@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoFirefox });
 
-export default logoFirefox;
+export let iconLogoFirefox = logoFirefox;

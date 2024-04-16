@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ trailSign });
 
-export default trailSign;
+export let iconTrailSign = trailSign;

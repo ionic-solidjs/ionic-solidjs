@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ carSharp });
 
-export default carSharp;
+export let iconCarSharp = carSharp;

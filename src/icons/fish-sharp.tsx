@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ fishSharp });
 
-export default fishSharp;
+export let iconFishSharp = fishSharp;

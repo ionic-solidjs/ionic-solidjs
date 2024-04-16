@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ beer });
 
-export default beer;
+export let iconBeer = beer;

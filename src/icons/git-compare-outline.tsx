@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gitCompareOutline });
 
-export default gitCompareOutline;
+export let iconGitCompareOutline = gitCompareOutline;

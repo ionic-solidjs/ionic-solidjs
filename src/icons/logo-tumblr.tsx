@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoTumblr });
 
-export default logoTumblr;
+export let iconLogoTumblr = logoTumblr;

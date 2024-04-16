@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ chatboxOutline });
 
-export default chatboxOutline;
+export let iconChatboxOutline = chatboxOutline;

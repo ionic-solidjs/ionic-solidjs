@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ stopwatch });
 
-export default stopwatch;
+export let iconStopwatch = stopwatch;

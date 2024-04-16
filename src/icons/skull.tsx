@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ skull });
 
-export default skull;
+export let iconSkull = skull;

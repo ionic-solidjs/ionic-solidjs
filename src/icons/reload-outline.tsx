@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ reloadOutline });
 
-export default reloadOutline;
+export let iconReloadOutline = reloadOutline;

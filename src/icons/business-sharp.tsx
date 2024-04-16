@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ businessSharp });
 
-export default businessSharp;
+export let iconBusinessSharp = businessSharp;

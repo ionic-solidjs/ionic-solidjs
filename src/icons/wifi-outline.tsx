@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ wifiOutline });
 
-export default wifiOutline;
+export let iconWifiOutline = wifiOutline;

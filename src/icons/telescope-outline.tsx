@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ telescopeOutline });
 
-export default telescopeOutline;
+export let iconTelescopeOutline = telescopeOutline;

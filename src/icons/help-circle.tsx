@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ helpCircle });
 
-export default helpCircle;
+export let iconHelpCircle = helpCircle;

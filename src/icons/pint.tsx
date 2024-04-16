@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pint });
 
-export default pint;
+export let iconPint = pint;

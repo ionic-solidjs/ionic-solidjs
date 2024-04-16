@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ ellipsisVerticalOutline });
 
-export default ellipsisVerticalOutline;
+export let iconEllipsisVerticalOutline = ellipsisVerticalOutline;

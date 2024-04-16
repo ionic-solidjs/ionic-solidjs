@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoBuffer });
 
-export default logoBuffer;
+export let iconLogoBuffer = logoBuffer;

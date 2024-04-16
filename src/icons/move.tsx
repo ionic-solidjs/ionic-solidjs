@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ move });
 
-export default move;
+export let iconMove = move;

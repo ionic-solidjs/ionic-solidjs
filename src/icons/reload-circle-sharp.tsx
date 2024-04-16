@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ reloadCircleSharp });
 
-export default reloadCircleSharp;
+export let iconReloadCircleSharp = reloadCircleSharp;

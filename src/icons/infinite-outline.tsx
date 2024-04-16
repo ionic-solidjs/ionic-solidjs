@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ infiniteOutline });
 
-export default infiniteOutline;
+export let iconInfiniteOutline = infiniteOutline;

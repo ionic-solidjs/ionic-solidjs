@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoFacebook });
 
-export default logoFacebook;
+export let iconLogoFacebook = logoFacebook;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ shareOutline });
 
-export default shareOutline;
+export let iconShareOutline = shareOutline;

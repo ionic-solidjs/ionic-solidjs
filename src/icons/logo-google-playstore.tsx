@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoGooglePlaystore });
 
-export default logoGooglePlaystore;
+export let iconLogoGooglePlaystore = logoGooglePlaystore;

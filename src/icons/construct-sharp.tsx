@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ constructSharp });
 
-export default constructSharp;
+export let iconConstructSharp = constructSharp;

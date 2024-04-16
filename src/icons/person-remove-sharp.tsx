@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ personRemoveSharp });
 
-export default personRemoveSharp;
+export let iconPersonRemoveSharp = personRemoveSharp;

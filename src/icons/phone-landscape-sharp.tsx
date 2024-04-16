@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ phoneLandscapeSharp });
 
-export default phoneLandscapeSharp;
+export let iconPhoneLandscapeSharp = phoneLandscapeSharp;

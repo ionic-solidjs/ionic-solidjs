@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cloudOfflineSharp });
 
-export default cloudOfflineSharp;
+export let iconCloudOfflineSharp = cloudOfflineSharp;

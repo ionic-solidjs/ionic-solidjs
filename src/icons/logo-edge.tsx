@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoEdge });
 
-export default logoEdge;
+export let iconLogoEdge = logoEdge;

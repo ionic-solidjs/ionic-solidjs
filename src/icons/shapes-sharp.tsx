@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ shapesSharp });
 
-export default shapesSharp;
+export let iconShapesSharp = shapesSharp;

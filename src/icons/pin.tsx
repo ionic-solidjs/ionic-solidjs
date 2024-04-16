@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pin });
 
-export default pin;
+export let iconPin = pin;

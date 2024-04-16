@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoAppleAr });
 
-export default logoAppleAr;
+export let iconLogoAppleAr = logoAppleAr;

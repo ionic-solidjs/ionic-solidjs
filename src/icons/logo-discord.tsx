@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoDiscord });
 
-export default logoDiscord;
+export let iconLogoDiscord = logoDiscord;

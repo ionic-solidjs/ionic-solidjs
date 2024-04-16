@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bedOutline });
 
-export default bedOutline;
+export let iconBedOutline = bedOutline;

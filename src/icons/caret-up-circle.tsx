@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ caretUpCircle });
 
-export default caretUpCircle;
+export let iconCaretUpCircle = caretUpCircle;

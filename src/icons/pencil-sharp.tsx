@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pencilSharp });
 
-export default pencilSharp;
+export let iconPencilSharp = pencilSharp;

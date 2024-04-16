@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ unlinkSharp });
 
-export default unlinkSharp;
+export let iconUnlinkSharp = unlinkSharp;

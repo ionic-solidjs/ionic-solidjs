@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ manSharp });
 
-export default manSharp;
+export let iconManSharp = manSharp;

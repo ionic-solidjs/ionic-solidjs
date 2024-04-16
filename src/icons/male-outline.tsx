@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ maleOutline });
 
-export default maleOutline;
+export let iconMaleOutline = maleOutline;

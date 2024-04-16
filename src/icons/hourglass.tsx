@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ hourglass });
 
-export default hourglass;
+export let iconHourglass = hourglass;

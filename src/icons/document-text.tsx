@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ documentText });
 
-export default documentText;
+export let iconDocumentText = documentText;

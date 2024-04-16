@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ reorderTwoOutline });
 
-export default reorderTwoOutline;
+export let iconReorderTwoOutline = reorderTwoOutline;

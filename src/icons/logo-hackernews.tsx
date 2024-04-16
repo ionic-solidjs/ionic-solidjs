@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoHackernews });
 
-export default logoHackernews;
+export let iconLogoHackernews = logoHackernews;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ radioButtonOn });
 
-export default radioButtonOn;
+export let iconRadioButtonOn = radioButtonOn;

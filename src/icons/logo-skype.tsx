@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoSkype });
 
-export default logoSkype;
+export let iconLogoSkype = logoSkype;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gitCommitOutline });
 
-export default gitCommitOutline;
+export let iconGitCommitOutline = gitCommitOutline;

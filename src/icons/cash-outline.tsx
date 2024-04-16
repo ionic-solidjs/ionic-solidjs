@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cashOutline });
 
-export default cashOutline;
+export let iconCashOutline = cashOutline;

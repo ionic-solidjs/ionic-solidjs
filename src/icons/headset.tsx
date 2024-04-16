@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ headset });
 
-export default headset;
+export let iconHeadset = headset;

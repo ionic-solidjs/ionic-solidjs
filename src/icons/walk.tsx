@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ walk });
 
-export default walk;
+export let iconWalk = walk;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ videocamOutline });
 
-export default videocamOutline;
+export let iconVideocamOutline = videocamOutline;

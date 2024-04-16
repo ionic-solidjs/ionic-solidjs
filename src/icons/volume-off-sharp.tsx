@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ volumeOffSharp });
 
-export default volumeOffSharp;
+export let iconVolumeOffSharp = volumeOffSharp;

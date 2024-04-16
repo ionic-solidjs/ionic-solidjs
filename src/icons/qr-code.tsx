@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ qrCode });
 
-export default qrCode;
+export let iconQrCode = qrCode;

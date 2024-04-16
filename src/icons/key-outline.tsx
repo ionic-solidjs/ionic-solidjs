@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ keyOutline });
 
-export default keyOutline;
+export let iconKeyOutline = keyOutline;

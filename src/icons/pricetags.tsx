@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pricetags });
 
-export default pricetags;
+export let iconPricetags = pricetags;

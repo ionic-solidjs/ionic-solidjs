@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gitNetwork });
 
-export default gitNetwork;
+export let iconGitNetwork = gitNetwork;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ giftOutline });
 
-export default giftOutline;
+export let iconGiftOutline = giftOutline;

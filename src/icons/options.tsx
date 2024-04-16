@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ options });
 
-export default options;
+export let iconOptions = options;

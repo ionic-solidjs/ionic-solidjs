@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cutSharp });
 
-export default cutSharp;
+export let iconCutSharp = cutSharp;

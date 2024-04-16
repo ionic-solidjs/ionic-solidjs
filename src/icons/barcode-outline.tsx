@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ barcodeOutline });
 
-export default barcodeOutline;
+export let iconBarcodeOutline = barcodeOutline;

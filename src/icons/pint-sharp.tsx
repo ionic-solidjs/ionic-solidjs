@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pintSharp });
 
-export default pintSharp;
+export let iconPintSharp = pintSharp;

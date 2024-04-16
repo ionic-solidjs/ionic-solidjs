@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ linkSharp });
 
-export default linkSharp;
+export let iconLinkSharp = linkSharp;

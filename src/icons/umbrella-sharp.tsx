@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ umbrellaSharp });
 
-export default umbrellaSharp;
+export let iconUmbrellaSharp = umbrellaSharp;

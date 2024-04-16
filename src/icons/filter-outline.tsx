@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ filterOutline });
 
-export default filterOutline;
+export let iconFilterOutline = filterOutline;

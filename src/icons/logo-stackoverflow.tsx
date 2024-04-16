@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoStackoverflow });
 
-export default logoStackoverflow;
+export let iconLogoStackoverflow = logoStackoverflow;

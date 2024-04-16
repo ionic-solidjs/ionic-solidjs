@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoSlack });
 
-export default logoSlack;
+export let iconLogoSlack = logoSlack;

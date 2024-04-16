@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ keySharp });
 
-export default keySharp;
+export let iconKeySharp = keySharp;

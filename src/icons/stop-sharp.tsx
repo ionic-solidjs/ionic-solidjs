@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ stopSharp });
 
-export default stopSharp;
+export let iconStopSharp = stopSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pulse });
 
-export default pulse;
+export let iconPulse = pulse;

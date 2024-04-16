@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ help });
 
-export default help;
+export let iconHelp = help;

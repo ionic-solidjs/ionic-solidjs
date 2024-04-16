@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ sync });
 
-export default sync;
+export let iconSync = sync;

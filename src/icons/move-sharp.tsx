@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ moveSharp });
 
-export default moveSharp;
+export let iconMoveSharp = moveSharp;

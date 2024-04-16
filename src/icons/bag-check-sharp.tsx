@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bagCheckSharp });
 
-export default bagCheckSharp;
+export let iconBagCheckSharp = bagCheckSharp;

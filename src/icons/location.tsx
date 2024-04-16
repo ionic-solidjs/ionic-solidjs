@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ location });
 
-export default location;
+export let iconLocation = location;

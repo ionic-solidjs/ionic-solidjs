@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ trophySharp });
 
-export default trophySharp;
+export let iconTrophySharp = trophySharp;

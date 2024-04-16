@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ thunderstormOutline });
 
-export default thunderstormOutline;
+export let iconThunderstormOutline = thunderstormOutline;

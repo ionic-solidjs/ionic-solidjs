@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ ellipseOutline });
 
-export default ellipseOutline;
+export let iconEllipseOutline = ellipseOutline;

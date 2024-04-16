@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoFigma });
 
-export default logoFigma;
+export let iconLogoFigma = logoFigma;

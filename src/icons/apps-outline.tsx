@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ appsOutline });
 
-export default appsOutline;
+export let iconAppsOutline = appsOutline;

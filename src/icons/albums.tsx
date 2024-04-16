@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ albums });
 
-export default albums;
+export let iconAlbums = albums;

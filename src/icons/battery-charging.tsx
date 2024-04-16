@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ batteryCharging });
 
-export default batteryCharging;
+export let iconBatteryCharging = batteryCharging;

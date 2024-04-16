@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pawOutline });
 
-export default pawOutline;
+export let iconPawOutline = pawOutline;

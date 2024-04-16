@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoFirebase });
 
-export default logoFirebase;
+export let iconLogoFirebase = logoFirebase;

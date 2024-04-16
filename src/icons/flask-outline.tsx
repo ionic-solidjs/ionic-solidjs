@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ flaskOutline });
 
-export default flaskOutline;
+export let iconFlaskOutline = flaskOutline;

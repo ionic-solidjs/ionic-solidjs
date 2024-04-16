@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ codeWorkingOutline });
 
-export default codeWorkingOutline;
+export let iconCodeWorkingOutline = codeWorkingOutline;

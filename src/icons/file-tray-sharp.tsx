@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ fileTraySharp });
 
-export default fileTraySharp;
+export let iconFileTraySharp = fileTraySharp;

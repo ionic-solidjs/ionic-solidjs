@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ menu });
 
-export default menu;
+export let iconMenu = menu;

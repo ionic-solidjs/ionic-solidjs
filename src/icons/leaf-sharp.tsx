@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ leafSharp });
 
-export default leafSharp;
+export let iconLeafSharp = leafSharp;

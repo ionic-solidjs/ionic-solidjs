@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ invertModeSharp });
 
-export default invertModeSharp;
+export let iconInvertModeSharp = invertModeSharp;

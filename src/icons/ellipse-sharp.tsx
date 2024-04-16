@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ ellipseSharp });
 
-export default ellipseSharp;
+export let iconEllipseSharp = ellipseSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ eyedropOutline });
 
-export default eyedropOutline;
+export let iconEyedropOutline = eyedropOutline;

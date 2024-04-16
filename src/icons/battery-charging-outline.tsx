@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ batteryChargingOutline });
 
-export default batteryChargingOutline;
+export let iconBatteryChargingOutline = batteryChargingOutline;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ grid });
 
-export default grid;
+export let iconGrid = grid;

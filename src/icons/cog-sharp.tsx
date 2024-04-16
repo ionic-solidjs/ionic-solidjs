@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cogSharp });
 
-export default cogSharp;
+export let iconCogSharp = cogSharp;

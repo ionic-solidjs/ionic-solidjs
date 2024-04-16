@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ arrowDownCircle });
 
-export default arrowDownCircle;
+export let iconArrowDownCircle = arrowDownCircle;

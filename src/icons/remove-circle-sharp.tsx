@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ removeCircleSharp });
 
-export default removeCircleSharp;
+export let iconRemoveCircleSharp = removeCircleSharp;

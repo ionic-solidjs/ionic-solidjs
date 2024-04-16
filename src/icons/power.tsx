@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ power });
 
-export default power;
+export let iconPower = power;

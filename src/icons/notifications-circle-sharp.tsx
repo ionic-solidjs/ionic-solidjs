@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ notificationsCircleSharp });
 
-export default notificationsCircleSharp;
+export let iconNotificationsCircleSharp = notificationsCircleSharp;

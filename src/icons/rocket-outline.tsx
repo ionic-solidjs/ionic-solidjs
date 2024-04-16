@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ rocketOutline });
 
-export default rocketOutline;
+export let iconRocketOutline = rocketOutline;

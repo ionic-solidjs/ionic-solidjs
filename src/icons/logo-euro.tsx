@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoEuro });
 
-export default logoEuro;
+export let iconLogoEuro = logoEuro;

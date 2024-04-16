@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ scan });
 
-export default scan;
+export let iconScan = scan;

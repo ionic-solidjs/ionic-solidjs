@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ flashlightSharp });
 
-export default flashlightSharp;
+export let iconFlashlightSharp = flashlightSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoYahoo });
 
-export default logoYahoo;
+export let iconLogoYahoo = logoYahoo;

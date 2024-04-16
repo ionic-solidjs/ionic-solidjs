@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ document });
 
-export default document;
+export let iconDocument = document;

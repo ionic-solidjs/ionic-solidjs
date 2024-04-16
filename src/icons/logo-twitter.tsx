@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoTwitter });
 
-export default logoTwitter;
+export let iconLogoTwitter = logoTwitter;

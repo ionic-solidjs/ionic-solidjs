@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ share });
 
-export default share;
+export let iconShare = share;

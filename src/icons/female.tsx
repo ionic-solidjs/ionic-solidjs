@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ female });
 
-export default female;
+export let iconFemale = female;

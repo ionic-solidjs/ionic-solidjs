@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ chatbubbleEllipses });
 
-export default chatbubbleEllipses;
+export let iconChatbubbleEllipses = chatbubbleEllipses;

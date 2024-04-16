@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ playBackCircleOutline });
 
-export default playBackCircleOutline;
+export let iconPlayBackCircleOutline = playBackCircleOutline;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ accessibilityOutline });
 
-export default accessibilityOutline;
+export let iconAccessibilityOutline = accessibilityOutline;

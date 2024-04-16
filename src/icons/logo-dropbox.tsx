@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoDropbox });
 
-export default logoDropbox;
+export let iconLogoDropbox = logoDropbox;

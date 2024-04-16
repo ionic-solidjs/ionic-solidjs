@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ speedometerOutline });
 
-export default speedometerOutline;
+export let iconSpeedometerOutline = speedometerOutline;

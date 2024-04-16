@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ print });
 
-export default print;
+export let iconPrint = print;

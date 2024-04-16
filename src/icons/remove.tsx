@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ remove });
 
-export default remove;
+export let iconRemove = remove;

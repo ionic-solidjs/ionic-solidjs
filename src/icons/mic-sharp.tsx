@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ micSharp });
 
-export default micSharp;
+export let iconMicSharp = micSharp;

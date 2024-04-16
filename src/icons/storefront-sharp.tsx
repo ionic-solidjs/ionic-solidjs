@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ storefrontSharp });
 
-export default storefrontSharp;
+export let iconStorefrontSharp = storefrontSharp;

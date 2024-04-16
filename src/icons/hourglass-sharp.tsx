@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ hourglassSharp });
 
-export default hourglassSharp;
+export let iconHourglassSharp = hourglassSharp;

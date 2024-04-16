@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ golfOutline });
 
-export default golfOutline;
+export let iconGolfOutline = golfOutline;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ fastFoodOutline });
 
-export default fastFoodOutline;
+export let iconFastFoodOutline = fastFoodOutline;

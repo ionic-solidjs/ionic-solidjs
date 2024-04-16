@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ arrowUndo });
 
-export default arrowUndo;
+export let iconArrowUndo = arrowUndo;

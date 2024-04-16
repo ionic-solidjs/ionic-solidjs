@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ micOff });
 
-export default micOff;
+export let iconMicOff = micOff;

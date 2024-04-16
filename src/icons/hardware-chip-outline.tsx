@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ hardwareChipOutline });
 
-export default hardwareChipOutline;
+export let iconHardwareChipOutline = hardwareChipOutline;

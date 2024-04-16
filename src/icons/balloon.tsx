@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ balloon });
 
-export default balloon;
+export let iconBalloon = balloon;

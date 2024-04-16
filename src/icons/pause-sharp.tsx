@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pauseSharp });
 
-export default pauseSharp;
+export let iconPauseSharp = pauseSharp;

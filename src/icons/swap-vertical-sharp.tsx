@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ swapVerticalSharp });
 
-export default swapVerticalSharp;
+export let iconSwapVerticalSharp = swapVerticalSharp;

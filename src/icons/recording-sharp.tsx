@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ recordingSharp });
 
-export default recordingSharp;
+export let iconRecordingSharp = recordingSharp;

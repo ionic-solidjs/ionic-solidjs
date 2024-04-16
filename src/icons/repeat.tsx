@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ repeat });
 
-export default repeat;
+export let iconRepeat = repeat;

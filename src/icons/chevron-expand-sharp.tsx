@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ chevronExpandSharp });
 
-export default chevronExpandSharp;
+export let iconChevronExpandSharp = chevronExpandSharp;

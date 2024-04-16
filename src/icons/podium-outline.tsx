@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ podiumOutline });
 
-export default podiumOutline;
+export let iconPodiumOutline = podiumOutline;

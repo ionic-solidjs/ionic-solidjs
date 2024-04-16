@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ returnUpForwardOutline });
 
-export default returnUpForwardOutline;
+export let iconReturnUpForwardOutline = returnUpForwardOutline;

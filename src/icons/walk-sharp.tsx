@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ walkSharp });
 
-export default walkSharp;
+export let iconWalkSharp = walkSharp;

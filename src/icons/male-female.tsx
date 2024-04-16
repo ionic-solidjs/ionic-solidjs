@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ maleFemale });
 
-export default maleFemale;
+export let iconMaleFemale = maleFemale;

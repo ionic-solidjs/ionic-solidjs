@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ backspace });
 
-export default backspace;
+export let iconBackspace = backspace;

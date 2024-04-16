@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ helpBuoy });
 
-export default helpBuoy;
+export let iconHelpBuoy = helpBuoy;

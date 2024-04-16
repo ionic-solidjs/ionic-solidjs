@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ thermometerSharp });
 
-export default thermometerSharp;
+export let iconThermometerSharp = thermometerSharp;

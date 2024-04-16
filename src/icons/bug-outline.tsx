@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bugOutline });
 
-export default bugOutline;
+export let iconBugOutline = bugOutline;

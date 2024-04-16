@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ mailOpen });
 
-export default mailOpen;
+export let iconMailOpen = mailOpen;

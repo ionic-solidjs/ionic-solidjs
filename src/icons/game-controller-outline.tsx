@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gameControllerOutline });
 
-export default gameControllerOutline;
+export let iconGameControllerOutline = gameControllerOutline;

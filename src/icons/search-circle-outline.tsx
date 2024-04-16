@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ searchCircleOutline });
 
-export default searchCircleOutline;
+export let iconSearchCircleOutline = searchCircleOutline;

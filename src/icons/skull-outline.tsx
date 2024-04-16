@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ skullOutline });
 
-export default skullOutline;
+export let iconSkullOutline = skullOutline;

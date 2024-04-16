@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ contract });
 
-export default contract;
+export let iconContract = contract;

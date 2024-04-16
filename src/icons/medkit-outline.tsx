@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ medkitOutline });
 
-export default medkitOutline;
+export let iconMedkitOutline = medkitOutline;

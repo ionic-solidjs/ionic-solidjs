@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ colorPalette });
 
-export default colorPalette;
+export let iconColorPalette = colorPalette;

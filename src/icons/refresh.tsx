@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ refresh });
 
-export default refresh;
+export let iconRefresh = refresh;

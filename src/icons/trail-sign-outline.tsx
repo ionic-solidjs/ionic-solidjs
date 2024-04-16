@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ trailSignOutline });
 
-export default trailSignOutline;
+export let iconTrailSignOutline = trailSignOutline;

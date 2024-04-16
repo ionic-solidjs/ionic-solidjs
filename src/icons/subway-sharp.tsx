@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ subwaySharp });
 
-export default subwaySharp;
+export let iconSubwaySharp = subwaySharp;

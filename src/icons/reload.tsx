@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ reload });
 
-export default reload;
+export let iconReload = reload;

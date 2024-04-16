@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bug });
 
-export default bug;
+export let iconBug = bug;

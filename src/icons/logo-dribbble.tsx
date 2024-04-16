@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoDribbble });
 
-export default logoDribbble;
+export let iconLogoDribbble = logoDribbble;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ powerSharp });
 
-export default powerSharp;
+export let iconPowerSharp = powerSharp;

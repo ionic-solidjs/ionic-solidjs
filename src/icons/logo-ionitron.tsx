@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoIonitron });
 
-export default logoIonitron;
+export let iconLogoIonitron = logoIonitron;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoMastodon });
 
-export default logoMastodon;
+export let iconLogoMastodon = logoMastodon;

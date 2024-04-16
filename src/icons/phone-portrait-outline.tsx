@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ phonePortraitOutline });
 
-export default phonePortraitOutline;
+export let iconPhonePortraitOutline = phonePortraitOutline;

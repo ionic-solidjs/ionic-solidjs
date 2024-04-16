@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ camera });
 
-export default camera;
+export let iconCamera = camera;

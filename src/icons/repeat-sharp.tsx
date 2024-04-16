@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ repeatSharp });
 
-export default repeatSharp;
+export let iconRepeatSharp = repeatSharp;

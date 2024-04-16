@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ home });
 
-export default home;
+export let iconHome = home;

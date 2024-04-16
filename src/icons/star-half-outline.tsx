@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ starHalfOutline });
 
-export default starHalfOutline;
+export let iconStarHalfOutline = starHalfOutline;

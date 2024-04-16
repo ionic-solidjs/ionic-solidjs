@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ toggleOutline });
 
-export default toggleOutline;
+export let iconToggleOutline = toggleOutline;

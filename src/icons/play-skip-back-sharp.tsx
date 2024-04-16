@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ playSkipBackSharp });
 
-export default playSkipBackSharp;
+export let iconPlaySkipBackSharp = playSkipBackSharp;

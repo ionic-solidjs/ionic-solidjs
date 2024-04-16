@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ business });
 
-export default business;
+export let iconBusiness = business;

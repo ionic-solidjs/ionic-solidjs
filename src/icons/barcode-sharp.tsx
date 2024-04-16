@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ barcodeSharp });
 
-export default barcodeSharp;
+export let iconBarcodeSharp = barcodeSharp;

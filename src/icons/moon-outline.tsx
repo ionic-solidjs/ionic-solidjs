@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ moonOutline });
 
-export default moonOutline;
+export let iconMoonOutline = moonOutline;

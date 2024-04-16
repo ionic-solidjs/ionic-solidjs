@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ closeCircle });
 
-export default closeCircle;
+export let iconCloseCircle = closeCircle;

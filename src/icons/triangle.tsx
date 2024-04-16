@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ triangle });
 
-export default triangle;
+export let iconTriangle = triangle;

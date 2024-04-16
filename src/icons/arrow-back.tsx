@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ arrowBack });
 
-export default arrowBack;
+export let iconArrowBack = arrowBack;

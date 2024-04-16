@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ atSharp });
 
-export default atSharp;
+export let iconAtSharp = atSharp;

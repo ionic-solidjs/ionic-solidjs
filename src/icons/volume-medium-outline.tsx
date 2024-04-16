@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ volumeMediumOutline });
 
-export default volumeMediumOutline;
+export let iconVolumeMediumOutline = volumeMediumOutline;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ fingerPrintOutline });
 
-export default fingerPrintOutline;
+export let iconFingerPrintOutline = fingerPrintOutline;

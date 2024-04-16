@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cubeSharp });
 
-export default cubeSharp;
+export let iconCubeSharp = cubeSharp;

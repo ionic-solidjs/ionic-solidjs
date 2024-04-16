@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ thumbsDown });
 
-export default thumbsDown;
+export let iconThumbsDown = thumbsDown;

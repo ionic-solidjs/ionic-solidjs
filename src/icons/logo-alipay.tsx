@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoAlipay });
 
-export default logoAlipay;
+export let iconLogoAlipay = logoAlipay;

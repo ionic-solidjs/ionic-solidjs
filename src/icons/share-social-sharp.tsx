@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ shareSocialSharp });
 
-export default shareSocialSharp;
+export let iconShareSocialSharp = shareSocialSharp;

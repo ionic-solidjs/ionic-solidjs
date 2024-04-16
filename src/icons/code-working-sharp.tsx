@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ codeWorkingSharp });
 
-export default codeWorkingSharp;
+export let iconCodeWorkingSharp = codeWorkingSharp;

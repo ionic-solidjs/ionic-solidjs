@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoMicrosoft });
 
-export default logoMicrosoft;
+export let iconLogoMicrosoft = logoMicrosoft;

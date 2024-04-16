@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ diamondSharp });
 
-export default diamondSharp;
+export let iconDiamondSharp = diamondSharp;

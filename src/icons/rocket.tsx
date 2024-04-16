@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ rocket });
 
-export default rocket;
+export let iconRocket = rocket;

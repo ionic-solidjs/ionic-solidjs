@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ playForwardSharp });
 
-export default playForwardSharp;
+export let iconPlayForwardSharp = playForwardSharp;

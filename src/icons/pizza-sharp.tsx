@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ pizzaSharp });
 
-export default pizzaSharp;
+export let iconPizzaSharp = pizzaSharp;

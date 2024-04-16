@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ lockOpen });
 
-export default lockOpen;
+export let iconLockOpen = lockOpen;

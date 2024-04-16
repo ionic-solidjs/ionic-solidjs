@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ thermometerOutline });
 
-export default thermometerOutline;
+export let iconThermometerOutline = thermometerOutline;

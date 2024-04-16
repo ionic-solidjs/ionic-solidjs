@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ menuOutline });
 
-export default menuOutline;
+export let iconMenuOutline = menuOutline;

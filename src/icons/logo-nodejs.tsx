@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoNodejs });
 
-export default logoNodejs;
+export let iconLogoNodejs = logoNodejs;

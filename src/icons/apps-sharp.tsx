@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ appsSharp });
 
-export default appsSharp;
+export let iconAppsSharp = appsSharp;

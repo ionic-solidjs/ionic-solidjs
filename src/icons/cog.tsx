@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cog });
 
-export default cog;
+export let iconCog = cog;

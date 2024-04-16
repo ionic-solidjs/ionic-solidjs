@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ syncCircleSharp });
 
-export default syncCircleSharp;
+export let iconSyncCircleSharp = syncCircleSharp;

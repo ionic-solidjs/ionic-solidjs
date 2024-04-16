@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoMarkdown });
 
-export default logoMarkdown;
+export let iconLogoMarkdown = logoMarkdown;

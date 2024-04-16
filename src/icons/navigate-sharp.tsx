@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ navigateSharp });
 
-export default navigateSharp;
+export let iconNavigateSharp = navigateSharp;

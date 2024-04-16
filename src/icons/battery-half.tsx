@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ batteryHalf });
 
-export default batteryHalf;
+export let iconBatteryHalf = batteryHalf;

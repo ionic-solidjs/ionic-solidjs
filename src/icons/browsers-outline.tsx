@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ browsersOutline });
 
-export default browsersOutline;
+export let iconBrowsersOutline = browsersOutline;

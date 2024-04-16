@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ wifi });
 
-export default wifi;
+export let iconWifi = wifi;

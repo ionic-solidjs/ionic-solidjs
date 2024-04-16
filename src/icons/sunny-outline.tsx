@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ sunnyOutline });
 
-export default sunnyOutline;
+export let iconSunnyOutline = sunnyOutline;

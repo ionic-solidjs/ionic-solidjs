@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ codeSlashOutline });
 
-export default codeSlashOutline;
+export let iconCodeSlashOutline = codeSlashOutline;

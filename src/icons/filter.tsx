@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ filter });
 
-export default filter;
+export let iconFilter = filter;

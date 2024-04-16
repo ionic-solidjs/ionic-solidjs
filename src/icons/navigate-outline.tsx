@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ navigateOutline });
 
-export default navigateOutline;
+export let iconNavigateOutline = navigateOutline;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ flask });
 
-export default flask;
+export let iconFlask = flask;

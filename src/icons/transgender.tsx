@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ transgender });
 
-export default transgender;
+export let iconTransgender = transgender;

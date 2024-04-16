@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ reloadSharp });
 
-export default reloadSharp;
+export let iconReloadSharp = reloadSharp;

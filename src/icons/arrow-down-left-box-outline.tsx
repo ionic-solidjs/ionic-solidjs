@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ arrowDownLeftBoxOutline });
 
-export default arrowDownLeftBoxOutline;
+export let iconArrowDownLeftBoxOutline = arrowDownLeftBoxOutline;

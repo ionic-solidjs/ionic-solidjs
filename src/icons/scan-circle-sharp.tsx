@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ scanCircleSharp });
 
-export default scanCircleSharp;
+export let iconScanCircleSharp = scanCircleSharp;

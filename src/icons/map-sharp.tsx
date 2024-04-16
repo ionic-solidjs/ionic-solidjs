@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ mapSharp });
 
-export default mapSharp;
+export let iconMapSharp = mapSharp;

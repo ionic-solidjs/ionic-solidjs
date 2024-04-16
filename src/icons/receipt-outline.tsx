@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ receiptOutline });
 
-export default receiptOutline;
+export let iconReceiptOutline = receiptOutline;

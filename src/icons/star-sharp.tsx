@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ starSharp });
 
-export default starSharp;
+export let iconStarSharp = starSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ close });
 
-export default close;
+export let iconClose = close;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ fishOutline });
 
-export default fishOutline;
+export let iconFishOutline = fishOutline;

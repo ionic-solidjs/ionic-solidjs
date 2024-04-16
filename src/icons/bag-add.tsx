@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bagAdd });
 
-export default bagAdd;
+export let iconBagAdd = bagAdd;

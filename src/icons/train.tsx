@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ train });
 
-export default train;
+export let iconTrain = train;

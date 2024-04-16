@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ build });
 
-export default build;
+export let iconBuild = build;

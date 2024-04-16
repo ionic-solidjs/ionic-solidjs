@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ earthSharp });
 
-export default earthSharp;
+export let iconEarthSharp = earthSharp;

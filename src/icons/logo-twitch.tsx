@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoTwitch });
 
-export default logoTwitch;
+export let iconLogoTwitch = logoTwitch;

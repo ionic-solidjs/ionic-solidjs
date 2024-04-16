@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ medalSharp });
 
-export default medalSharp;
+export let iconMedalSharp = medalSharp;

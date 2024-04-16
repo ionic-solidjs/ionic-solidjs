@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ basketOutline });
 
-export default basketOutline;
+export let iconBasketOutline = basketOutline;

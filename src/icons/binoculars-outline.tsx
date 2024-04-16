@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ binocularsOutline });
 
-export default binocularsOutline;
+export let iconBinocularsOutline = binocularsOutline;

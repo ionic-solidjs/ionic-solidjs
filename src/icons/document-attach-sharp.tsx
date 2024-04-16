@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ documentAttachSharp });
 
-export default documentAttachSharp;
+export let iconDocumentAttachSharp = documentAttachSharp;

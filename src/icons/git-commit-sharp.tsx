@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gitCommitSharp });
 
-export default gitCommitSharp;
+export let iconGitCommitSharp = gitCommitSharp;

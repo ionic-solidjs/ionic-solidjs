@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ folderOpenOutline });
 
-export default folderOpenOutline;
+export let iconFolderOpenOutline = folderOpenOutline;

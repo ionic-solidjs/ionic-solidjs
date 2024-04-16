@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ chevronForwardCircle });
 
-export default chevronForwardCircle;
+export let iconChevronForwardCircle = chevronForwardCircle;

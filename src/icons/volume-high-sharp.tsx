@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ volumeHighSharp });
 
-export default volumeHighSharp;
+export let iconVolumeHighSharp = volumeHighSharp;

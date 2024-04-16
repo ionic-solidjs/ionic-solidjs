@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ waterSharp });
 
-export default waterSharp;
+export let iconWaterSharp = waterSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ helpBuoySharp });
 
-export default helpBuoySharp;
+export let iconHelpBuoySharp = helpBuoySharp;

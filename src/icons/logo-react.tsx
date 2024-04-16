@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoReact });
 
-export default logoReact;
+export let iconLogoReact = logoReact;

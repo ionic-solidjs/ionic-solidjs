@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ bulbOutline });
 
-export default bulbOutline;
+export let iconBulbOutline = bulbOutline;

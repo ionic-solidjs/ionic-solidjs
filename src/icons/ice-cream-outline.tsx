@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ iceCreamOutline });
 
-export default iceCreamOutline;
+export let iconIceCreamOutline = iceCreamOutline;

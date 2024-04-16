@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ gameControllerSharp });
 
-export default gameControllerSharp;
+export let iconGameControllerSharp = gameControllerSharp;

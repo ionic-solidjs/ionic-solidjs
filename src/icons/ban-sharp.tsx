@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ banSharp });
 
-export default banSharp;
+export let iconBanSharp = banSharp;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ logoNoSmoking });
 
-export default logoNoSmoking;
+export let iconLogoNoSmoking = logoNoSmoking;

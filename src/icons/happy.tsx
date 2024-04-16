@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ happy });
 
-export default happy;
+export let iconHappy = happy;

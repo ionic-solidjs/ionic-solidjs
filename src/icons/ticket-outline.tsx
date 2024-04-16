@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ ticketOutline });
 
-export default ticketOutline;
+export let iconTicketOutline = ticketOutline;

@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cafeSharp });
 
-export default cafeSharp;
+export let iconCafeSharp = cafeSharp;

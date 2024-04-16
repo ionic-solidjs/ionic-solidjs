@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ car });
 
-export default car;
+export let iconCar = car;

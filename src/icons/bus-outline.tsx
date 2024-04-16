@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ busOutline });
 
-export default busOutline;
+export let iconBusOutline = busOutline;

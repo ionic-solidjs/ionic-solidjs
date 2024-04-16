@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ cogOutline });
 
-export default cogOutline;
+export let iconCogOutline = cogOutline;

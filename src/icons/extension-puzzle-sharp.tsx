@@ -7,4 +7,4 @@ import '../lib-icons'
 
 addIcons({ extensionPuzzleSharp });
 
-export default extensionPuzzleSharp;
+export let iconExtensionPuzzleSharp = extensionPuzzleSharp;
