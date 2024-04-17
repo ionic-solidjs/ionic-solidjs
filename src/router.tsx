@@ -15,11 +15,23 @@ export interface RouterParameters<P extends RouteParameters<any>[]> {
   useHash?: boolean;
   onIonRouteDidChange?: (e: Event) => void;
   onIonRouteWillChange?: (e: Event) => void;
+  /**
+   * A list of routes to install. Nesting is not supported at the moment
+   */
   routes: P;
 }
 export interface RouteParameters<T> {
+  /**
+   * Url for the route. Matching is not supported at the moment
+   */
   url?: string;
+  /**
+   * A Solid component to activate at this route
+   */
   component: (props: T) => SolidJSX.Element;
+  /**
+   * Props to pass to the component
+   */
   routeProps: T;
 }
 
@@ -56,8 +68,18 @@ declare module "solid-js" {
   }
 }
 
+/**
+ * A context to get the instance of the router object.
+ */
 export let RouterContext = createContext<HTMLIonRouterElement>();
 
+/**
+ * A simplified Solid-compatible implementation of the ion-router webcomponent.
+ * Make sure to also place an `<IonRouterOutlet>` on the same page as the router, otherwise
+ * nothing will be shown.
+ *
+ * @param props Router configuration
+ */
 export function Router<R extends RouteParameters<any>[]>(props: RouterParameters<R>) {
   let [router, setRouter] = createSignal<HTMLIonRouterElement>();
 
