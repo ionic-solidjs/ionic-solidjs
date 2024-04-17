@@ -1,6 +1,6 @@
 {
   "name": "ionic-solidjs",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Unofficial SolidJS integration for Ionic Framework",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
