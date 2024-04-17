@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoGithub } from "ionicons/icons";
 
-addIcons({ logoGithub });
+addIcons({"logo-github": logoGithub });
 
-export let iconLogoGithub = "logoGithub";
+export let iconLogoGithub = "logo-github";

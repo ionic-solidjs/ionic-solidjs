@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { trendingDown } from "ionicons/icons";
 
-addIcons({ trendingDown });
+addIcons({"trending-down": trendingDown });
 
-export let iconTrendingDown = "trendingDown";
+export let iconTrendingDown = "trending-down";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { pauseSharp } from "ionicons/icons";
 
-addIcons({ pauseSharp });
+addIcons({"pause-sharp": pauseSharp });
 
-export let iconPauseSharp = "pauseSharp";
+export let iconPauseSharp = "pause-sharp";

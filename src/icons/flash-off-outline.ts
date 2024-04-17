@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { flashOffOutline } from "ionicons/icons";
 
-addIcons({ flashOffOutline });
+addIcons({"flash-off-outline": flashOffOutline });
 
-export let iconFlashOffOutline = "flashOffOutline";
+export let iconFlashOffOutline = "flash-off-outline";

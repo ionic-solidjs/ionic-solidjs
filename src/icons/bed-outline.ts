@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bedOutline } from "ionicons/icons";
 
-addIcons({ bedOutline });
+addIcons({"bed-outline": bedOutline });
 
-export let iconBedOutline = "bedOutline";
+export let iconBedOutline = "bed-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { medicalOutline } from "ionicons/icons";
 
-addIcons({ medicalOutline });
+addIcons({"medical-outline": medicalOutline });
 
-export let iconMedicalOutline = "medicalOutline";
+export let iconMedicalOutline = "medical-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { alertOutline } from "ionicons/icons";
 
-addIcons({ alertOutline });
+addIcons({"alert-outline": alertOutline });
 
-export let iconAlertOutline = "alertOutline";
+export let iconAlertOutline = "alert-outline";

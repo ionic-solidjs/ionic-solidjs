@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { podiumSharp } from "ionicons/icons";
 
-addIcons({ podiumSharp });
+addIcons({"podium-sharp": podiumSharp });
 
-export let iconPodiumSharp = "podiumSharp";
+export let iconPodiumSharp = "podium-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { trash } from "ionicons/icons";
 
-addIcons({ trash });
+addIcons({"trash": trash });
 
 export let iconTrash = "trash";

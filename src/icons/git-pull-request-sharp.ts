@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { gitPullRequestSharp } from "ionicons/icons";
 
-addIcons({ gitPullRequestSharp });
+addIcons({"git-pull-request-sharp": gitPullRequestSharp });
 
-export let iconGitPullRequestSharp = "gitPullRequestSharp";
+export let iconGitPullRequestSharp = "git-pull-request-sharp";

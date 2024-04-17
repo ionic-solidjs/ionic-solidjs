@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { caretForward } from "ionicons/icons";
 
-addIcons({ caretForward });
+addIcons({"caret-forward": caretForward });
 
-export let iconCaretForward = "caretForward";
+export let iconCaretForward = "caret-forward";

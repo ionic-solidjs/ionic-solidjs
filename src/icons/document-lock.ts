@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { documentLock } from "ionicons/icons";
 
-addIcons({ documentLock });
+addIcons({"document-lock": documentLock });
 
-export let iconDocumentLock = "documentLock";
+export let iconDocumentLock = "document-lock";

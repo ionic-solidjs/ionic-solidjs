@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { shuffleOutline } from "ionicons/icons";
 
-addIcons({ shuffleOutline });
+addIcons({"shuffle-outline": shuffleOutline });
 
-export let iconShuffleOutline = "shuffleOutline";
+export let iconShuffleOutline = "shuffle-outline";

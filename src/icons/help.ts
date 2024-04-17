@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { help } from "ionicons/icons";
 
-addIcons({ help });
+addIcons({"help": help });
 
 export let iconHelp = "help";

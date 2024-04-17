@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logOutOutline } from "ionicons/icons";
 
-addIcons({ logOutOutline });
+addIcons({"log-out-outline": logOutOutline });
 
-export let iconLogOutOutline = "logOutOutline";
+export let iconLogOutOutline = "log-out-outline";

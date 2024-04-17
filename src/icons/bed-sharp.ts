@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bedSharp } from "ionicons/icons";
 
-addIcons({ bedSharp });
+addIcons({"bed-sharp": bedSharp });
 
-export let iconBedSharp = "bedSharp";
+export let iconBedSharp = "bed-sharp";

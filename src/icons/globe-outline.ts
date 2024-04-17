@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { globeOutline } from "ionicons/icons";
 
-addIcons({ globeOutline });
+addIcons({"globe-outline": globeOutline });
 
-export let iconGlobeOutline = "globeOutline";
+export let iconGlobeOutline = "globe-outline";

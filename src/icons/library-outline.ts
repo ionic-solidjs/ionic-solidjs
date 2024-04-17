@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { libraryOutline } from "ionicons/icons";
 
-addIcons({ libraryOutline });
+addIcons({"library-outline": libraryOutline });
 
-export let iconLibraryOutline = "libraryOutline";
+export let iconLibraryOutline = "library-outline";

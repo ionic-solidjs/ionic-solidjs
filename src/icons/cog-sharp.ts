@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cogSharp } from "ionicons/icons";
 
-addIcons({ cogSharp });
+addIcons({"cog-sharp": cogSharp });
 
-export let iconCogSharp = "cogSharp";
+export let iconCogSharp = "cog-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { airplaneOutline } from "ionicons/icons";
 
-addIcons({ airplaneOutline });
+addIcons({"airplane-outline": airplaneOutline });
 
-export let iconAirplaneOutline = "airplaneOutline";
+export let iconAirplaneOutline = "airplane-outline";

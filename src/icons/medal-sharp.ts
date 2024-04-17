@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { medalSharp } from "ionicons/icons";
 
-addIcons({ medalSharp });
+addIcons({"medal-sharp": medalSharp });
 
-export let iconMedalSharp = "medalSharp";
+export let iconMedalSharp = "medal-sharp";

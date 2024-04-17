@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoChrome } from "ionicons/icons";
 
-addIcons({ logoChrome });
+addIcons({"logo-chrome": logoChrome });
 
-export let iconLogoChrome = "logoChrome";
+export let iconLogoChrome = "logo-chrome";

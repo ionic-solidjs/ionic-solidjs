@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { close } from "ionicons/icons";
 
-addIcons({ close });
+addIcons({"close": close });
 
 export let iconClose = "close";

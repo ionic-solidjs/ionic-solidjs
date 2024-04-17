@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { shieldHalf } from "ionicons/icons";
 
-addIcons({ shieldHalf });
+addIcons({"shield-half": shieldHalf });
 
-export let iconShieldHalf = "shieldHalf";
+export let iconShieldHalf = "shield-half";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { documentText } from "ionicons/icons";
 
-addIcons({ documentText });
+addIcons({"document-text": documentText });
 
-export let iconDocumentText = "documentText";
+export let iconDocumentText = "document-text";

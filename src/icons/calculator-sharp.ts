@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { calculatorSharp } from "ionicons/icons";
 
-addIcons({ calculatorSharp });
+addIcons({"calculator-sharp": calculatorSharp });
 
-export let iconCalculatorSharp = "calculatorSharp";
+export let iconCalculatorSharp = "calculator-sharp";

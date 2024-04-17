@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { warningSharp } from "ionicons/icons";
 
-addIcons({ warningSharp });
+addIcons({"warning-sharp": warningSharp });
 
-export let iconWarningSharp = "warningSharp";
+export let iconWarningSharp = "warning-sharp";

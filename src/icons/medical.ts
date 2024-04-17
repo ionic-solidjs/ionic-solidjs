@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { medical } from "ionicons/icons";
 
-addIcons({ medical });
+addIcons({"medical": medical });
 
 export let iconMedical = "medical";

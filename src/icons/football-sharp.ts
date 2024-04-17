@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { footballSharp } from "ionicons/icons";
 
-addIcons({ footballSharp });
+addIcons({"football-sharp": footballSharp });
 
-export let iconFootballSharp = "footballSharp";
+export let iconFootballSharp = "football-sharp";

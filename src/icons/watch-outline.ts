@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { watchOutline } from "ionicons/icons";
 
-addIcons({ watchOutline });
+addIcons({"watch-outline": watchOutline });
 
-export let iconWatchOutline = "watchOutline";
+export let iconWatchOutline = "watch-outline";

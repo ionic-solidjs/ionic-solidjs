@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { navigateCircle } from "ionicons/icons";
 
-addIcons({ navigateCircle });
+addIcons({"navigate-circle": navigateCircle });
 
-export let iconNavigateCircle = "navigateCircle";
+export let iconNavigateCircle = "navigate-circle";

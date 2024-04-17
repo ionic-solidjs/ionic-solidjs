@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { globe } from "ionicons/icons";
 
-addIcons({ globe });
+addIcons({"globe": globe });
 
 export let iconGlobe = "globe";

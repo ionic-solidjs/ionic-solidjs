@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { call } from "ionicons/icons";
 
-addIcons({ call });
+addIcons({"call": call });
 
 export let iconCall = "call";

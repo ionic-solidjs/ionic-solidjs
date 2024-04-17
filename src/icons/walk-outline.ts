@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { walkOutline } from "ionicons/icons";
 
-addIcons({ walkOutline });
+addIcons({"walk-outline": walkOutline });
 
-export let iconWalkOutline = "walkOutline";
+export let iconWalkOutline = "walk-outline";

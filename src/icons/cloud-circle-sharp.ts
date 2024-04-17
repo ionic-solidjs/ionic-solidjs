@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cloudCircleSharp } from "ionicons/icons";
 
-addIcons({ cloudCircleSharp });
+addIcons({"cloud-circle-sharp": cloudCircleSharp });
 
-export let iconCloudCircleSharp = "cloudCircleSharp";
+export let iconCloudCircleSharp = "cloud-circle-sharp";

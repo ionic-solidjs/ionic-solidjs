@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { wifiSharp } from "ionicons/icons";
 
-addIcons({ wifiSharp });
+addIcons({"wifi-sharp": wifiSharp });
 
-export let iconWifiSharp = "wifiSharp";
+export let iconWifiSharp = "wifi-sharp";

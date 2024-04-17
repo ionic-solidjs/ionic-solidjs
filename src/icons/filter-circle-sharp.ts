@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { filterCircleSharp } from "ionicons/icons";
 
-addIcons({ filterCircleSharp });
+addIcons({"filter-circle-sharp": filterCircleSharp });
 
-export let iconFilterCircleSharp = "filterCircleSharp";
+export let iconFilterCircleSharp = "filter-circle-sharp";

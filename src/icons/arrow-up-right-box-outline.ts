@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { arrowUpRightBoxOutline } from "ionicons/icons";
 
-addIcons({ arrowUpRightBoxOutline });
+addIcons({"arrow-up-right-box-outline": arrowUpRightBoxOutline });
 
-export let iconArrowUpRightBoxOutline = "arrowUpRightBoxOutline";
+export let iconArrowUpRightBoxOutline = "arrow-up-right-box-outline";

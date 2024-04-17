@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { contractSharp } from "ionicons/icons";
 
-addIcons({ contractSharp });
+addIcons({"contract-sharp": contractSharp });
 
-export let iconContractSharp = "contractSharp";
+export let iconContractSharp = "contract-sharp";

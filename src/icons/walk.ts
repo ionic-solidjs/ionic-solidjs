@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { walk } from "ionicons/icons";
 
-addIcons({ walk });
+addIcons({"walk": walk });
 
 export let iconWalk = "walk";

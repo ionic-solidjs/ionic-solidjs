@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { funnel } from "ionicons/icons";
 
-addIcons({ funnel });
+addIcons({"funnel": funnel });
 
 export let iconFunnel = "funnel";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { planetSharp } from "ionicons/icons";
 
-addIcons({ planetSharp });
+addIcons({"planet-sharp": planetSharp });
 
-export let iconPlanetSharp = "planetSharp";
+export let iconPlanetSharp = "planet-sharp";

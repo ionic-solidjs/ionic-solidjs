@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { language } from "ionicons/icons";
 
-addIcons({ language });
+addIcons({"language": language });
 
 export let iconLanguage = "language";

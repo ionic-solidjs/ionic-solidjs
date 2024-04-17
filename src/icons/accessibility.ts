@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { accessibility } from "ionicons/icons";
 
-addIcons({ accessibility });
+addIcons({"accessibility": accessibility });
 
 export let iconAccessibility = "accessibility";

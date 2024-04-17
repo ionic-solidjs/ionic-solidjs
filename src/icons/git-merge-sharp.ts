@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { gitMergeSharp } from "ionicons/icons";
 
-addIcons({ gitMergeSharp });
+addIcons({"git-merge-sharp": gitMergeSharp });
 
-export let iconGitMergeSharp = "gitMergeSharp";
+export let iconGitMergeSharp = "git-merge-sharp";

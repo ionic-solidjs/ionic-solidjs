@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cloudyOutline } from "ionicons/icons";
 
-addIcons({ cloudyOutline });
+addIcons({"cloudy-outline": cloudyOutline });
 
-export let iconCloudyOutline = "cloudyOutline";
+export let iconCloudyOutline = "cloudy-outline";

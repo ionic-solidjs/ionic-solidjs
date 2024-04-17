@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { grid } from "ionicons/icons";
 
-addIcons({ grid });
+addIcons({"grid": grid });
 
 export let iconGrid = "grid";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { gitCompare } from "ionicons/icons";
 
-addIcons({ gitCompare });
+addIcons({"git-compare": gitCompare });
 
-export let iconGitCompare = "gitCompare";
+export let iconGitCompare = "git-compare";

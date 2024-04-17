@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { storefront } from "ionicons/icons";
 
-addIcons({ storefront });
+addIcons({"storefront": storefront });
 
 export let iconStorefront = "storefront";

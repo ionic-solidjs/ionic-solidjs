@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { filmSharp } from "ionicons/icons";
 
-addIcons({ filmSharp });
+addIcons({"film-sharp": filmSharp });
 
-export let iconFilmSharp = "filmSharp";
+export let iconFilmSharp = "film-sharp";

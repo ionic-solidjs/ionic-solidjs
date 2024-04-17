@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { downloadSharp } from "ionicons/icons";
 
-addIcons({ downloadSharp });
+addIcons({"download-sharp": downloadSharp });
 
-export let iconDownloadSharp = "downloadSharp";
+export let iconDownloadSharp = "download-sharp";

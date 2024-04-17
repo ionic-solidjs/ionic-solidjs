@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { happy } from "ionicons/icons";
 
-addIcons({ happy });
+addIcons({"happy": happy });
 
 export let iconHappy = "happy";

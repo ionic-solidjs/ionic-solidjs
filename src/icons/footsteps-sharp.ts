@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { footstepsSharp } from "ionicons/icons";
 
-addIcons({ footstepsSharp });
+addIcons({"footsteps-sharp": footstepsSharp });
 
-export let iconFootstepsSharp = "footstepsSharp";
+export let iconFootstepsSharp = "footsteps-sharp";

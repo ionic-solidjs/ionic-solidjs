@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { pieChartOutline } from "ionicons/icons";
 
-addIcons({ pieChartOutline });
+addIcons({"pie-chart-outline": pieChartOutline });
 
-export let iconPieChartOutline = "pieChartOutline";
+export let iconPieChartOutline = "pie-chart-outline";

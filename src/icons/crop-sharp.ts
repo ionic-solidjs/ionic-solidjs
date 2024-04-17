@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cropSharp } from "ionicons/icons";
 
-addIcons({ cropSharp });
+addIcons({"crop-sharp": cropSharp });
 
-export let iconCropSharp = "cropSharp";
+export let iconCropSharp = "crop-sharp";

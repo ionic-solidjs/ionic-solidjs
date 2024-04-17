@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cameraReverse } from "ionicons/icons";
 
-addIcons({ cameraReverse });
+addIcons({"camera-reverse": cameraReverse });
 
-export let iconCameraReverse = "cameraReverse";
+export let iconCameraReverse = "camera-reverse";

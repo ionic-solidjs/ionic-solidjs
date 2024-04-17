@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { thumbsUpSharp } from "ionicons/icons";
 
-addIcons({ thumbsUpSharp });
+addIcons({"thumbs-up-sharp": thumbsUpSharp });
 
-export let iconThumbsUpSharp = "thumbsUpSharp";
+export let iconThumbsUpSharp = "thumbs-up-sharp";

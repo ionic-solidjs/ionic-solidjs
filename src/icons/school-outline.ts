@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { schoolOutline } from "ionicons/icons";
 
-addIcons({ schoolOutline });
+addIcons({"school-outline": schoolOutline });
 
-export let iconSchoolOutline = "schoolOutline";
+export let iconSchoolOutline = "school-outline";

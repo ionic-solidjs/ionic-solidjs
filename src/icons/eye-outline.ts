@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { eyeOutline } from "ionicons/icons";
 
-addIcons({ eyeOutline });
+addIcons({"eye-outline": eyeOutline });
 
-export let iconEyeOutline = "eyeOutline";
+export let iconEyeOutline = "eye-outline";

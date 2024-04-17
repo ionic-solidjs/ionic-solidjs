@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { reloadCircleSharp } from "ionicons/icons";
 
-addIcons({ reloadCircleSharp });
+addIcons({"reload-circle-sharp": reloadCircleSharp });
 
-export let iconReloadCircleSharp = "reloadCircleSharp";
+export let iconReloadCircleSharp = "reload-circle-sharp";

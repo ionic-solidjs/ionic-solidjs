@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoDeviantart } from "ionicons/icons";
 
-addIcons({ logoDeviantart });
+addIcons({"logo-deviantart": logoDeviantart });
 
-export let iconLogoDeviantart = "logoDeviantart";
+export let iconLogoDeviantart = "logo-deviantart";

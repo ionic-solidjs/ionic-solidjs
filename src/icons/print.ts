@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { print } from "ionicons/icons";
 
-addIcons({ print });
+addIcons({"print": print });
 
 export let iconPrint = "print";

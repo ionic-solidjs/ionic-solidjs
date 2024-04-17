@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { syncCircle } from "ionicons/icons";
 
-addIcons({ syncCircle });
+addIcons({"sync-circle": syncCircle });
 
-export let iconSyncCircle = "syncCircle";
+export let iconSyncCircle = "sync-circle";

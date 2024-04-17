@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { sync } from "ionicons/icons";
 
-addIcons({ sync });
+addIcons({"sync": sync });
 
 export let iconSync = "sync";

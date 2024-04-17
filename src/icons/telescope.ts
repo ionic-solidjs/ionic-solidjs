@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { telescope } from "ionicons/icons";
 
-addIcons({ telescope });
+addIcons({"telescope": telescope });
 
 export let iconTelescope = "telescope";

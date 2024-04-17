@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { newspaperOutline } from "ionicons/icons";
 
-addIcons({ newspaperOutline });
+addIcons({"newspaper-outline": newspaperOutline });
 
-export let iconNewspaperOutline = "newspaperOutline";
+export let iconNewspaperOutline = "newspaper-outline";

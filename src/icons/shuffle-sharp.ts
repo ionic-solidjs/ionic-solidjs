@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { shuffleSharp } from "ionicons/icons";
 
-addIcons({ shuffleSharp });
+addIcons({"shuffle-sharp": shuffleSharp });
 
-export let iconShuffleSharp = "shuffleSharp";
+export let iconShuffleSharp = "shuffle-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { barbellOutline } from "ionicons/icons";
 
-addIcons({ barbellOutline });
+addIcons({"barbell-outline": barbellOutline });
 
-export let iconBarbellOutline = "barbellOutline";
+export let iconBarbellOutline = "barbell-outline";

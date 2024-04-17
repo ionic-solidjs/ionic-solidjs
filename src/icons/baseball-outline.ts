@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { baseballOutline } from "ionicons/icons";
 
-addIcons({ baseballOutline });
+addIcons({"baseball-outline": baseballOutline });
 
-export let iconBaseballOutline = "baseballOutline";
+export let iconBaseballOutline = "baseball-outline";

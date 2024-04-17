@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { pawOutline } from "ionicons/icons";
 
-addIcons({ pawOutline });
+addIcons({"paw-outline": pawOutline });
 
-export let iconPawOutline = "pawOutline";
+export let iconPawOutline = "paw-outline";

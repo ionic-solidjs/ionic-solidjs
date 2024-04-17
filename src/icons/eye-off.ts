@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { eyeOff } from "ionicons/icons";
 
-addIcons({ eyeOff });
+addIcons({"eye-off": eyeOff });
 
-export let iconEyeOff = "eyeOff";
+export let iconEyeOff = "eye-off";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoAmplify } from "ionicons/icons";
 
-addIcons({ logoAmplify });
+addIcons({"logo-amplify": logoAmplify });
 
-export let iconLogoAmplify = "logoAmplify";
+export let iconLogoAmplify = "logo-amplify";

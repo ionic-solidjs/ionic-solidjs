@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { discSharp } from "ionicons/icons";
 
-addIcons({ discSharp });
+addIcons({"disc-sharp": discSharp });
 
-export let iconDiscSharp = "discSharp";
+export let iconDiscSharp = "disc-sharp";

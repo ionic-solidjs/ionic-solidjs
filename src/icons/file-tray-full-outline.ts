@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { fileTrayFullOutline } from "ionicons/icons";
 
-addIcons({ fileTrayFullOutline });
+addIcons({"file-tray-full-outline": fileTrayFullOutline });
 
-export let iconFileTrayFullOutline = "fileTrayFullOutline";
+export let iconFileTrayFullOutline = "file-tray-full-outline";

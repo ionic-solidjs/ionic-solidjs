@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoYoutube } from "ionicons/icons";
 
-addIcons({ logoYoutube });
+addIcons({"logo-youtube": logoYoutube });
 
-export let iconLogoYoutube = "logoYoutube";
+export let iconLogoYoutube = "logo-youtube";

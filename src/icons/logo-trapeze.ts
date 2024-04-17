@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoTrapeze } from "ionicons/icons";
 
-addIcons({ logoTrapeze });
+addIcons({"logo-trapeze": logoTrapeze });
 
-export let iconLogoTrapeze = "logoTrapeze";
+export let iconLogoTrapeze = "logo-trapeze";

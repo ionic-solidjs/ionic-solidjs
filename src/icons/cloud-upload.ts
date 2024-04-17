@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cloudUpload } from "ionicons/icons";
 
-addIcons({ cloudUpload });
+addIcons({"cloud-upload": cloudUpload });
 
-export let iconCloudUpload = "cloudUpload";
+export let iconCloudUpload = "cloud-upload";

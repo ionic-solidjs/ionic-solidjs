@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { reloadSharp } from "ionicons/icons";
 
-addIcons({ reloadSharp });
+addIcons({"reload-sharp": reloadSharp });
 
-export let iconReloadSharp = "reloadSharp";
+export let iconReloadSharp = "reload-sharp";

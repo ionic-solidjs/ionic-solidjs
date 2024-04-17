@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { pricetags } from "ionicons/icons";
 
-addIcons({ pricetags });
+addIcons({"pricetags": pricetags });
 
 export let iconPricetags = "pricetags";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { journalSharp } from "ionicons/icons";
 
-addIcons({ journalSharp });
+addIcons({"journal-sharp": journalSharp });
 
-export let iconJournalSharp = "journalSharp";
+export let iconJournalSharp = "journal-sharp";

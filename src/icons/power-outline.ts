@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { powerOutline } from "ionicons/icons";
 
-addIcons({ powerOutline });
+addIcons({"power-outline": powerOutline });
 
-export let iconPowerOutline = "powerOutline";
+export let iconPowerOutline = "power-outline";

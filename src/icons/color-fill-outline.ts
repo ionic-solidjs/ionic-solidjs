@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { colorFillOutline } from "ionicons/icons";
 
-addIcons({ colorFillOutline });
+addIcons({"color-fill-outline": colorFillOutline });
 
-export let iconColorFillOutline = "colorFillOutline";
+export let iconColorFillOutline = "color-fill-outline";

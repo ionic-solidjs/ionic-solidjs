@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { enterOutline } from "ionicons/icons";
 
-addIcons({ enterOutline });
+addIcons({"enter-outline": enterOutline });
 
-export let iconEnterOutline = "enterOutline";
+export let iconEnterOutline = "enter-outline";

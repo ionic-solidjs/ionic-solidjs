@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoNodejs } from "ionicons/icons";
 
-addIcons({ logoNodejs });
+addIcons({"logo-nodejs": logoNodejs });
 
-export let iconLogoNodejs = "logoNodejs";
+export let iconLogoNodejs = "logo-nodejs";

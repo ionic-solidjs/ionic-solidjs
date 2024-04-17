@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { map } from "ionicons/icons";
 
-addIcons({ map });
+addIcons({"map": map });
 
 export let iconMap = "map";

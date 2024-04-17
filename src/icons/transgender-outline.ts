@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { transgenderOutline } from "ionicons/icons";
 
-addIcons({ transgenderOutline });
+addIcons({"transgender-outline": transgenderOutline });
 
-export let iconTransgenderOutline = "transgenderOutline";
+export let iconTransgenderOutline = "transgender-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { busOutline } from "ionicons/icons";
 
-addIcons({ busOutline });
+addIcons({"bus-outline": busOutline });
 
-export let iconBusOutline = "busOutline";
+export let iconBusOutline = "bus-outline";

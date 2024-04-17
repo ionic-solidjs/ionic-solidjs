@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cut } from "ionicons/icons";
 
-addIcons({ cut });
+addIcons({"cut": cut });
 
 export let iconCut = "cut";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { wallet } from "ionicons/icons";
 
-addIcons({ wallet });
+addIcons({"wallet": wallet });
 
 export let iconWallet = "wallet";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoNoSmoking } from "ionicons/icons";
 
-addIcons({ logoNoSmoking });
+addIcons({"logo-no-smoking": logoNoSmoking });
 
-export let iconLogoNoSmoking = "logoNoSmoking";
+export let iconLogoNoSmoking = "logo-no-smoking";

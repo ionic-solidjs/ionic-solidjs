@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bicycleSharp } from "ionicons/icons";
 
-addIcons({ bicycleSharp });
+addIcons({"bicycle-sharp": bicycleSharp });
 
-export let iconBicycleSharp = "bicycleSharp";
+export let iconBicycleSharp = "bicycle-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoEdge } from "ionicons/icons";
 
-addIcons({ logoEdge });
+addIcons({"logo-edge": logoEdge });
 
-export let iconLogoEdge = "logoEdge";
+export let iconLogoEdge = "logo-edge";

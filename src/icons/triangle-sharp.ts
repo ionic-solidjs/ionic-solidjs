@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { triangleSharp } from "ionicons/icons";
 
-addIcons({ triangleSharp });
+addIcons({"triangle-sharp": triangleSharp });
 
-export let iconTriangleSharp = "triangleSharp";
+export let iconTriangleSharp = "triangle-sharp";

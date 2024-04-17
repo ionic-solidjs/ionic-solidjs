@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoXing } from "ionicons/icons";
 
-addIcons({ logoXing });
+addIcons({"logo-xing": logoXing });
 
-export let iconLogoXing = "logoXing";
+export let iconLogoXing = "logo-xing";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoDesignernews } from "ionicons/icons";
 
-addIcons({ logoDesignernews });
+addIcons({"logo-designernews": logoDesignernews });
 
-export let iconLogoDesignernews = "logoDesignernews";
+export let iconLogoDesignernews = "logo-designernews";

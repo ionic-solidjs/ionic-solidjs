@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoYahoo } from "ionicons/icons";
 
-addIcons({ logoYahoo });
+addIcons({"logo-yahoo": logoYahoo });
 
-export let iconLogoYahoo = "logoYahoo";
+export let iconLogoYahoo = "logo-yahoo";

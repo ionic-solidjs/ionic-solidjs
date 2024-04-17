@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { pauseCircleSharp } from "ionicons/icons";
 
-addIcons({ pauseCircleSharp });
+addIcons({"pause-circle-sharp": pauseCircleSharp });
 
-export let iconPauseCircleSharp = "pauseCircleSharp";
+export let iconPauseCircleSharp = "pause-circle-sharp";

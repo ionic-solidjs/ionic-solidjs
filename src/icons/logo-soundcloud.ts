@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoSoundcloud } from "ionicons/icons";
 
-addIcons({ logoSoundcloud });
+addIcons({"logo-soundcloud": logoSoundcloud });
 
-export let iconLogoSoundcloud = "logoSoundcloud";
+export let iconLogoSoundcloud = "logo-soundcloud";

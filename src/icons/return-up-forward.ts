@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { returnUpForward } from "ionicons/icons";
 
-addIcons({ returnUpForward });
+addIcons({"return-up-forward": returnUpForward });
 
-export let iconReturnUpForward = "returnUpForward";
+export let iconReturnUpForward = "return-up-forward";

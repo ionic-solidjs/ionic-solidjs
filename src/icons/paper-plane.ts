@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { paperPlane } from "ionicons/icons";
 
-addIcons({ paperPlane });
+addIcons({"paper-plane": paperPlane });
 
-export let iconPaperPlane = "paperPlane";
+export let iconPaperPlane = "paper-plane";

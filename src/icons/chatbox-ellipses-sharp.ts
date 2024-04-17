@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { chatboxEllipsesSharp } from "ionicons/icons";
 
-addIcons({ chatboxEllipsesSharp });
+addIcons({"chatbox-ellipses-sharp": chatboxEllipsesSharp });
 
-export let iconChatboxEllipsesSharp = "chatboxEllipsesSharp";
+export let iconChatboxEllipsesSharp = "chatbox-ellipses-sharp";

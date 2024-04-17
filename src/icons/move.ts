@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { move } from "ionicons/icons";
 
-addIcons({ move });
+addIcons({"move": move });
 
 export let iconMove = "move";

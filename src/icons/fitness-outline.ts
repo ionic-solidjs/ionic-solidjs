@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { fitnessOutline } from "ionicons/icons";
 
-addIcons({ fitnessOutline });
+addIcons({"fitness-outline": fitnessOutline });
 
-export let iconFitnessOutline = "fitnessOutline";
+export let iconFitnessOutline = "fitness-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { gameControllerSharp } from "ionicons/icons";
 
-addIcons({ gameControllerSharp });
+addIcons({"game-controller-sharp": gameControllerSharp });
 
-export let iconGameControllerSharp = "gameControllerSharp";
+export let iconGameControllerSharp = "game-controller-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { magnetSharp } from "ionicons/icons";
 
-addIcons({ magnetSharp });
+addIcons({"magnet-sharp": magnetSharp });
 
-export let iconMagnetSharp = "magnetSharp";
+export let iconMagnetSharp = "magnet-sharp";

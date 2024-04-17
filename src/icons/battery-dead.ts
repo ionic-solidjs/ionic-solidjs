@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { batteryDead } from "ionicons/icons";
 
-addIcons({ batteryDead });
+addIcons({"battery-dead": batteryDead });
 
-export let iconBatteryDead = "batteryDead";
+export let iconBatteryDead = "battery-dead";

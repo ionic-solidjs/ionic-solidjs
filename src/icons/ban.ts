@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { ban } from "ionicons/icons";
 
-addIcons({ ban });
+addIcons({"ban": ban });
 
 export let iconBan = "ban";

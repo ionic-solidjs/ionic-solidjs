@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { pintOutline } from "ionicons/icons";
 
-addIcons({ pintOutline });
+addIcons({"pint-outline": pintOutline });
 
-export let iconPintOutline = "pintOutline";
+export let iconPintOutline = "pint-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { repeatOutline } from "ionicons/icons";
 
-addIcons({ repeatOutline });
+addIcons({"repeat-outline": repeatOutline });
 
-export let iconRepeatOutline = "repeatOutline";
+export let iconRepeatOutline = "repeat-outline";

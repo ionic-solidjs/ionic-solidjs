@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { refresh } from "ionicons/icons";
 
-addIcons({ refresh });
+addIcons({"refresh": refresh });
 
 export let iconRefresh = "refresh";

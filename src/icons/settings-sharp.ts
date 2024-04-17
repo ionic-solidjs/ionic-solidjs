@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { settingsSharp } from "ionicons/icons";
 
-addIcons({ settingsSharp });
+addIcons({"settings-sharp": settingsSharp });
 
-export let iconSettingsSharp = "settingsSharp";
+export let iconSettingsSharp = "settings-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { mic } from "ionicons/icons";
 
-addIcons({ mic });
+addIcons({"mic": mic });
 
 export let iconMic = "mic";

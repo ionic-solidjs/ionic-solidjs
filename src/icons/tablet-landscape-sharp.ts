@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { tabletLandscapeSharp } from "ionicons/icons";
 
-addIcons({ tabletLandscapeSharp });
+addIcons({"tablet-landscape-sharp": tabletLandscapeSharp });
 
-export let iconTabletLandscapeSharp = "tabletLandscapeSharp";
+export let iconTabletLandscapeSharp = "tablet-landscape-sharp";

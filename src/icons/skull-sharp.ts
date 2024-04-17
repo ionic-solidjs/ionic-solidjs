@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { skullSharp } from "ionicons/icons";
 
-addIcons({ skullSharp });
+addIcons({"skull-sharp": skullSharp });
 
-export let iconSkullSharp = "skullSharp";
+export let iconSkullSharp = "skull-sharp";

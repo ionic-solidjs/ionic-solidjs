@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { codeWorking } from "ionicons/icons";
 
-addIcons({ codeWorking });
+addIcons({"code-working": codeWorking });
 
-export let iconCodeWorking = "codeWorking";
+export let iconCodeWorking = "code-working";

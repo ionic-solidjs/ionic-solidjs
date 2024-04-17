@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { chatbubble } from "ionicons/icons";
 
-addIcons({ chatbubble });
+addIcons({"chatbubble": chatbubble });
 
 export let iconChatbubble = "chatbubble";

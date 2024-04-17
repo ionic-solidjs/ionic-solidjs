@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { shirtSharp } from "ionicons/icons";
 
-addIcons({ shirtSharp });
+addIcons({"shirt-sharp": shirtSharp });
 
-export let iconShirtSharp = "shirtSharp";
+export let iconShirtSharp = "shirt-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logInSharp } from "ionicons/icons";
 
-addIcons({ logInSharp });
+addIcons({"log-in-sharp": logInSharp });
 
-export let iconLogInSharp = "logInSharp";
+export let iconLogInSharp = "log-in-sharp";

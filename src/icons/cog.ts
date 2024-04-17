@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cog } from "ionicons/icons";
 
-addIcons({ cog });
+addIcons({"cog": cog });
 
 export let iconCog = "cog";

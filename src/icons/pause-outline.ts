@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { pauseOutline } from "ionicons/icons";
 
-addIcons({ pauseOutline });
+addIcons({"pause-outline": pauseOutline });
 
-export let iconPauseOutline = "pauseOutline";
+export let iconPauseOutline = "pause-outline";

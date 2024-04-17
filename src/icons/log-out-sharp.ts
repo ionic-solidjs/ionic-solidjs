@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logOutSharp } from "ionicons/icons";
 
-addIcons({ logOutSharp });
+addIcons({"log-out-sharp": logOutSharp });
 
-export let iconLogOutSharp = "logOutSharp";
+export let iconLogOutSharp = "log-out-sharp";

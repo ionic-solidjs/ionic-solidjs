@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { man } from "ionicons/icons";
 
-addIcons({ man });
+addIcons({"man": man });
 
 export let iconMan = "man";

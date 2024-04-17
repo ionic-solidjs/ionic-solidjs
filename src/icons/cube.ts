@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cube } from "ionicons/icons";
 
-addIcons({ cube });
+addIcons({"cube": cube });
 
 export let iconCube = "cube";

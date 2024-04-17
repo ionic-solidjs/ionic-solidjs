@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { briefcaseSharp } from "ionicons/icons";
 
-addIcons({ briefcaseSharp });
+addIcons({"briefcase-sharp": briefcaseSharp });
 
-export let iconBriefcaseSharp = "briefcaseSharp";
+export let iconBriefcaseSharp = "briefcase-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { megaphoneSharp } from "ionicons/icons";
 
-addIcons({ megaphoneSharp });
+addIcons({"megaphone-sharp": megaphoneSharp });
 
-export let iconMegaphoneSharp = "megaphoneSharp";
+export let iconMegaphoneSharp = "megaphone-sharp";

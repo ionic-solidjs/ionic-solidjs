@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { codeDownload } from "ionicons/icons";
 
-addIcons({ codeDownload });
+addIcons({"code-download": codeDownload });
 
-export let iconCodeDownload = "codeDownload";
+export let iconCodeDownload = "code-download";

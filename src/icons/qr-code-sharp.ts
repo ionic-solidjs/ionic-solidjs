@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { qrCodeSharp } from "ionicons/icons";
 
-addIcons({ qrCodeSharp });
+addIcons({"qr-code-sharp": qrCodeSharp });
 
-export let iconQrCodeSharp = "qrCodeSharp";
+export let iconQrCodeSharp = "qr-code-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { diceOutline } from "ionicons/icons";
 
-addIcons({ diceOutline });
+addIcons({"dice-outline": diceOutline });
 
-export let iconDiceOutline = "diceOutline";
+export let iconDiceOutline = "dice-outline";

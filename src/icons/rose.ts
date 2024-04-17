@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { rose } from "ionicons/icons";
 
-addIcons({ rose });
+addIcons({"rose": rose });
 
 export let iconRose = "rose";

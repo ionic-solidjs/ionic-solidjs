@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { notificationsOffSharp } from "ionicons/icons";
 
-addIcons({ notificationsOffSharp });
+addIcons({"notifications-off-sharp": notificationsOffSharp });
 
-export let iconNotificationsOffSharp = "notificationsOffSharp";
+export let iconNotificationsOffSharp = "notifications-off-sharp";

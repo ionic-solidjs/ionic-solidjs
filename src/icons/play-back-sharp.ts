@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { playBackSharp } from "ionicons/icons";
 
-addIcons({ playBackSharp });
+addIcons({"play-back-sharp": playBackSharp });
 
-export let iconPlayBackSharp = "playBackSharp";
+export let iconPlayBackSharp = "play-back-sharp";

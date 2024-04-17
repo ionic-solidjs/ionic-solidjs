@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { powerSharp } from "ionicons/icons";
 
-addIcons({ powerSharp });
+addIcons({"power-sharp": powerSharp });
 
-export let iconPowerSharp = "powerSharp";
+export let iconPowerSharp = "power-sharp";

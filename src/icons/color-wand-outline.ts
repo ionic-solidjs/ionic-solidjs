@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { colorWandOutline } from "ionicons/icons";
 
-addIcons({ colorWandOutline });
+addIcons({"color-wand-outline": colorWandOutline });
 
-export let iconColorWandOutline = "colorWandOutline";
+export let iconColorWandOutline = "color-wand-outline";

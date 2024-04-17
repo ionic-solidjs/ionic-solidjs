@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { removeSharp } from "ionicons/icons";
 
-addIcons({ removeSharp });
+addIcons({"remove-sharp": removeSharp });
 
-export let iconRemoveSharp = "removeSharp";
+export let iconRemoveSharp = "remove-sharp";

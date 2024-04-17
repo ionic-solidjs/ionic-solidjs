@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { scanSharp } from "ionicons/icons";
 
-addIcons({ scanSharp });
+addIcons({"scan-sharp": scanSharp });
 
-export let iconScanSharp = "scanSharp";
+export let iconScanSharp = "scan-sharp";

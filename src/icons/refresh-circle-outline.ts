@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { refreshCircleOutline } from "ionicons/icons";
 
-addIcons({ refreshCircleOutline });
+addIcons({"refresh-circle-outline": refreshCircleOutline });
 
-export let iconRefreshCircleOutline = "refreshCircleOutline";
+export let iconRefreshCircleOutline = "refresh-circle-outline";

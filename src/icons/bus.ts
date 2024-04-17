@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bus } from "ionicons/icons";
 
-addIcons({ bus });
+addIcons({"bus": bus });
 
 export let iconBus = "bus";

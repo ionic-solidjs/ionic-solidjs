@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { checkmarkCircle } from "ionicons/icons";
 
-addIcons({ checkmarkCircle });
+addIcons({"checkmark-circle": checkmarkCircle });
 
-export let iconCheckmarkCircle = "checkmarkCircle";
+export let iconCheckmarkCircle = "checkmark-circle";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { open } from "ionicons/icons";
 
-addIcons({ open });
+addIcons({"open": open });
 
 export let iconOpen = "open";

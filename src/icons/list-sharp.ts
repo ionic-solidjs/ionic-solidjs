@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { listSharp } from "ionicons/icons";
 
-addIcons({ listSharp });
+addIcons({"list-sharp": listSharp });
 
-export let iconListSharp = "listSharp";
+export let iconListSharp = "list-sharp";

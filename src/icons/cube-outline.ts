@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cubeOutline } from "ionicons/icons";
 
-addIcons({ cubeOutline });
+addIcons({"cube-outline": cubeOutline });
 
-export let iconCubeOutline = "cubeOutline";
+export let iconCubeOutline = "cube-outline";

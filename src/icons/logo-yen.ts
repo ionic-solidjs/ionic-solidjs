@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoYen } from "ionicons/icons";
 
-addIcons({ logoYen });
+addIcons({"logo-yen": logoYen });
 
-export let iconLogoYen = "logoYen";
+export let iconLogoYen = "logo-yen";

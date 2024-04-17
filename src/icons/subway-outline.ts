@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { subwayOutline } from "ionicons/icons";
 
-addIcons({ subwayOutline });
+addIcons({"subway-outline": subwayOutline });
 
-export let iconSubwayOutline = "subwayOutline";
+export let iconSubwayOutline = "subway-outline";

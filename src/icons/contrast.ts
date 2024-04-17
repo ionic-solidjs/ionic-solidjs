@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { contrast } from "ionicons/icons";
 
-addIcons({ contrast });
+addIcons({"contrast": contrast });
 
 export let iconContrast = "contrast";

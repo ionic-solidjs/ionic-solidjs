@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { moveSharp } from "ionicons/icons";
 
-addIcons({ moveSharp });
+addIcons({"move-sharp": moveSharp });
 
-export let iconMoveSharp = "moveSharp";
+export let iconMoveSharp = "move-sharp";

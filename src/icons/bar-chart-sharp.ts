@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { barChartSharp } from "ionicons/icons";
 
-addIcons({ barChartSharp });
+addIcons({"bar-chart-sharp": barChartSharp });
 
-export let iconBarChartSharp = "barChartSharp";
+export let iconBarChartSharp = "bar-chart-sharp";

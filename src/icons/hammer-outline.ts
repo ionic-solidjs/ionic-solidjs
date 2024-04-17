@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { hammerOutline } from "ionicons/icons";
 
-addIcons({ hammerOutline });
+addIcons({"hammer-outline": hammerOutline });
 
-export let iconHammerOutline = "hammerOutline";
+export let iconHammerOutline = "hammer-outline";

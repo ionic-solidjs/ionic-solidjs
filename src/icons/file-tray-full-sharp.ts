@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { fileTrayFullSharp } from "ionicons/icons";
 
-addIcons({ fileTrayFullSharp });
+addIcons({"file-tray-full-sharp": fileTrayFullSharp });
 
-export let iconFileTrayFullSharp = "fileTrayFullSharp";
+export let iconFileTrayFullSharp = "file-tray-full-sharp";

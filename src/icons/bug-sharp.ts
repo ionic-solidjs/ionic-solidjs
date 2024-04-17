@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bugSharp } from "ionicons/icons";
 
-addIcons({ bugSharp });
+addIcons({"bug-sharp": bugSharp });
 
-export let iconBugSharp = "bugSharp";
+export let iconBugSharp = "bug-sharp";

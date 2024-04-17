@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { handLeftOutline } from "ionicons/icons";
 
-addIcons({ handLeftOutline });
+addIcons({"hand-left-outline": handLeftOutline });
 
-export let iconHandLeftOutline = "handLeftOutline";
+export let iconHandLeftOutline = "hand-left-outline";

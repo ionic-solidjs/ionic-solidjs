@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { gitCompareOutline } from "ionicons/icons";
 
-addIcons({ gitCompareOutline });
+addIcons({"git-compare-outline": gitCompareOutline });
 
-export let iconGitCompareOutline = "gitCompareOutline";
+export let iconGitCompareOutline = "git-compare-outline";

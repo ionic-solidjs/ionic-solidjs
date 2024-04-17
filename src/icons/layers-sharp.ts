@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { layersSharp } from "ionicons/icons";
 
-addIcons({ layersSharp });
+addIcons({"layers-sharp": layersSharp });
 
-export let iconLayersSharp = "layersSharp";
+export let iconLayersSharp = "layers-sharp";

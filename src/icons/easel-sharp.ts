@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { easelSharp } from "ionicons/icons";
 
-addIcons({ easelSharp });
+addIcons({"easel-sharp": easelSharp });
 
-export let iconEaselSharp = "easelSharp";
+export let iconEaselSharp = "easel-sharp";

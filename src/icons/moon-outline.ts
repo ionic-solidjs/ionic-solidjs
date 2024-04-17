@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { moonOutline } from "ionicons/icons";
 
-addIcons({ moonOutline });
+addIcons({"moon-outline": moonOutline });
 
-export let iconMoonOutline = "moonOutline";
+export let iconMoonOutline = "moon-outline";

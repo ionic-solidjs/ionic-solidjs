@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { wifi } from "ionicons/icons";
 
-addIcons({ wifi });
+addIcons({"wifi": wifi });
 
 export let iconWifi = "wifi";

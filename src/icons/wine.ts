@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { wine } from "ionicons/icons";
 
-addIcons({ wine });
+addIcons({"wine": wine });
 
 export let iconWine = "wine";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { gitBranchOutline } from "ionicons/icons";
 
-addIcons({ gitBranchOutline });
+addIcons({"git-branch-outline": gitBranchOutline });
 
-export let iconGitBranchOutline = "gitBranchOutline";
+export let iconGitBranchOutline = "git-branch-outline";

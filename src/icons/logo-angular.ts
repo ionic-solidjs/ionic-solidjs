@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoAngular } from "ionicons/icons";
 
-addIcons({ logoAngular });
+addIcons({"logo-angular": logoAngular });
 
-export let iconLogoAngular = "logoAngular";
+export let iconLogoAngular = "logo-angular";

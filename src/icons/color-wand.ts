@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { colorWand } from "ionicons/icons";
 
-addIcons({ colorWand });
+addIcons({"color-wand": colorWand });
 
-export let iconColorWand = "colorWand";
+export let iconColorWand = "color-wand";

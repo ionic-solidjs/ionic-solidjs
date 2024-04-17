@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { globeSharp } from "ionicons/icons";
 
-addIcons({ globeSharp });
+addIcons({"globe-sharp": globeSharp });
 
-export let iconGlobeSharp = "globeSharp";
+export let iconGlobeSharp = "globe-sharp";

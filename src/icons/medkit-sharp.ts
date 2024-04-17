@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { medkitSharp } from "ionicons/icons";
 
-addIcons({ medkitSharp });
+addIcons({"medkit-sharp": medkitSharp });
 
-export let iconMedkitSharp = "medkitSharp";
+export let iconMedkitSharp = "medkit-sharp";

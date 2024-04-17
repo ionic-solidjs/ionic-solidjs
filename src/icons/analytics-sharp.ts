@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { analyticsSharp } from "ionicons/icons";
 
-addIcons({ analyticsSharp });
+addIcons({"analytics-sharp": analyticsSharp });
 
-export let iconAnalyticsSharp = "analyticsSharp";
+export let iconAnalyticsSharp = "analytics-sharp";

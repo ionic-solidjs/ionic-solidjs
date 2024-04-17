@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { maleSharp } from "ionicons/icons";
 
-addIcons({ maleSharp });
+addIcons({"male-sharp": maleSharp });
 
-export let iconMaleSharp = "maleSharp";
+export let iconMaleSharp = "male-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { analyticsOutline } from "ionicons/icons";
 
-addIcons({ analyticsOutline });
+addIcons({"analytics-outline": analyticsOutline });
 
-export let iconAnalyticsOutline = "analyticsOutline";
+export let iconAnalyticsOutline = "analytics-outline";

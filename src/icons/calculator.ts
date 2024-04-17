@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { calculator } from "ionicons/icons";
 
-addIcons({ calculator });
+addIcons({"calculator": calculator });
 
 export let iconCalculator = "calculator";

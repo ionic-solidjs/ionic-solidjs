@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { heartCircleSharp } from "ionicons/icons";
 
-addIcons({ heartCircleSharp });
+addIcons({"heart-circle-sharp": heartCircleSharp });
 
-export let iconHeartCircleSharp = "heartCircleSharp";
+export let iconHeartCircleSharp = "heart-circle-sharp";

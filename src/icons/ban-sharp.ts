@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { banSharp } from "ionicons/icons";
 
-addIcons({ banSharp });
+addIcons({"ban-sharp": banSharp });
 
-export let iconBanSharp = "banSharp";
+export let iconBanSharp = "ban-sharp";

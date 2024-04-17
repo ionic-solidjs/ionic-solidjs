@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoFirebase } from "ionicons/icons";
 
-addIcons({ logoFirebase });
+addIcons({"logo-firebase": logoFirebase });
 
-export let iconLogoFirebase = "logoFirebase";
+export let iconLogoFirebase = "logo-firebase";

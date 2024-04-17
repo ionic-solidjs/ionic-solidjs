@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { handLeftSharp } from "ionicons/icons";
 
-addIcons({ handLeftSharp });
+addIcons({"hand-left-sharp": handLeftSharp });
 
-export let iconHandLeftSharp = "handLeftSharp";
+export let iconHandLeftSharp = "hand-left-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoVenmo } from "ionicons/icons";
 
-addIcons({ logoVenmo });
+addIcons({"logo-venmo": logoVenmo });
 
-export let iconLogoVenmo = "logoVenmo";
+export let iconLogoVenmo = "logo-venmo";

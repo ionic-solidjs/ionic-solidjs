@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { lockOpenSharp } from "ionicons/icons";
 
-addIcons({ lockOpenSharp });
+addIcons({"lock-open-sharp": lockOpenSharp });
 
-export let iconLockOpenSharp = "lockOpenSharp";
+export let iconLockOpenSharp = "lock-open-sharp";

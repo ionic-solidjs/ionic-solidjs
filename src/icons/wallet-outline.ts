@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { walletOutline } from "ionicons/icons";
 
-addIcons({ walletOutline });
+addIcons({"wallet-outline": walletOutline });
 
-export let iconWalletOutline = "walletOutline";
+export let iconWalletOutline = "wallet-outline";

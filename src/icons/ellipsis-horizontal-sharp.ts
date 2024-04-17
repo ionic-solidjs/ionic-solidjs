@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { ellipsisHorizontalSharp } from "ionicons/icons";
 
-addIcons({ ellipsisHorizontalSharp });
+addIcons({"ellipsis-horizontal-sharp": ellipsisHorizontalSharp });
 
-export let iconEllipsisHorizontalSharp = "ellipsisHorizontalSharp";
+export let iconEllipsisHorizontalSharp = "ellipsis-horizontal-sharp";

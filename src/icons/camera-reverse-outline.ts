@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cameraReverseOutline } from "ionicons/icons";
 
-addIcons({ cameraReverseOutline });
+addIcons({"camera-reverse-outline": cameraReverseOutline });
 
-export let iconCameraReverseOutline = "cameraReverseOutline";
+export let iconCameraReverseOutline = "camera-reverse-outline";

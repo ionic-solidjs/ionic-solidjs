@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { heartHalfSharp } from "ionicons/icons";
 
-addIcons({ heartHalfSharp });
+addIcons({"heart-half-sharp": heartHalfSharp });
 
-export let iconHeartHalfSharp = "heartHalfSharp";
+export let iconHeartHalfSharp = "heart-half-sharp";

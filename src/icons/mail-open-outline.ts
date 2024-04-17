@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { mailOpenOutline } from "ionicons/icons";
 
-addIcons({ mailOpenOutline });
+addIcons({"mail-open-outline": mailOpenOutline });
 
-export let iconMailOpenOutline = "mailOpenOutline";
+export let iconMailOpenOutline = "mail-open-outline";

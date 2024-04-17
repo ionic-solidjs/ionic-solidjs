@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { gridOutline } from "ionicons/icons";
 
-addIcons({ gridOutline });
+addIcons({"grid-outline": gridOutline });
 
-export let iconGridOutline = "gridOutline";
+export let iconGridOutline = "grid-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { squareSharp } from "ionicons/icons";
 
-addIcons({ squareSharp });
+addIcons({"square-sharp": squareSharp });
 
-export let iconSquareSharp = "squareSharp";
+export let iconSquareSharp = "square-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cameraSharp } from "ionicons/icons";
 
-addIcons({ cameraSharp });
+addIcons({"camera-sharp": cameraSharp });
 
-export let iconCameraSharp = "cameraSharp";
+export let iconCameraSharp = "camera-sharp";

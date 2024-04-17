@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { removeCircleSharp } from "ionicons/icons";
 
-addIcons({ removeCircleSharp });
+addIcons({"remove-circle-sharp": removeCircleSharp });
 
-export let iconRemoveCircleSharp = "removeCircleSharp";
+export let iconRemoveCircleSharp = "remove-circle-sharp";

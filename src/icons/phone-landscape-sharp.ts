@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { phoneLandscapeSharp } from "ionicons/icons";
 
-addIcons({ phoneLandscapeSharp });
+addIcons({"phone-landscape-sharp": phoneLandscapeSharp });
 
-export let iconPhoneLandscapeSharp = "phoneLandscapeSharp";
+export let iconPhoneLandscapeSharp = "phone-landscape-sharp";

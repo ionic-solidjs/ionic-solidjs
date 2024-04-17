@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { callOutline } from "ionicons/icons";
 
-addIcons({ callOutline });
+addIcons({"call-outline": callOutline });
 
-export let iconCallOutline = "callOutline";
+export let iconCallOutline = "call-outline";

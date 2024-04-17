@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { micOffOutline } from "ionicons/icons";
 
-addIcons({ micOffOutline });
+addIcons({"mic-off-outline": micOffOutline });
 
-export let iconMicOffOutline = "micOffOutline";
+export let iconMicOffOutline = "mic-off-outline";

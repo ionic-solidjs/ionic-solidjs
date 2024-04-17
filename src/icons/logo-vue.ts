@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoVue } from "ionicons/icons";
 
-addIcons({ logoVue });
+addIcons({"logo-vue": logoVue });
 
-export let iconLogoVue = "logoVue";
+export let iconLogoVue = "logo-vue";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { pinSharp } from "ionicons/icons";
 
-addIcons({ pinSharp });
+addIcons({"pin-sharp": pinSharp });
 
-export let iconPinSharp = "pinSharp";
+export let iconPinSharp = "pin-sharp";

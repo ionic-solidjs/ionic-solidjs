@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bug } from "ionicons/icons";
 
-addIcons({ bug });
+addIcons({"bug": bug });
 
 export let iconBug = "bug";

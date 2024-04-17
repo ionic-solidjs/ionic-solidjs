@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { scale } from "ionicons/icons";
 
-addIcons({ scale });
+addIcons({"scale": scale });
 
 export let iconScale = "scale";

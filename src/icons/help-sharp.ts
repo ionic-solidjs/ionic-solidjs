@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { helpSharp } from "ionicons/icons";
 
-addIcons({ helpSharp });
+addIcons({"help-sharp": helpSharp });
 
-export let iconHelpSharp = "helpSharp";
+export let iconHelpSharp = "help-sharp";

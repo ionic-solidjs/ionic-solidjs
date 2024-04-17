@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { codeWorkingSharp } from "ionicons/icons";
 
-addIcons({ codeWorkingSharp });
+addIcons({"code-working-sharp": codeWorkingSharp });
 
-export let iconCodeWorkingSharp = "codeWorkingSharp";
+export let iconCodeWorkingSharp = "code-working-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { checkmarkDoneCircleSharp } from "ionicons/icons";
 
-addIcons({ checkmarkDoneCircleSharp });
+addIcons({"checkmark-done-circle-sharp": checkmarkDoneCircleSharp });
 
-export let iconCheckmarkDoneCircleSharp = "checkmarkDoneCircleSharp";
+export let iconCheckmarkDoneCircleSharp = "checkmark-done-circle-sharp";

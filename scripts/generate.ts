@@ -34,6 +34,7 @@ export function ${componentPascelCase}(props: ${componentPascelCase}Props) {
 };
 
 let iconTemplate = function (iconName: string) {
+  console.log("Generating icon", iconName);
   let iconCamelCase = iconName.replace(/-([a-z])/g, (g) => g[1].toUpperCase());
   let iconPascalCase = iconCamelCase.charAt(0).toUpperCase() + iconCamelCase.slice(1);
 
@@ -43,9 +44,9 @@ let iconTemplate = function (iconName: string) {
 import { addIcons } from "ionicons";
 import { ${iconCamelCase} } from "ionicons/icons";
 
-addIcons({ ${iconCamelCase} });
+addIcons({"${iconName}": ${iconCamelCase} });
 
-export let icon${iconPascalCase} = "${iconCamelCase}";
+export let icon${iconPascalCase} = "${iconName}";
 `;
 };
 

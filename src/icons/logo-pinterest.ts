@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoPinterest } from "ionicons/icons";
 
-addIcons({ logoPinterest });
+addIcons({"logo-pinterest": logoPinterest });
 
-export let iconLogoPinterest = "logoPinterest";
+export let iconLogoPinterest = "logo-pinterest";

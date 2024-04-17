@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { barcodeSharp } from "ionicons/icons";
 
-addIcons({ barcodeSharp });
+addIcons({"barcode-sharp": barcodeSharp });
 
-export let iconBarcodeSharp = "barcodeSharp";
+export let iconBarcodeSharp = "barcode-sharp";

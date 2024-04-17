@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { returnDownForwardOutline } from "ionicons/icons";
 
-addIcons({ returnDownForwardOutline });
+addIcons({"return-down-forward-outline": returnDownForwardOutline });
 
-export let iconReturnDownForwardOutline = "returnDownForwardOutline";
+export let iconReturnDownForwardOutline = "return-down-forward-outline";

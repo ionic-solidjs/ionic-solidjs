@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoWhatsapp } from "ionicons/icons";
 
-addIcons({ logoWhatsapp });
+addIcons({"logo-whatsapp": logoWhatsapp });
 
-export let iconLogoWhatsapp = "logoWhatsapp";
+export let iconLogoWhatsapp = "logo-whatsapp";

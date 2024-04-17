@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { copyOutline } from "ionicons/icons";
 
-addIcons({ copyOutline });
+addIcons({"copy-outline": copyOutline });
 
-export let iconCopyOutline = "copyOutline";
+export let iconCopyOutline = "copy-outline";

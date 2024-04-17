@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { power } from "ionicons/icons";
 
-addIcons({ power });
+addIcons({"power": power });
 
 export let iconPower = "power";

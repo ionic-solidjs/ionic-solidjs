@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { calendarClear } from "ionicons/icons";
 
-addIcons({ calendarClear });
+addIcons({"calendar-clear": calendarClear });
 
-export let iconCalendarClear = "calendarClear";
+export let iconCalendarClear = "calendar-clear";

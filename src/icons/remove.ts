@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { remove } from "ionicons/icons";
 
-addIcons({ remove });
+addIcons({"remove": remove });
 
 export let iconRemove = "remove";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { playSkipBackCircleOutline } from "ionicons/icons";
 
-addIcons({ playSkipBackCircleOutline });
+addIcons({"play-skip-back-circle-outline": playSkipBackCircleOutline });
 
-export let iconPlaySkipBackCircleOutline = "playSkipBackCircleOutline";
+export let iconPlaySkipBackCircleOutline = "play-skip-back-circle-outline";

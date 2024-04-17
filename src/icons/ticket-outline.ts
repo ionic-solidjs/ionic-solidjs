@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { ticketOutline } from "ionicons/icons";
 
-addIcons({ ticketOutline });
+addIcons({"ticket-outline": ticketOutline });
 
-export let iconTicketOutline = "ticketOutline";
+export let iconTicketOutline = "ticket-outline";

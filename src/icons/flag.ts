@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { flag } from "ionicons/icons";
 
-addIcons({ flag });
+addIcons({"flag": flag });
 
 export let iconFlag = "flag";

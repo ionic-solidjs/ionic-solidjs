@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { newspaper } from "ionicons/icons";
 
-addIcons({ newspaper });
+addIcons({"newspaper": newspaper });
 
 export let iconNewspaper = "newspaper";

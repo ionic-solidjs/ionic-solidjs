@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { flameSharp } from "ionicons/icons";
 
-addIcons({ flameSharp });
+addIcons({"flame-sharp": flameSharp });
 
-export let iconFlameSharp = "flameSharp";
+export let iconFlameSharp = "flame-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cogOutline } from "ionicons/icons";
 
-addIcons({ cogOutline });
+addIcons({"cog-outline": cogOutline });
 
-export let iconCogOutline = "cogOutline";
+export let iconCogOutline = "cog-outline";

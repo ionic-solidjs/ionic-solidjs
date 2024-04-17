@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cartOutline } from "ionicons/icons";
 
-addIcons({ cartOutline });
+addIcons({"cart-outline": cartOutline });
 
-export let iconCartOutline = "cartOutline";
+export let iconCartOutline = "cart-outline";

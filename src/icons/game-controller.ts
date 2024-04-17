@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { gameController } from "ionicons/icons";
 
-addIcons({ gameController });
+addIcons({"game-controller": gameController });
 
-export let iconGameController = "gameController";
+export let iconGameController = "game-controller";

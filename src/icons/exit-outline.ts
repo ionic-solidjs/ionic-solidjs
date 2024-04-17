@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { exitOutline } from "ionicons/icons";
 
-addIcons({ exitOutline });
+addIcons({"exit-outline": exitOutline });
 
-export let iconExitOutline = "exitOutline";
+export let iconExitOutline = "exit-outline";

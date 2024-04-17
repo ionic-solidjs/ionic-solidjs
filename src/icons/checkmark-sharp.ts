@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { checkmarkSharp } from "ionicons/icons";
 
-addIcons({ checkmarkSharp });
+addIcons({"checkmark-sharp": checkmarkSharp });
 
-export let iconCheckmarkSharp = "checkmarkSharp";
+export let iconCheckmarkSharp = "checkmark-sharp";

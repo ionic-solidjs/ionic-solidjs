@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { serverSharp } from "ionicons/icons";
 
-addIcons({ serverSharp });
+addIcons({"server-sharp": serverSharp });
 
-export let iconServerSharp = "serverSharp";
+export let iconServerSharp = "server-sharp";

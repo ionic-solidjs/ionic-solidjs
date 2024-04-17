@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { alertCircle } from "ionicons/icons";
 
-addIcons({ alertCircle });
+addIcons({"alert-circle": alertCircle });
 
-export let iconAlertCircle = "alertCircle";
+export let iconAlertCircle = "alert-circle";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bagRemove } from "ionicons/icons";
 
-addIcons({ bagRemove });
+addIcons({"bag-remove": bagRemove });
 
-export let iconBagRemove = "bagRemove";
+export let iconBagRemove = "bag-remove";

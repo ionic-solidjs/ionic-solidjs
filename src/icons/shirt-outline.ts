@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { shirtOutline } from "ionicons/icons";
 
-addIcons({ shirtOutline });
+addIcons({"shirt-outline": shirtOutline });
 
-export let iconShirtOutline = "shirtOutline";
+export let iconShirtOutline = "shirt-outline";

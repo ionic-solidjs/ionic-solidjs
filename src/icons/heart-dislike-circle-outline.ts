@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { heartDislikeCircleOutline } from "ionicons/icons";
 
-addIcons({ heartDislikeCircleOutline });
+addIcons({"heart-dislike-circle-outline": heartDislikeCircleOutline });
 
-export let iconHeartDislikeCircleOutline = "heartDislikeCircleOutline";
+export let iconHeartDislikeCircleOutline = "heart-dislike-circle-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { notificationsCircleSharp } from "ionicons/icons";
 
-addIcons({ notificationsCircleSharp });
+addIcons({"notifications-circle-sharp": notificationsCircleSharp });
 
-export let iconNotificationsCircleSharp = "notificationsCircleSharp";
+export let iconNotificationsCircleSharp = "notifications-circle-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoBuffer } from "ionicons/icons";
 
-addIcons({ logoBuffer });
+addIcons({"logo-buffer": logoBuffer });
 
-export let iconLogoBuffer = "logoBuffer";
+export let iconLogoBuffer = "logo-buffer";

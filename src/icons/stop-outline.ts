@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { stopOutline } from "ionicons/icons";
 
-addIcons({ stopOutline });
+addIcons({"stop-outline": stopOutline });
 
-export let iconStopOutline = "stopOutline";
+export let iconStopOutline = "stop-outline";

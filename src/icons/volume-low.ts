@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { volumeLow } from "ionicons/icons";
 
-addIcons({ volumeLow });
+addIcons({"volume-low": volumeLow });
 
-export let iconVolumeLow = "volumeLow";
+export let iconVolumeLow = "volume-low";

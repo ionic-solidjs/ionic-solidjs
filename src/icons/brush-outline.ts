@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { brushOutline } from "ionicons/icons";
 
-addIcons({ brushOutline });
+addIcons({"brush-outline": brushOutline });
 
-export let iconBrushOutline = "brushOutline";
+export let iconBrushOutline = "brush-outline";

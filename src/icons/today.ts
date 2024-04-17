@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { today } from "ionicons/icons";
 
-addIcons({ today });
+addIcons({"today": today });
 
 export let iconToday = "today";

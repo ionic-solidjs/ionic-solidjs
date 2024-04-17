@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { flaskSharp } from "ionicons/icons";
 
-addIcons({ flaskSharp });
+addIcons({"flask-sharp": flaskSharp });
 
-export let iconFlaskSharp = "flaskSharp";
+export let iconFlaskSharp = "flask-sharp";

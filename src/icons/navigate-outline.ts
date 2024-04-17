@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { navigateOutline } from "ionicons/icons";
 
-addIcons({ navigateOutline });
+addIcons({"navigate-outline": navigateOutline });
 
-export let iconNavigateOutline = "navigateOutline";
+export let iconNavigateOutline = "navigate-outline";

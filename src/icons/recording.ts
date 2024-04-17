@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { recording } from "ionicons/icons";
 
-addIcons({ recording });
+addIcons({"recording": recording });
 
 export let iconRecording = "recording";

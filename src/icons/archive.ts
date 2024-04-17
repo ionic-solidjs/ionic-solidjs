@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { archive } from "ionicons/icons";
 
-addIcons({ archive });
+addIcons({"archive": archive });
 
 export let iconArchive = "archive";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { lockOpen } from "ionicons/icons";
 
-addIcons({ lockOpen });
+addIcons({"lock-open": lockOpen });
 
-export let iconLockOpen = "lockOpen";
+export let iconLockOpen = "lock-open";

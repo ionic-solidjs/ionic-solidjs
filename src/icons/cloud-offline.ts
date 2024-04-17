@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cloudOffline } from "ionicons/icons";
 
-addIcons({ cloudOffline });
+addIcons({"cloud-offline": cloudOffline });
 
-export let iconCloudOffline = "cloudOffline";
+export let iconCloudOffline = "cloud-offline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { gridSharp } from "ionicons/icons";
 
-addIcons({ gridSharp });
+addIcons({"grid-sharp": gridSharp });
 
-export let iconGridSharp = "gridSharp";
+export let iconGridSharp = "grid-sharp";

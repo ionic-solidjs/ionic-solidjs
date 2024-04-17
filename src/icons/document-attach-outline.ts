@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { documentAttachOutline } from "ionicons/icons";
 
-addIcons({ documentAttachOutline });
+addIcons({"document-attach-outline": documentAttachOutline });
 
-export let iconDocumentAttachOutline = "documentAttachOutline";
+export let iconDocumentAttachOutline = "document-attach-outline";

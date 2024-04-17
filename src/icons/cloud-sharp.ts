@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cloudSharp } from "ionicons/icons";
 
-addIcons({ cloudSharp });
+addIcons({"cloud-sharp": cloudSharp });
 
-export let iconCloudSharp = "cloudSharp";
+export let iconCloudSharp = "cloud-sharp";

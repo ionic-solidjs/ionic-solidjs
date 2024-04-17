@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { swapVertical } from "ionicons/icons";
 
-addIcons({ swapVertical });
+addIcons({"swap-vertical": swapVertical });
 
-export let iconSwapVertical = "swapVertical";
+export let iconSwapVertical = "swap-vertical";

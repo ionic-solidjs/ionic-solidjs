@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { documentLockOutline } from "ionicons/icons";
 
-addIcons({ documentLockOutline });
+addIcons({"document-lock-outline": documentLockOutline });
 
-export let iconDocumentLockOutline = "documentLockOutline";
+export let iconDocumentLockOutline = "document-lock-outline";

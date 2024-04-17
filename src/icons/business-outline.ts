@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { businessOutline } from "ionicons/icons";
 
-addIcons({ businessOutline });
+addIcons({"business-outline": businessOutline });
 
-export let iconBusinessOutline = "businessOutline";
+export let iconBusinessOutline = "business-outline";

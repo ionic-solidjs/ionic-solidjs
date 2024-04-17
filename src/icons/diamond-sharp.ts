@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { diamondSharp } from "ionicons/icons";
 
-addIcons({ diamondSharp });
+addIcons({"diamond-sharp": diamondSharp });
 
-export let iconDiamondSharp = "diamondSharp";
+export let iconDiamondSharp = "diamond-sharp";

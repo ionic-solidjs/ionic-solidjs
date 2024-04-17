@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { desktopOutline } from "ionicons/icons";
 
-addIcons({ desktopOutline });
+addIcons({"desktop-outline": desktopOutline });
 
-export let iconDesktopOutline = "desktopOutline";
+export let iconDesktopOutline = "desktop-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { earSharp } from "ionicons/icons";
 
-addIcons({ earSharp });
+addIcons({"ear-sharp": earSharp });
 
-export let iconEarSharp = "earSharp";
+export let iconEarSharp = "ear-sharp";

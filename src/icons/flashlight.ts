@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { flashlight } from "ionicons/icons";
 
-addIcons({ flashlight });
+addIcons({"flashlight": flashlight });
 
 export let iconFlashlight = "flashlight";

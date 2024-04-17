@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { stopCircleSharp } from "ionicons/icons";
 
-addIcons({ stopCircleSharp });
+addIcons({"stop-circle-sharp": stopCircleSharp });
 
-export let iconStopCircleSharp = "stopCircleSharp";
+export let iconStopCircleSharp = "stop-circle-sharp";

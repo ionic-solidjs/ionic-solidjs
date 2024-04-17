@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoHtml5 } from "ionicons/icons";
 
-addIcons({ logoHtml5 });
+addIcons({"logo-html5": logoHtml5 });
 
-export let iconLogoHtml5 = "logoHtml5";
+export let iconLogoHtml5 = "logo-html5";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { tv } from "ionicons/icons";
 
-addIcons({ tv });
+addIcons({"tv": tv });
 
 export let iconTv = "tv";

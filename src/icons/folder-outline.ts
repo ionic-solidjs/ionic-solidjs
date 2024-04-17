@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { folderOutline } from "ionicons/icons";
 
-addIcons({ folderOutline });
+addIcons({"folder-outline": folderOutline });
 
-export let iconFolderOutline = "folderOutline";
+export let iconFolderOutline = "folder-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { timeSharp } from "ionicons/icons";
 
-addIcons({ timeSharp });
+addIcons({"time-sharp": timeSharp });
 
-export let iconTimeSharp = "timeSharp";
+export let iconTimeSharp = "time-sharp";

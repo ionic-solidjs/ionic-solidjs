@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { linkSharp } from "ionicons/icons";
 
-addIcons({ linkSharp });
+addIcons({"link-sharp": linkSharp });
 
-export let iconLinkSharp = "linkSharp";
+export let iconLinkSharp = "link-sharp";

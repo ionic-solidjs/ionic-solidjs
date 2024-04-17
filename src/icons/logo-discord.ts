@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoDiscord } from "ionicons/icons";
 
-addIcons({ logoDiscord });
+addIcons({"logo-discord": logoDiscord });
 
-export let iconLogoDiscord = "logoDiscord";
+export let iconLogoDiscord = "logo-discord";

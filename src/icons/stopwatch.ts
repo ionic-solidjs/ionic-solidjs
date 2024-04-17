@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { stopwatch } from "ionicons/icons";
 
-addIcons({ stopwatch });
+addIcons({"stopwatch": stopwatch });
 
 export let iconStopwatch = "stopwatch";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { alertSharp } from "ionicons/icons";
 
-addIcons({ alertSharp });
+addIcons({"alert-sharp": alertSharp });
 
-export let iconAlertSharp = "alertSharp";
+export let iconAlertSharp = "alert-sharp";

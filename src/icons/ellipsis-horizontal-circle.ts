@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { ellipsisHorizontalCircle } from "ionicons/icons";
 
-addIcons({ ellipsisHorizontalCircle });
+addIcons({"ellipsis-horizontal-circle": ellipsisHorizontalCircle });
 
-export let iconEllipsisHorizontalCircle = "ellipsisHorizontalCircle";
+export let iconEllipsisHorizontalCircle = "ellipsis-horizontal-circle";

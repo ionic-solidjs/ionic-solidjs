@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoWordpress } from "ionicons/icons";
 
-addIcons({ logoWordpress });
+addIcons({"logo-wordpress": logoWordpress });
 
-export let iconLogoWordpress = "logoWordpress";
+export let iconLogoWordpress = "logo-wordpress";

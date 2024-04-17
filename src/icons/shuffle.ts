@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { shuffle } from "ionicons/icons";
 
-addIcons({ shuffle });
+addIcons({"shuffle": shuffle });
 
 export let iconShuffle = "shuffle";

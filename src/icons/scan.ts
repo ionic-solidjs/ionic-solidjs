@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { scan } from "ionicons/icons";
 
-addIcons({ scan });
+addIcons({"scan": scan });
 
 export let iconScan = "scan";

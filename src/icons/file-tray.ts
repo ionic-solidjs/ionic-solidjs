@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { fileTray } from "ionicons/icons";
 
-addIcons({ fileTray });
+addIcons({"file-tray": fileTray });
 
-export let iconFileTray = "fileTray";
+export let iconFileTray = "file-tray";

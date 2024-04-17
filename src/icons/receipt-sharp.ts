@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { receiptSharp } from "ionicons/icons";
 
-addIcons({ receiptSharp });
+addIcons({"receipt-sharp": receiptSharp });
 
-export let iconReceiptSharp = "receiptSharp";
+export let iconReceiptSharp = "receipt-sharp";

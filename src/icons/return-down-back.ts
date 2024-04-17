@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { returnDownBack } from "ionicons/icons";
 
-addIcons({ returnDownBack });
+addIcons({"return-down-back": returnDownBack });
 
-export let iconReturnDownBack = "returnDownBack";
+export let iconReturnDownBack = "return-down-back";

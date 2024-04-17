@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { mapOutline } from "ionicons/icons";
 
-addIcons({ mapOutline });
+addIcons({"map-outline": mapOutline });
 
-export let iconMapOutline = "mapOutline";
+export let iconMapOutline = "map-outline";

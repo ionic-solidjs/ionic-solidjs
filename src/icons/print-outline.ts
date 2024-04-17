@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { printOutline } from "ionicons/icons";
 
-addIcons({ printOutline });
+addIcons({"print-outline": printOutline });
 
-export let iconPrintOutline = "printOutline";
+export let iconPrintOutline = "print-outline";

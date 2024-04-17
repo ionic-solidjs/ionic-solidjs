@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { pizzaOutline } from "ionicons/icons";
 
-addIcons({ pizzaOutline });
+addIcons({"pizza-outline": pizzaOutline });
 
-export let iconPizzaOutline = "pizzaOutline";
+export let iconPizzaOutline = "pizza-outline";

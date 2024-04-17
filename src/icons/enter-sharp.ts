@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { enterSharp } from "ionicons/icons";
 
-addIcons({ enterSharp });
+addIcons({"enter-sharp": enterSharp });
 
-export let iconEnterSharp = "enterSharp";
+export let iconEnterSharp = "enter-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { compassOutline } from "ionicons/icons";
 
-addIcons({ compassOutline });
+addIcons({"compass-outline": compassOutline });
 
-export let iconCompassOutline = "compassOutline";
+export let iconCompassOutline = "compass-outline";

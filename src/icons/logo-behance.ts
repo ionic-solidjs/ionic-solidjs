@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoBehance } from "ionicons/icons";
 
-addIcons({ logoBehance });
+addIcons({"logo-behance": logoBehance });
 
-export let iconLogoBehance = "logoBehance";
+export let iconLogoBehance = "logo-behance";

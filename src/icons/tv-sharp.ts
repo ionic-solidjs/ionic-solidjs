@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { tvSharp } from "ionicons/icons";
 
-addIcons({ tvSharp });
+addIcons({"tv-sharp": tvSharp });
 
-export let iconTvSharp = "tvSharp";
+export let iconTvSharp = "tv-sharp";

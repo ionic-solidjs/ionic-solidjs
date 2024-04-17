@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoSteam } from "ionicons/icons";
 
-addIcons({ logoSteam });
+addIcons({"logo-steam": logoSteam });
 
-export let iconLogoSteam = "logoSteam";
+export let iconLogoSteam = "logo-steam";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { hourglass } from "ionicons/icons";
 
-addIcons({ hourglass });
+addIcons({"hourglass": hourglass });
 
 export let iconHourglass = "hourglass";

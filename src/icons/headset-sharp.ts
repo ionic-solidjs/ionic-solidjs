@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { headsetSharp } from "ionicons/icons";
 
-addIcons({ headsetSharp });
+addIcons({"headset-sharp": headsetSharp });
 
-export let iconHeadsetSharp = "headsetSharp";
+export let iconHeadsetSharp = "headset-sharp";

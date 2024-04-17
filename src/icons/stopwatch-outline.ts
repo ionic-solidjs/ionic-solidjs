@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { stopwatchOutline } from "ionicons/icons";
 
-addIcons({ stopwatchOutline });
+addIcons({"stopwatch-outline": stopwatchOutline });
 
-export let iconStopwatchOutline = "stopwatchOutline";
+export let iconStopwatchOutline = "stopwatch-outline";

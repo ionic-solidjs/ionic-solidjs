@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoMicrosoft } from "ionicons/icons";
 
-addIcons({ logoMicrosoft });
+addIcons({"logo-microsoft": logoMicrosoft });
 
-export let iconLogoMicrosoft = "logoMicrosoft";
+export let iconLogoMicrosoft = "logo-microsoft";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { todaySharp } from "ionicons/icons";
 
-addIcons({ todaySharp });
+addIcons({"today-sharp": todaySharp });
 
-export let iconTodaySharp = "todaySharp";
+export let iconTodaySharp = "today-sharp";

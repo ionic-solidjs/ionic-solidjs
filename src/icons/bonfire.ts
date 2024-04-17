@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bonfire } from "ionicons/icons";
 
-addIcons({ bonfire });
+addIcons({"bonfire": bonfire });
 
 export let iconBonfire = "bonfire";

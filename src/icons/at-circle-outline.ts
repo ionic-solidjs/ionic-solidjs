@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { atCircleOutline } from "ionicons/icons";
 
-addIcons({ atCircleOutline });
+addIcons({"at-circle-outline": atCircleOutline });
 
-export let iconAtCircleOutline = "atCircleOutline";
+export let iconAtCircleOutline = "at-circle-outline";

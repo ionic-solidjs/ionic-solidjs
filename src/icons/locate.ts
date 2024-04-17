@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { locate } from "ionicons/icons";
 
-addIcons({ locate });
+addIcons({"locate": locate });
 
 export let iconLocate = "locate";

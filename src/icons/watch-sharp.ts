@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { watchSharp } from "ionicons/icons";
 
-addIcons({ watchSharp });
+addIcons({"watch-sharp": watchSharp });
 
-export let iconWatchSharp = "watchSharp";
+export let iconWatchSharp = "watch-sharp";

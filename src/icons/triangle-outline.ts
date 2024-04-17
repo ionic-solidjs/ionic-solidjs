@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { triangleOutline } from "ionicons/icons";
 
-addIcons({ triangleOutline });
+addIcons({"triangle-outline": triangleOutline });
 
-export let iconTriangleOutline = "triangleOutline";
+export let iconTriangleOutline = "triangle-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoVk } from "ionicons/icons";
 
-addIcons({ logoVk });
+addIcons({"logo-vk": logoVk });
 
-export let iconLogoVk = "logoVk";
+export let iconLogoVk = "logo-vk";

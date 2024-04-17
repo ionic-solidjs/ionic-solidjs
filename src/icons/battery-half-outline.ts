@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { batteryHalfOutline } from "ionicons/icons";
 
-addIcons({ batteryHalfOutline });
+addIcons({"battery-half-outline": batteryHalfOutline });
 
-export let iconBatteryHalfOutline = "batteryHalfOutline";
+export let iconBatteryHalfOutline = "battery-half-outline";

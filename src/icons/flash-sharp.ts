@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { flashSharp } from "ionicons/icons";
 
-addIcons({ flashSharp });
+addIcons({"flash-sharp": flashSharp });
 
-export let iconFlashSharp = "flashSharp";
+export let iconFlashSharp = "flash-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { manSharp } from "ionicons/icons";
 
-addIcons({ manSharp });
+addIcons({"man-sharp": manSharp });
 
-export let iconManSharp = "manSharp";
+export let iconManSharp = "man-sharp";

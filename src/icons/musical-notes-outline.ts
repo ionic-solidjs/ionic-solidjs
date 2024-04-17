@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { musicalNotesOutline } from "ionicons/icons";
 
-addIcons({ musicalNotesOutline });
+addIcons({"musical-notes-outline": musicalNotesOutline });
 
-export let iconMusicalNotesOutline = "musicalNotesOutline";
+export let iconMusicalNotesOutline = "musical-notes-outline";

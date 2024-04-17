@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { laptop } from "ionicons/icons";
 
-addIcons({ laptop });
+addIcons({"laptop": laptop });
 
 export let iconLaptop = "laptop";

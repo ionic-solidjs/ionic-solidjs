@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { wifiOutline } from "ionicons/icons";
 
-addIcons({ wifiOutline });
+addIcons({"wifi-outline": wifiOutline });
 
-export let iconWifiOutline = "wifiOutline";
+export let iconWifiOutline = "wifi-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { gameControllerOutline } from "ionicons/icons";
 
-addIcons({ gameControllerOutline });
+addIcons({"game-controller-outline": gameControllerOutline });
 
-export let iconGameControllerOutline = "gameControllerOutline";
+export let iconGameControllerOutline = "game-controller-outline";

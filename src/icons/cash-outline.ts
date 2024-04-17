@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cashOutline } from "ionicons/icons";
 
-addIcons({ cashOutline });
+addIcons({"cash-outline": cashOutline });
 
-export let iconCashOutline = "cashOutline";
+export let iconCashOutline = "cash-outline";

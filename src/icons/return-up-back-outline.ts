@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { returnUpBackOutline } from "ionicons/icons";
 
-addIcons({ returnUpBackOutline });
+addIcons({"return-up-back-outline": returnUpBackOutline });
 
-export let iconReturnUpBackOutline = "returnUpBackOutline";
+export let iconReturnUpBackOutline = "return-up-back-outline";

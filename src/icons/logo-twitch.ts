@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoTwitch } from "ionicons/icons";
 
-addIcons({ logoTwitch });
+addIcons({"logo-twitch": logoTwitch });
 
-export let iconLogoTwitch = "logoTwitch";
+export let iconLogoTwitch = "logo-twitch";

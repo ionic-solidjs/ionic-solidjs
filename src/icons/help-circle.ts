@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { helpCircle } from "ionicons/icons";
 
-addIcons({ helpCircle });
+addIcons({"help-circle": helpCircle });
 
-export let iconHelpCircle = "helpCircle";
+export let iconHelpCircle = "help-circle";

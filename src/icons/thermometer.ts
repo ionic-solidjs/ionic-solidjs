@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { thermometer } from "ionicons/icons";
 
-addIcons({ thermometer });
+addIcons({"thermometer": thermometer });
 
 export let iconThermometer = "thermometer";

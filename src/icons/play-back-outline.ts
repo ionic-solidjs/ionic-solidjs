@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { playBackOutline } from "ionicons/icons";
 
-addIcons({ playBackOutline });
+addIcons({"play-back-outline": playBackOutline });
 
-export let iconPlayBackOutline = "playBackOutline";
+export let iconPlayBackOutline = "play-back-outline";

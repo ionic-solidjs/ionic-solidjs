@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoAppleAppstore } from "ionicons/icons";
 
-addIcons({ logoAppleAppstore });
+addIcons({"logo-apple-appstore": logoAppleAppstore });
 
-export let iconLogoAppleAppstore = "logoAppleAppstore";
+export let iconLogoAppleAppstore = "logo-apple-appstore";

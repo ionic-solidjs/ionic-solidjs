@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cardSharp } from "ionicons/icons";
 
-addIcons({ cardSharp });
+addIcons({"card-sharp": cardSharp });
 
-export let iconCardSharp = "cardSharp";
+export let iconCardSharp = "card-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { storefrontOutline } from "ionicons/icons";
 
-addIcons({ storefrontOutline });
+addIcons({"storefront-outline": storefrontOutline });
 
-export let iconStorefrontOutline = "storefrontOutline";
+export let iconStorefrontOutline = "storefront-outline";

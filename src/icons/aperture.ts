@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { aperture } from "ionicons/icons";
 
-addIcons({ aperture });
+addIcons({"aperture": aperture });
 
 export let iconAperture = "aperture";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { busSharp } from "ionicons/icons";
 
-addIcons({ busSharp });
+addIcons({"bus-sharp": busSharp });
 
-export let iconBusSharp = "busSharp";
+export let iconBusSharp = "bus-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { timerOutline } from "ionicons/icons";
 
-addIcons({ timerOutline });
+addIcons({"timer-outline": timerOutline });
 
-export let iconTimerOutline = "timerOutline";
+export let iconTimerOutline = "timer-outline";

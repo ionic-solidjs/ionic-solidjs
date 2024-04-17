@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { videocamOffOutline } from "ionicons/icons";
 
-addIcons({ videocamOffOutline });
+addIcons({"videocam-off-outline": videocamOffOutline });
 
-export let iconVideocamOffOutline = "videocamOffOutline";
+export let iconVideocamOffOutline = "videocam-off-outline";

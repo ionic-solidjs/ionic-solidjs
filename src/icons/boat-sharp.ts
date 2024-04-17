@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { boatSharp } from "ionicons/icons";
 
-addIcons({ boatSharp });
+addIcons({"boat-sharp": boatSharp });
 
-export let iconBoatSharp = "boatSharp";
+export let iconBoatSharp = "boat-sharp";

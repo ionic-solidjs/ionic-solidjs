@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoFirefox } from "ionicons/icons";
 
-addIcons({ logoFirefox });
+addIcons({"logo-firefox": logoFirefox });
 
-export let iconLogoFirefox = "logoFirefox";
+export let iconLogoFirefox = "logo-firefox";

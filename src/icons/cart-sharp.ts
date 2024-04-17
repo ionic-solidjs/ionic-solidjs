@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cartSharp } from "ionicons/icons";
 
-addIcons({ cartSharp });
+addIcons({"cart-sharp": cartSharp });
 
-export let iconCartSharp = "cartSharp";
+export let iconCartSharp = "cart-sharp";

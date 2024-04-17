@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { extensionPuzzleOutline } from "ionicons/icons";
 
-addIcons({ extensionPuzzleOutline });
+addIcons({"extension-puzzle-outline": extensionPuzzleOutline });
 
-export let iconExtensionPuzzleOutline = "extensionPuzzleOutline";
+export let iconExtensionPuzzleOutline = "extension-puzzle-outline";

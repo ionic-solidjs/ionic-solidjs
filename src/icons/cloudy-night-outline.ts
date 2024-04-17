@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cloudyNightOutline } from "ionicons/icons";
 
-addIcons({ cloudyNightOutline });
+addIcons({"cloudy-night-outline": cloudyNightOutline });
 
-export let iconCloudyNightOutline = "cloudyNightOutline";
+export let iconCloudyNightOutline = "cloudy-night-outline";

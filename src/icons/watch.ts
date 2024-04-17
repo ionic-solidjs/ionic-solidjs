@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { watch } from "ionicons/icons";
 
-addIcons({ watch });
+addIcons({"watch": watch });
 
 export let iconWatch = "watch";

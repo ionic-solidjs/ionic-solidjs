@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { scanCircle } from "ionicons/icons";
 
-addIcons({ scanCircle });
+addIcons({"scan-circle": scanCircle });
 
-export let iconScanCircle = "scanCircle";
+export let iconScanCircle = "scan-circle";

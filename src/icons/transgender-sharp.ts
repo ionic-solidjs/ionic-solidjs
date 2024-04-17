@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { transgenderSharp } from "ionicons/icons";
 
-addIcons({ transgenderSharp });
+addIcons({"transgender-sharp": transgenderSharp });
 
-export let iconTransgenderSharp = "transgenderSharp";
+export let iconTransgenderSharp = "transgender-sharp";

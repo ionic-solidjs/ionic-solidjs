@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoWindows } from "ionicons/icons";
 
-addIcons({ logoWindows });
+addIcons({"logo-windows": logoWindows });
 
-export let iconLogoWindows = "logoWindows";
+export let iconLogoWindows = "logo-windows";

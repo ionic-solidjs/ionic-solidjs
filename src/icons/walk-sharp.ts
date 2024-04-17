@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { walkSharp } from "ionicons/icons";
 
-addIcons({ walkSharp });
+addIcons({"walk-sharp": walkSharp });
 
-export let iconWalkSharp = "walkSharp";
+export let iconWalkSharp = "walk-sharp";

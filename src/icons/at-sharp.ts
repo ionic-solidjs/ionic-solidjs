@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { atSharp } from "ionicons/icons";
 
-addIcons({ atSharp });
+addIcons({"at-sharp": atSharp });
 
-export let iconAtSharp = "atSharp";
+export let iconAtSharp = "at-sharp";

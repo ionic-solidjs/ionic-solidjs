@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bagOutline } from "ionicons/icons";
 
-addIcons({ bagOutline });
+addIcons({"bag-outline": bagOutline });
 
-export let iconBagOutline = "bagOutline";
+export let iconBagOutline = "bag-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { volumeHighOutline } from "ionicons/icons";
 
-addIcons({ volumeHighOutline });
+addIcons({"volume-high-outline": volumeHighOutline });
 
-export let iconVolumeHighOutline = "volumeHighOutline";
+export let iconVolumeHighOutline = "volume-high-outline";

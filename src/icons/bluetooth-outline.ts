@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bluetoothOutline } from "ionicons/icons";
 
-addIcons({ bluetoothOutline });
+addIcons({"bluetooth-outline": bluetoothOutline });
 
-export let iconBluetoothOutline = "bluetoothOutline";
+export let iconBluetoothOutline = "bluetooth-outline";

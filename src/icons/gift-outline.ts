@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { giftOutline } from "ionicons/icons";
 
-addIcons({ giftOutline });
+addIcons({"gift-outline": giftOutline });
 
-export let iconGiftOutline = "giftOutline";
+export let iconGiftOutline = "gift-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { leafSharp } from "ionicons/icons";
 
-addIcons({ leafSharp });
+addIcons({"leaf-sharp": leafSharp });
 
-export let iconLeafSharp = "leafSharp";
+export let iconLeafSharp = "leaf-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { telescopeSharp } from "ionicons/icons";
 
-addIcons({ telescopeSharp });
+addIcons({"telescope-sharp": telescopeSharp });
 
-export let iconTelescopeSharp = "telescopeSharp";
+export let iconTelescopeSharp = "telescope-sharp";

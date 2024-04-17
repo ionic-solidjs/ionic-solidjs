@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { scaleSharp } from "ionicons/icons";
 
-addIcons({ scaleSharp });
+addIcons({"scale-sharp": scaleSharp });
 
-export let iconScaleSharp = "scaleSharp";
+export let iconScaleSharp = "scale-sharp";

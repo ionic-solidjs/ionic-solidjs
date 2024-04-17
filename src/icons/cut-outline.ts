@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cutOutline } from "ionicons/icons";
 
-addIcons({ cutOutline });
+addIcons({"cut-outline": cutOutline });
 
-export let iconCutOutline = "cutOutline";
+export let iconCutOutline = "cut-outline";

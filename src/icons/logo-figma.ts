@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoFigma } from "ionicons/icons";
 
-addIcons({ logoFigma });
+addIcons({"logo-figma": logoFigma });
 
-export let iconLogoFigma = "logoFigma";
+export let iconLogoFigma = "logo-figma";

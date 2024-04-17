@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { star } from "ionicons/icons";
 
-addIcons({ star });
+addIcons({"star": star });
 
 export let iconStar = "star";

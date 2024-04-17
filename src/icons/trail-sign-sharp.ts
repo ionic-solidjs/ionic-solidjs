@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { trailSignSharp } from "ionicons/icons";
 
-addIcons({ trailSignSharp });
+addIcons({"trail-sign-sharp": trailSignSharp });
 
-export let iconTrailSignSharp = "trailSignSharp";
+export let iconTrailSignSharp = "trail-sign-sharp";

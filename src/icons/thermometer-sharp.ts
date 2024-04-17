@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { thermometerSharp } from "ionicons/icons";
 
-addIcons({ thermometerSharp });
+addIcons({"thermometer-sharp": thermometerSharp });
 
-export let iconThermometerSharp = "thermometerSharp";
+export let iconThermometerSharp = "thermometer-sharp";

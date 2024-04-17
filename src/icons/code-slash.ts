@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { codeSlash } from "ionicons/icons";
 
-addIcons({ codeSlash });
+addIcons({"code-slash": codeSlash });
 
-export let iconCodeSlash = "codeSlash";
+export let iconCodeSlash = "code-slash";

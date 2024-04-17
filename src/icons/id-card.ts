@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { idCard } from "ionicons/icons";
 
-addIcons({ idCard });
+addIcons({"id-card": idCard });
 
-export let iconIdCard = "idCard";
+export let iconIdCard = "id-card";

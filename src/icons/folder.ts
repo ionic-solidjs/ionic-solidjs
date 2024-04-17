@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { folder } from "ionicons/icons";
 
-addIcons({ folder });
+addIcons({"folder": folder });
 
 export let iconFolder = "folder";

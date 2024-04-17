@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoFacebook } from "ionicons/icons";
 
-addIcons({ logoFacebook });
+addIcons({"logo-facebook": logoFacebook });
 
-export let iconLogoFacebook = "logoFacebook";
+export let iconLogoFacebook = "logo-facebook";

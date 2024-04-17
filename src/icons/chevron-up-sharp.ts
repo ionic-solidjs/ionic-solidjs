@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { chevronUpSharp } from "ionicons/icons";
 
-addIcons({ chevronUpSharp });
+addIcons({"chevron-up-sharp": chevronUpSharp });
 
-export let iconChevronUpSharp = "chevronUpSharp";
+export let iconChevronUpSharp = "chevron-up-sharp";

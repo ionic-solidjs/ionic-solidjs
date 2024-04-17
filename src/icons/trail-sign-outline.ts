@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { trailSignOutline } from "ionicons/icons";
 
-addIcons({ trailSignOutline });
+addIcons({"trail-sign-outline": trailSignOutline });
 
-export let iconTrailSignOutline = "trailSignOutline";
+export let iconTrailSignOutline = "trail-sign-outline";

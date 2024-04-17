@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoAmazon } from "ionicons/icons";
 
-addIcons({ logoAmazon });
+addIcons({"logo-amazon": logoAmazon });
 
-export let iconLogoAmazon = "logoAmazon";
+export let iconLogoAmazon = "logo-amazon";

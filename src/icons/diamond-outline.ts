@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { diamondOutline } from "ionicons/icons";
 
-addIcons({ diamondOutline });
+addIcons({"diamond-outline": diamondOutline });
 
-export let iconDiamondOutline = "diamondOutline";
+export let iconDiamondOutline = "diamond-outline";

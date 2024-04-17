@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { locationOutline } from "ionicons/icons";
 
-addIcons({ locationOutline });
+addIcons({"location-outline": locationOutline });
 
-export let iconLocationOutline = "locationOutline";
+export let iconLocationOutline = "location-outline";

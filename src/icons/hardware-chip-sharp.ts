@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { hardwareChipSharp } from "ionicons/icons";
 
-addIcons({ hardwareChipSharp });
+addIcons({"hardware-chip-sharp": hardwareChipSharp });
 
-export let iconHardwareChipSharp = "hardwareChipSharp";
+export let iconHardwareChipSharp = "hardware-chip-sharp";

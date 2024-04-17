@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { linkOutline } from "ionicons/icons";
 
-addIcons({ linkOutline });
+addIcons({"link-outline": linkOutline });
 
-export let iconLinkOutline = "linkOutline";
+export let iconLinkOutline = "link-outline";

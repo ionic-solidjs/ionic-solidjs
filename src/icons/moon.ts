@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { moon } from "ionicons/icons";
 
-addIcons({ moon });
+addIcons({"moon": moon });
 
 export let iconMoon = "moon";

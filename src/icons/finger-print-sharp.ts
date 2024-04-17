@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { fingerPrintSharp } from "ionicons/icons";
 
-addIcons({ fingerPrintSharp });
+addIcons({"finger-print-sharp": fingerPrintSharp });
 
-export let iconFingerPrintSharp = "fingerPrintSharp";
+export let iconFingerPrintSharp = "finger-print-sharp";

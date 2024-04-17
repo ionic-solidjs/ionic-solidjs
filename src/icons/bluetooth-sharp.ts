@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bluetoothSharp } from "ionicons/icons";
 
-addIcons({ bluetoothSharp });
+addIcons({"bluetooth-sharp": bluetoothSharp });
 
-export let iconBluetoothSharp = "bluetoothSharp";
+export let iconBluetoothSharp = "bluetooth-sharp";

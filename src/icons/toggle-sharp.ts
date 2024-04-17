@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { toggleSharp } from "ionicons/icons";
 
-addIcons({ toggleSharp });
+addIcons({"toggle-sharp": toggleSharp });
 
-export let iconToggleSharp = "toggleSharp";
+export let iconToggleSharp = "toggle-sharp";

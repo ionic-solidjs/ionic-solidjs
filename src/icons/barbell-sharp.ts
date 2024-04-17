@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { barbellSharp } from "ionicons/icons";
 
-addIcons({ barbellSharp });
+addIcons({"barbell-sharp": barbellSharp });
 
-export let iconBarbellSharp = "barbellSharp";
+export let iconBarbellSharp = "barbell-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { briefcaseOutline } from "ionicons/icons";
 
-addIcons({ briefcaseOutline });
+addIcons({"briefcase-outline": briefcaseOutline });
 
-export let iconBriefcaseOutline = "briefcaseOutline";
+export let iconBriefcaseOutline = "briefcase-outline";

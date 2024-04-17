@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { flaskOutline } from "ionicons/icons";
 
-addIcons({ flaskOutline });
+addIcons({"flask-outline": flaskOutline });
 
-export let iconFlaskOutline = "flaskOutline";
+export let iconFlaskOutline = "flask-outline";

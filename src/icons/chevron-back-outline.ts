@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { chevronBackOutline } from "ionicons/icons";
 
-addIcons({ chevronBackOutline });
+addIcons({"chevron-back-outline": chevronBackOutline });
 
-export let iconChevronBackOutline = "chevronBackOutline";
+export let iconChevronBackOutline = "chevron-back-outline";

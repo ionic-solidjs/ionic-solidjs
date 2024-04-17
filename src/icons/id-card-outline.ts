@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { idCardOutline } from "ionicons/icons";
 
-addIcons({ idCardOutline });
+addIcons({"id-card-outline": idCardOutline });
 
-export let iconIdCardOutline = "idCardOutline";
+export let iconIdCardOutline = "id-card-outline";

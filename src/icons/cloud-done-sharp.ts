@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cloudDoneSharp } from "ionicons/icons";
 
-addIcons({ cloudDoneSharp });
+addIcons({"cloud-done-sharp": cloudDoneSharp });
 
-export let iconCloudDoneSharp = "cloudDoneSharp";
+export let iconCloudDoneSharp = "cloud-done-sharp";

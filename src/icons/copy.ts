@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { copy } from "ionicons/icons";
 
-addIcons({ copy });
+addIcons({"copy": copy });
 
 export let iconCopy = "copy";

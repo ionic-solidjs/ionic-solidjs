@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { extensionPuzzleSharp } from "ionicons/icons";
 
-addIcons({ extensionPuzzleSharp });
+addIcons({"extension-puzzle-sharp": extensionPuzzleSharp });
 
-export let iconExtensionPuzzleSharp = "extensionPuzzleSharp";
+export let iconExtensionPuzzleSharp = "extension-puzzle-sharp";

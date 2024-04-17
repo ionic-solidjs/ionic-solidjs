@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { folderOpen } from "ionicons/icons";
 
-addIcons({ folderOpen });
+addIcons({"folder-open": folderOpen });
 
-export let iconFolderOpen = "folderOpen";
+export let iconFolderOpen = "folder-open";

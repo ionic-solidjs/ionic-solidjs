@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { chevronForwardSharp } from "ionicons/icons";
 
-addIcons({ chevronForwardSharp });
+addIcons({"chevron-forward-sharp": chevronForwardSharp });
 
-export let iconChevronForwardSharp = "chevronForwardSharp";
+export let iconChevronForwardSharp = "chevron-forward-sharp";

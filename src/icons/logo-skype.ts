@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoSkype } from "ionicons/icons";
 
-addIcons({ logoSkype });
+addIcons({"logo-skype": logoSkype });
 
-export let iconLogoSkype = "logoSkype";
+export let iconLogoSkype = "logo-skype";

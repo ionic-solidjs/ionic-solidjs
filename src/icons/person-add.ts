@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { personAdd } from "ionicons/icons";
 
-addIcons({ personAdd });
+addIcons({"person-add": personAdd });
 
-export let iconPersonAdd = "personAdd";
+export let iconPersonAdd = "person-add";

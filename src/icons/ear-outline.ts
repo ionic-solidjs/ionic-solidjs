@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { earOutline } from "ionicons/icons";
 
-addIcons({ earOutline });
+addIcons({"ear-outline": earOutline });
 
-export let iconEarOutline = "earOutline";
+export let iconEarOutline = "ear-outline";

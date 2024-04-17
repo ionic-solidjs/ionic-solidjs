@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { volumeOffSharp } from "ionicons/icons";
 
-addIcons({ volumeOffSharp });
+addIcons({"volume-off-sharp": volumeOffSharp });
 
-export let iconVolumeOffSharp = "volumeOffSharp";
+export let iconVolumeOffSharp = "volume-off-sharp";

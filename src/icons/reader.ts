@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { reader } from "ionicons/icons";
 
-addIcons({ reader });
+addIcons({"reader": reader });
 
 export let iconReader = "reader";

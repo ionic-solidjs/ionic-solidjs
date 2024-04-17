@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { printSharp } from "ionicons/icons";
 
-addIcons({ printSharp });
+addIcons({"print-sharp": printSharp });
 
-export let iconPrintSharp = "printSharp";
+export let iconPrintSharp = "print-sharp";

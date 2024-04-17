@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { headset } from "ionicons/icons";
 
-addIcons({ headset });
+addIcons({"headset": headset });
 
 export let iconHeadset = "headset";

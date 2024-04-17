@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { starHalf } from "ionicons/icons";
 
-addIcons({ starHalf });
+addIcons({"star-half": starHalf });
 
-export let iconStarHalf = "starHalf";
+export let iconStarHalf = "star-half";

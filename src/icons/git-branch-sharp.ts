@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { gitBranchSharp } from "ionicons/icons";
 
-addIcons({ gitBranchSharp });
+addIcons({"git-branch-sharp": gitBranchSharp });
 
-export let iconGitBranchSharp = "gitBranchSharp";
+export let iconGitBranchSharp = "git-branch-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { arrowUpCircleOutline } from "ionicons/icons";
 
-addIcons({ arrowUpCircleOutline });
+addIcons({"arrow-up-circle-outline": arrowUpCircleOutline });
 
-export let iconArrowUpCircleOutline = "arrowUpCircleOutline";
+export let iconArrowUpCircleOutline = "arrow-up-circle-outline";

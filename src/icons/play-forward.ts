@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { playForward } from "ionicons/icons";
 
-addIcons({ playForward });
+addIcons({"play-forward": playForward });
 
-export let iconPlayForward = "playForward";
+export let iconPlayForward = "play-forward";

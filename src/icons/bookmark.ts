@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bookmark } from "ionicons/icons";
 
-addIcons({ bookmark });
+addIcons({"bookmark": bookmark });
 
 export let iconBookmark = "bookmark";

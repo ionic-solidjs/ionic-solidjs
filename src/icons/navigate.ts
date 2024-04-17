@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { navigate } from "ionicons/icons";
 
-addIcons({ navigate });
+addIcons({"navigate": navigate });
 
 export let iconNavigate = "navigate";

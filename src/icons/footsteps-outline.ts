@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { footstepsOutline } from "ionicons/icons";
 
-addIcons({ footstepsOutline });
+addIcons({"footsteps-outline": footstepsOutline });
 
-export let iconFootstepsOutline = "footstepsOutline";
+export let iconFootstepsOutline = "footsteps-outline";

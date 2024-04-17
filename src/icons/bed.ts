@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bed } from "ionicons/icons";
 
-addIcons({ bed });
+addIcons({"bed": bed });
 
 export let iconBed = "bed";

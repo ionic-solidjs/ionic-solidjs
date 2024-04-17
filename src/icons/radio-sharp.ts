@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { radioSharp } from "ionicons/icons";
 
-addIcons({ radioSharp });
+addIcons({"radio-sharp": radioSharp });
 
-export let iconRadioSharp = "radioSharp";
+export let iconRadioSharp = "radio-sharp";

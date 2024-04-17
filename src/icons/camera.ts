@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { camera } from "ionicons/icons";
 
-addIcons({ camera });
+addIcons({"camera": camera });
 
 export let iconCamera = "camera";

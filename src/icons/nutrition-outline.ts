@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { nutritionOutline } from "ionicons/icons";
 
-addIcons({ nutritionOutline });
+addIcons({"nutrition-outline": nutritionOutline });
 
-export let iconNutritionOutline = "nutritionOutline";
+export let iconNutritionOutline = "nutrition-outline";

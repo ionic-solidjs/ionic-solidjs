@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { water } from "ionicons/icons";
 
-addIcons({ water });
+addIcons({"water": water });
 
 export let iconWater = "water";

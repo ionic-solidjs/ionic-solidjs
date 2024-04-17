@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoXbox } from "ionicons/icons";
 
-addIcons({ logoXbox });
+addIcons({"logo-xbox": logoXbox });
 
-export let iconLogoXbox = "logoXbox";
+export let iconLogoXbox = "logo-xbox";

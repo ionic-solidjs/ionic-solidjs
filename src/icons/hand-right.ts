@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { handRight } from "ionicons/icons";
 
-addIcons({ handRight });
+addIcons({"hand-right": handRight });
 
-export let iconHandRight = "handRight";
+export let iconHandRight = "hand-right";

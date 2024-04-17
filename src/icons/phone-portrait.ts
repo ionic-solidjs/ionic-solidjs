@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { phonePortrait } from "ionicons/icons";
 
-addIcons({ phonePortrait });
+addIcons({"phone-portrait": phonePortrait });
 
-export let iconPhonePortrait = "phonePortrait";
+export let iconPhonePortrait = "phone-portrait";

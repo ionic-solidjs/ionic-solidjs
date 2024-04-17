@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoPython } from "ionicons/icons";
 
-addIcons({ logoPython });
+addIcons({"logo-python": logoPython });
 
-export let iconLogoPython = "logoPython";
+export let iconLogoPython = "logo-python";

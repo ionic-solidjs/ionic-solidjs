@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoOctocat } from "ionicons/icons";
 
-addIcons({ logoOctocat });
+addIcons({"logo-octocat": logoOctocat });
 
-export let iconLogoOctocat = "logoOctocat";
+export let iconLogoOctocat = "logo-octocat";

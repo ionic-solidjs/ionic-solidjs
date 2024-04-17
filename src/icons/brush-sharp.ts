@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { brushSharp } from "ionicons/icons";
 
-addIcons({ brushSharp });
+addIcons({"brush-sharp": brushSharp });
 
-export let iconBrushSharp = "brushSharp";
+export let iconBrushSharp = "brush-sharp";

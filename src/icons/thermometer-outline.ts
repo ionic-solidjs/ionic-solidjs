@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { thermometerOutline } from "ionicons/icons";
 
-addIcons({ thermometerOutline });
+addIcons({"thermometer-outline": thermometerOutline });
 
-export let iconThermometerOutline = "thermometerOutline";
+export let iconThermometerOutline = "thermometer-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { paperPlaneSharp } from "ionicons/icons";
 
-addIcons({ paperPlaneSharp });
+addIcons({"paper-plane-sharp": paperPlaneSharp });
 
-export let iconPaperPlaneSharp = "paperPlaneSharp";
+export let iconPaperPlaneSharp = "paper-plane-sharp";

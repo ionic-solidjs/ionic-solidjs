@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { rocketSharp } from "ionicons/icons";
 
-addIcons({ rocketSharp });
+addIcons({"rocket-sharp": rocketSharp });
 
-export let iconRocketSharp = "rocketSharp";
+export let iconRocketSharp = "rocket-sharp";

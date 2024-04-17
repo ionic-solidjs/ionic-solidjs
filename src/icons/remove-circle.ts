@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { removeCircle } from "ionicons/icons";
 
-addIcons({ removeCircle });
+addIcons({"remove-circle": removeCircle });
 
-export let iconRemoveCircle = "removeCircle";
+export let iconRemoveCircle = "remove-circle";

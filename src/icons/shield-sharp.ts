@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { shieldSharp } from "ionicons/icons";
 
-addIcons({ shieldSharp });
+addIcons({"shield-sharp": shieldSharp });
 
-export let iconShieldSharp = "shieldSharp";
+export let iconShieldSharp = "shield-sharp";

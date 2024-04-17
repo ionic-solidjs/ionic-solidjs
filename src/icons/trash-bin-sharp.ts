@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { trashBinSharp } from "ionicons/icons";
 
-addIcons({ trashBinSharp });
+addIcons({"trash-bin-sharp": trashBinSharp });
 
-export let iconTrashBinSharp = "trashBinSharp";
+export let iconTrashBinSharp = "trash-bin-sharp";

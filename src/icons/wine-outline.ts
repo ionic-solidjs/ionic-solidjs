@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { wineOutline } from "ionicons/icons";
 
-addIcons({ wineOutline });
+addIcons({"wine-outline": wineOutline });
 
-export let iconWineOutline = "wineOutline";
+export let iconWineOutline = "wine-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { todayOutline } from "ionicons/icons";
 
-addIcons({ todayOutline });
+addIcons({"today-outline": todayOutline });
 
-export let iconTodayOutline = "todayOutline";
+export let iconTodayOutline = "today-outline";

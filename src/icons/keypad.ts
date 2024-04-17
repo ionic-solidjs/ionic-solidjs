@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { keypad } from "ionicons/icons";
 
-addIcons({ keypad });
+addIcons({"keypad": keypad });
 
 export let iconKeypad = "keypad";

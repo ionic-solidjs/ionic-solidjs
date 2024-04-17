@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { pause } from "ionicons/icons";
 
-addIcons({ pause });
+addIcons({"pause": pause });
 
 export let iconPause = "pause";

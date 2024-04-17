@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { eggOutline } from "ionicons/icons";
 
-addIcons({ eggOutline });
+addIcons({"egg-outline": eggOutline });
 
-export let iconEggOutline = "eggOutline";
+export let iconEggOutline = "egg-outline";

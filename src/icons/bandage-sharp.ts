@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bandageSharp } from "ionicons/icons";
 
-addIcons({ bandageSharp });
+addIcons({"bandage-sharp": bandageSharp });
 
-export let iconBandageSharp = "bandageSharp";
+export let iconBandageSharp = "bandage-sharp";

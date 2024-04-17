@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { desktop } from "ionicons/icons";
 
-addIcons({ desktop });
+addIcons({"desktop": desktop });
 
 export let iconDesktop = "desktop";

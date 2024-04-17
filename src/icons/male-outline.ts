@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { maleOutline } from "ionicons/icons";
 
-addIcons({ maleOutline });
+addIcons({"male-outline": maleOutline });
 
-export let iconMaleOutline = "maleOutline";
+export let iconMaleOutline = "male-outline";

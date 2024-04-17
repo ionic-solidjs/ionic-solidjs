@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { arrowUp } from "ionicons/icons";
 
-addIcons({ arrowUp });
+addIcons({"arrow-up": arrowUp });
 
-export let iconArrowUp = "arrowUp";
+export let iconArrowUp = "arrow-up";

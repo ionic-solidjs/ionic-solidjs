@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { refreshOutline } from "ionicons/icons";
 
-addIcons({ refreshOutline });
+addIcons({"refresh-outline": refreshOutline });
 
-export let iconRefreshOutline = "refreshOutline";
+export let iconRefreshOutline = "refresh-outline";

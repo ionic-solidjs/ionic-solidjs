@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { repeatSharp } from "ionicons/icons";
 
-addIcons({ repeatSharp });
+addIcons({"repeat-sharp": repeatSharp });
 
-export let iconRepeatSharp = "repeatSharp";
+export let iconRepeatSharp = "repeat-sharp";

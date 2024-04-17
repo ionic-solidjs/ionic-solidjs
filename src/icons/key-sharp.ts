@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { keySharp } from "ionicons/icons";
 
-addIcons({ keySharp });
+addIcons({"key-sharp": keySharp });
 
-export let iconKeySharp = "keySharp";
+export let iconKeySharp = "key-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { notificationsCircleOutline } from "ionicons/icons";
 
-addIcons({ notificationsCircleOutline });
+addIcons({"notifications-circle-outline": notificationsCircleOutline });
 
-export let iconNotificationsCircleOutline = "notificationsCircleOutline";
+export let iconNotificationsCircleOutline = "notifications-circle-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { serverOutline } from "ionicons/icons";
 
-addIcons({ serverOutline });
+addIcons({"server-outline": serverOutline });
 
-export let iconServerOutline = "serverOutline";
+export let iconServerOutline = "server-outline";

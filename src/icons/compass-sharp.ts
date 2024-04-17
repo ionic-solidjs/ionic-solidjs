@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { compassSharp } from "ionicons/icons";
 
-addIcons({ compassSharp });
+addIcons({"compass-sharp": compassSharp });
 
-export let iconCompassSharp = "compassSharp";
+export let iconCompassSharp = "compass-sharp";

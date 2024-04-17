@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { caretBackSharp } from "ionicons/icons";
 
-addIcons({ caretBackSharp });
+addIcons({"caret-back-sharp": caretBackSharp });
 
-export let iconCaretBackSharp = "caretBackSharp";
+export let iconCaretBackSharp = "caret-back-sharp";

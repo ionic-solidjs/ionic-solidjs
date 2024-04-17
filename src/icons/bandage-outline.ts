@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bandageOutline } from "ionicons/icons";
 
-addIcons({ bandageOutline });
+addIcons({"bandage-outline": bandageOutline });
 
-export let iconBandageOutline = "bandageOutline";
+export let iconBandageOutline = "bandage-outline";

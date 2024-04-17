@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { contract } from "ionicons/icons";
 
-addIcons({ contract });
+addIcons({"contract": contract });
 
 export let iconContract = "contract";

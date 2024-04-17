@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { umbrellaOutline } from "ionicons/icons";
 
-addIcons({ umbrellaOutline });
+addIcons({"umbrella-outline": umbrellaOutline });
 
-export let iconUmbrellaOutline = "umbrellaOutline";
+export let iconUmbrellaOutline = "umbrella-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { calendarOutline } from "ionicons/icons";
 
-addIcons({ calendarOutline });
+addIcons({"calendar-outline": calendarOutline });
 
-export let iconCalendarOutline = "calendarOutline";
+export let iconCalendarOutline = "calendar-outline";

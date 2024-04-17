@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { albumsOutline } from "ionicons/icons";
 
-addIcons({ albumsOutline });
+addIcons({"albums-outline": albumsOutline });
 
-export let iconAlbumsOutline = "albumsOutline";
+export let iconAlbumsOutline = "albums-outline";

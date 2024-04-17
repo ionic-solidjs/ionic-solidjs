@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { calendarNumberSharp } from "ionicons/icons";
 
-addIcons({ calendarNumberSharp });
+addIcons({"calendar-number-sharp": calendarNumberSharp });
 
-export let iconCalendarNumberSharp = "calendarNumberSharp";
+export let iconCalendarNumberSharp = "calendar-number-sharp";

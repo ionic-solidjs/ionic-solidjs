@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { radio } from "ionicons/icons";
 
-addIcons({ radio });
+addIcons({"radio": radio });
 
 export let iconRadio = "radio";

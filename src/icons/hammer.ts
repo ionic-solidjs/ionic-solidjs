@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { hammer } from "ionicons/icons";
 
-addIcons({ hammer });
+addIcons({"hammer": hammer });
 
 export let iconHammer = "hammer";

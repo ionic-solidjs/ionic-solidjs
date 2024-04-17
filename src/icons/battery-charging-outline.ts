@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { batteryChargingOutline } from "ionicons/icons";
 
-addIcons({ batteryChargingOutline });
+addIcons({"battery-charging-outline": batteryChargingOutline });
 
-export let iconBatteryChargingOutline = "batteryChargingOutline";
+export let iconBatteryChargingOutline = "battery-charging-outline";

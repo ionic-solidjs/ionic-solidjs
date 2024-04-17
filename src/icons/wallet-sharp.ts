@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { walletSharp } from "ionicons/icons";
 
-addIcons({ walletSharp });
+addIcons({"wallet-sharp": walletSharp });
 
-export let iconWalletSharp = "walletSharp";
+export let iconWalletSharp = "wallet-sharp";

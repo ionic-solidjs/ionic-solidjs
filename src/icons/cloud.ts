@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cloud } from "ionicons/icons";
 
-addIcons({ cloud });
+addIcons({"cloud": cloud });
 
 export let iconCloud = "cloud";

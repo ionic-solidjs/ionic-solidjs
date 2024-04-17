@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { keyOutline } from "ionicons/icons";
 
-addIcons({ keyOutline });
+addIcons({"key-outline": keyOutline });
 
-export let iconKeyOutline = "keyOutline";
+export let iconKeyOutline = "key-outline";

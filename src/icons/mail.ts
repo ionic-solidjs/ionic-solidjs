@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { mail } from "ionicons/icons";
 
-addIcons({ mail });
+addIcons({"mail": mail });
 
 export let iconMail = "mail";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { navigateSharp } from "ionicons/icons";
 
-addIcons({ navigateSharp });
+addIcons({"navigate-sharp": navigateSharp });
 
-export let iconNavigateSharp = "navigateSharp";
+export let iconNavigateSharp = "navigate-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { backspaceSharp } from "ionicons/icons";
 
-addIcons({ backspaceSharp });
+addIcons({"backspace-sharp": backspaceSharp });
 
-export let iconBackspaceSharp = "backspaceSharp";
+export let iconBackspaceSharp = "backspace-sharp";

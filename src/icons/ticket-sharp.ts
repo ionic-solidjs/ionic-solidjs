@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { ticketSharp } from "ionicons/icons";
 
-addIcons({ ticketSharp });
+addIcons({"ticket-sharp": ticketSharp });
 
-export let iconTicketSharp = "ticketSharp";
+export let iconTicketSharp = "ticket-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { clipboardOutline } from "ionicons/icons";
 
-addIcons({ clipboardOutline });
+addIcons({"clipboard-outline": clipboardOutline });
 
-export let iconClipboardOutline = "clipboardOutline";
+export let iconClipboardOutline = "clipboard-outline";

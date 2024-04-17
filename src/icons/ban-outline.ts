@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { banOutline } from "ionicons/icons";
 
-addIcons({ banOutline });
+addIcons({"ban-outline": banOutline });
 
-export let iconBanOutline = "banOutline";
+export let iconBanOutline = "ban-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoVercel } from "ionicons/icons";
 
-addIcons({ logoVercel });
+addIcons({"logo-vercel": logoVercel });
 
-export let iconLogoVercel = "logoVercel";
+export let iconLogoVercel = "logo-vercel";

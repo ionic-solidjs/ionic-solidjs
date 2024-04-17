@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { apertureOutline } from "ionicons/icons";
 
-addIcons({ apertureOutline });
+addIcons({"aperture-outline": apertureOutline });
 
-export let iconApertureOutline = "apertureOutline";
+export let iconApertureOutline = "aperture-outline";

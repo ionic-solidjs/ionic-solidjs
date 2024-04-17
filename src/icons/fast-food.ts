@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { fastFood } from "ionicons/icons";
 
-addIcons({ fastFood });
+addIcons({"fast-food": fastFood });
 
-export let iconFastFood = "fastFood";
+export let iconFastFood = "fast-food";

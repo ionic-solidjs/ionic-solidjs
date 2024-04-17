@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { arrowBackCircle } from "ionicons/icons";
 
-addIcons({ arrowBackCircle });
+addIcons({"arrow-back-circle": arrowBackCircle });
 
-export let iconArrowBackCircle = "arrowBackCircle";
+export let iconArrowBackCircle = "arrow-back-circle";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { browsersOutline } from "ionicons/icons";
 
-addIcons({ browsersOutline });
+addIcons({"browsers-outline": browsersOutline });
 
-export let iconBrowsersOutline = "browsersOutline";
+export let iconBrowsersOutline = "browsers-outline";

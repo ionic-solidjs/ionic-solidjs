@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { carSport } from "ionicons/icons";
 
-addIcons({ carSport });
+addIcons({"car-sport": carSport });
 
-export let iconCarSport = "carSport";
+export let iconCarSport = "car-sport";

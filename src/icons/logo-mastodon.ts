@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoMastodon } from "ionicons/icons";
 
-addIcons({ logoMastodon });
+addIcons({"logo-mastodon": logoMastodon });
 
-export let iconLogoMastodon = "logoMastodon";
+export let iconLogoMastodon = "logo-mastodon";

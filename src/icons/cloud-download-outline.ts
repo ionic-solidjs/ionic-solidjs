@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cloudDownloadOutline } from "ionicons/icons";
 
-addIcons({ cloudDownloadOutline });
+addIcons({"cloud-download-outline": cloudDownloadOutline });
 
-export let iconCloudDownloadOutline = "cloudDownloadOutline";
+export let iconCloudDownloadOutline = "cloud-download-outline";

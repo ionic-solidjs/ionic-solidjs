@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { playBack } from "ionicons/icons";
 
-addIcons({ playBack });
+addIcons({"play-back": playBack });
 
-export let iconPlayBack = "playBack";
+export let iconPlayBack = "play-back";

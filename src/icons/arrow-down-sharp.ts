@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { arrowDownSharp } from "ionicons/icons";
 
-addIcons({ arrowDownSharp });
+addIcons({"arrow-down-sharp": arrowDownSharp });
 
-export let iconArrowDownSharp = "arrowDownSharp";
+export let iconArrowDownSharp = "arrow-down-sharp";

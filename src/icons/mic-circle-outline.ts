@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { micCircleOutline } from "ionicons/icons";
 
-addIcons({ micCircleOutline });
+addIcons({"mic-circle-outline": micCircleOutline });
 
-export let iconMicCircleOutline = "micCircleOutline";
+export let iconMicCircleOutline = "mic-circle-outline";

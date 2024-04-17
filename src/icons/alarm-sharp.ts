@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { alarmSharp } from "ionicons/icons";
 
-addIcons({ alarmSharp });
+addIcons({"alarm-sharp": alarmSharp });
 
-export let iconAlarmSharp = "alarmSharp";
+export let iconAlarmSharp = "alarm-sharp";

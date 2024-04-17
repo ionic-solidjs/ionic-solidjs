@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { ear } from "ionicons/icons";
 
-addIcons({ ear });
+addIcons({"ear": ear });
 
 export let iconEar = "ear";

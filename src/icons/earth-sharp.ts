@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { earthSharp } from "ionicons/icons";
 
-addIcons({ earthSharp });
+addIcons({"earth-sharp": earthSharp });
 
-export let iconEarthSharp = "earthSharp";
+export let iconEarthSharp = "earth-sharp";

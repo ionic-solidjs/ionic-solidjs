@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { share } from "ionicons/icons";
 
-addIcons({ share });
+addIcons({"share": share });
 
 export let iconShare = "share";

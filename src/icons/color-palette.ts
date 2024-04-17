@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { colorPalette } from "ionicons/icons";
 
-addIcons({ colorPalette });
+addIcons({"color-palette": colorPalette });
 
-export let iconColorPalette = "colorPalette";
+export let iconColorPalette = "color-palette";

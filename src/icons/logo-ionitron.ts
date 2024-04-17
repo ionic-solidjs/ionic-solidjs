@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoIonitron } from "ionicons/icons";
 
-addIcons({ logoIonitron });
+addIcons({"logo-ionitron": logoIonitron });
 
-export let iconLogoIonitron = "logoIonitron";
+export let iconLogoIonitron = "logo-ionitron";

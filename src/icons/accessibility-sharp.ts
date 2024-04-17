@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { accessibilitySharp } from "ionicons/icons";
 
-addIcons({ accessibilitySharp });
+addIcons({"accessibility-sharp": accessibilitySharp });
 
-export let iconAccessibilitySharp = "accessibilitySharp";
+export let iconAccessibilitySharp = "accessibility-sharp";

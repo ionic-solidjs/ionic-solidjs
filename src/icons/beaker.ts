@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { beaker } from "ionicons/icons";
 
-addIcons({ beaker });
+addIcons({"beaker": beaker });
 
 export let iconBeaker = "beaker";

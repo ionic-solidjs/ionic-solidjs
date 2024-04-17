@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { fastFoodOutline } from "ionicons/icons";
 
-addIcons({ fastFoodOutline });
+addIcons({"fast-food-outline": fastFoodOutline });
 
-export let iconFastFoodOutline = "fastFoodOutline";
+export let iconFastFoodOutline = "fast-food-outline";

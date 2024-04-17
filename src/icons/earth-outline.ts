@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { earthOutline } from "ionicons/icons";
 
-addIcons({ earthOutline });
+addIcons({"earth-outline": earthOutline });
 
-export let iconEarthOutline = "earthOutline";
+export let iconEarthOutline = "earth-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { fitness } from "ionicons/icons";
 
-addIcons({ fitness });
+addIcons({"fitness": fitness });
 
 export let iconFitness = "fitness";

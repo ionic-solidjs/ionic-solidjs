@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { laptopOutline } from "ionicons/icons";
 
-addIcons({ laptopOutline });
+addIcons({"laptop-outline": laptopOutline });
 
-export let iconLaptopOutline = "laptopOutline";
+export let iconLaptopOutline = "laptop-outline";

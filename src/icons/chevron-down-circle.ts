@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { chevronDownCircle } from "ionicons/icons";
 
-addIcons({ chevronDownCircle });
+addIcons({"chevron-down-circle": chevronDownCircle });
 
-export let iconChevronDownCircle = "chevronDownCircle";
+export let iconChevronDownCircle = "chevron-down-circle";

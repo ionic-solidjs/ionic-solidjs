@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoClosedCaptioning } from "ionicons/icons";
 
-addIcons({ logoClosedCaptioning });
+addIcons({"logo-closed-captioning": logoClosedCaptioning });
 
-export let iconLogoClosedCaptioning = "logoClosedCaptioning";
+export let iconLogoClosedCaptioning = "logo-closed-captioning";

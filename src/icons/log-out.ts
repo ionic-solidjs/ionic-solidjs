@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logOut } from "ionicons/icons";
 
-addIcons({ logOut });
+addIcons({"log-out": logOut });
 
-export let iconLogOut = "logOut";
+export let iconLogOut = "log-out";

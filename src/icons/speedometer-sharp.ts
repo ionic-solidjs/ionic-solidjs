@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { speedometerSharp } from "ionicons/icons";
 
-addIcons({ speedometerSharp });
+addIcons({"speedometer-sharp": speedometerSharp });
 
-export let iconSpeedometerSharp = "speedometerSharp";
+export let iconSpeedometerSharp = "speedometer-sharp";

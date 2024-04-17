@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { enter } from "ionicons/icons";
 
-addIcons({ enter });
+addIcons({"enter": enter });
 
 export let iconEnter = "enter";

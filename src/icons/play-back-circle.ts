@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { playBackCircle } from "ionicons/icons";
 
-addIcons({ playBackCircle });
+addIcons({"play-back-circle": playBackCircle });
 
-export let iconPlayBackCircle = "playBackCircle";
+export let iconPlayBackCircle = "play-back-circle";

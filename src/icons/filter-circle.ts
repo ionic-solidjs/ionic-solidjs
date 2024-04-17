@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { filterCircle } from "ionicons/icons";
 
-addIcons({ filterCircle });
+addIcons({"filter-circle": filterCircle });
 
-export let iconFilterCircle = "filterCircle";
+export let iconFilterCircle = "filter-circle";

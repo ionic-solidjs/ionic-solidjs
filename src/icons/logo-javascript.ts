@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoJavascript } from "ionicons/icons";
 
-addIcons({ logoJavascript });
+addIcons({"logo-javascript": logoJavascript });
 
-export let iconLogoJavascript = "logoJavascript";
+export let iconLogoJavascript = "logo-javascript";

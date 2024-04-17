@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { sendSharp } from "ionicons/icons";
 
-addIcons({ sendSharp });
+addIcons({"send-sharp": sendSharp });
 
-export let iconSendSharp = "sendSharp";
+export let iconSendSharp = "send-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { chevronCollapseSharp } from "ionicons/icons";
 
-addIcons({ chevronCollapseSharp });
+addIcons({"chevron-collapse-sharp": chevronCollapseSharp });
 
-export let iconChevronCollapseSharp = "chevronCollapseSharp";
+export let iconChevronCollapseSharp = "chevron-collapse-sharp";

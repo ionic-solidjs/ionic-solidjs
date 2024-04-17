@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { ribbon } from "ionicons/icons";
 
-addIcons({ ribbon });
+addIcons({"ribbon": ribbon });
 
 export let iconRibbon = "ribbon";

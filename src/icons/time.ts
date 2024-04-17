@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { time } from "ionicons/icons";
 
-addIcons({ time });
+addIcons({"time": time });
 
 export let iconTime = "time";

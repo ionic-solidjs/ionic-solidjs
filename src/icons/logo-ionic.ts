@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoIonic } from "ionicons/icons";
 
-addIcons({ logoIonic });
+addIcons({"logo-ionic": logoIonic });
 
-export let iconLogoIonic = "logoIonic";
+export let iconLogoIonic = "logo-ionic";

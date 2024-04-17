@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { pauseCircleOutline } from "ionicons/icons";
 
-addIcons({ pauseCircleOutline });
+addIcons({"pause-circle-outline": pauseCircleOutline });
 
-export let iconPauseCircleOutline = "pauseCircleOutline";
+export let iconPauseCircleOutline = "pause-circle-outline";

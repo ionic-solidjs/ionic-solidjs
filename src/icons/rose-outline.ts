@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { roseOutline } from "ionicons/icons";
 
-addIcons({ roseOutline });
+addIcons({"rose-outline": roseOutline });
 
-export let iconRoseOutline = "roseOutline";
+export let iconRoseOutline = "rose-outline";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { accessibilityOutline } from "ionicons/icons";
 
-addIcons({ accessibilityOutline });
+addIcons({"accessibility-outline": accessibilityOutline });
 
-export let iconAccessibilityOutline = "accessibilityOutline";
+export let iconAccessibilityOutline = "accessibility-outline";

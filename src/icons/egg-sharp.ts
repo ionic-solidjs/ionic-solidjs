@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { eggSharp } from "ionicons/icons";
 
-addIcons({ eggSharp });
+addIcons({"egg-sharp": eggSharp });
 
-export let iconEggSharp = "eggSharp";
+export let iconEggSharp = "egg-sharp";

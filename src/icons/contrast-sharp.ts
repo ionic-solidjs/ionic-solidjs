@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { contrastSharp } from "ionicons/icons";
 
-addIcons({ contrastSharp });
+addIcons({"contrast-sharp": contrastSharp });
 
-export let iconContrastSharp = "contrastSharp";
+export let iconContrastSharp = "contrast-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { analytics } from "ionicons/icons";
 
-addIcons({ analytics });
+addIcons({"analytics": analytics });
 
 export let iconAnalytics = "analytics";

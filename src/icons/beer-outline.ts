@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { beerOutline } from "ionicons/icons";
 
-addIcons({ beerOutline });
+addIcons({"beer-outline": beerOutline });
 
-export let iconBeerOutline = "beerOutline";
+export let iconBeerOutline = "beer-outline";

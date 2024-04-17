@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { terminal } from "ionicons/icons";
 
-addIcons({ terminal });
+addIcons({"terminal": terminal });
 
 export let iconTerminal = "terminal";

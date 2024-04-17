@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { expand } from "ionicons/icons";
 
-addIcons({ expand });
+addIcons({"expand": expand });
 
 export let iconExpand = "expand";

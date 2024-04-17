@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { resizeSharp } from "ionicons/icons";
 
-addIcons({ resizeSharp });
+addIcons({"resize-sharp": resizeSharp });
 
-export let iconResizeSharp = "resizeSharp";
+export let iconResizeSharp = "resize-sharp";

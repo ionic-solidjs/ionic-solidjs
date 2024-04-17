@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { flask } from "ionicons/icons";
 
-addIcons({ flask });
+addIcons({"flask": flask });
 
 export let iconFlask = "flask";

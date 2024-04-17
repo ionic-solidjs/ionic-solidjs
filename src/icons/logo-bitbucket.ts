@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoBitbucket } from "ionicons/icons";
 
-addIcons({ logoBitbucket });
+addIcons({"logo-bitbucket": logoBitbucket });
 
-export let iconLogoBitbucket = "logoBitbucket";
+export let iconLogoBitbucket = "logo-bitbucket";

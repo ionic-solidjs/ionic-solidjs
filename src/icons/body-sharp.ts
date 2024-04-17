@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bodySharp } from "ionicons/icons";
 
-addIcons({ bodySharp });
+addIcons({"body-sharp": bodySharp });
 
-export let iconBodySharp = "bodySharp";
+export let iconBodySharp = "body-sharp";

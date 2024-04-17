@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { push } from "ionicons/icons";
 
-addIcons({ push });
+addIcons({"push": push });
 
 export let iconPush = "push";

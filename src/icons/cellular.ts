@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cellular } from "ionicons/icons";
 
-addIcons({ cellular });
+addIcons({"cellular": cellular });
 
 export let iconCellular = "cellular";

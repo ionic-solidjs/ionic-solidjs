@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { nutritionSharp } from "ionicons/icons";
 
-addIcons({ nutritionSharp });
+addIcons({"nutrition-sharp": nutritionSharp });
 
-export let iconNutritionSharp = "nutritionSharp";
+export let iconNutritionSharp = "nutrition-sharp";

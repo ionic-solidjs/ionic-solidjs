@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { radioButtonOff } from "ionicons/icons";
 
-addIcons({ radioButtonOff });
+addIcons({"radio-button-off": radioButtonOff });
 
-export let iconRadioButtonOff = "radioButtonOff";
+export let iconRadioButtonOff = "radio-button-off";

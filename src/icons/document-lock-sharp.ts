@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { documentLockSharp } from "ionicons/icons";
 
-addIcons({ documentLockSharp });
+addIcons({"document-lock-sharp": documentLockSharp });
 
-export let iconDocumentLockSharp = "documentLockSharp";
+export let iconDocumentLockSharp = "document-lock-sharp";

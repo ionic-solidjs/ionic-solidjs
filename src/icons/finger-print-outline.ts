@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { fingerPrintOutline } from "ionicons/icons";
 
-addIcons({ fingerPrintOutline });
+addIcons({"finger-print-outline": fingerPrintOutline });
 
-export let iconFingerPrintOutline = "fingerPrintOutline";
+export let iconFingerPrintOutline = "finger-print-outline";

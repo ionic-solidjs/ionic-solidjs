@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { earth } from "ionicons/icons";
 
-addIcons({ earth });
+addIcons({"earth": earth });
 
 export let iconEarth = "earth";

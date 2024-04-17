@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { filter } from "ionicons/icons";
 
-addIcons({ filter });
+addIcons({"filter": filter });
 
 export let iconFilter = "filter";

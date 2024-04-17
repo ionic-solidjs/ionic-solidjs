@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { languageOutline } from "ionicons/icons";
 
-addIcons({ languageOutline });
+addIcons({"language-outline": languageOutline });
 
-export let iconLanguageOutline = "languageOutline";
+export let iconLanguageOutline = "language-outline";

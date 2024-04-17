@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { infiniteOutline } from "ionicons/icons";
 
-addIcons({ infiniteOutline });
+addIcons({"infinite-outline": infiniteOutline });
 
-export let iconInfiniteOutline = "infiniteOutline";
+export let iconInfiniteOutline = "infinite-outline";

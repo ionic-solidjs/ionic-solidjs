@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { languageSharp } from "ionicons/icons";
 
-addIcons({ languageSharp });
+addIcons({"language-sharp": languageSharp });
 
-export let iconLanguageSharp = "languageSharp";
+export let iconLanguageSharp = "language-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { golfSharp } from "ionicons/icons";
 
-addIcons({ golfSharp });
+addIcons({"golf-sharp": golfSharp });
 
-export let iconGolfSharp = "golfSharp";
+export let iconGolfSharp = "golf-sharp";

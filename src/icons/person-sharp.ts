@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { personSharp } from "ionicons/icons";
 
-addIcons({ personSharp });
+addIcons({"person-sharp": personSharp });
 
-export let iconPersonSharp = "personSharp";
+export let iconPersonSharp = "person-sharp";

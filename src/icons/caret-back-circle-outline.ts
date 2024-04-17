@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { caretBackCircleOutline } from "ionicons/icons";
 
-addIcons({ caretBackCircleOutline });
+addIcons({"caret-back-circle-outline": caretBackCircleOutline });
 
-export let iconCaretBackCircleOutline = "caretBackCircleOutline";
+export let iconCaretBackCircleOutline = "caret-back-circle-outline";

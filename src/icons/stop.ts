@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { stop } from "ionicons/icons";
 
-addIcons({ stop });
+addIcons({"stop": stop });
 
 export let iconStop = "stop";

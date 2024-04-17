@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { colorFillSharp } from "ionicons/icons";
 
-addIcons({ colorFillSharp });
+addIcons({"color-fill-sharp": colorFillSharp });
 
-export let iconColorFillSharp = "colorFillSharp";
+export let iconColorFillSharp = "color-fill-sharp";

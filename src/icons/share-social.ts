@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { shareSocial } from "ionicons/icons";
 
-addIcons({ shareSocial });
+addIcons({"share-social": shareSocial });
 
-export let iconShareSocial = "shareSocial";
+export let iconShareSocial = "share-social";

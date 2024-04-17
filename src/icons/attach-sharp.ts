@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { attachSharp } from "ionicons/icons";
 
-addIcons({ attachSharp });
+addIcons({"attach-sharp": attachSharp });
 
-export let iconAttachSharp = "attachSharp";
+export let iconAttachSharp = "attach-sharp";

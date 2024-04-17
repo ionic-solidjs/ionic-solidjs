@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { trainSharp } from "ionicons/icons";
 
-addIcons({ trainSharp });
+addIcons({"train-sharp": trainSharp });
 
-export let iconTrainSharp = "trainSharp";
+export let iconTrainSharp = "train-sharp";

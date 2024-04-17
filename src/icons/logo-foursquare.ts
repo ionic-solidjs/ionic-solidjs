@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoFoursquare } from "ionicons/icons";
 
-addIcons({ logoFoursquare });
+addIcons({"logo-foursquare": logoFoursquare });
 
-export let iconLogoFoursquare = "logoFoursquare";
+export let iconLogoFoursquare = "logo-foursquare";

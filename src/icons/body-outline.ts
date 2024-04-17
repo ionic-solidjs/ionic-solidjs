@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { bodyOutline } from "ionicons/icons";
 
-addIcons({ bodyOutline });
+addIcons({"body-outline": bodyOutline });
 
-export let iconBodyOutline = "bodyOutline";
+export let iconBodyOutline = "body-outline";

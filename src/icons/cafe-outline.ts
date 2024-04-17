@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cafeOutline } from "ionicons/icons";
 
-addIcons({ cafeOutline });
+addIcons({"cafe-outline": cafeOutline });
 
-export let iconCafeOutline = "cafeOutline";
+export let iconCafeOutline = "cafe-outline";

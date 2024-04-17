@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { documentSharp } from "ionicons/icons";
 
-addIcons({ documentSharp });
+addIcons({"document-sharp": documentSharp });
 
-export let iconDocumentSharp = "documentSharp";
+export let iconDocumentSharp = "document-sharp";

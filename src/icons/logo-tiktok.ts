@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoTiktok } from "ionicons/icons";
 
-addIcons({ logoTiktok });
+addIcons({"logo-tiktok": logoTiktok });
 
-export let iconLogoTiktok = "logoTiktok";
+export let iconLogoTiktok = "logo-tiktok";

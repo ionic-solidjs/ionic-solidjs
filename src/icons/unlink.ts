@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { unlink } from "ionicons/icons";
 
-addIcons({ unlink });
+addIcons({"unlink": unlink });
 
 export let iconUnlink = "unlink";

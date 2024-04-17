@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { syncSharp } from "ionicons/icons";
 
-addIcons({ syncSharp });
+addIcons({"sync-sharp": syncSharp });
 
-export let iconSyncSharp = "syncSharp";
+export let iconSyncSharp = "sync-sharp";

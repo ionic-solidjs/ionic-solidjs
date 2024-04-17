@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { exit } from "ionicons/icons";
 
-addIcons({ exit });
+addIcons({"exit": exit });
 
 export let iconExit = "exit";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { flameOutline } from "ionicons/icons";
 
-addIcons({ flameOutline });
+addIcons({"flame-outline": flameOutline });
 
-export let iconFlameOutline = "flameOutline";
+export let iconFlameOutline = "flame-outline";

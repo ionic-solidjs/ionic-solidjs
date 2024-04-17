@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { musicalNoteSharp } from "ionicons/icons";
 
-addIcons({ musicalNoteSharp });
+addIcons({"musical-note-sharp": musicalNoteSharp });
 
-export let iconMusicalNoteSharp = "musicalNoteSharp";
+export let iconMusicalNoteSharp = "musical-note-sharp";

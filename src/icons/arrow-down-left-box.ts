@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { arrowDownLeftBox } from "ionicons/icons";
 
-addIcons({ arrowDownLeftBox });
+addIcons({"arrow-down-left-box": arrowDownLeftBox });
 
-export let iconArrowDownLeftBox = "arrowDownLeftBox";
+export let iconArrowDownLeftBox = "arrow-down-left-box";

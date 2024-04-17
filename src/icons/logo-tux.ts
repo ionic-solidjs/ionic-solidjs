@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoTux } from "ionicons/icons";
 
-addIcons({ logoTux });
+addIcons({"logo-tux": logoTux });
 
-export let iconLogoTux = "logoTux";
+export let iconLogoTux = "logo-tux";

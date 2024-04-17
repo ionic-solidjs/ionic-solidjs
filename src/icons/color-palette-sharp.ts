@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { colorPaletteSharp } from "ionicons/icons";
 
-addIcons({ colorPaletteSharp });
+addIcons({"color-palette-sharp": colorPaletteSharp });
 
-export let iconColorPaletteSharp = "colorPaletteSharp";
+export let iconColorPaletteSharp = "color-palette-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { reorderTwoSharp } from "ionicons/icons";
 
-addIcons({ reorderTwoSharp });
+addIcons({"reorder-two-sharp": reorderTwoSharp });
 
-export let iconReorderTwoSharp = "reorderTwoSharp";
+export let iconReorderTwoSharp = "reorder-two-sharp";

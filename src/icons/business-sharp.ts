@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { businessSharp } from "ionicons/icons";
 
-addIcons({ businessSharp });
+addIcons({"business-sharp": businessSharp });
 
-export let iconBusinessSharp = "businessSharp";
+export let iconBusinessSharp = "business-sharp";

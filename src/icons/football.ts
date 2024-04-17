@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { football } from "ionicons/icons";
 
-addIcons({ football });
+addIcons({"football": football });
 
 export let iconFootball = "football";

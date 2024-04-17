@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { callSharp } from "ionicons/icons";
 
-addIcons({ callSharp });
+addIcons({"call-sharp": callSharp });
 
-export let iconCallSharp = "callSharp";
+export let iconCallSharp = "call-sharp";

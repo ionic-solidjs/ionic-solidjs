@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { playForwardOutline } from "ionicons/icons";
 
-addIcons({ playForwardOutline });
+addIcons({"play-forward-outline": playForwardOutline });
 
-export let iconPlayForwardOutline = "playForwardOutline";
+export let iconPlayForwardOutline = "play-forward-outline";

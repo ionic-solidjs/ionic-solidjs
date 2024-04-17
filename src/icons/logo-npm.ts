@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { logoNpm } from "ionicons/icons";
 
-addIcons({ logoNpm });
+addIcons({"logo-npm": logoNpm });
 
-export let iconLogoNpm = "logoNpm";
+export let iconLogoNpm = "logo-npm";

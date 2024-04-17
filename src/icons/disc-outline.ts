@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { discOutline } from "ionicons/icons";
 
-addIcons({ discOutline });
+addIcons({"disc-outline": discOutline });
 
-export let iconDiscOutline = "discOutline";
+export let iconDiscOutline = "disc-outline";

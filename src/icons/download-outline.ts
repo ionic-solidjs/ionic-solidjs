@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { downloadOutline } from "ionicons/icons";
 
-addIcons({ downloadOutline });
+addIcons({"download-outline": downloadOutline });
 
-export let iconDownloadOutline = "downloadOutline";
+export let iconDownloadOutline = "download-outline";

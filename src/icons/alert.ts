@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { alert } from "ionicons/icons";
 
-addIcons({ alert });
+addIcons({"alert": alert });
 
 export let iconAlert = "alert";

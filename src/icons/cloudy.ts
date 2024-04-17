@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { cloudy } from "ionicons/icons";
 
-addIcons({ cloudy });
+addIcons({"cloudy": cloudy });
 
 export let iconCloudy = "cloudy";

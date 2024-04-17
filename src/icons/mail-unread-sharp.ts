@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { mailUnreadSharp } from "ionicons/icons";
 
-addIcons({ mailUnreadSharp });
+addIcons({"mail-unread-sharp": mailUnreadSharp });
 
-export let iconMailUnreadSharp = "mailUnreadSharp";
+export let iconMailUnreadSharp = "mail-unread-sharp";

@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { sadSharp } from "ionicons/icons";
 
-addIcons({ sadSharp });
+addIcons({"sad-sharp": sadSharp });
 
-export let iconSadSharp = "sadSharp";
+export let iconSadSharp = "sad-sharp";

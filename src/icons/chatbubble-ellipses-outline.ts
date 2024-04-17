@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { chatbubbleEllipsesOutline } from "ionicons/icons";
 
-addIcons({ chatbubbleEllipsesOutline });
+addIcons({"chatbubble-ellipses-outline": chatbubbleEllipsesOutline });
 
-export let iconChatbubbleEllipsesOutline = "chatbubbleEllipsesOutline";
+export let iconChatbubbleEllipsesOutline = "chatbubble-ellipses-outline";

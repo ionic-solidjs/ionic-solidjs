@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { search } from "ionicons/icons";
 
-addIcons({ search });
+addIcons({"search": search });
 
 export let iconSearch = "search";

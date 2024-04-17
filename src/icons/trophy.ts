@@ -4,6 +4,6 @@
 import { addIcons } from "ionicons";
 import { trophy } from "ionicons/icons";
 
-addIcons({ trophy });
+addIcons({"trophy": trophy });
 
 export let iconTrophy = "trophy";
