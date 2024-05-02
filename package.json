@@ -38,5 +38,15 @@
     }
   },
   "author": "spion",
-  "license": "ISC"
+  "license": "ISC",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib/**/*.js",
+    "lib/**/*.js.map",
+    "lib/**/*.d.ts",
+    "lib/**/*.mjs",
+    "lib/**/*.mjs.map",
+    "lib/**/*.d.mts"
+  ]
 }
