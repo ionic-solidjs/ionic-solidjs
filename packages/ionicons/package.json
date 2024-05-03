@@ -1,0 +1,54 @@
+{
+	"name": "@ionic-solidjs/ionicons",
+	"version": "1.0.0",
+	"description": "Unofficial SolidJS integration for Ionic Framework - ionicons",
+	"main": "lib/index.js",
+	"module": "lib/index.mjs",
+	"types": "lib/index.d.ts",
+	"scripts": {
+		"generate": "bun run scripts/generate.ts",
+		"build": "bun run generate && tsup",
+		"dev": "tsup --watch",
+		"prepublishOnly": "bun run build",
+		"test": "bun run build && bun test"
+	},
+	"dependencies": {
+		"ionicons": "^7.4.0"
+	},
+	"devDependencies": {
+		"@types/node": "^20.12.8",
+		"tsup": "^8.0.2",
+		"typescript": "^5.4.4",
+		"esbuild-plugin-solid": "^0.5.0"
+	},
+	"peerDependencies": {
+		"solid-js": "^1.8.17"
+	},
+	"exports": {
+		".": {
+			"import": "./lib/index.mjs",
+			"require": "./lib/index.js",
+			"types": "./lib/index.d.ts"
+		}
+	},
+	"author": "spion",
+	"license": "ISC",
+	"files": [
+		"LICENSE",
+		"README.md",
+		"lib/**/*.js",
+		"lib/**/*.js.map",
+		"lib/**/*.d.ts",
+		"lib/**/*.mjs",
+		"lib/**/*.mjs.map",
+		"lib/**/*.d.mts"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/spion/ionic-solidjs.git",
+		"directory": "packages/ionicons"
+	},
+	"bugs": {
+		"url": "https://github.com/spion/ionic-solidjs/issues"
+	}
+}

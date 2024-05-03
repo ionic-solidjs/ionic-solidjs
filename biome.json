@@ -1,0 +1,68 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.5.3/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"formatter": {
+		"enabled": true,
+		"indentWidth": 2,
+		"indentStyle": "tab",
+		"lineWidth": 100,
+		"lineEnding": "crlf",
+		"ignore": [
+			"node_modules",
+			"lib",
+			"out",
+			"dist",
+			"coverage",
+			"./packages/ionicons/src/icons/**/*.ts",
+			"./packages/core/src/components/generated/*.tsx"
+		]
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"suspicious": {
+				"noExplicitAny": "off"
+			},
+			"style": {
+				"noNonNullAssertion": "warn",
+				"useSelfClosingElements": "warn"
+			},
+			"complexity": {
+				"noBannedTypes": "off",
+				"noStaticOnlyClass": "off"
+			},
+			"correctness": {
+				"useExhaustiveDependencies": "off"
+			}
+		},
+		"ignore": [
+			"node_modules",
+			"lib",
+			"out",
+			"dist",
+			"coverage",
+			"./packages/ionicons/src/icons/**/*.ts",
+			"./packages/core/src/components/generated/*.tsx"
+		]
+	},
+	"javascript": {
+		"formatter": {
+			"arrowParentheses": "always",
+			"jsxQuoteStyle": "double",
+			"semicolons": "always",
+			"trailingComma": "es5",
+			"quoteProperties": "asNeeded",
+			"bracketSpacing": true,
+			"bracketSameLine": false,
+			"quoteStyle": "single"
+		}
+	},
+	"json": {
+		"parser": {
+			"allowComments": true
+		}
+	}
+}
