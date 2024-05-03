@@ -38,7 +38,7 @@ for (const component of componentList) {
 
 fs.writeFileSync(
 	`${OUT_DIR}/index.ts`,
-	componentList.map((component) => `export * from "./${component}";`).join('\n')
+	componentList.map((component) => `export * from './${component}';`).join('\n')
 );
 
 // Update exports for each component in package.json

@@ -1,15 +1,14 @@
-import type { JSX as IonicJSX } from '@ionic/core';
 import { defineCustomElement } from '@ionic/core/components/ion-route';
-import { type Component, splitProps } from 'solid-js';
-import type { JSX as JSXBase } from 'solid-js';
+import type { JSX as IonicJSX } from '@ionic/core';
+import { type Component, type JSX as JSXBase, splitProps } from 'solid-js';
 import { RouterContextProvider, useRouter } from '../hooks';
-import type { FixIonProps } from '../lib';
 import { fixProps } from '../utils/fixProps';
 import {
 	ComponentRefElementName,
 	type ComponentRefProps,
 	type RefComponentProps,
 } from './ComponentRef';
+import { FixIonProps } from '../lib';
 
 defineCustomElement();
 
@@ -35,13 +34,22 @@ function RouteRouterContextProvider(props: RefComponentProps<RouteRouterContextP
 	);
 }
 
-type IonRouteProps<TComponent extends (...args: any) => any> = FixIonProps<
+export type IonRouteProps<TComponent> = FixIonProps<
 	Omit<IonicJSX.IonRoute, 'component' | 'componentProps'>
 > &
-	ComponentRefProps<TComponent> &
-	JSXBase.HTMLAttributes<HTMLIonRouteElement>;
+	JSXBase.HTMLAttributes<HTMLIonRouteElement> & {
+		// The component to render
+		component: TComponent;
 
-export function IonRoute<TComponent extends (...args: any) => any>(
+		// Custom additional data
+		data?: any;
+	} & (TComponent extends () => any
+		? { componentProps?: never }
+		: TComponent extends (...args: any[]) => any
+			? { componentProps: Parameters<TComponent>[0] }
+			: { componentProps?: never });
+
+export function IonRoute<TComponent extends string | ((...args: any[]) => any) = string>(
 	props: IonRouteProps<TComponent>
 ) {
 	const router = useRouter();
@@ -51,15 +59,19 @@ export function IonRoute<TComponent extends (...args: any) => any>(
 	return (
 		<ion-route
 			{...fixedProps()}
-			component={ComponentRefElementName}
-			component-props={{
-				component: RouteRouterContextProvider,
-				componentProps: {
-					component: props.component,
-					componentProps: props.componentProps ?? {},
-					router: router,
-				} satisfies RouteRouterContextProviderProps,
-			}}
+			component={typeof props.component === 'string' ? props.component : ComponentRefElementName}
+			prop:componentProps={
+				typeof props.component === 'string'
+					? undefined
+					: {
+							component: RouteRouterContextProvider,
+							componentProps: {
+								component: props.component,
+								componentProps: props.componentProps ?? {},
+								router: router,
+							} satisfies RouteRouterContextProviderProps,
+						}
+			}
 		></ion-route>
 	);
 }
