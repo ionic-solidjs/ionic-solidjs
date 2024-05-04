@@ -1,15 +1,15 @@
 /* @refresh reload */
 
 declare global {
-  interface Document {
-    startViewTransition(callback: () => void): void;
-  }
+	interface Document {
+		startViewTransition(callback: () => void): void;
+	}
 }
 
-import "./ionic-css";
+import './ionic-css';
+// import 'solid-devtools';
+import { render } from 'solid-js/web';
+import { App } from './App';
+import { appModel } from './app-model';
 
-import { render } from "solid-js/web";
-import { App } from "./App";
-import { appModel } from "./app-model";
-
-render(() => <App model={appModel} />, document.getElementById("root") as HTMLElement);
+render(() => <App model={appModel} />, document.getElementById('root') as HTMLElement);

@@ -1,0 +1,7 @@
+{
+	"name": "examples-ionic-start",
+	"integrations": {
+		"capacitor": {}
+	},
+	"type": "solid-vite"
+}
