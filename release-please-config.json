@@ -1,5 +1,4 @@
 {
-	"bootstrap-sha": "52fa599f90a04b3c7c2ebd6cd6e4e7b6bd3d65d9",
 	"plugins": ["node-workspace"],
 	"packages": {
 		"packages/core": {},
