@@ -38,7 +38,7 @@ export function MainScreen(props: { model: AppModel }) {
 
 					<IonButtons slot="primary">
 						<IonButton onClick={() => router?.push('/settings')}>
-							<IonIcon slot="icon-only" name={iconSettingsOutline}></IonIcon>
+							<IonIcon slot="icon-only" name={iconSettingsOutline} />
 						</IonButton>
 					</IonButtons>
 				</IonToolbar>
@@ -67,7 +67,7 @@ export function MainScreen(props: { model: AppModel }) {
 									setText('');
 								}}
 							>
-								<IonIcon slot="icon-only" name={iconAddCircle}></IonIcon>
+								<IonIcon slot="icon-only" name={iconAddCircle} />
 							</IonButton>
 						</IonItem>
 					</IonItemGroup>

@@ -1,6 +1,7 @@
 import type { JSX as IonicJSX } from '@ionic/core/dist/types/components';
+import { JSX as IoIconsJSX } from 'ionicons/dist/types/components';
 import type { ParentProps, JSX as JSXBase } from 'solid-js';
-import { FixVanillaIonProps } from '../lib';
+import type { FixVanillaIonProps } from '../lib';
 
 type WithElementsAndChildren<T> = {
 	[P in keyof T]?: ParentProps<
@@ -14,7 +15,10 @@ type WithElementsAndChildren<T> = {
 // Add the Ionic JSX namespace to the solid-js' JSX namespace
 declare module 'solid-js' {
 	export namespace JSX {
-		interface IntrinsicElements extends WithElementsAndChildren<IonicJSX.IntrinsicElements> {}
+		interface IntrinsicElements extends WithElementsAndChildren<IonicJSX.IntrinsicElements> {
+			'ion-icon': FixVanillaIonProps<IoIconsJSX.IonIcon> &
+				JSXBase.HTMLAttributes<HTMLIonIconElement>;
+		}
 	}
 }
 
