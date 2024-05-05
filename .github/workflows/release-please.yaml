@@ -15,7 +15,6 @@ jobs:
       - uses: google-github-actions/release-please-action@v4
         id: release
         with:
-          release-type: node
           target-branch: ${{ github.ref_name }}
 
       # The logic below handles the npm publication:
