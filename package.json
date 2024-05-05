@@ -10,5 +10,10 @@
 	},
 	"author": "spion",
 	"license": "ISC",
-	"workspaces": ["packages/*", "examples/*", "example"]
+	"workspaces": [
+		"packages/*",
+		"examples/*",
+		"example"
+	],
+	"version": "1.0.0"
 }
