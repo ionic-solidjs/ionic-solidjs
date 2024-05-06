@@ -19,4 +19,5 @@ export const componentList = fs
 	.readdirSync(path.dirname(esRequire.resolve('@ionic/core/components')))
 	.filter((f) => /^ion-.+\.js$/.test(f))
 	.map((f) => f.replace(/.js$/, ''))
-	.filter((n) => !skipComponents.has(n));
+	.filter((n) => !skipComponents.has(n))
+	.sort();
