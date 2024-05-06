@@ -1,34 +1,24 @@
-import { IonApp, IonRouterOutlet, setupIonicSolid } from '@ionic-solidjs/core';
-import { Router } from '@ionic-solidjs/router';
+import { IonApp, IonRoute, IonRouter, IonRouterOutlet, setupIonicSolid } from '@ionic-solidjs/core';
 import type { AppModel } from './app-model';
 import { MainScreen } from './pages/Main';
 import { SettingsScreen } from './pages/Settings';
 
-setupIonicSolid({
-	mode: 'ios',
-});
+setupIonicSolid({});
 
 export function App(props: { model: AppModel }) {
 	console.log('Re rendering app');
 	return (
 		<IonApp>
-			<Router
-				useHash={false}
-				routes={[
-					{
-						url: '/settings',
-						component: SettingsScreen,
-						componentProps: {
-							settings: props.model.settingsStore,
-						},
-					},
-					{
-						url: '/',
-						component: MainScreen,
-						componentProps: props,
-					},
-				]}
-			></Router>
+			<IonRouter>
+				<IonRoute
+					url="/settings"
+					component={SettingsScreen}
+					componentProps={{
+						settingsStore: props.model.settingsStore,
+					}}
+				/>
+				<IonRoute url="/" component={MainScreen} componentProps={props} />
+			</IonRouter>
 			<IonRouterOutlet />
 		</IonApp>
 	);
