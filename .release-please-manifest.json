@@ -1,5 +1,5 @@
 {
-  "packages/core": "1.0.1",
+  "packages/core": "1.0.2",
   "packages/ionicons": "1.0.1",
-  "packages/router": "1.0.1"
+  "packages/router": "1.0.2"
 }
