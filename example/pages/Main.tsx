@@ -34,7 +34,7 @@ export function MainScreen(props: { model: AppModel }) {
 		<>
 			<IonHeader>
 				<IonToolbar>
-					<IonTitle>Todo list</IonTitle>
+					<IonTitle style={{ color: '#F00' }}>Todo list</IonTitle>
 
 					<IonButtons slot="primary">
 						<IonButton onClick={() => router?.push('/settings')}>
@@ -62,6 +62,9 @@ export function MainScreen(props: { model: AppModel }) {
 							/>
 							<IonButton
 								slot="end"
+								style={{
+									'--background': '#93e9be',
+								}}
 								onClick={() => {
 									props.model.addTodo(text());
 									setText('');
