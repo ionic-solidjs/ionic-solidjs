@@ -1,4 +1,4 @@
-const EVENT_PROP_REGEX = /^on[A-Z]/;
+const NON_PROP_REGEX = /(^on[A-Z]|^(children|key|class|style)$|:)/;
 
 /**
  * @param props
@@ -9,7 +9,7 @@ export function fixProps(props: Record<string, any>) {
 	const keys = Object.keys(props);
 
 	for (const key of keys) {
-		if (key.includes(':') || key === 'children' || EVENT_PROP_REGEX.test(key)) {
+		if (NON_PROP_REGEX.test(key)) {
 			newProps[key] = props[key];
 		} else {
 			newProps[`prop:${key}`] = props[key];
