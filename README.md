@@ -8,17 +8,16 @@ You may refer to the Ionic Framework components documentation.
 
 https://ionicframework.com/docs/components
 
-for most of the components. The names are similar to React's names.
+for most of the components. The component and property names are the same as the ones found in Ionic's React implementation.
 
-The router has a slightly different API
+There is a router included in `@ionic-solidjs/core` that is a thin wrapper of the [ionic webcomponent router](https://ionicframework.com/docs/api/router), but with a `camelCased` naming convention for the related components and component props, as well as support for passing Solid components as arguments.
 
-`ionicons` are available by importing from `ionic-solidjs/icons` and using the icon instead of
-a raw string.
+`ionicons` are available by importing from `@ionic-solidjs/ionicons`. Use these instead of string constants to ensure proper initialization.
 
 # Install
 
 ```
-npm install ionic-solidjs solidjs
+npm install @ionic-solidjs/core solidjs
 ```
 
 # Example
