@@ -33,7 +33,7 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
       - if: ${{ steps.release.outputs.release_created }}
         run: bun wsrun -t -c run build
-      - run: npm publish --workspace packages
+      - run: npm publish --access=public --workspace packages
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         if: ${{ steps.release.outputs.release_created }}
