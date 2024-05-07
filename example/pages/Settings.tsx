@@ -6,13 +6,13 @@ import {
 	IonIcon,
 	IonTitle,
 	IonToolbar,
-  RouterContext,
+	RouterContext,
 } from '@ionic-solidjs/core';
 import { iconArrowBack } from '@ionic-solidjs/ionicons';
 import { useContext } from 'solid-js';
 
 export function SettingsScreen(props: { settingsStore: any }) {
-  let router = useContext(RouterContext);
+	let router = useContext(RouterContext);
 	return (
 		<>
 			<IonHeader>

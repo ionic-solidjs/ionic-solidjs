@@ -1,6 +1,6 @@
 import type { JSX as IonicJSX } from '@ionic/core/dist/types/components';
-import { JSX as IoIconsJSX } from 'ionicons/dist/types/components';
-import type { ParentProps, JSX as JSXBase } from 'solid-js';
+import type { JSX as IoIconsJSX } from 'ionicons/dist/types/components';
+import type { JSX as JSXBase, ParentProps } from 'solid-js';
 import type { FixVanillaIonProps } from '../lib';
 
 type WithElementsAndChildren<T> = {

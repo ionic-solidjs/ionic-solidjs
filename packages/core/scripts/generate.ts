@@ -39,7 +39,7 @@ for (const component of componentList) {
 fs.writeFileSync(
 	`${OUT_DIR}/index.ts`,
 	// biome-ignore lint/style/useTemplate: its less readable in this particular case
-	componentList.map((component) => `export * from './${component}';`).join('\n') + "\n"
+	componentList.map((component) => `export * from './${component}';`).join('\n') + '\r\n'
 );
 
 // Update exports for each component in package.json
