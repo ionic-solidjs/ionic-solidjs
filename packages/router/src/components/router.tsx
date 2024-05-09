@@ -1,5 +1,5 @@
 import { IonRoute, IonRouteRedirect, IonRouter } from '@ionic-solidjs/core';
-import type { ComponentRefProps } from '@ionic-solidjs/core/src';
+import type { ComponentRefProps } from '@ionic-solidjs/core';
 import type { JSX as IonicJSX } from '@ionic/core';
 import { type Component, For } from 'solid-js';
 

@@ -14,13 +14,15 @@
 	},
 	"dependencies": {
 		"@ionic/core": "^8.1.0",
+    "ionicons":"^7.4.0",
 		"solid-element": "^1.8.0"
 	},
 	"devDependencies": {
 		"@types/node": "^20.12.8",
 		"tsup": "^8.0.2",
 		"typescript": "^5.4.5",
-		"esbuild-plugin-solid": "^0.5.0"
+		"esbuild-plugin-solid": "^0.5.0",
+    "component-register":"^0.8.3"
 	},
 	"peerDependencies": {
 		"solid-js": "^1.8.17"
