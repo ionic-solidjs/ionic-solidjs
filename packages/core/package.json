@@ -6,7 +6,7 @@
 	"module": "lib/index.mjs",
 	"types": "lib/index.d.ts",
 	"scripts": {
-		"generate": "bun run scripts/generate.ts",
+		"generate": "bun run scripts/typegen.ts && typegen generate -f && bun run scripts/generate.ts",
 		"build": "bun run generate && tsup",
 		"dev": "tsup --watch",
 		"prepublishOnly": "bun run build",

@@ -1,14 +1,17 @@
 {
-	"name": "ionic-solidjs-root",
-	"private": true,
-	"scripts": {},
-	"devDependencies": {
-		"@biomejs/biome": "^1.7.2",
-		"bun": "^1.1.6",
-		"typescript": "^5.4.5",
-		"wsrun-ng": "^1.0.3"
-	},
-	"author": "spion",
-	"license": "ISC",
-	"workspaces": ["packages/*", "examples/*", "example"]
+  "name": "ionic-solidjs-root",
+  "private": true,
+  "scripts": {},
+  "devDependencies": {
+    "@biomejs/biome": "^1.7.2",
+    "@rttist/typegen": "^0.1.0-proto.11",
+    "bun": "^1.1.6",
+    "rttist": "^1.0.0-beta.7",
+    "typescript": "^5.4.5",
+    "vite-plugin-dts": "^3.9.1",
+    "wsrun-ng": "^1.0.3"
+  },
+  "author": "spion",
+  "license": "ISC",
+  "workspaces": ["packages/*", "examples/*", "example"]
 }

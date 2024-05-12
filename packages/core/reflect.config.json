@@ -1,0 +1,10 @@
+{
+	"$schema": "../../node_modules/@rttist/typegen/config-schema.json",
+	"metadata": {
+		"include": [".ionic-types/components.ts"],
+		"encode": false,
+		"exclude": [],
+		"outDir": "."
+	},
+	"logLevel": "Info"
+}
