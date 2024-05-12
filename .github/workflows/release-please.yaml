@@ -24,6 +24,8 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
       - uses: oven-sh/setup-bun@v1
         if: ${{ steps.release.outputs.release_created }}
+      - uses: pnpm/action-setup@v4
+        if: ${{ steps.release.outputs.release_created }}
       - uses: actions/setup-node@v4
         with:
           node-version: 20

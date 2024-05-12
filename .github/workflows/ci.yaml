@@ -11,6 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v1
+      - uses: pnpm/action-setup@v4
       - run: pnpm i --frozen-lockfile
       - run: bun wsrun -t -c run build
       - run: bun wsrun -t -m -c test
