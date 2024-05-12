@@ -17,6 +17,7 @@
 	"dependencies": {
 		"solid-js": "^1.8.11",
 		"@ionic-solidjs/core": "workspace:*",
-		"@ionic-solidjs/ionicons": "workspace:*"
+		"@ionic-solidjs/ionicons": "workspace:*",
+		"@ionic/core": "^8.1.0"
 	}
 }
