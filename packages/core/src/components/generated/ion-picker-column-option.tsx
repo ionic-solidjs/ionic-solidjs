@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-picker-column-op
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,14 @@ export type IonPickerColumnOptionProps = FixIonProps<IonicJSX.IonPickerColumnOpt
 	JSXBase.HTMLAttributes<HTMLIonPickerColumnOptionElement>
 
 export function IonPickerColumnOption(props: IonPickerColumnOptionProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['color', 'disabled', 'value'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['color', 'disabled', 'value']);
+	const componentProps = () => ({
+		'prop:color': props.color,
+		'prop:disabled': props.disabled,
+		'prop:value': props.value
+	});
 
-	return <ion-picker-column-option {...componentProps()} {...attrs()} {...events}>{children.children}</ion-picker-column-option>;
+	return <ion-picker-column-option {...componentProps()} {...rest} />;
 }

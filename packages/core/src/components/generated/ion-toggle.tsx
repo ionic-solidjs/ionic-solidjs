@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-toggle'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,21 @@ export type IonToggleProps = FixIonProps<IonicJSX.IonToggle> &
 	JSXBase.HTMLAttributes<HTMLIonToggleElement>
 
 export function IonToggle(props: IonToggleProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['alignment', 'checked', 'color', 'disabled', 'enableOnOffLabels', 'justify', 'labelPlacement', 'mode', 'name', 'value'],
-		['children'],
-		['on:ionBlur', 'on:ionChange', 'on:ionFocus']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['alignment', 'checked', 'color', 'disabled', 'enableOnOffLabels', 'justify', 'labelPlacement', 'mode', 'name', 'value']);
+	const componentProps = () => ({
+		'prop:alignment': props.alignment,
+		'prop:checked': props.checked,
+		'prop:color': props.color,
+		'prop:disabled': props.disabled,
+		'prop:enableOnOffLabels': props.enableOnOffLabels,
+		'prop:justify': props.justify,
+		'prop:labelPlacement': props.labelPlacement,
+		'prop:mode': props.mode,
+		'prop:name': props.name,
+		'prop:value': props.value
+	});
 
-	return <ion-toggle {...componentProps()} {...attrs()} {...events}>{children.children}</ion-toggle>;
+	return <ion-toggle {...componentProps()} {...rest} />;
 }

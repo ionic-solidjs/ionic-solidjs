@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-loading'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,30 @@ export type IonLoadingProps = FixIonProps<IonicJSX.IonLoading> &
 	JSXBase.HTMLAttributes<HTMLIonLoadingElement>
 
 export function IonLoading(props: IonLoadingProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['animated', 'backdropDismiss', 'cssClass', 'duration', 'enterAnimation', 'htmlAttributes', 'isOpen', 'keyboardClose', 'leaveAnimation', 'message', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'showBackdrop', 'spinner', 'translucent', 'trigger'],
-		['children'],
-		['on:ionLoadingDidDismiss', 'on:ionLoadingDidPresent', 'on:ionLoadingWillDismiss', 'on:ionLoadingWillPresent']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['animated', 'backdropDismiss', 'cssClass', 'duration', 'enterAnimation', 'htmlAttributes', 'isOpen', 'keyboardClose', 'leaveAnimation', 'message', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'showBackdrop', 'spinner', 'translucent', 'trigger']);
+	const componentProps = () => ({
+		'prop:animated': props.animated,
+		'prop:backdropDismiss': props.backdropDismiss,
+		'prop:cssClass': props.cssClass,
+		'prop:duration': props.duration,
+		'prop:enterAnimation': props.enterAnimation,
+		'prop:htmlAttributes': props.htmlAttributes,
+		'prop:isOpen': props.isOpen,
+		'prop:keyboardClose': props.keyboardClose,
+		'prop:leaveAnimation': props.leaveAnimation,
+		'prop:message': props.message,
+		'prop:mode': props.mode,
+		'prop:onDidDismiss': props.onDidDismiss,
+		'prop:onDidPresent': props.onDidPresent,
+		'prop:onWillDismiss': props.onWillDismiss,
+		'prop:onWillPresent': props.onWillPresent,
+		'prop:showBackdrop': props.showBackdrop,
+		'prop:spinner': props.spinner,
+		'prop:translucent': props.translucent,
+		'prop:trigger': props.trigger
+	});
 
-	return <ion-loading {...componentProps()} {...attrs()} {...events}>{children.children}</ion-loading>;
+	return <ion-loading {...componentProps()} {...rest} />;
 }

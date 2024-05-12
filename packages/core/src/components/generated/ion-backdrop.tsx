@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-backdrop'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,14 @@ export type IonBackdropProps = FixIonProps<IonicJSX.IonBackdrop> &
 	JSXBase.HTMLAttributes<HTMLIonBackdropElement>
 
 export function IonBackdrop(props: IonBackdropProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['stopPropagation', 'tappable', 'visible'],
-		['children'],
-		['on:ionBackdropTap']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['stopPropagation', 'tappable', 'visible']);
+	const componentProps = () => ({
+		'prop:stopPropagation': props.stopPropagation,
+		'prop:tappable': props.tappable,
+		'prop:visible': props.visible
+	});
 
-	return <ion-backdrop {...componentProps()} {...attrs()} {...events}>{children.children}</ion-backdrop>;
+	return <ion-backdrop {...componentProps()} {...rest} />;
 }

@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-route-redirect'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,13 @@ export type IonRouteRedirectProps = FixIonProps<IonicJSX.IonRouteRedirect> &
 	JSXBase.HTMLAttributes<HTMLIonRouteRedirectElement>
 
 export function IonRouteRedirect(props: IonRouteRedirectProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['from', 'to'],
-		['children'],
-		['on:ionRouteRedirectChanged']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['from', 'to']);
+	const componentProps = () => ({
+		'prop:from': props.from,
+		'prop:to': props.to
+	});
 
-	return <ion-route-redirect {...componentProps()} {...attrs()} {...events}>{children.children}</ion-route-redirect>;
+	return <ion-route-redirect {...componentProps()} {...rest} />;
 }

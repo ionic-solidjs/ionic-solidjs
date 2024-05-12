@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-breadcrumb'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,22 @@ export type IonBreadcrumbProps = FixIonProps<IonicJSX.IonBreadcrumb> &
 	JSXBase.HTMLAttributes<HTMLIonBreadcrumbElement>
 
 export function IonBreadcrumb(props: IonBreadcrumbProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['active', 'color', 'disabled', 'download', 'href', 'mode', 'rel', 'routerAnimation', 'routerDirection', 'separator', 'target'],
-		['children'],
-		['on:ionBlur', 'on:ionFocus']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['active', 'color', 'disabled', 'download', 'href', 'mode', 'rel', 'routerAnimation', 'routerDirection', 'separator', 'target']);
+	const componentProps = () => ({
+		'prop:active': props.active,
+		'prop:color': props.color,
+		'prop:disabled': props.disabled,
+		'prop:download': props.download,
+		'prop:href': props.href,
+		'prop:mode': props.mode,
+		'prop:rel': props.rel,
+		'prop:routerAnimation': props.routerAnimation,
+		'prop:routerDirection': props.routerDirection,
+		'prop:separator': props.separator,
+		'prop:target': props.target
+	});
 
-	return <ion-breadcrumb {...componentProps()} {...attrs()} {...events}>{children.children}</ion-breadcrumb>;
+	return <ion-breadcrumb {...componentProps()} {...rest} />;
 }

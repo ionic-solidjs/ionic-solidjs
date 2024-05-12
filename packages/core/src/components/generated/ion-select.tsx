@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-select'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,31 @@ export type IonSelectProps = FixIonProps<IonicJSX.IonSelect> &
 	JSXBase.HTMLAttributes<HTMLIonSelectElement>
 
 export function IonSelect(props: IonSelectProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['cancelText', 'color', 'compareWith', 'disabled', 'expandedIcon', 'fill', 'interface', 'interfaceOptions', 'justify', 'label', 'labelPlacement', 'mode', 'multiple', 'name', 'okText', 'placeholder', 'selectedText', 'shape', 'toggleIcon', 'value'],
-		['children'],
-		['on:ionBlur', 'on:ionCancel', 'on:ionChange', 'on:ionDismiss', 'on:ionFocus']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['cancelText', 'color', 'compareWith', 'disabled', 'expandedIcon', 'fill', 'interface', 'interfaceOptions', 'justify', 'label', 'labelPlacement', 'mode', 'multiple', 'name', 'okText', 'placeholder', 'selectedText', 'shape', 'toggleIcon', 'value']);
+	const componentProps = () => ({
+		'prop:cancelText': props.cancelText,
+		'prop:color': props.color,
+		'prop:compareWith': props.compareWith,
+		'prop:disabled': props.disabled,
+		'prop:expandedIcon': props.expandedIcon,
+		'prop:fill': props.fill,
+		'prop:interface': props.interface,
+		'prop:interfaceOptions': props.interfaceOptions,
+		'prop:justify': props.justify,
+		'prop:label': props.label,
+		'prop:labelPlacement': props.labelPlacement,
+		'prop:mode': props.mode,
+		'prop:multiple': props.multiple,
+		'prop:name': props.name,
+		'prop:okText': props.okText,
+		'prop:placeholder': props.placeholder,
+		'prop:selectedText': props.selectedText,
+		'prop:shape': props.shape,
+		'prop:toggleIcon': props.toggleIcon,
+		'prop:value': props.value
+	});
 
-	return <ion-select {...componentProps()} {...attrs()} {...events}>{children.children}</ion-select>;
+	return <ion-select {...componentProps()} {...rest} />;
 }

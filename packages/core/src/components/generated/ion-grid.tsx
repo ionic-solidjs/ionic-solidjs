@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-grid'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,12 @@ export type IonGridProps = FixIonProps<IonicJSX.IonGrid> &
 	JSXBase.HTMLAttributes<HTMLIonGridElement>
 
 export function IonGrid(props: IonGridProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['fixed'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['fixed']);
+	const componentProps = () => ({
+		'prop:fixed': props.fixed
+	});
 
-	return <ion-grid {...componentProps()} {...attrs()} {...events}>{children.children}</ion-grid>;
+	return <ion-grid {...componentProps()} {...rest} />;
 }

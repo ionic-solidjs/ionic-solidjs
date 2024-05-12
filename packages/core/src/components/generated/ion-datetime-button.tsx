@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-datetime-button'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,15 @@ export type IonDatetimeButtonProps = FixIonProps<IonicJSX.IonDatetimeButton> &
 	JSXBase.HTMLAttributes<HTMLIonDatetimeButtonElement>
 
 export function IonDatetimeButton(props: IonDatetimeButtonProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['color', 'datetime', 'disabled', 'mode'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['color', 'datetime', 'disabled', 'mode']);
+	const componentProps = () => ({
+		'prop:color': props.color,
+		'prop:datetime': props.datetime,
+		'prop:disabled': props.disabled,
+		'prop:mode': props.mode
+	});
 
-	return <ion-datetime-button {...componentProps()} {...attrs()} {...events}>{children.children}</ion-datetime-button>;
+	return <ion-datetime-button {...componentProps()} {...rest} />;
 }

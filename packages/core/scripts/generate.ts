@@ -30,7 +30,6 @@ import { defineCustomElement } from '@ionic/core/components/${component}'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -38,15 +37,14 @@ export type ${componentPascelCase}Props = FixIonProps<IonicJSX.${componentPascel
 	JSXBase.HTMLAttributes<HTML${componentPascelCase}Element>
 
 export function ${componentPascelCase}(props: ${componentPascelCase}Props) {
-	const [ componentProperties, children, events, rest ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		[${propNames.map((propName) => `'${propName}'`).join(', ')}],
-		['children'],
-		[${eventPropNames.map((eventName) => `'${eventName}'`).join(', ')}]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		[${propNames.map((propName) => `'${propName}'`).join(', ')}]);
+	const componentProps = () => ({
+		${propNames.map((propName) => `'prop:${propName}': props.${propName}`).join(',\r\n\t\t')}
+	});
 
-	return <${component} {...componentProps()} {...attrs()} {...events}>{children.children}</${component}>;
+	return <${component} {...componentProps()} {...rest} />;
 }
 `;
 }

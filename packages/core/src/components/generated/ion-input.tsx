@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-input'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,46 @@ export type IonInputProps = FixIonProps<IonicJSX.IonInput> &
 	JSXBase.HTMLAttributes<HTMLIonInputElement>
 
 export function IonInput(props: IonInputProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['autocapitalize', 'autocomplete', 'autocorrect', 'autofocus', 'clearInput', 'clearInputIcon', 'clearOnEdit', 'color', 'counter', 'counterFormatter', 'debounce', 'disabled', 'enterkeyhint', 'errorText', 'fill', 'helperText', 'inputmode', 'label', 'labelPlacement', 'max', 'maxlength', 'min', 'minlength', 'mode', 'multiple', 'name', 'pattern', 'placeholder', 'readonly', 'required', 'shape', 'spellcheck', 'step', 'type', 'value'],
-		['children'],
-		['on:ionBlur', 'on:ionChange', 'on:ionFocus', 'on:ionInput']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['autocapitalize', 'autocomplete', 'autocorrect', 'autofocus', 'clearInput', 'clearInputIcon', 'clearOnEdit', 'color', 'counter', 'counterFormatter', 'debounce', 'disabled', 'enterkeyhint', 'errorText', 'fill', 'helperText', 'inputmode', 'label', 'labelPlacement', 'max', 'maxlength', 'min', 'minlength', 'mode', 'multiple', 'name', 'pattern', 'placeholder', 'readonly', 'required', 'shape', 'spellcheck', 'step', 'type', 'value']);
+	const componentProps = () => ({
+		'prop:autocapitalize': props.autocapitalize,
+		'prop:autocomplete': props.autocomplete,
+		'prop:autocorrect': props.autocorrect,
+		'prop:autofocus': props.autofocus,
+		'prop:clearInput': props.clearInput,
+		'prop:clearInputIcon': props.clearInputIcon,
+		'prop:clearOnEdit': props.clearOnEdit,
+		'prop:color': props.color,
+		'prop:counter': props.counter,
+		'prop:counterFormatter': props.counterFormatter,
+		'prop:debounce': props.debounce,
+		'prop:disabled': props.disabled,
+		'prop:enterkeyhint': props.enterkeyhint,
+		'prop:errorText': props.errorText,
+		'prop:fill': props.fill,
+		'prop:helperText': props.helperText,
+		'prop:inputmode': props.inputmode,
+		'prop:label': props.label,
+		'prop:labelPlacement': props.labelPlacement,
+		'prop:max': props.max,
+		'prop:maxlength': props.maxlength,
+		'prop:min': props.min,
+		'prop:minlength': props.minlength,
+		'prop:mode': props.mode,
+		'prop:multiple': props.multiple,
+		'prop:name': props.name,
+		'prop:pattern': props.pattern,
+		'prop:placeholder': props.placeholder,
+		'prop:readonly': props.readonly,
+		'prop:required': props.required,
+		'prop:shape': props.shape,
+		'prop:spellcheck': props.spellcheck,
+		'prop:step': props.step,
+		'prop:type': props.type,
+		'prop:value': props.value
+	});
 
-	return <ion-input {...componentProps()} {...attrs()} {...events}>{children.children}</ion-input>;
+	return <ion-input {...componentProps()} {...rest} />;
 }

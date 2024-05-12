@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-select-option'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,13 @@ export type IonSelectOptionProps = FixIonProps<IonicJSX.IonSelectOption> &
 	JSXBase.HTMLAttributes<HTMLIonSelectOptionElement>
 
 export function IonSelectOption(props: IonSelectOptionProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['disabled', 'value'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['disabled', 'value']);
+	const componentProps = () => ({
+		'prop:disabled': props.disabled,
+		'prop:value': props.value
+	});
 
-	return <ion-select-option {...componentProps()} {...attrs()} {...events}>{children.children}</ion-select-option>;
+	return <ion-select-option {...componentProps()} {...rest} />;
 }

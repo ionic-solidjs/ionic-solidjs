@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-nav'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,16 @@ export type IonNavProps = FixIonProps<IonicJSX.IonNav> &
 	JSXBase.HTMLAttributes<HTMLIonNavElement>
 
 export function IonNav(props: IonNavProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['animated', 'animation', 'root', 'rootParams', 'swipeGesture'],
-		['children'],
-		['on:ionNavDidChange', 'on:ionNavWillChange']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['animated', 'animation', 'root', 'rootParams', 'swipeGesture']);
+	const componentProps = () => ({
+		'prop:animated': props.animated,
+		'prop:animation': props.animation,
+		'prop:root': props.root,
+		'prop:rootParams': props.rootParams,
+		'prop:swipeGesture': props.swipeGesture
+	});
 
-	return <ion-nav {...componentProps()} {...attrs()} {...events}>{children.children}</ion-nav>;
+	return <ion-nav {...componentProps()} {...rest} />;
 }

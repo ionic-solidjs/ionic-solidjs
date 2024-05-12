@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-searchbar'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,34 @@ export type IonSearchbarProps = FixIonProps<IonicJSX.IonSearchbar> &
 	JSXBase.HTMLAttributes<HTMLIonSearchbarElement>
 
 export function IonSearchbar(props: IonSearchbarProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['animated', 'autocapitalize', 'autocomplete', 'autocorrect', 'cancelButtonIcon', 'cancelButtonText', 'clearIcon', 'color', 'debounce', 'disabled', 'enterkeyhint', 'inputmode', 'maxlength', 'minlength', 'mode', 'name', 'placeholder', 'searchIcon', 'showCancelButton', 'showClearButton', 'spellcheck', 'type', 'value'],
-		['children'],
-		['on:ionBlur', 'on:ionCancel', 'on:ionChange', 'on:ionClear', 'on:ionFocus', 'on:ionInput']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['animated', 'autocapitalize', 'autocomplete', 'autocorrect', 'cancelButtonIcon', 'cancelButtonText', 'clearIcon', 'color', 'debounce', 'disabled', 'enterkeyhint', 'inputmode', 'maxlength', 'minlength', 'mode', 'name', 'placeholder', 'searchIcon', 'showCancelButton', 'showClearButton', 'spellcheck', 'type', 'value']);
+	const componentProps = () => ({
+		'prop:animated': props.animated,
+		'prop:autocapitalize': props.autocapitalize,
+		'prop:autocomplete': props.autocomplete,
+		'prop:autocorrect': props.autocorrect,
+		'prop:cancelButtonIcon': props.cancelButtonIcon,
+		'prop:cancelButtonText': props.cancelButtonText,
+		'prop:clearIcon': props.clearIcon,
+		'prop:color': props.color,
+		'prop:debounce': props.debounce,
+		'prop:disabled': props.disabled,
+		'prop:enterkeyhint': props.enterkeyhint,
+		'prop:inputmode': props.inputmode,
+		'prop:maxlength': props.maxlength,
+		'prop:minlength': props.minlength,
+		'prop:mode': props.mode,
+		'prop:name': props.name,
+		'prop:placeholder': props.placeholder,
+		'prop:searchIcon': props.searchIcon,
+		'prop:showCancelButton': props.showCancelButton,
+		'prop:showClearButton': props.showClearButton,
+		'prop:spellcheck': props.spellcheck,
+		'prop:type': props.type,
+		'prop:value': props.value
+	});
 
-	return <ion-searchbar {...componentProps()} {...attrs()} {...events}>{children.children}</ion-searchbar>;
+	return <ion-searchbar {...componentProps()} {...rest} />;
 }

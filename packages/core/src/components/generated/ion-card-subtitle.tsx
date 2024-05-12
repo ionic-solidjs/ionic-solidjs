@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-card-subtitle'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,13 @@ export type IonCardSubtitleProps = FixIonProps<IonicJSX.IonCardSubtitle> &
 	JSXBase.HTMLAttributes<HTMLIonCardSubtitleElement>
 
 export function IonCardSubtitle(props: IonCardSubtitleProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['color', 'mode'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['color', 'mode']);
+	const componentProps = () => ({
+		'prop:color': props.color,
+		'prop:mode': props.mode
+	});
 
-	return <ion-card-subtitle {...componentProps()} {...attrs()} {...events}>{children.children}</ion-card-subtitle>;
+	return <ion-card-subtitle {...componentProps()} {...rest} />;
 }

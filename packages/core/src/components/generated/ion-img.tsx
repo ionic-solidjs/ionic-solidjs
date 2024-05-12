@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-img'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,13 @@ export type IonImgProps = FixIonProps<IonicJSX.IonImg> &
 	JSXBase.HTMLAttributes<HTMLIonImgElement>
 
 export function IonImg(props: IonImgProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['alt', 'src'],
-		['children'],
-		['on:ionError', 'on:ionImgDidLoad', 'on:ionImgWillLoad']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['alt', 'src']);
+	const componentProps = () => ({
+		'prop:alt': props.alt,
+		'prop:src': props.src
+	});
 
-	return <ion-img {...componentProps()} {...attrs()} {...events}>{children.children}</ion-img>;
+	return <ion-img {...componentProps()} {...rest} />;
 }

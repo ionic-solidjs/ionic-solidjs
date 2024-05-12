@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-note'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,13 @@ export type IonNoteProps = FixIonProps<IonicJSX.IonNote> &
 	JSXBase.HTMLAttributes<HTMLIonNoteElement>
 
 export function IonNote(props: IonNoteProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['color', 'mode'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['color', 'mode']);
+	const componentProps = () => ({
+		'prop:color': props.color,
+		'prop:mode': props.mode
+	});
 
-	return <ion-note {...componentProps()} {...attrs()} {...events}>{children.children}</ion-note>;
+	return <ion-note {...componentProps()} {...rest} />;
 }

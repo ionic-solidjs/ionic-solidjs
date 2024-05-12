@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-refresher'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,18 @@ export type IonRefresherProps = FixIonProps<IonicJSX.IonRefresher> &
 	JSXBase.HTMLAttributes<HTMLIonRefresherElement>
 
 export function IonRefresher(props: IonRefresherProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['closeDuration', 'disabled', 'mode', 'pullFactor', 'pullMax', 'pullMin', 'snapbackDuration'],
-		['children'],
-		['on:ionPull', 'on:ionRefresh', 'on:ionStart']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['closeDuration', 'disabled', 'mode', 'pullFactor', 'pullMax', 'pullMin', 'snapbackDuration']);
+	const componentProps = () => ({
+		'prop:closeDuration': props.closeDuration,
+		'prop:disabled': props.disabled,
+		'prop:mode': props.mode,
+		'prop:pullFactor': props.pullFactor,
+		'prop:pullMax': props.pullMax,
+		'prop:pullMin': props.pullMin,
+		'prop:snapbackDuration': props.snapbackDuration
+	});
 
-	return <ion-refresher {...componentProps()} {...attrs()} {...events}>{children.children}</ion-refresher>;
+	return <ion-refresher {...componentProps()} {...rest} />;
 }

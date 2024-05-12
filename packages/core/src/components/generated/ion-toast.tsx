@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-toast'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,35 @@ export type IonToastProps = FixIonProps<IonicJSX.IonToast> &
 	JSXBase.HTMLAttributes<HTMLIonToastElement>
 
 export function IonToast(props: IonToastProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['animated', 'buttons', 'color', 'cssClass', 'duration', 'enterAnimation', 'header', 'htmlAttributes', 'icon', 'isOpen', 'keyboardClose', 'layout', 'leaveAnimation', 'message', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'position', 'positionAnchor', 'swipeGesture', 'translucent', 'trigger'],
-		['children'],
-		['on:ionToastDidDismiss', 'on:ionToastDidPresent', 'on:ionToastWillDismiss', 'on:ionToastWillPresent']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['animated', 'buttons', 'color', 'cssClass', 'duration', 'enterAnimation', 'header', 'htmlAttributes', 'icon', 'isOpen', 'keyboardClose', 'layout', 'leaveAnimation', 'message', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'position', 'positionAnchor', 'swipeGesture', 'translucent', 'trigger']);
+	const componentProps = () => ({
+		'prop:animated': props.animated,
+		'prop:buttons': props.buttons,
+		'prop:color': props.color,
+		'prop:cssClass': props.cssClass,
+		'prop:duration': props.duration,
+		'prop:enterAnimation': props.enterAnimation,
+		'prop:header': props.header,
+		'prop:htmlAttributes': props.htmlAttributes,
+		'prop:icon': props.icon,
+		'prop:isOpen': props.isOpen,
+		'prop:keyboardClose': props.keyboardClose,
+		'prop:layout': props.layout,
+		'prop:leaveAnimation': props.leaveAnimation,
+		'prop:message': props.message,
+		'prop:mode': props.mode,
+		'prop:onDidDismiss': props.onDidDismiss,
+		'prop:onDidPresent': props.onDidPresent,
+		'prop:onWillDismiss': props.onWillDismiss,
+		'prop:onWillPresent': props.onWillPresent,
+		'prop:position': props.position,
+		'prop:positionAnchor': props.positionAnchor,
+		'prop:swipeGesture': props.swipeGesture,
+		'prop:translucent': props.translucent,
+		'prop:trigger': props.trigger
+	});
 
-	return <ion-toast {...componentProps()} {...attrs()} {...events}>{children.children}</ion-toast>;
+	return <ion-toast {...componentProps()} {...rest} />;
 }

@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-header'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,14 @@ export type IonHeaderProps = FixIonProps<IonicJSX.IonHeader> &
 	JSXBase.HTMLAttributes<HTMLIonHeaderElement>
 
 export function IonHeader(props: IonHeaderProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['collapse', 'mode', 'translucent'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['collapse', 'mode', 'translucent']);
+	const componentProps = () => ({
+		'prop:collapse': props.collapse,
+		'prop:mode': props.mode,
+		'prop:translucent': props.translucent
+	});
 
-	return <ion-header {...componentProps()} {...attrs()} {...events}>{children.children}</ion-header>;
+	return <ion-header {...componentProps()} {...rest} />;
 }

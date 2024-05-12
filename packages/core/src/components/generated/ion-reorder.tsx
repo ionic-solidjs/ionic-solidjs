@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-reorder'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,12 @@ export type IonReorderProps = FixIonProps<IonicJSX.IonReorder> &
 	JSXBase.HTMLAttributes<HTMLIonReorderElement>
 
 export function IonReorder(props: IonReorderProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		[],
-		['children'],
 		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+	const componentProps = () => ({
+		
+	});
 
-	return <ion-reorder {...componentProps()} {...attrs()} {...events}>{children.children}</ion-reorder>;
+	return <ion-reorder {...componentProps()} {...rest} />;
 }

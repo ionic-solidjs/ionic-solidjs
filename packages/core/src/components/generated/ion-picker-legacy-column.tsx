@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-picker-legacy-co
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,12 @@ export type IonPickerLegacyColumnProps = FixIonProps<IonicJSX.IonPickerLegacyCol
 	JSXBase.HTMLAttributes<HTMLIonPickerLegacyColumnElement>
 
 export function IonPickerLegacyColumn(props: IonPickerLegacyColumnProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['col'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['col']);
+	const componentProps = () => ({
+		'prop:col': props.col
+	});
 
-	return <ion-picker-legacy-column {...componentProps()} {...attrs()} {...events}>{children.children}</ion-picker-legacy-column>;
+	return <ion-picker-legacy-column {...componentProps()} {...rest} />;
 }

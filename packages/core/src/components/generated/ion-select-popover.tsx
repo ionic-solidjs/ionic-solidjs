@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-select-popover'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,16 @@ export type IonSelectPopoverProps = FixIonProps<IonicJSX.IonSelectPopover> &
 	JSXBase.HTMLAttributes<HTMLIonSelectPopoverElement>
 
 export function IonSelectPopover(props: IonSelectPopoverProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['header', 'message', 'multiple', 'options', 'subHeader'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['header', 'message', 'multiple', 'options', 'subHeader']);
+	const componentProps = () => ({
+		'prop:header': props.header,
+		'prop:message': props.message,
+		'prop:multiple': props.multiple,
+		'prop:options': props.options,
+		'prop:subHeader': props.subHeader
+	});
 
-	return <ion-select-popover {...componentProps()} {...attrs()} {...events}>{children.children}</ion-select-popover>;
+	return <ion-select-popover {...componentProps()} {...rest} />;
 }

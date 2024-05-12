@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-list'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,14 @@ export type IonListProps = FixIonProps<IonicJSX.IonList> &
 	JSXBase.HTMLAttributes<HTMLIonListElement>
 
 export function IonList(props: IonListProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['inset', 'lines', 'mode'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['inset', 'lines', 'mode']);
+	const componentProps = () => ({
+		'prop:inset': props.inset,
+		'prop:lines': props.lines,
+		'prop:mode': props.mode
+	});
 
-	return <ion-list {...componentProps()} {...attrs()} {...events}>{children.children}</ion-list>;
+	return <ion-list {...componentProps()} {...rest} />;
 }

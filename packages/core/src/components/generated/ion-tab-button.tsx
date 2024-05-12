@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-tab-button'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,20 @@ export type IonTabButtonProps = FixIonProps<IonicJSX.IonTabButton> &
 	JSXBase.HTMLAttributes<HTMLIonTabButtonElement>
 
 export function IonTabButton(props: IonTabButtonProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['disabled', 'download', 'href', 'layout', 'mode', 'rel', 'selected', 'tab', 'target'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['disabled', 'download', 'href', 'layout', 'mode', 'rel', 'selected', 'tab', 'target']);
+	const componentProps = () => ({
+		'prop:disabled': props.disabled,
+		'prop:download': props.download,
+		'prop:href': props.href,
+		'prop:layout': props.layout,
+		'prop:mode': props.mode,
+		'prop:rel': props.rel,
+		'prop:selected': props.selected,
+		'prop:tab': props.tab,
+		'prop:target': props.target
+	});
 
-	return <ion-tab-button {...componentProps()} {...attrs()} {...events}>{children.children}</ion-tab-button>;
+	return <ion-tab-button {...componentProps()} {...rest} />;
 }

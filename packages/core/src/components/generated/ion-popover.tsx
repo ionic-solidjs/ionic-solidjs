@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-popover'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,38 @@ export type IonPopoverProps = FixIonProps<IonicJSX.IonPopover> &
 	JSXBase.HTMLAttributes<HTMLIonPopoverElement>
 
 export function IonPopover(props: IonPopoverProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['alignment', 'animated', 'arrow', 'backdropDismiss', 'component', 'componentProps', 'dismissOnSelect', 'enterAnimation', 'event', 'focusTrap', 'htmlAttributes', 'isOpen', 'keepContentsMounted', 'keyboardClose', 'leaveAnimation', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'reference', 'showBackdrop', 'side', 'size', 'translucent', 'trigger', 'triggerAction'],
-		['children'],
-		['on:ionPopoverDidDismiss', 'on:ionPopoverDidPresent', 'on:ionPopoverWillDismiss', 'on:ionPopoverWillPresent']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['alignment', 'animated', 'arrow', 'backdropDismiss', 'component', 'componentProps', 'dismissOnSelect', 'enterAnimation', 'event', 'focusTrap', 'htmlAttributes', 'isOpen', 'keepContentsMounted', 'keyboardClose', 'leaveAnimation', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'reference', 'showBackdrop', 'side', 'size', 'translucent', 'trigger', 'triggerAction']);
+	const componentProps = () => ({
+		'prop:alignment': props.alignment,
+		'prop:animated': props.animated,
+		'prop:arrow': props.arrow,
+		'prop:backdropDismiss': props.backdropDismiss,
+		'prop:component': props.component,
+		'prop:componentProps': props.componentProps,
+		'prop:dismissOnSelect': props.dismissOnSelect,
+		'prop:enterAnimation': props.enterAnimation,
+		'prop:event': props.event,
+		'prop:focusTrap': props.focusTrap,
+		'prop:htmlAttributes': props.htmlAttributes,
+		'prop:isOpen': props.isOpen,
+		'prop:keepContentsMounted': props.keepContentsMounted,
+		'prop:keyboardClose': props.keyboardClose,
+		'prop:leaveAnimation': props.leaveAnimation,
+		'prop:mode': props.mode,
+		'prop:onDidDismiss': props.onDidDismiss,
+		'prop:onDidPresent': props.onDidPresent,
+		'prop:onWillDismiss': props.onWillDismiss,
+		'prop:onWillPresent': props.onWillPresent,
+		'prop:reference': props.reference,
+		'prop:showBackdrop': props.showBackdrop,
+		'prop:side': props.side,
+		'prop:size': props.size,
+		'prop:translucent': props.translucent,
+		'prop:trigger': props.trigger,
+		'prop:triggerAction': props.triggerAction
+	});
 
-	return <ion-popover {...componentProps()} {...attrs()} {...events}>{children.children}</ion-popover>;
+	return <ion-popover {...componentProps()} {...rest} />;
 }

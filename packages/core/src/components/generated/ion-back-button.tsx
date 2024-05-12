@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-back-button'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,19 @@ export type IonBackButtonProps = FixIonProps<IonicJSX.IonBackButton> &
 	JSXBase.HTMLAttributes<HTMLIonBackButtonElement>
 
 export function IonBackButton(props: IonBackButtonProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['color', 'defaultHref', 'disabled', 'icon', 'mode', 'routerAnimation', 'text', 'type'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['color', 'defaultHref', 'disabled', 'icon', 'mode', 'routerAnimation', 'text', 'type']);
+	const componentProps = () => ({
+		'prop:color': props.color,
+		'prop:defaultHref': props.defaultHref,
+		'prop:disabled': props.disabled,
+		'prop:icon': props.icon,
+		'prop:mode': props.mode,
+		'prop:routerAnimation': props.routerAnimation,
+		'prop:text': props.text,
+		'prop:type': props.type
+	});
 
-	return <ion-back-button {...componentProps()} {...attrs()} {...events}>{children.children}</ion-back-button>;
+	return <ion-back-button {...componentProps()} {...rest} />;
 }

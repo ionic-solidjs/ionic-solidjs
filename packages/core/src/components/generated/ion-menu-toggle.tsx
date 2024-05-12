@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-menu-toggle'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,13 @@ export type IonMenuToggleProps = FixIonProps<IonicJSX.IonMenuToggle> &
 	JSXBase.HTMLAttributes<HTMLIonMenuToggleElement>
 
 export function IonMenuToggle(props: IonMenuToggleProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['autoHide', 'menu'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['autoHide', 'menu']);
+	const componentProps = () => ({
+		'prop:autoHide': props.autoHide,
+		'prop:menu': props.menu
+	});
 
-	return <ion-menu-toggle {...componentProps()} {...attrs()} {...events}>{children.children}</ion-menu-toggle>;
+	return <ion-menu-toggle {...componentProps()} {...rest} />;
 }

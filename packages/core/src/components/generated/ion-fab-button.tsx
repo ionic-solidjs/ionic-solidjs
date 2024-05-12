@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-fab-button'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,26 @@ export type IonFabButtonProps = FixIonProps<IonicJSX.IonFabButton> &
 	JSXBase.HTMLAttributes<HTMLIonFabButtonElement>
 
 export function IonFabButton(props: IonFabButtonProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['activated', 'closeIcon', 'color', 'disabled', 'download', 'href', 'mode', 'rel', 'routerAnimation', 'routerDirection', 'show', 'size', 'target', 'translucent', 'type'],
-		['children'],
-		['on:ionBlur', 'on:ionFocus']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['activated', 'closeIcon', 'color', 'disabled', 'download', 'href', 'mode', 'rel', 'routerAnimation', 'routerDirection', 'show', 'size', 'target', 'translucent', 'type']);
+	const componentProps = () => ({
+		'prop:activated': props.activated,
+		'prop:closeIcon': props.closeIcon,
+		'prop:color': props.color,
+		'prop:disabled': props.disabled,
+		'prop:download': props.download,
+		'prop:href': props.href,
+		'prop:mode': props.mode,
+		'prop:rel': props.rel,
+		'prop:routerAnimation': props.routerAnimation,
+		'prop:routerDirection': props.routerDirection,
+		'prop:show': props.show,
+		'prop:size': props.size,
+		'prop:target': props.target,
+		'prop:translucent': props.translucent,
+		'prop:type': props.type
+	});
 
-	return <ion-fab-button {...componentProps()} {...attrs()} {...events}>{children.children}</ion-fab-button>;
+	return <ion-fab-button {...componentProps()} {...rest} />;
 }

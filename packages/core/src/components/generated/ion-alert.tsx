@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-alert'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,31 @@ export type IonAlertProps = FixIonProps<IonicJSX.IonAlert> &
 	JSXBase.HTMLAttributes<HTMLIonAlertElement>
 
 export function IonAlert(props: IonAlertProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['animated', 'backdropDismiss', 'buttons', 'cssClass', 'enterAnimation', 'header', 'htmlAttributes', 'inputs', 'isOpen', 'keyboardClose', 'leaveAnimation', 'message', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'subHeader', 'translucent', 'trigger'],
-		['children'],
-		['on:ionAlertDidDismiss', 'on:ionAlertDidPresent', 'on:ionAlertWillDismiss', 'on:ionAlertWillPresent']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['animated', 'backdropDismiss', 'buttons', 'cssClass', 'enterAnimation', 'header', 'htmlAttributes', 'inputs', 'isOpen', 'keyboardClose', 'leaveAnimation', 'message', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'subHeader', 'translucent', 'trigger']);
+	const componentProps = () => ({
+		'prop:animated': props.animated,
+		'prop:backdropDismiss': props.backdropDismiss,
+		'prop:buttons': props.buttons,
+		'prop:cssClass': props.cssClass,
+		'prop:enterAnimation': props.enterAnimation,
+		'prop:header': props.header,
+		'prop:htmlAttributes': props.htmlAttributes,
+		'prop:inputs': props.inputs,
+		'prop:isOpen': props.isOpen,
+		'prop:keyboardClose': props.keyboardClose,
+		'prop:leaveAnimation': props.leaveAnimation,
+		'prop:message': props.message,
+		'prop:mode': props.mode,
+		'prop:onDidDismiss': props.onDidDismiss,
+		'prop:onDidPresent': props.onDidPresent,
+		'prop:onWillDismiss': props.onWillDismiss,
+		'prop:onWillPresent': props.onWillPresent,
+		'prop:subHeader': props.subHeader,
+		'prop:translucent': props.translucent,
+		'prop:trigger': props.trigger
+	});
 
-	return <ion-alert {...componentProps()} {...attrs()} {...events}>{children.children}</ion-alert>;
+	return <ion-alert {...componentProps()} {...rest} />;
 }

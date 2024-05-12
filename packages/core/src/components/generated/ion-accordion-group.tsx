@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-accordion-group'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,18 @@ export type IonAccordionGroupProps = FixIonProps<IonicJSX.IonAccordionGroup> &
 	JSXBase.HTMLAttributes<HTMLIonAccordionGroupElement>
 
 export function IonAccordionGroup(props: IonAccordionGroupProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['animated', 'disabled', 'expand', 'mode', 'multiple', 'readonly', 'value'],
-		['children'],
-		['on:ionChange']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['animated', 'disabled', 'expand', 'mode', 'multiple', 'readonly', 'value']);
+	const componentProps = () => ({
+		'prop:animated': props.animated,
+		'prop:disabled': props.disabled,
+		'prop:expand': props.expand,
+		'prop:mode': props.mode,
+		'prop:multiple': props.multiple,
+		'prop:readonly': props.readonly,
+		'prop:value': props.value
+	});
 
-	return <ion-accordion-group {...componentProps()} {...attrs()} {...events}>{children.children}</ion-accordion-group>;
+	return <ion-accordion-group {...componentProps()} {...rest} />;
 }

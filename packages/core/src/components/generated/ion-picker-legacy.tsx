@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-picker-legacy'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,29 @@ export type IonPickerLegacyProps = FixIonProps<IonicJSX.IonPickerLegacy> &
 	JSXBase.HTMLAttributes<HTMLIonPickerLegacyElement>
 
 export function IonPickerLegacy(props: IonPickerLegacyProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['animated', 'backdropDismiss', 'buttons', 'columns', 'cssClass', 'duration', 'enterAnimation', 'htmlAttributes', 'isOpen', 'keyboardClose', 'leaveAnimation', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'showBackdrop', 'trigger'],
-		['children'],
-		['on:ionPickerDidDismiss', 'on:ionPickerDidPresent', 'on:ionPickerWillDismiss', 'on:ionPickerWillPresent']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['animated', 'backdropDismiss', 'buttons', 'columns', 'cssClass', 'duration', 'enterAnimation', 'htmlAttributes', 'isOpen', 'keyboardClose', 'leaveAnimation', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'showBackdrop', 'trigger']);
+	const componentProps = () => ({
+		'prop:animated': props.animated,
+		'prop:backdropDismiss': props.backdropDismiss,
+		'prop:buttons': props.buttons,
+		'prop:columns': props.columns,
+		'prop:cssClass': props.cssClass,
+		'prop:duration': props.duration,
+		'prop:enterAnimation': props.enterAnimation,
+		'prop:htmlAttributes': props.htmlAttributes,
+		'prop:isOpen': props.isOpen,
+		'prop:keyboardClose': props.keyboardClose,
+		'prop:leaveAnimation': props.leaveAnimation,
+		'prop:mode': props.mode,
+		'prop:onDidDismiss': props.onDidDismiss,
+		'prop:onDidPresent': props.onDidPresent,
+		'prop:onWillDismiss': props.onWillDismiss,
+		'prop:onWillPresent': props.onWillPresent,
+		'prop:showBackdrop': props.showBackdrop,
+		'prop:trigger': props.trigger
+	});
 
-	return <ion-picker-legacy {...componentProps()} {...attrs()} {...events}>{children.children}</ion-picker-legacy>;
+	return <ion-picker-legacy {...componentProps()} {...rest} />;
 }

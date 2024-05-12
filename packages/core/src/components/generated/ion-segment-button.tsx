@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-segment-button'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,16 @@ export type IonSegmentButtonProps = FixIonProps<IonicJSX.IonSegmentButton> &
 	JSXBase.HTMLAttributes<HTMLIonSegmentButtonElement>
 
 export function IonSegmentButton(props: IonSegmentButtonProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['disabled', 'layout', 'mode', 'type', 'value'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['disabled', 'layout', 'mode', 'type', 'value']);
+	const componentProps = () => ({
+		'prop:disabled': props.disabled,
+		'prop:layout': props.layout,
+		'prop:mode': props.mode,
+		'prop:type': props.type,
+		'prop:value': props.value
+	});
 
-	return <ion-segment-button {...componentProps()} {...attrs()} {...events}>{children.children}</ion-segment-button>;
+	return <ion-segment-button {...componentProps()} {...rest} />;
 }

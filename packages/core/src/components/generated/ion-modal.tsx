@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-modal'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,34 @@ export type IonModalProps = FixIonProps<IonicJSX.IonModal> &
 	JSXBase.HTMLAttributes<HTMLIonModalElement>
 
 export function IonModal(props: IonModalProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['animated', 'backdropBreakpoint', 'backdropDismiss', 'breakpoints', 'canDismiss', 'enterAnimation', 'focusTrap', 'handle', 'handleBehavior', 'htmlAttributes', 'initialBreakpoint', 'isOpen', 'keepContentsMounted', 'keyboardClose', 'leaveAnimation', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'presentingElement', 'showBackdrop', 'trigger'],
-		['children'],
-		['on:ionBreakpointDidChange', 'on:ionModalDidDismiss', 'on:ionModalDidPresent', 'on:ionModalWillDismiss', 'on:ionModalWillPresent']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['animated', 'backdropBreakpoint', 'backdropDismiss', 'breakpoints', 'canDismiss', 'enterAnimation', 'focusTrap', 'handle', 'handleBehavior', 'htmlAttributes', 'initialBreakpoint', 'isOpen', 'keepContentsMounted', 'keyboardClose', 'leaveAnimation', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'presentingElement', 'showBackdrop', 'trigger']);
+	const componentProps = () => ({
+		'prop:animated': props.animated,
+		'prop:backdropBreakpoint': props.backdropBreakpoint,
+		'prop:backdropDismiss': props.backdropDismiss,
+		'prop:breakpoints': props.breakpoints,
+		'prop:canDismiss': props.canDismiss,
+		'prop:enterAnimation': props.enterAnimation,
+		'prop:focusTrap': props.focusTrap,
+		'prop:handle': props.handle,
+		'prop:handleBehavior': props.handleBehavior,
+		'prop:htmlAttributes': props.htmlAttributes,
+		'prop:initialBreakpoint': props.initialBreakpoint,
+		'prop:isOpen': props.isOpen,
+		'prop:keepContentsMounted': props.keepContentsMounted,
+		'prop:keyboardClose': props.keyboardClose,
+		'prop:leaveAnimation': props.leaveAnimation,
+		'prop:mode': props.mode,
+		'prop:onDidDismiss': props.onDidDismiss,
+		'prop:onDidPresent': props.onDidPresent,
+		'prop:onWillDismiss': props.onWillDismiss,
+		'prop:onWillPresent': props.onWillPresent,
+		'prop:presentingElement': props.presentingElement,
+		'prop:showBackdrop': props.showBackdrop,
+		'prop:trigger': props.trigger
+	});
 
-	return <ion-modal {...componentProps()} {...attrs()} {...events}>{children.children}</ion-modal>;
+	return <ion-modal {...componentProps()} {...rest} />;
 }

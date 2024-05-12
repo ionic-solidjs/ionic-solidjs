@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-item'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,25 @@ export type IonItemProps = FixIonProps<IonicJSX.IonItem> &
 	JSXBase.HTMLAttributes<HTMLIonItemElement>
 
 export function IonItem(props: IonItemProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['button', 'color', 'detail', 'detailIcon', 'disabled', 'download', 'href', 'lines', 'mode', 'rel', 'routerAnimation', 'routerDirection', 'target', 'type'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['button', 'color', 'detail', 'detailIcon', 'disabled', 'download', 'href', 'lines', 'mode', 'rel', 'routerAnimation', 'routerDirection', 'target', 'type']);
+	const componentProps = () => ({
+		'prop:button': props.button,
+		'prop:color': props.color,
+		'prop:detail': props.detail,
+		'prop:detailIcon': props.detailIcon,
+		'prop:disabled': props.disabled,
+		'prop:download': props.download,
+		'prop:href': props.href,
+		'prop:lines': props.lines,
+		'prop:mode': props.mode,
+		'prop:rel': props.rel,
+		'prop:routerAnimation': props.routerAnimation,
+		'prop:routerDirection': props.routerDirection,
+		'prop:target': props.target,
+		'prop:type': props.type
+	});
 
-	return <ion-item {...componentProps()} {...attrs()} {...events}>{children.children}</ion-item>;
+	return <ion-item {...componentProps()} {...rest} />;
 }

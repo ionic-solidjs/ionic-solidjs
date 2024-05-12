@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-menu'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,18 @@ export type IonMenuProps = FixIonProps<IonicJSX.IonMenu> &
 	JSXBase.HTMLAttributes<HTMLIonMenuElement>
 
 export function IonMenu(props: IonMenuProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['contentId', 'disabled', 'maxEdgeStart', 'menuId', 'side', 'swipeGesture', 'type'],
-		['children'],
-		['on:ionDidClose', 'on:ionDidOpen', 'on:ionWillClose', 'on:ionWillOpen']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['contentId', 'disabled', 'maxEdgeStart', 'menuId', 'side', 'swipeGesture', 'type']);
+	const componentProps = () => ({
+		'prop:contentId': props.contentId,
+		'prop:disabled': props.disabled,
+		'prop:maxEdgeStart': props.maxEdgeStart,
+		'prop:menuId': props.menuId,
+		'prop:side': props.side,
+		'prop:swipeGesture': props.swipeGesture,
+		'prop:type': props.type
+	});
 
-	return <ion-menu {...componentProps()} {...attrs()} {...events}>{children.children}</ion-menu>;
+	return <ion-menu {...componentProps()} {...rest} />;
 }

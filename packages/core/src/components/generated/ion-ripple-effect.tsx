@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-ripple-effect'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,12 @@ export type IonRippleEffectProps = FixIonProps<IonicJSX.IonRippleEffect> &
 	JSXBase.HTMLAttributes<HTMLIonRippleEffectElement>
 
 export function IonRippleEffect(props: IonRippleEffectProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['type'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['type']);
+	const componentProps = () => ({
+		'prop:type': props.type
+	});
 
-	return <ion-ripple-effect {...componentProps()} {...attrs()} {...events}>{children.children}</ion-ripple-effect>;
+	return <ion-ripple-effect {...componentProps()} {...rest} />;
 }

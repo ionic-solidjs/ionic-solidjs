@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-card-header'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,14 @@ export type IonCardHeaderProps = FixIonProps<IonicJSX.IonCardHeader> &
 	JSXBase.HTMLAttributes<HTMLIonCardHeaderElement>
 
 export function IonCardHeader(props: IonCardHeaderProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['color', 'mode', 'translucent'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['color', 'mode', 'translucent']);
+	const componentProps = () => ({
+		'prop:color': props.color,
+		'prop:mode': props.mode,
+		'prop:translucent': props.translucent
+	});
 
-	return <ion-card-header {...componentProps()} {...attrs()} {...events}>{children.children}</ion-card-header>;
+	return <ion-card-header {...componentProps()} {...rest} />;
 }

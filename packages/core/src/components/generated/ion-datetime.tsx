@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-datetime'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,42 @@ export type IonDatetimeProps = FixIonProps<IonicJSX.IonDatetime> &
 	JSXBase.HTMLAttributes<HTMLIonDatetimeElement>
 
 export function IonDatetime(props: IonDatetimeProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['cancelText', 'clearText', 'color', 'dayValues', 'disabled', 'doneText', 'firstDayOfWeek', 'formatOptions', 'highlightedDates', 'hourCycle', 'hourValues', 'isDateEnabled', 'locale', 'max', 'min', 'minuteValues', 'mode', 'monthValues', 'multiple', 'name', 'preferWheel', 'presentation', 'readonly', 'showClearButton', 'showDefaultButtons', 'showDefaultTimeLabel', 'showDefaultTitle', 'size', 'titleSelectedDatesFormatter', 'value', 'yearValues'],
-		['children'],
-		['on:ionBlur', 'on:ionCancel', 'on:ionChange', 'on:ionFocus']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['cancelText', 'clearText', 'color', 'dayValues', 'disabled', 'doneText', 'firstDayOfWeek', 'formatOptions', 'highlightedDates', 'hourCycle', 'hourValues', 'isDateEnabled', 'locale', 'max', 'min', 'minuteValues', 'mode', 'monthValues', 'multiple', 'name', 'preferWheel', 'presentation', 'readonly', 'showClearButton', 'showDefaultButtons', 'showDefaultTimeLabel', 'showDefaultTitle', 'size', 'titleSelectedDatesFormatter', 'value', 'yearValues']);
+	const componentProps = () => ({
+		'prop:cancelText': props.cancelText,
+		'prop:clearText': props.clearText,
+		'prop:color': props.color,
+		'prop:dayValues': props.dayValues,
+		'prop:disabled': props.disabled,
+		'prop:doneText': props.doneText,
+		'prop:firstDayOfWeek': props.firstDayOfWeek,
+		'prop:formatOptions': props.formatOptions,
+		'prop:highlightedDates': props.highlightedDates,
+		'prop:hourCycle': props.hourCycle,
+		'prop:hourValues': props.hourValues,
+		'prop:isDateEnabled': props.isDateEnabled,
+		'prop:locale': props.locale,
+		'prop:max': props.max,
+		'prop:min': props.min,
+		'prop:minuteValues': props.minuteValues,
+		'prop:mode': props.mode,
+		'prop:monthValues': props.monthValues,
+		'prop:multiple': props.multiple,
+		'prop:name': props.name,
+		'prop:preferWheel': props.preferWheel,
+		'prop:presentation': props.presentation,
+		'prop:readonly': props.readonly,
+		'prop:showClearButton': props.showClearButton,
+		'prop:showDefaultButtons': props.showDefaultButtons,
+		'prop:showDefaultTimeLabel': props.showDefaultTimeLabel,
+		'prop:showDefaultTitle': props.showDefaultTitle,
+		'prop:size': props.size,
+		'prop:titleSelectedDatesFormatter': props.titleSelectedDatesFormatter,
+		'prop:value': props.value,
+		'prop:yearValues': props.yearValues
+	});
 
-	return <ion-datetime {...componentProps()} {...attrs()} {...events}>{children.children}</ion-datetime>;
+	return <ion-datetime {...componentProps()} {...rest} />;
 }

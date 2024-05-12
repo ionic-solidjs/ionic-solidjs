@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-infinite-scroll'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,14 @@ export type IonInfiniteScrollProps = FixIonProps<IonicJSX.IonInfiniteScroll> &
 	JSXBase.HTMLAttributes<HTMLIonInfiniteScrollElement>
 
 export function IonInfiniteScroll(props: IonInfiniteScrollProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['disabled', 'position', 'threshold'],
-		['children'],
-		['on:ionInfinite']);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['disabled', 'position', 'threshold']);
+	const componentProps = () => ({
+		'prop:disabled': props.disabled,
+		'prop:position': props.position,
+		'prop:threshold': props.threshold
+	});
 
-	return <ion-infinite-scroll {...componentProps()} {...attrs()} {...events}>{children.children}</ion-infinite-scroll>;
+	return <ion-infinite-scroll {...componentProps()} {...rest} />;
 }

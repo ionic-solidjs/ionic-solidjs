@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-tab'
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,13 @@ export type IonTabProps = FixIonProps<IonicJSX.IonTab> &
 	JSXBase.HTMLAttributes<HTMLIonTabElement>
 
 export function IonTab(props: IonTabProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['component', 'tab'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['component', 'tab']);
+	const componentProps = () => ({
+		'prop:component': props.component,
+		'prop:tab': props.tab
+	});
 
-	return <ion-tab {...componentProps()} {...attrs()} {...events}>{children.children}</ion-tab>;
+	return <ion-tab {...componentProps()} {...rest} />;
 }

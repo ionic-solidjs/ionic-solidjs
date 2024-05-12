@@ -4,7 +4,6 @@ import { defineCustomElement } from '@ionic/core/components/ion-input-password-t
 import type { JSX as IonicJSX } from '@ionic/core'
 import { type JSX as JSXBase, splitProps } from 'solid-js'
 import type { FixIonProps } from '../../lib'
-import { prefixJSProps, prefixHTMLAttributes } from "../../utils/fixProps";
 
 defineCustomElement()
 
@@ -12,13 +11,15 @@ export type IonInputPasswordToggleProps = FixIonProps<IonicJSX.IonInputPasswordT
 	JSXBase.HTMLAttributes<HTMLIonInputPasswordToggleElement>
 
 export function IonInputPasswordToggle(props: IonInputPasswordToggleProps) {
-	const [ componentProperties, children, events, attributes ] = splitProps(
+	const [ _, rest ] = splitProps(
 		props, 
-		['color', 'hideIcon', 'mode', 'showIcon'],
-		['children'],
-		[]);
-	const attrs = () => prefixHTMLAttributes(attributes);
-	const componentProps = () => prefixJSProps(componentProperties);
+		['color', 'hideIcon', 'mode', 'showIcon']);
+	const componentProps = () => ({
+		'prop:color': props.color,
+		'prop:hideIcon': props.hideIcon,
+		'prop:mode': props.mode,
+		'prop:showIcon': props.showIcon
+	});
 
-	return <ion-input-password-toggle {...componentProps()} {...attrs()} {...events}>{children.children}</ion-input-password-toggle>;
+	return <ion-input-password-toggle {...componentProps()} {...rest} />;
 }
