@@ -1,4 +1,4 @@
-const NON_PROP_REGEX = /(^on[A-Z]|^(children|key|class|style)$|:)/;
+const NON_PROP_REGEX = /(^on[A-Z]|^(children|key|class|classList|style|ref)$|:)/;
 
 /**
  * @param props
