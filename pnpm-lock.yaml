@@ -136,8 +136,8 @@ importers:
   packages/router:
     dependencies:
       '@ionic-solidjs/core':
-        specifier: 1.0.2
-        version: 1.0.2(solid-js@1.8.17)
+        specifier: 1.0.3
+        version: link:../core
       '@ionic/core':
         specifier: ^8.1.0
         version: 8.1.1
@@ -648,11 +648,6 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
-
-  '@ionic-solidjs/core@1.0.2':
-    resolution: {integrity: sha512-s/of1S5oicU5zVffU8UBJ3/9VlHb+belCeX23rn/Jt7w6sDWdP4qpeyFnxGHzahJ0Z7gECYfxlEX4NVCP+KdMg==}
-    peerDependencies:
-      solid-js: ^1.8.17
 
   '@ionic/core@8.1.1':
     resolution: {integrity: sha512-ooB8gZtBuLeoHlE1wUvrXI0nyt26f46rPuyNh2Q062QniR4Ur5kqBXqWjUtdVUZqZvaElCbZJk3up+MQavoIMA==}
@@ -2082,12 +2077,6 @@ snapshots:
 
   '@esbuild/win32-x64@0.20.2':
     optional: true
-
-  '@ionic-solidjs/core@1.0.2(solid-js@1.8.17)':
-    dependencies:
-      '@ionic/core': 8.1.1
-      solid-element: 1.8.0(solid-js@1.8.17)
-      solid-js: 1.8.17
 
   '@ionic/core@8.1.1':
     dependencies:
