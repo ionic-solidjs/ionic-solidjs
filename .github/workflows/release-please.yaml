@@ -33,7 +33,7 @@ jobs:
           node-version: 20
           registry-url: 'https://registry.npmjs.org'
         if: ${{ steps.release.outputs.release_created }}
-      - run: pnpm install --frozen-lockfile
+      - run: pnpm install
         if: ${{ steps.release.outputs.release_created }}
       - if: ${{ steps.release.outputs.release_created }}
         run: bun wsrun -t -c run build
