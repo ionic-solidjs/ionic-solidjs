@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.3](https://github.com/ionic-solidjs/ionic-solidjs/compare/router-v1.0.2...router-v1.0.3) (2024-05-12)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @ionic-solidjs/core bumped from 1.0.2 to 1.0.3
+
 ## [1.0.2](https://github.com/ionic-solidjs/ionic-solidjs/compare/router-v1.0.1...router-v1.0.2) (2024-05-06)
 
 

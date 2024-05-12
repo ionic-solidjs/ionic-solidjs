@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/ionic-solidjs/ionic-solidjs/compare/core-v1.0.2...core-v1.0.3) (2024-05-12)
+
+
+### Bug Fixes
+
+* exclude ref and classList from automatic prop prefixing ([#23](https://github.com/ionic-solidjs/ionic-solidjs/issues/23)) ([a407eba](https://github.com/ionic-solidjs/ionic-solidjs/commit/a407eba75bab34fbb89078b3a1a3a7efe58534e1))
+
 ## [1.0.2](https://github.com/ionic-solidjs/ionic-solidjs/compare/core-v1.0.1...core-v1.0.2) (2024-05-06)
 
 
