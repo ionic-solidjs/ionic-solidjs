@@ -1,10 +1,12 @@
 {
-	"$schema": "../../node_modules/@rttist/typegen/config-schema.json",
+	"$schema": "https://rttist.org/schema.json",
 	"metadata": {
-		"include": [".ionic-types/components.ts"],
+		"include": ["node_modules/@ionic/core/dist/types/components.d.ts"],
 		"encode": false,
 		"exclude": [],
-		"outDir": "."
+		"includeDtsFiles": true,
+		"outDir": "./.typelib",
+		"typelibImportPath": "./.typelib/internal.typelib.js"
 	},
 	"logLevel": "Info"
 }

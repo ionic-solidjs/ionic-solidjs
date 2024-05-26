@@ -9,9 +9,13 @@
 		"jsx": "preserve",
 		"jsxImportSource": "solid-js",
 		"strict": true,
-		"resolveJsonModule": true,
 		"stripInternal": true
 	},
 	"include": ["src"],
-	"exclude": [".ionic-types/**/*.ts"]
+	"exclude": [".ionic-types/**/*.ts"],
+	"references": [
+		{
+			"path": "./tsconfig.node.json"
+		}
+	]
 }

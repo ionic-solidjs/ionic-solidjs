@@ -4,12 +4,14 @@
 */
 import { ModuleImporter, MetadataLibrary, createGetTypeFunction, createCallsite, resolveFromFunctionCallsite, resolveFromMethodCallsite, getClassTypeParameter, Type } from "rttist";
 
+// Typelibs of depdendencies
+import "rttist/dist/public.typelib";
 
 // @ts-ignore; !! CONFIGURE THIS AS AN EXTERNAL DEPENDENCY !!
-import { Metadata as InternalMetadataLibrary } from "./internal.typelib";
+import { Metadata as InternalMetadataLibrary } from "./.typelib/internal.typelib.js";
 
 ModuleImporter.registerImporters({
-	"@@ionic-solidjs/core/.ionic-types/components": () => import("./.ionic-types/components.js"),
+	
 });
 
 export const getType: <T>(...args: any[]) => Type = createGetTypeFunction(InternalMetadataLibrary);

@@ -6,9 +6,9 @@
 	"module": "lib/index.mjs",
 	"types": "lib/index.d.ts",
 	"scripts": {
-		"generate": "bun run scripts/typegen.ts && typegen generate -f && bun run scripts/generate.ts",
-		"build": "bun run generate && tsup",
-		"dev": "tsup --watch",
+		"generate": "typegen generate -f && bun run scripts/generate.ts",
+		"build": "bun run generate && vite build",
+		"dev": "vite build --watch",
 		"prepublishOnly": "bun run build",
 		"test": "bun run build && bun test"
 	},
@@ -19,7 +19,8 @@
 	},
 	"devDependencies": {
 		"@types/node": "^20.12.8",
-		"tsup": "^8.0.2",
+		"@rttist/typegen": "^0.1.0-proto.13",
+		"rttist": "^1.0.0-beta.8",
 		"typescript": "^5.4.5",
 		"esbuild-plugin-solid": "^0.5.0",
 		"component-register": "^0.8.3"
@@ -48,10 +49,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/spion/ionic-solidjs.git",
+		"url": "git+https://github.com/ionic-solidjs/ionic-solidjs.git",
 		"directory": "packages/core"
 	},
 	"bugs": {
-		"url": "https://github.com/spion/ionic-solidjs/issues"
+		"url": "https://github.com/ionic-solidjs/ionic-solidjs/issues"
 	}
 }
