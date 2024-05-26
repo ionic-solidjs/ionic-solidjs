@@ -17,9 +17,6 @@ importers:
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
-      vite-plugin-dts:
-        specifier: ^3.9.1
-        version: 3.9.1(@types/node@20.12.11)(rollup@4.17.2)(typescript@5.4.5)(vite@5.2.11(@types/node@20.12.11))
       wsrun-ng:
         specifier: ^1.0.3
         version: 1.0.4
@@ -116,6 +113,12 @@ importers:
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
+      vite:
+        specifier: ^5.2.11
+        version: 5.2.11(@types/node@20.12.11)
+      vite-plugin-dts:
+        specifier: ^3.9.1
+        version: 3.9.1(@types/node@20.12.11)(rollup@4.17.2)(typescript@5.4.5)(vite@5.2.11(@types/node@20.12.11))
 
   packages/ionicons:
     dependencies:
