@@ -1,6 +1,6 @@
 # ionic-solidjs
 
-SolidJS integration for the Ionic component framework, including ionic-router.
+Unofficial SolidJS integration for the Ionic component framework
 
 # Usage
 
