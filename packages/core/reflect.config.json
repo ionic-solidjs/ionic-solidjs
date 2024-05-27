@@ -1,0 +1,12 @@
+{
+	"$schema": "https://rttist.org/schema.json",
+	"metadata": {
+		"include": ["node_modules/@ionic/core/dist/types/components.d.ts"],
+		"encode": false,
+		"exclude": [],
+		"includeDtsFiles": true,
+		"outDir": "./.typelib",
+		"typelibImportPath": "./.typelib/internal.typelib.js"
+	},
+	"logLevel": "Info"
+}

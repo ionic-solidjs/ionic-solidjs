@@ -4,7 +4,6 @@ import { type ParentProps, createEffect, createSignal, splitProps } from 'solid-
 import type { JSX as JSXBase } from 'solid-js';
 import { RouterContextProvider } from '../hooks';
 import type { FixIonProps } from '../lib';
-import { fixProps } from '../utils/fixProps';
 
 defineCustomElement();
 
@@ -12,9 +11,12 @@ export type IonRouterProps = FixIonProps<IonicJSX.IonRouter> &
 	JSXBase.HTMLAttributes<HTMLIonRouterElement>;
 
 export function IonRouter(props: ParentProps<IonRouterProps>) {
-	const [_, propsToFix] = splitProps(props, ['ref']);
-	const fixedProps = () => fixProps(propsToFix);
 	const [router, setRouter] = createSignal<HTMLIonRouterElement>();
+	const [_, restProps] = splitProps(props, ['ref', 'root', 'useHash']);
+	const ionProps = () => ({
+		'prop:root': props.root,
+		'prop:useHash': props.useHash,
+	});
 
 	createEffect(() => {
 		const routerElement = router();
@@ -29,7 +31,7 @@ export function IonRouter(props: ParentProps<IonRouterProps>) {
 	});
 
 	return (
-		<ion-router {...fixedProps()} ref={setRouter}>
+		<ion-router {...ionProps()} {...restProps} ref={setRouter}>
 			<RouterContextProvider value={router()}>{props.children}</RouterContextProvider>
 		</ion-router>
 	);

@@ -1,14 +1,13 @@
-import { defineCustomElement } from '@ionic/core/components/ion-route';
 import type { JSX as IonicJSX } from '@ionic/core';
+import { defineCustomElement } from '@ionic/core/components/ion-route';
 import { type Component, type JSX as JSXBase, splitProps } from 'solid-js';
 import { RouterContextProvider, useRouter } from '../hooks';
-import { fixProps } from '../utils/fixProps';
+import type { FixIonProps } from '../lib';
 import {
 	ComponentRefElementName,
 	type ComponentRefProps,
 	type RefComponentProps,
 } from './ComponentRef';
-import { FixIonProps } from '../lib';
 
 defineCustomElement();
 
@@ -53,25 +52,39 @@ export function IonRoute<TComponent extends string | ((...args: any[]) => any) =
 	props: IonRouteProps<TComponent>
 ) {
 	const router = useRouter();
-	const [_, propsToFix] = splitProps(props, ['component', 'componentProps']);
-	const fixedProps = () => fixProps(propsToFix);
+	const [_, restProps] = splitProps(props, [
+		'component',
+		'componentProps',
+		'beforeEnter',
+		'beforeLeave',
+		'url',
+	]);
+
+	const ionProps = () => ({
+		'prop:beforeEnter': props.beforeEnter,
+		'prop:beforeLeave': props.beforeLeave,
+		'prop:url': props.url,
+	});
+
+	const componentProps = () =>
+		typeof props.component === 'string'
+			? undefined
+			: {
+					component: RouteRouterContextProvider,
+					componentProps: {
+						component: props.component,
+						componentProps: props.componentProps ?? {},
+						router: router,
+					} satisfies RouteRouterContextProviderProps,
+				};
 
 	return (
 		<ion-route
-			{...fixedProps()}
+			{...ionProps()}
+			{...restProps}
+			// I keep this without `prop:` prefix bcs it's not required and at least we can see the value in the DOM
 			component={typeof props.component === 'string' ? props.component : ComponentRefElementName}
-			prop:componentProps={
-				typeof props.component === 'string'
-					? undefined
-					: {
-							component: RouteRouterContextProvider,
-							componentProps: {
-								component: props.component,
-								componentProps: props.componentProps ?? {},
-								router: router,
-							} satisfies RouteRouterContextProviderProps,
-						}
-			}
-		></ion-route>
+			prop:componentProps={componentProps()}
+		/>
 	);
 }
