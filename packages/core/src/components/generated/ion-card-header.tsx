@@ -12,7 +12,7 @@ export type IonCardHeaderProps = FixIonProps<IonicJSX.IonCardHeader> &
 
 export function IonCardHeader(props: IonCardHeaderProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'mode', 'translucent']);
 	const componentProps = () => ({
 		'prop:color': props.color,

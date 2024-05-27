@@ -2,7 +2,6 @@
 	"plugins": ["node-workspace"],
 	"packages": {
 		"packages/core": {},
-		"packages/ionicons": {},
-		"packages/router": {}
+		"packages/ionicons": {}
 	}
 }

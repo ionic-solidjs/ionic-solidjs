@@ -12,7 +12,7 @@ export type IonSelectPopoverProps = FixIonProps<IonicJSX.IonSelectPopover> &
 
 export function IonSelectPopover(props: IonSelectPopoverProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['header', 'message', 'multiple', 'options', 'subHeader']);
 	const componentProps = () => ({
 		'prop:header': props.header,

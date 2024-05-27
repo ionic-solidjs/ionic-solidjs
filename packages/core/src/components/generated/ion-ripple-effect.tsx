@@ -12,7 +12,7 @@ export type IonRippleEffectProps = FixIonProps<IonicJSX.IonRippleEffect> &
 
 export function IonRippleEffect(props: IonRippleEffectProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['type']);
 	const componentProps = () => ({
 		'prop:type': props.type

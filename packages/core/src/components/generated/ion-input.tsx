@@ -12,7 +12,7 @@ export type IonInputProps = FixIonProps<IonicJSX.IonInput> &
 
 export function IonInput(props: IonInputProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['autocapitalize', 'autocomplete', 'autocorrect', 'autofocus', 'clearInput', 'clearInputIcon', 'clearOnEdit', 'color', 'counter', 'counterFormatter', 'debounce', 'disabled', 'enterkeyhint', 'errorText', 'fill', 'helperText', 'inputmode', 'label', 'labelPlacement', 'max', 'maxlength', 'min', 'minlength', 'mode', 'multiple', 'name', 'pattern', 'placeholder', 'readonly', 'required', 'shape', 'spellcheck', 'step', 'type', 'value']);
 	const componentProps = () => ({
 		'prop:autocapitalize': props.autocapitalize,

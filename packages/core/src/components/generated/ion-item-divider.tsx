@@ -12,7 +12,7 @@ export type IonItemDividerProps = FixIonProps<IonicJSX.IonItemDivider> &
 
 export function IonItemDivider(props: IonItemDividerProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'mode', 'sticky']);
 	const componentProps = () => ({
 		'prop:color': props.color,

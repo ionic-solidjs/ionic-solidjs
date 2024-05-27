@@ -12,7 +12,7 @@ export type IonSelectOptionProps = FixIonProps<IonicJSX.IonSelectOption> &
 
 export function IonSelectOption(props: IonSelectOptionProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['disabled', 'value']);
 	const componentProps = () => ({
 		'prop:disabled': props.disabled,

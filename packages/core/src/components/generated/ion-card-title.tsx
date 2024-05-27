@@ -12,7 +12,7 @@ export type IonCardTitleProps = FixIonProps<IonicJSX.IonCardTitle> &
 
 export function IonCardTitle(props: IonCardTitleProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'mode']);
 	const componentProps = () => ({
 		'prop:color': props.color,

@@ -12,7 +12,7 @@ export type IonCheckboxProps = FixIonProps<IonicJSX.IonCheckbox> &
 
 export function IonCheckbox(props: IonCheckboxProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['alignment', 'checked', 'color', 'disabled', 'indeterminate', 'justify', 'labelPlacement', 'mode', 'name', 'value']);
 	const componentProps = () => ({
 		'prop:alignment': props.alignment,

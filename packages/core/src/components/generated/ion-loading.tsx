@@ -12,7 +12,7 @@ export type IonLoadingProps = FixIonProps<IonicJSX.IonLoading> &
 
 export function IonLoading(props: IonLoadingProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['animated', 'backdropDismiss', 'cssClass', 'duration', 'enterAnimation', 'htmlAttributes', 'isOpen', 'keyboardClose', 'leaveAnimation', 'message', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'showBackdrop', 'spinner', 'translucent', 'trigger']);
 	const componentProps = () => ({
 		'prop:animated': props.animated,

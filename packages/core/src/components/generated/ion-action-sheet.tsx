@@ -12,7 +12,7 @@ export type IonActionSheetProps = FixIonProps<IonicJSX.IonActionSheet> &
 
 export function IonActionSheet(props: IonActionSheetProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['animated', 'backdropDismiss', 'buttons', 'cssClass', 'enterAnimation', 'header', 'htmlAttributes', 'isOpen', 'keyboardClose', 'leaveAnimation', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'subHeader', 'translucent', 'trigger']);
 	const componentProps = () => ({
 		'prop:animated': props.animated,

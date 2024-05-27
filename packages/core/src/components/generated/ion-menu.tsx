@@ -12,7 +12,7 @@ export type IonMenuProps = FixIonProps<IonicJSX.IonMenu> &
 
 export function IonMenu(props: IonMenuProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['contentId', 'disabled', 'maxEdgeStart', 'menuId', 'side', 'swipeGesture', 'type']);
 	const componentProps = () => ({
 		'prop:contentId': props.contentId,

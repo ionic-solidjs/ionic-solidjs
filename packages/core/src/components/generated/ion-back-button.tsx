@@ -12,7 +12,7 @@ export type IonBackButtonProps = FixIonProps<IonicJSX.IonBackButton> &
 
 export function IonBackButton(props: IonBackButtonProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'defaultHref', 'disabled', 'icon', 'mode', 'routerAnimation', 'text', 'type']);
 	const componentProps = () => ({
 		'prop:color': props.color,

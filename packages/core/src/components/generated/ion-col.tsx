@@ -12,7 +12,7 @@ export type IonColProps = FixIonProps<IonicJSX.IonCol> &
 
 export function IonCol(props: IonColProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['offset', 'offsetLg', 'offsetMd', 'offsetSm', 'offsetXl', 'offsetXs', 'pull', 'pullLg', 'pullMd', 'pullSm', 'pullXl', 'pullXs', 'push', 'pushLg', 'pushMd', 'pushSm', 'pushXl', 'pushXs', 'size', 'sizeLg', 'sizeMd', 'sizeSm', 'sizeXl', 'sizeXs']);
 	const componentProps = () => ({
 		'prop:offset': props.offset,

@@ -12,7 +12,7 @@ export type IonTabsProps = FixIonProps<IonicJSX.IonTabs> &
 
 export function IonTabs(props: IonTabsProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		[]);
 	const componentProps = () => ({
 		

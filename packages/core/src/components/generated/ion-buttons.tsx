@@ -12,7 +12,7 @@ export type IonButtonsProps = FixIonProps<IonicJSX.IonButtons> &
 
 export function IonButtons(props: IonButtonsProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['collapse']);
 	const componentProps = () => ({
 		'prop:collapse': props.collapse

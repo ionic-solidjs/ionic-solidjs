@@ -12,7 +12,7 @@ export type IonBreadcrumbsProps = FixIonProps<IonicJSX.IonBreadcrumbs> &
 
 export function IonBreadcrumbs(props: IonBreadcrumbsProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'itemsAfterCollapse', 'itemsBeforeCollapse', 'maxItems', 'mode']);
 	const componentProps = () => ({
 		'prop:color': props.color,

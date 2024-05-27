@@ -12,7 +12,7 @@ export type IonRouterOutletProps = FixIonProps<IonicJSX.IonRouterOutlet> &
 
 export function IonRouterOutlet(props: IonRouterOutletProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['animated', 'animation', 'mode']);
 	const componentProps = () => ({
 		'prop:animated': props.animated,

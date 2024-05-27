@@ -12,7 +12,7 @@ export type IonAvatarProps = FixIonProps<IonicJSX.IonAvatar> &
 
 export function IonAvatar(props: IonAvatarProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		[]);
 	const componentProps = () => ({
 		

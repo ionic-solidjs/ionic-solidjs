@@ -12,7 +12,7 @@ export type IonTextProps = FixIonProps<IonicJSX.IonText> &
 
 export function IonText(props: IonTextProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'mode']);
 	const componentProps = () => ({
 		'prop:color': props.color,

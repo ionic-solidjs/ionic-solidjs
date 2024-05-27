@@ -12,7 +12,7 @@ export type IonToastProps = FixIonProps<IonicJSX.IonToast> &
 
 export function IonToast(props: IonToastProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['animated', 'buttons', 'color', 'cssClass', 'duration', 'enterAnimation', 'header', 'htmlAttributes', 'icon', 'isOpen', 'keyboardClose', 'layout', 'leaveAnimation', 'message', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'position', 'positionAnchor', 'swipeGesture', 'translucent', 'trigger']);
 	const componentProps = () => ({
 		'prop:animated': props.animated,

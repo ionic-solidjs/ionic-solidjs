@@ -12,7 +12,7 @@ export type IonInfiniteScrollProps = FixIonProps<IonicJSX.IonInfiniteScroll> &
 
 export function IonInfiniteScroll(props: IonInfiniteScrollProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['disabled', 'position', 'threshold']);
 	const componentProps = () => ({
 		'prop:disabled': props.disabled,

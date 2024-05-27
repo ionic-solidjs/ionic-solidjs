@@ -12,7 +12,7 @@ export type IonCardContentProps = FixIonProps<IonicJSX.IonCardContent> &
 
 export function IonCardContent(props: IonCardContentProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['mode']);
 	const componentProps = () => ({
 		'prop:mode': props.mode

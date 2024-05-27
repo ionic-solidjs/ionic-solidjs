@@ -12,7 +12,7 @@ export type IonMenuToggleProps = FixIonProps<IonicJSX.IonMenuToggle> &
 
 export function IonMenuToggle(props: IonMenuToggleProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['autoHide', 'menu']);
 	const componentProps = () => ({
 		'prop:autoHide': props.autoHide,

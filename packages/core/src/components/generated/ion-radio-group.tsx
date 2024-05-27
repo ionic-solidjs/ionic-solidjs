@@ -12,7 +12,7 @@ export type IonRadioGroupProps = FixIonProps<IonicJSX.IonRadioGroup> &
 
 export function IonRadioGroup(props: IonRadioGroupProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['allowEmptySelection', 'compareWith', 'name', 'value']);
 	const componentProps = () => ({
 		'prop:allowEmptySelection': props.allowEmptySelection,

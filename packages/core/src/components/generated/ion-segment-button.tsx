@@ -12,7 +12,7 @@ export type IonSegmentButtonProps = FixIonProps<IonicJSX.IonSegmentButton> &
 
 export function IonSegmentButton(props: IonSegmentButtonProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['disabled', 'layout', 'mode', 'type', 'value']);
 	const componentProps = () => ({
 		'prop:disabled': props.disabled,

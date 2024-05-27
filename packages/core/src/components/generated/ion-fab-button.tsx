@@ -12,7 +12,7 @@ export type IonFabButtonProps = FixIonProps<IonicJSX.IonFabButton> &
 
 export function IonFabButton(props: IonFabButtonProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['activated', 'closeIcon', 'color', 'disabled', 'download', 'href', 'mode', 'rel', 'routerAnimation', 'routerDirection', 'show', 'size', 'target', 'translucent', 'type']);
 	const componentProps = () => ({
 		'prop:activated': props.activated,

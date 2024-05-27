@@ -12,7 +12,7 @@ export type IonBreadcrumbProps = FixIonProps<IonicJSX.IonBreadcrumb> &
 
 export function IonBreadcrumb(props: IonBreadcrumbProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['active', 'color', 'disabled', 'download', 'href', 'mode', 'rel', 'routerAnimation', 'routerDirection', 'separator', 'target']);
 	const componentProps = () => ({
 		'prop:active': props.active,

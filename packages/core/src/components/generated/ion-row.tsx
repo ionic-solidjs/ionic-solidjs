@@ -12,7 +12,7 @@ export type IonRowProps = FixIonProps<IonicJSX.IonRow> &
 
 export function IonRow(props: IonRowProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		[]);
 	const componentProps = () => ({
 		

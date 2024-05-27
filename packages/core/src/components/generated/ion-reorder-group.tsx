@@ -12,7 +12,7 @@ export type IonReorderGroupProps = FixIonProps<IonicJSX.IonReorderGroup> &
 
 export function IonReorderGroup(props: IonReorderGroupProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['disabled']);
 	const componentProps = () => ({
 		'prop:disabled': props.disabled

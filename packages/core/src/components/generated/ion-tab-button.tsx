@@ -12,7 +12,7 @@ export type IonTabButtonProps = FixIonProps<IonicJSX.IonTabButton> &
 
 export function IonTabButton(props: IonTabButtonProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['disabled', 'download', 'href', 'layout', 'mode', 'rel', 'selected', 'tab', 'target']);
 	const componentProps = () => ({
 		'prop:disabled': props.disabled,

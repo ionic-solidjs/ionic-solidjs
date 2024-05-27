@@ -12,7 +12,7 @@ export type IonListProps = FixIonProps<IonicJSX.IonList> &
 
 export function IonList(props: IonListProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['inset', 'lines', 'mode']);
 	const componentProps = () => ({
 		'prop:inset': props.inset,

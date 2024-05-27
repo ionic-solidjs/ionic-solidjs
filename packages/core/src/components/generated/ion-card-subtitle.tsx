@@ -12,7 +12,7 @@ export type IonCardSubtitleProps = FixIonProps<IonicJSX.IonCardSubtitle> &
 
 export function IonCardSubtitle(props: IonCardSubtitleProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'mode']);
 	const componentProps = () => ({
 		'prop:color': props.color,

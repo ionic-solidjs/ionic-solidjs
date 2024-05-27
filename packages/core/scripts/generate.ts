@@ -37,10 +37,10 @@ export type ${componentPascelCase}Props = FixIonProps<IonicJSX.${componentPascel
 
 export function ${componentPascelCase}(props: ${componentPascelCase}Props) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		[${propNames.map((propName) => `'${propName}'`).join(', ')}]);
 	const componentProps = () => ({
-		${propNames.map((propName) => `'prop:${propName}': props.${propName}`).join(',\r\n\t\t')}
+		${propNames.map((propName) => `'prop:${propName}': props.${propName}`).join(',\n\t\t')}
 	});
 
 	return <${component} {...componentProps()} {...rest} />;
@@ -55,5 +55,5 @@ for (const component of componentList) {
 fs.writeFileSync(
 	`${OUT_DIR}/index.ts`,
 	// biome-ignore lint/style/useTemplate: its less readable in this particular case
-	componentList.map((component) => `export * from './${component}';`).join('\r\n') + '\r\n'
+	componentList.map((component) => `export * from './${component}';`).join('\n') + '\n'
 );

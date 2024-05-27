@@ -12,7 +12,7 @@ export type IonFabProps = FixIonProps<IonicJSX.IonFab> &
 
 export function IonFab(props: IonFabProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['activated', 'edge', 'horizontal', 'vertical']);
 	const componentProps = () => ({
 		'prop:activated': props.activated,

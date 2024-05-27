@@ -12,7 +12,7 @@ export type IonSkeletonTextProps = FixIonProps<IonicJSX.IonSkeletonText> &
 
 export function IonSkeletonText(props: IonSkeletonTextProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['animated']);
 	const componentProps = () => ({
 		'prop:animated': props.animated

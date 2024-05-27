@@ -12,7 +12,7 @@ export type IonBadgeProps = FixIonProps<IonicJSX.IonBadge> &
 
 export function IonBadge(props: IonBadgeProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'mode']);
 	const componentProps = () => ({
 		'prop:color': props.color,

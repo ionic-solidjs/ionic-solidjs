@@ -12,7 +12,7 @@ export type IonPickerProps = FixIonProps<IonicJSX.IonPicker> &
 
 export function IonPicker(props: IonPickerProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['mode']);
 	const componentProps = () => ({
 		'prop:mode': props.mode

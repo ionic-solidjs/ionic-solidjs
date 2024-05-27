@@ -12,7 +12,7 @@ export type IonFooterProps = FixIonProps<IonicJSX.IonFooter> &
 
 export function IonFooter(props: IonFooterProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['collapse', 'mode', 'translucent']);
 	const componentProps = () => ({
 		'prop:collapse': props.collapse,

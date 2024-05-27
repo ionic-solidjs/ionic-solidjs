@@ -12,7 +12,7 @@ export type IonRouterLinkProps = FixIonProps<IonicJSX.IonRouterLink> &
 
 export function IonRouterLink(props: IonRouterLinkProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'href', 'rel', 'routerAnimation', 'routerDirection', 'target']);
 	const componentProps = () => ({
 		'prop:color': props.color,

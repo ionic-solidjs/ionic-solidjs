@@ -12,7 +12,7 @@ export type IonItemSlidingProps = FixIonProps<IonicJSX.IonItemSliding> &
 
 export function IonItemSliding(props: IonItemSlidingProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['disabled']);
 	const componentProps = () => ({
 		'prop:disabled': props.disabled

@@ -12,7 +12,7 @@ export type IonRefresherContentProps = FixIonProps<IonicJSX.IonRefresherContent>
 
 export function IonRefresherContent(props: IonRefresherContentProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['pullingIcon', 'pullingText', 'refreshingSpinner', 'refreshingText']);
 	const componentProps = () => ({
 		'prop:pullingIcon': props.pullingIcon,
