@@ -12,7 +12,7 @@ export type IonSearchbarProps = FixIonProps<IonicJSX.IonSearchbar> &
 
 export function IonSearchbar(props: IonSearchbarProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['animated', 'autocapitalize', 'autocomplete', 'autocorrect', 'cancelButtonIcon', 'cancelButtonText', 'clearIcon', 'color', 'debounce', 'disabled', 'enterkeyhint', 'inputmode', 'maxlength', 'minlength', 'mode', 'name', 'placeholder', 'searchIcon', 'showCancelButton', 'showClearButton', 'spellcheck', 'type', 'value']);
 	const componentProps = () => ({
 		'prop:animated': props.animated,

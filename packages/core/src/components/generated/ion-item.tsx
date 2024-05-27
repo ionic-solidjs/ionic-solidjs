@@ -12,7 +12,7 @@ export type IonItemProps = FixIonProps<IonicJSX.IonItem> &
 
 export function IonItem(props: IonItemProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['button', 'color', 'detail', 'detailIcon', 'disabled', 'download', 'href', 'lines', 'mode', 'rel', 'routerAnimation', 'routerDirection', 'target', 'type']);
 	const componentProps = () => ({
 		'prop:button': props.button,

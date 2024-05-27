@@ -12,7 +12,7 @@ export type IonSegmentProps = FixIonProps<IonicJSX.IonSegment> &
 
 export function IonSegment(props: IonSegmentProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'disabled', 'mode', 'scrollable', 'selectOnFocus', 'swipeGesture', 'value']);
 	const componentProps = () => ({
 		'prop:color': props.color,

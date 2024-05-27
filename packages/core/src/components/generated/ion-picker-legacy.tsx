@@ -12,7 +12,7 @@ export type IonPickerLegacyProps = FixIonProps<IonicJSX.IonPickerLegacy> &
 
 export function IonPickerLegacy(props: IonPickerLegacyProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['animated', 'backdropDismiss', 'buttons', 'columns', 'cssClass', 'duration', 'enterAnimation', 'htmlAttributes', 'isOpen', 'keyboardClose', 'leaveAnimation', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'showBackdrop', 'trigger']);
 	const componentProps = () => ({
 		'prop:animated': props.animated,

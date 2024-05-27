@@ -12,7 +12,7 @@ export type IonReorderProps = FixIonProps<IonicJSX.IonReorder> &
 
 export function IonReorder(props: IonReorderProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		[]);
 	const componentProps = () => ({
 		

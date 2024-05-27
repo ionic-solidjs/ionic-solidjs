@@ -12,7 +12,7 @@ export type IonRefresherProps = FixIonProps<IonicJSX.IonRefresher> &
 
 export function IonRefresher(props: IonRefresherProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['closeDuration', 'disabled', 'mode', 'pullFactor', 'pullMax', 'pullMin', 'snapbackDuration']);
 	const componentProps = () => ({
 		'prop:closeDuration': props.closeDuration,

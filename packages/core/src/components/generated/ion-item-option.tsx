@@ -12,7 +12,7 @@ export type IonItemOptionProps = FixIonProps<IonicJSX.IonItemOption> &
 
 export function IonItemOption(props: IonItemOptionProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'disabled', 'download', 'expandable', 'href', 'mode', 'rel', 'target', 'type']);
 	const componentProps = () => ({
 		'prop:color': props.color,

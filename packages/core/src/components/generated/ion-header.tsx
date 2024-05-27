@@ -12,7 +12,7 @@ export type IonHeaderProps = FixIonProps<IonicJSX.IonHeader> &
 
 export function IonHeader(props: IonHeaderProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['collapse', 'mode', 'translucent']);
 	const componentProps = () => ({
 		'prop:collapse': props.collapse,

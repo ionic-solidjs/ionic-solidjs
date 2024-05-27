@@ -12,7 +12,7 @@ export type IonListHeaderProps = FixIonProps<IonicJSX.IonListHeader> &
 
 export function IonListHeader(props: IonListHeaderProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'lines', 'mode']);
 	const componentProps = () => ({
 		'prop:color': props.color,

@@ -12,7 +12,7 @@ export type IonChipProps = FixIonProps<IonicJSX.IonChip> &
 
 export function IonChip(props: IonChipProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'disabled', 'mode', 'outline']);
 	const componentProps = () => ({
 		'prop:color': props.color,

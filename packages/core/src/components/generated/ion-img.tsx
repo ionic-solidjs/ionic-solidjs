@@ -12,7 +12,7 @@ export type IonImgProps = FixIonProps<IonicJSX.IonImg> &
 
 export function IonImg(props: IonImgProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['alt', 'src']);
 	const componentProps = () => ({
 		'prop:alt': props.alt,

@@ -12,7 +12,7 @@ export type IonMenuButtonProps = FixIonProps<IonicJSX.IonMenuButton> &
 
 export function IonMenuButton(props: IonMenuButtonProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['autoHide', 'color', 'disabled', 'menu', 'mode', 'type']);
 	const componentProps = () => ({
 		'prop:autoHide': props.autoHide,

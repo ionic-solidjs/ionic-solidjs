@@ -12,7 +12,7 @@ export type IonInfiniteScrollContentProps = FixIonProps<IonicJSX.IonInfiniteScro
 
 export function IonInfiniteScrollContent(props: IonInfiniteScrollContentProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['loadingSpinner', 'loadingText']);
 	const componentProps = () => ({
 		'prop:loadingSpinner': props.loadingSpinner,

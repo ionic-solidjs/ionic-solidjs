@@ -12,7 +12,7 @@ export type IonSpinnerProps = FixIonProps<IonicJSX.IonSpinner> &
 
 export function IonSpinner(props: IonSpinnerProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'duration', 'name', 'paused']);
 	const componentProps = () => ({
 		'prop:color': props.color,

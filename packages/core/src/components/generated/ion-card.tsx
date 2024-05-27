@@ -12,7 +12,7 @@ export type IonCardProps = FixIonProps<IonicJSX.IonCard> &
 
 export function IonCard(props: IonCardProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['button', 'color', 'disabled', 'download', 'href', 'mode', 'rel', 'routerAnimation', 'routerDirection', 'target', 'type']);
 	const componentProps = () => ({
 		'prop:button': props.button,

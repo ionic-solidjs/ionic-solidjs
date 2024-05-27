@@ -12,7 +12,7 @@ export type IonNavLinkProps = FixIonProps<IonicJSX.IonNavLink> &
 
 export function IonNavLink(props: IonNavLinkProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['component', 'componentProps', 'routerAnimation', 'routerDirection']);
 	const componentProps = () => ({
 		'prop:component': props.component,

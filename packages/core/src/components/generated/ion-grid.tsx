@@ -12,7 +12,7 @@ export type IonGridProps = FixIonProps<IonicJSX.IonGrid> &
 
 export function IonGrid(props: IonGridProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['fixed']);
 	const componentProps = () => ({
 		'prop:fixed': props.fixed

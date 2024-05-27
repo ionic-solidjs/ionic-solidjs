@@ -12,7 +12,7 @@ export type IonAccordionGroupProps = FixIonProps<IonicJSX.IonAccordionGroup> &
 
 export function IonAccordionGroup(props: IonAccordionGroupProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['animated', 'disabled', 'expand', 'mode', 'multiple', 'readonly', 'value']);
 	const componentProps = () => ({
 		'prop:animated': props.animated,

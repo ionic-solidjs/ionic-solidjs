@@ -12,7 +12,7 @@ export type IonProgressBarProps = FixIonProps<IonicJSX.IonProgressBar> &
 
 export function IonProgressBar(props: IonProgressBarProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['buffer', 'color', 'mode', 'reversed', 'type', 'value']);
 	const componentProps = () => ({
 		'prop:buffer': props.buffer,

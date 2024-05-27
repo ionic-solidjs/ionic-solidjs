@@ -12,7 +12,7 @@ export type IonTitleProps = FixIonProps<IonicJSX.IonTitle> &
 
 export function IonTitle(props: IonTitleProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'size']);
 	const componentProps = () => ({
 		'prop:color': props.color,

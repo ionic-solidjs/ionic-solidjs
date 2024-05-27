@@ -12,7 +12,7 @@ export type IonThumbnailProps = FixIonProps<IonicJSX.IonThumbnail> &
 
 export function IonThumbnail(props: IonThumbnailProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		[]);
 	const componentProps = () => ({
 		

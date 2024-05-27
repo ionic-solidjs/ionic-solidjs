@@ -12,7 +12,7 @@ export type IonButtonProps = FixIonProps<IonicJSX.IonButton> &
 
 export function IonButton(props: IonButtonProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['buttonType', 'color', 'disabled', 'download', 'expand', 'fill', 'form', 'href', 'mode', 'rel', 'routerAnimation', 'routerDirection', 'shape', 'size', 'strong', 'target', 'type']);
 	const componentProps = () => ({
 		'prop:buttonType': props.buttonType,

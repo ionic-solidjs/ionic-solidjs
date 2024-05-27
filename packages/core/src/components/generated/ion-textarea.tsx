@@ -12,7 +12,7 @@ export type IonTextareaProps = FixIonProps<IonicJSX.IonTextarea> &
 
 export function IonTextarea(props: IonTextareaProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['autoGrow', 'autocapitalize', 'autofocus', 'clearOnEdit', 'color', 'cols', 'counter', 'counterFormatter', 'debounce', 'disabled', 'enterkeyhint', 'errorText', 'fill', 'helperText', 'inputmode', 'label', 'labelPlacement', 'maxlength', 'minlength', 'mode', 'name', 'placeholder', 'readonly', 'required', 'rows', 'shape', 'spellcheck', 'value', 'wrap']);
 	const componentProps = () => ({
 		'prop:autoGrow': props.autoGrow,

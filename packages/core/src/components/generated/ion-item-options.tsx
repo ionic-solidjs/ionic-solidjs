@@ -12,7 +12,7 @@ export type IonItemOptionsProps = FixIonProps<IonicJSX.IonItemOptions> &
 
 export function IonItemOptions(props: IonItemOptionsProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['side']);
 	const componentProps = () => ({
 		'prop:side': props.side

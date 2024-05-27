@@ -12,7 +12,7 @@ export type IonItemGroupProps = FixIonProps<IonicJSX.IonItemGroup> &
 
 export function IonItemGroup(props: IonItemGroupProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		[]);
 	const componentProps = () => ({
 		

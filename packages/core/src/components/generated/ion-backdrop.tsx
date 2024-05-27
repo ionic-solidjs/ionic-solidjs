@@ -12,7 +12,7 @@ export type IonBackdropProps = FixIonProps<IonicJSX.IonBackdrop> &
 
 export function IonBackdrop(props: IonBackdropProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['stopPropagation', 'tappable', 'visible']);
 	const componentProps = () => ({
 		'prop:stopPropagation': props.stopPropagation,

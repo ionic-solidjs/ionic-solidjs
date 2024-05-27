@@ -12,7 +12,7 @@ export type IonContentProps = FixIonProps<IonicJSX.IonContent> &
 
 export function IonContent(props: IonContentProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'fixedSlotPlacement', 'forceOverscroll', 'fullscreen', 'scrollEvents', 'scrollX', 'scrollY']);
 	const componentProps = () => ({
 		'prop:color': props.color,

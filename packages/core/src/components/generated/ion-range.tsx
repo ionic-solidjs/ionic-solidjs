@@ -12,7 +12,7 @@ export type IonRangeProps = FixIonProps<IonicJSX.IonRange> &
 
 export function IonRange(props: IonRangeProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['activeBarStart', 'color', 'debounce', 'disabled', 'dualKnobs', 'label', 'labelPlacement', 'max', 'min', 'mode', 'name', 'pin', 'pinFormatter', 'snaps', 'step', 'ticks', 'value']);
 	const componentProps = () => ({
 		'prop:activeBarStart': props.activeBarStart,

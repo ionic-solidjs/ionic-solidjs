@@ -12,7 +12,7 @@ export type IonPopoverProps = FixIonProps<IonicJSX.IonPopover> &
 
 export function IonPopover(props: IonPopoverProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['alignment', 'animated', 'arrow', 'backdropDismiss', 'component', 'componentProps', 'dismissOnSelect', 'enterAnimation', 'event', 'focusTrap', 'htmlAttributes', 'isOpen', 'keepContentsMounted', 'keyboardClose', 'leaveAnimation', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'reference', 'showBackdrop', 'side', 'size', 'translucent', 'trigger', 'triggerAction']);
 	const componentProps = () => ({
 		'prop:alignment': props.alignment,

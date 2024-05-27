@@ -12,7 +12,7 @@ export type IonAlertProps = FixIonProps<IonicJSX.IonAlert> &
 
 export function IonAlert(props: IonAlertProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['animated', 'backdropDismiss', 'buttons', 'cssClass', 'enterAnimation', 'header', 'htmlAttributes', 'inputs', 'isOpen', 'keyboardClose', 'leaveAnimation', 'message', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'subHeader', 'translucent', 'trigger']);
 	const componentProps = () => ({
 		'prop:animated': props.animated,

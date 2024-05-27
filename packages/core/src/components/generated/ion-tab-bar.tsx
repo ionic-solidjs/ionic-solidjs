@@ -12,7 +12,7 @@ export type IonTabBarProps = FixIonProps<IonicJSX.IonTabBar> &
 
 export function IonTabBar(props: IonTabBarProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'mode', 'selectedTab', 'translucent']);
 	const componentProps = () => ({
 		'prop:color': props.color,

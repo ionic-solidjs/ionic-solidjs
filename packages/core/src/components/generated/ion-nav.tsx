@@ -12,7 +12,7 @@ export type IonNavProps = FixIonProps<IonicJSX.IonNav> &
 
 export function IonNav(props: IonNavProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['animated', 'animation', 'root', 'rootParams', 'swipeGesture']);
 	const componentProps = () => ({
 		'prop:animated': props.animated,

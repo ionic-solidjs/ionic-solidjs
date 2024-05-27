@@ -12,7 +12,7 @@ export type IonPickerColumnProps = FixIonProps<IonicJSX.IonPickerColumn> &
 
 export function IonPickerColumn(props: IonPickerColumnProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'disabled', 'mode', 'value']);
 	const componentProps = () => ({
 		'prop:color': props.color,

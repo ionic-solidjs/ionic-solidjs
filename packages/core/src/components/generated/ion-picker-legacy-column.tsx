@@ -12,7 +12,7 @@ export type IonPickerLegacyColumnProps = FixIonProps<IonicJSX.IonPickerLegacyCol
 
 export function IonPickerLegacyColumn(props: IonPickerLegacyColumnProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['col']);
 	const componentProps = () => ({
 		'prop:col': props.col

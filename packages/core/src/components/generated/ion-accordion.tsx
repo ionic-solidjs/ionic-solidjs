@@ -12,7 +12,7 @@ export type IonAccordionProps = FixIonProps<IonicJSX.IonAccordion> &
 
 export function IonAccordion(props: IonAccordionProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['disabled', 'mode', 'readonly', 'toggleIcon', 'toggleIconSlot', 'value']);
 	const componentProps = () => ({
 		'prop:disabled': props.disabled,

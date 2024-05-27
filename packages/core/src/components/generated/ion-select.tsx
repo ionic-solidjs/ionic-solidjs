@@ -12,7 +12,7 @@ export type IonSelectProps = FixIonProps<IonicJSX.IonSelect> &
 
 export function IonSelect(props: IonSelectProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['cancelText', 'color', 'compareWith', 'disabled', 'expandedIcon', 'fill', 'interface', 'interfaceOptions', 'justify', 'label', 'labelPlacement', 'mode', 'multiple', 'name', 'okText', 'placeholder', 'selectedText', 'shape', 'toggleIcon', 'value']);
 	const componentProps = () => ({
 		'prop:cancelText': props.cancelText,

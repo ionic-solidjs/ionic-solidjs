@@ -12,7 +12,7 @@ export type IonInputPasswordToggleProps = FixIonProps<IonicJSX.IonInputPasswordT
 
 export function IonInputPasswordToggle(props: IonInputPasswordToggleProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'hideIcon', 'mode', 'showIcon']);
 	const componentProps = () => ({
 		'prop:color': props.color,

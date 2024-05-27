@@ -12,7 +12,7 @@ export type IonLabelProps = FixIonProps<IonicJSX.IonLabel> &
 
 export function IonLabel(props: IonLabelProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'mode', 'position']);
 	const componentProps = () => ({
 		'prop:color': props.color,

@@ -12,7 +12,7 @@ export type IonSplitPaneProps = FixIonProps<IonicJSX.IonSplitPane> &
 
 export function IonSplitPane(props: IonSplitPaneProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['contentId', 'disabled', 'when']);
 	const componentProps = () => ({
 		'prop:contentId': props.contentId,

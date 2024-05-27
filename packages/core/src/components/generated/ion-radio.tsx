@@ -12,7 +12,7 @@ export type IonRadioProps = FixIonProps<IonicJSX.IonRadio> &
 
 export function IonRadio(props: IonRadioProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['alignment', 'color', 'disabled', 'justify', 'labelPlacement', 'mode', 'name', 'value']);
 	const componentProps = () => ({
 		'prop:alignment': props.alignment,

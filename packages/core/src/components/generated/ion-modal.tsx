@@ -12,7 +12,7 @@ export type IonModalProps = FixIonProps<IonicJSX.IonModal> &
 
 export function IonModal(props: IonModalProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['animated', 'backdropBreakpoint', 'backdropDismiss', 'breakpoints', 'canDismiss', 'enterAnimation', 'focusTrap', 'handle', 'handleBehavior', 'htmlAttributes', 'initialBreakpoint', 'isOpen', 'keepContentsMounted', 'keyboardClose', 'leaveAnimation', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'presentingElement', 'showBackdrop', 'trigger']);
 	const componentProps = () => ({
 		'prop:animated': props.animated,

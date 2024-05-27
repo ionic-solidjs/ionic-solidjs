@@ -12,7 +12,7 @@ export type IonNoteProps = FixIonProps<IonicJSX.IonNote> &
 
 export function IonNote(props: IonNoteProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'mode']);
 	const componentProps = () => ({
 		'prop:color': props.color,

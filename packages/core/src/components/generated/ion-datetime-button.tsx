@@ -12,7 +12,7 @@ export type IonDatetimeButtonProps = FixIonProps<IonicJSX.IonDatetimeButton> &
 
 export function IonDatetimeButton(props: IonDatetimeButtonProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'datetime', 'disabled', 'mode']);
 	const componentProps = () => ({
 		'prop:color': props.color,

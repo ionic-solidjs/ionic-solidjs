@@ -12,7 +12,7 @@ export type IonToolbarProps = FixIonProps<IonicJSX.IonToolbar> &
 
 export function IonToolbar(props: IonToolbarProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['color', 'mode']);
 	const componentProps = () => ({
 		'prop:color': props.color,

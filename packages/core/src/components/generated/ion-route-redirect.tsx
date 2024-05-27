@@ -12,7 +12,7 @@ export type IonRouteRedirectProps = FixIonProps<IonicJSX.IonRouteRedirect> &
 
 export function IonRouteRedirect(props: IonRouteRedirectProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		['from', 'to']);
 	const componentProps = () => ({
 		'prop:from': props.from,

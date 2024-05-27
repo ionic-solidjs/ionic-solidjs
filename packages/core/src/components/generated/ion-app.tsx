@@ -12,7 +12,7 @@ export type IonAppProps = FixIonProps<IonicJSX.IonApp> &
 
 export function IonApp(props: IonAppProps) {
 	const [ _, rest ] = splitProps(
-		props, 
+		props,
 		[]);
 	const componentProps = () => ({
 		
