@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ionic-solidjs/ionic-solidjs/compare/core-v1.0.3...core-v1.1.0) (2024-05-27)
+
+
+### Features
+
+* remove custom router, tweak new props generated code ([#30](https://github.com/ionic-solidjs/ionic-solidjs/issues/30)) ([84ec565](https://github.com/ionic-solidjs/ionic-solidjs/commit/84ec5655a64416848a0b7a5f66403a784b122248))
+
 ## [1.0.3](https://github.com/ionic-solidjs/ionic-solidjs/compare/core-v1.0.2...core-v1.0.3) (2024-05-12)
 
 
