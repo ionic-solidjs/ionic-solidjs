@@ -16,10 +16,7 @@
 			"dist",
 			"coverage",
 			"./packages/ionicons/src/icons/**/*.ts",
-			"./packages/core/src/components/generated/*.tsx",
-			".metadata",
-			".ionic-types",
-			"metadata.typelib.ts"
+			"./packages/core/src/components/generated/*.tsx"
 		]
 	},
 	"linter": {
@@ -48,10 +45,7 @@
 			"dist",
 			"coverage",
 			"./packages/ionicons/src/icons/**/*.ts",
-			"./packages/core/src/components/generated/*.tsx",
-			".metadata",
-			".ionic-types",
-			"metadata.typelib.ts"
+			"./packages/core/src/components/generated/*.tsx"
 		]
 	},
 	"javascript": {

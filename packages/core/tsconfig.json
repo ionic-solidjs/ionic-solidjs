@@ -1,4 +1,5 @@
 {
+	"include": ["src"],
 	"compilerOptions": {
 		"allowSyntheticDefaultImports": false,
 		"skipLibCheck": true,
@@ -8,14 +9,6 @@
 		"moduleResolution": "node",
 		"jsx": "preserve",
 		"jsxImportSource": "solid-js",
-		"strict": true,
-		"stripInternal": true
-	},
-	"include": ["src"],
-	"exclude": [".ionic-types/**/*.ts"],
-	"references": [
-		{
-			"path": "./tsconfig.node.json"
-		}
-	]
+		"strict": true
+	}
 }

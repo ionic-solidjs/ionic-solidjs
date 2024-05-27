@@ -4,6 +4,3 @@
 node_modules
 package-lock.json
 dist
-.metadata
-.typelib
-lib-orig
