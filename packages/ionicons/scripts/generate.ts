@@ -42,3 +42,5 @@ fs.writeFileSync(
 //
 // 	fs.writeFileSync('package.json', JSON.stringify(packageJson, null, 2));
 // }
+
+// updatePackageJsonExports();
