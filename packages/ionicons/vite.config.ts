@@ -16,7 +16,6 @@ export default defineConfig({
 		lib: {
 			entry: {
 				index: resolve('src', 'index.ts'),
-				css: resolve('src', 'css.ts'),
 			},
 			formats: ['es', 'cjs'],
 		},
