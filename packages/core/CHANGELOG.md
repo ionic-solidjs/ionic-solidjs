@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/ionic-solidjs/ionic-solidjs/compare/core-v1.2.0...core-v1.2.1) (2024-08-15)
+
+
+### Bug Fixes
+
+* mark packages as DCE capable ([#37](https://github.com/ionic-solidjs/ionic-solidjs/issues/37)) ([146a7d3](https://github.com/ionic-solidjs/ionic-solidjs/commit/146a7d3a5a59e40992bc5757a9d4a3cafbc3939f))
+
 ## [1.2.0](https://github.com/ionic-solidjs/ionic-solidjs/compare/core-v1.1.0...core-v1.2.0) (2024-08-14)
 
 

@@ -1,6 +1,6 @@
 {
 	"name": "@ionic-solidjs/core",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "Unofficial SolidJS integration for Ionic Framework",
 	"main": "lib/index.js",
 	"module": "lib/index.mjs",
@@ -50,7 +50,7 @@
 		"lib/**/*.mjs.map",
 		"lib/**/*.d.mts"
 	],
-  "sideEffects": false,
+	"sideEffects": false,
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/ionic-solidjs/ionic-solidjs.git",
