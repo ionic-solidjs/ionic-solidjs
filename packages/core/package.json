@@ -50,6 +50,7 @@
 		"lib/**/*.mjs.map",
 		"lib/**/*.d.mts"
 	],
+  "sideEffects": false,
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/ionic-solidjs/ionic-solidjs.git",
