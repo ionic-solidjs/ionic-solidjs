@@ -3,6 +3,7 @@ import {
 	IonButton,
 	IonContent,
 	IonHeader,
+	IonRouterLink,
 	IonText,
 	IonTitle,
 	IonToolbar,
@@ -26,12 +27,6 @@ export function Tab1(props: { foo: string }) {
 				</IonToolbar>
 			</IonHeader>
 			<IonContent fullscreen>
-				<IonHeader collapse="condense">
-					<IonToolbar>
-						<IonTitle size="large">Tab 2</IonTitle>
-					</IonToolbar>
-				</IonHeader>
-
 				<IonButton
 					onClick={() => {
 						setOpen(true);
@@ -49,6 +44,14 @@ export function Tab1(props: { foo: string }) {
 					subHeader="Subheader"
 					on:ionAlertDidDismiss={() => setOpen(false)}
 				/>
+
+				{/*<IonModal isOpen={open()} on:ionModalDidDismiss={() => setOpen(false)}>*/}
+				{/*	Modal Content*/}
+				{/*</IonModal>*/}
+
+				<div style={{ margin: '10% auto', 'text-align': 'center' }}>
+					Go to <IonRouterLink href="/settings">Settings</IonRouterLink>
+				</div>
 			</IonContent>
 		</>
 	);

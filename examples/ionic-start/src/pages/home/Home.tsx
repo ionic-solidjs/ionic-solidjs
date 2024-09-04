@@ -1,10 +1,10 @@
-import { IonIcon, IonLabel, IonTab, IonTabBar, IonTabButton, IonTabs } from '@ionic-solidjs/core';
+import {IonIcon, IonLabel, IonTab, IonTabBar, IonTabButton, IonTabs} from '@ionic-solidjs/core';
 import { iconEllipse, iconSquare, iconTriangle } from '@ionic-solidjs/ionicons';
 import { Tab1 } from './tabs/Tab1';
 import { Tab2 } from './tabs/Tab2';
 import { Tab3 } from './tabs/Tab3';
 
-export function Home(...args: any[]) {
+export function Home() {
 	return (
 		<>
 			<IonTabs>
