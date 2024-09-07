@@ -37,25 +37,35 @@ import '@ionic/core/css/display.css';
 import './theme/variables.css';
 import { Settings } from './pages/settings/Settings';
 import { HomeRoutes } from './pages/home/HomeRoutes';
+import { TestContext } from './TestContext';
+import {createSignal} from "solid-js";
 
 setupIonicSolid();
 
 export function App() {
+	const [foo, setFoo] = createSignal("bar");
+
+	setTimeout(() => {
+		setFoo("baz");
+	}, 5000);
+
 	return (
-		<IonApp>
-			<IonRouter useHash={false}>
-				{/* Default route to Home */}
-				<IonRouteRedirect from="/" to="/home/tab1" />
+		<TestContext.Provider value={{ testProp: 'provided value' }}>
+			<IonApp>
+				<IonRouter useHash={false}>
+					{/* Default route to Home */}
+					<IonRouteRedirect from="/" to="/home/tab1" />
 
-				{/* Home */}
-				<HomeRoutes />
+					{/* Home */}
+					<HomeRoutes />
 
-				{/* Settings */}
-				<IonRoute url="/settings" component={Settings} />
-			</IonRouter>
+					{/* Settings */}
+					<IonRoute url="/settings" component={Settings} componentProps={{ foo: foo() }} />
+				</IonRouter>
 
-			<IonRouterOutlet />
-			{/*<Home/>*/}
-		</IonApp>
+				<IonRouterOutlet />
+				{/*<Home/>*/}
+			</IonApp>
+		</TestContext.Provider>
 	);
 }
