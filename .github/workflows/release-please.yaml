@@ -22,3 +22,8 @@ jobs:
         uses: peter-evans/repository-dispatch@v3
         with:
           event-type: release-npm
+          client-payload: |
+            {
+              "paths": ${{ steps.release.outputs.paths_released }},
+              "releases_created": ${{ steps.release.outputs.releases_created }}
+            }
