@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/ionic-solidjs/ionic-solidjs/compare/core-v1.2.1...core-v1.2.2) (2024-09-07)
+
+
+### Bug Fixes
+
+* Fix of Contexts and Cleanups of pages when using Router ([#39](https://github.com/ionic-solidjs/ionic-solidjs/issues/39)) ([cccaf58](https://github.com/ionic-solidjs/ionic-solidjs/commit/cccaf58451f87887944a162c69169c41201e0d97))
+
 ## [1.2.1](https://github.com/ionic-solidjs/ionic-solidjs/compare/core-v1.2.0...core-v1.2.1) (2024-08-15)
 
 
