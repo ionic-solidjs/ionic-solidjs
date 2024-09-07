@@ -1,7 +1,9 @@
 on:
   workflow_dispatch: {}
+  repository_dispatch:
+    types: [release-npm]
 
-name: release-manually
+name: Release to NPM
 jobs:
   release-please:
     runs-on: ubuntu-latest
