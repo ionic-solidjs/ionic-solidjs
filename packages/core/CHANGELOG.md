@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/ionic-solidjs/ionic-solidjs/compare/core-v1.2.2...core-v1.2.3) (2024-10-04)
+
+
+### Bug Fixes
+
+* license in package.json ([#43](https://github.com/ionic-solidjs/ionic-solidjs/issues/43)) ([791995e](https://github.com/ionic-solidjs/ionic-solidjs/commit/791995e07ff93702cdd1fde5989194e561ef2d9c))
+
 ## [1.2.2](https://github.com/ionic-solidjs/ionic-solidjs/compare/core-v1.2.1...core-v1.2.2) (2024-09-07)
 
 
