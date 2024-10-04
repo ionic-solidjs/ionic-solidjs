@@ -9,6 +9,6 @@
 		"wsrun-ng": "^1.0.3"
 	},
 	"author": "spion",
-	"license": "ISC",
+	"license": "MIT",
 	"workspaces": ["packages/*", "examples/*", "example"]
 }

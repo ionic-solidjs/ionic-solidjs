@@ -39,7 +39,7 @@
 		}
 	},
 	"author": "spion",
-	"license": "ISC",
+	"license": "MIT",
 	"files": [
 		"LICENSE",
 		"README.md",
