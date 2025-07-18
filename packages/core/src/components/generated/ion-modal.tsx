@@ -13,7 +13,7 @@ export type IonModalProps = FixIonProps<IonicJSX.IonModal> &
 export function IonModal(props: IonModalProps) {
 	const [ _, rest ] = splitProps(
 		props,
-		['animated', 'backdropBreakpoint', 'backdropDismiss', 'breakpoints', 'canDismiss', 'enterAnimation', 'focusTrap', 'handle', 'handleBehavior', 'htmlAttributes', 'initialBreakpoint', 'isOpen', 'keepContentsMounted', 'keyboardClose', 'leaveAnimation', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'presentingElement', 'showBackdrop', 'trigger']);
+		['animated', 'backdropBreakpoint', 'backdropDismiss', 'breakpoints', 'canDismiss', 'enterAnimation', 'expandToScroll', 'focusTrap', 'handle', 'handleBehavior', 'htmlAttributes', 'initialBreakpoint', 'isOpen', 'keepContentsMounted', 'keyboardClose', 'leaveAnimation', 'mode', 'onDidDismiss', 'onDidPresent', 'onWillDismiss', 'onWillPresent', 'presentingElement', 'showBackdrop', 'trigger']);
 	const componentProps = () => ({
 		'prop:animated': props.animated,
 		'prop:backdropBreakpoint': props.backdropBreakpoint,
@@ -21,6 +21,7 @@ export function IonModal(props: IonModalProps) {
 		'prop:breakpoints': props.breakpoints,
 		'prop:canDismiss': props.canDismiss,
 		'prop:enterAnimation': props.enterAnimation,
+		'prop:expandToScroll': props.expandToScroll,
 		'prop:focusTrap': props.focusTrap,
 		'prop:handle': props.handle,
 		'prop:handleBehavior': props.handleBehavior,

@@ -13,8 +13,8 @@
 		"test": "bun run build && bun test"
 	},
 	"dependencies": {
-		"@ionic/core": "^8.1.0",
-		"ionicons": "^7.4.0",
+		"@ionic/core": "^8.6.5",
+		"ionicons": "^8.0.13",
 		"solid-element": "^1.8.0"
 	},
 	"devDependencies": {

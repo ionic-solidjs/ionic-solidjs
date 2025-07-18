@@ -13,17 +13,20 @@ export type IonToggleProps = FixIonProps<IonicJSX.IonToggle> &
 export function IonToggle(props: IonToggleProps) {
 	const [ _, rest ] = splitProps(
 		props,
-		['alignment', 'checked', 'color', 'disabled', 'enableOnOffLabels', 'justify', 'labelPlacement', 'mode', 'name', 'value']);
+		['alignment', 'checked', 'color', 'disabled', 'enableOnOffLabels', 'errorText', 'helperText', 'justify', 'labelPlacement', 'mode', 'name', 'required', 'value']);
 	const componentProps = () => ({
 		'prop:alignment': props.alignment,
 		'prop:checked': props.checked,
 		'prop:color': props.color,
 		'prop:disabled': props.disabled,
 		'prop:enableOnOffLabels': props.enableOnOffLabels,
+		'prop:errorText': props.errorText,
+		'prop:helperText': props.helperText,
 		'prop:justify': props.justify,
 		'prop:labelPlacement': props.labelPlacement,
 		'prop:mode': props.mode,
 		'prop:name': props.name,
+		'prop:required': props.required,
 		'prop:value': props.value
 	});
 
