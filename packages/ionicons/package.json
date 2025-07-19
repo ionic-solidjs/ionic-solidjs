@@ -1,6 +1,6 @@
 {
 	"name": "@ionic-solidjs/ionicons",
-	"version": "1.1.1",
+	"version": "1.2.0",
 	"description": "Unofficial SolidJS integration for Ionic Framework - ionicons",
 	"main": "lib/index.js",
 	"module": "lib/index.mjs",

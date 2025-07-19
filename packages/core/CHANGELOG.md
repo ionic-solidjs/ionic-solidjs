@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/ionic-solidjs/ionic-solidjs/compare/core-v1.2.2...core-v1.3.0) (2025-07-19)
+
+
+### Features
+
+* update to ionic 8.6 ([#46](https://github.com/ionic-solidjs/ionic-solidjs/issues/46)) ([5f47cd9](https://github.com/ionic-solidjs/ionic-solidjs/commit/5f47cd99000dc8976cea51f62783322701149ff1))
+
+
+### Bug Fixes
+
+* license in package.json ([#43](https://github.com/ionic-solidjs/ionic-solidjs/issues/43)) ([791995e](https://github.com/ionic-solidjs/ionic-solidjs/commit/791995e07ff93702cdd1fde5989194e561ef2d9c))
+
 ## [1.2.2](https://github.com/ionic-solidjs/ionic-solidjs/compare/core-v1.2.1...core-v1.2.2) (2024-09-07)
 
 
