@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/ionic-solidjs/ionic-solidjs/compare/ionicons-v1.1.1...ionicons-v1.2.0) (2025-07-19)
+
+
+### Features
+
+* update to ionic 8.6 ([#46](https://github.com/ionic-solidjs/ionic-solidjs/issues/46)) ([5f47cd9](https://github.com/ionic-solidjs/ionic-solidjs/commit/5f47cd99000dc8976cea51f62783322701149ff1))
+
+
+### Bug Fixes
+
+* license in package.json ([#43](https://github.com/ionic-solidjs/ionic-solidjs/issues/43)) ([791995e](https://github.com/ionic-solidjs/ionic-solidjs/commit/791995e07ff93702cdd1fde5989194e561ef2d9c))
+
 ## [1.1.1](https://github.com/ionic-solidjs/ionic-solidjs/compare/ionicons-v1.1.0...ionicons-v1.1.1) (2024-08-15)
 
 
