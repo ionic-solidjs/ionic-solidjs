@@ -13,7 +13,7 @@ export type IonDatetimeProps = FixIonProps<IonicJSX.IonDatetime> &
 export function IonDatetime(props: IonDatetimeProps) {
 	const [ _, rest ] = splitProps(
 		props,
-		['cancelText', 'clearText', 'color', 'dayValues', 'disabled', 'doneText', 'firstDayOfWeek', 'formatOptions', 'highlightedDates', 'hourCycle', 'hourValues', 'isDateEnabled', 'locale', 'max', 'min', 'minuteValues', 'mode', 'monthValues', 'multiple', 'name', 'preferWheel', 'presentation', 'readonly', 'showClearButton', 'showDefaultButtons', 'showDefaultTimeLabel', 'showDefaultTitle', 'size', 'titleSelectedDatesFormatter', 'value', 'yearValues']);
+		['cancelText', 'clearText', 'color', 'dayValues', 'disabled', 'doneText', 'firstDayOfWeek', 'formatOptions', 'highlightedDates', 'hourCycle', 'hourValues', 'isDateEnabled', 'locale', 'max', 'min', 'minuteValues', 'mode', 'monthValues', 'multiple', 'name', 'preferWheel', 'presentation', 'readonly', 'showAdjacentDays', 'showClearButton', 'showDefaultButtons', 'showDefaultTimeLabel', 'showDefaultTitle', 'size', 'titleSelectedDatesFormatter', 'value', 'yearValues']);
 	const componentProps = () => ({
 		'prop:cancelText': props.cancelText,
 		'prop:clearText': props.clearText,
@@ -38,6 +38,7 @@ export function IonDatetime(props: IonDatetimeProps) {
 		'prop:preferWheel': props.preferWheel,
 		'prop:presentation': props.presentation,
 		'prop:readonly': props.readonly,
+		'prop:showAdjacentDays': props.showAdjacentDays,
 		'prop:showClearButton': props.showClearButton,
 		'prop:showDefaultButtons': props.showDefaultButtons,
 		'prop:showDefaultTimeLabel': props.showDefaultTimeLabel,

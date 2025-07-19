@@ -806,6 +806,7 @@ export * from "./logo-stackoverflow";
 export * from "./logo-steam";
 export * from "./logo-stencil";
 export * from "./logo-tableau";
+export * from "./logo-threads";
 export * from "./logo-tiktok";
 export * from "./logo-trapeze";
 export * from "./logo-tumblr";

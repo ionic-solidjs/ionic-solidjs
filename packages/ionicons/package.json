@@ -13,7 +13,7 @@
 		"test": "bun run build && bun test"
 	},
 	"dependencies": {
-		"ionicons": "^7.4.0"
+		"ionicons": "^8.0.13"
 	},
 	"devDependencies": {
 		"@types/node": "^20.12.8",

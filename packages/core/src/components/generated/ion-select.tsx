@@ -13,14 +13,16 @@ export type IonSelectProps = FixIonProps<IonicJSX.IonSelect> &
 export function IonSelect(props: IonSelectProps) {
 	const [ _, rest ] = splitProps(
 		props,
-		['cancelText', 'color', 'compareWith', 'disabled', 'expandedIcon', 'fill', 'interface', 'interfaceOptions', 'justify', 'label', 'labelPlacement', 'mode', 'multiple', 'name', 'okText', 'placeholder', 'selectedText', 'shape', 'toggleIcon', 'value']);
+		['cancelText', 'color', 'compareWith', 'disabled', 'errorText', 'expandedIcon', 'fill', 'helperText', 'interface', 'interfaceOptions', 'justify', 'label', 'labelPlacement', 'mode', 'multiple', 'name', 'okText', 'placeholder', 'required', 'selectedText', 'shape', 'toggleIcon', 'value']);
 	const componentProps = () => ({
 		'prop:cancelText': props.cancelText,
 		'prop:color': props.color,
 		'prop:compareWith': props.compareWith,
 		'prop:disabled': props.disabled,
+		'prop:errorText': props.errorText,
 		'prop:expandedIcon': props.expandedIcon,
 		'prop:fill': props.fill,
+		'prop:helperText': props.helperText,
 		'prop:interface': props.interface,
 		'prop:interfaceOptions': props.interfaceOptions,
 		'prop:justify': props.justify,
@@ -31,6 +33,7 @@ export function IonSelect(props: IonSelectProps) {
 		'prop:name': props.name,
 		'prop:okText': props.okText,
 		'prop:placeholder': props.placeholder,
+		'prop:required': props.required,
 		'prop:selectedText': props.selectedText,
 		'prop:shape': props.shape,
 		'prop:toggleIcon': props.toggleIcon,
